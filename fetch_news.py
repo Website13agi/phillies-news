@@ -2,7 +2,6 @@ import requests
 from bs4 import BeautifulSoup
 import json
 from datetime import datetime, timezone
-from urllib.parse import quote
 
 
 MLB_URL = "https://www.mlb.com/phillies/news"
@@ -11,59 +10,6 @@ HEADERS = {
     "User-Agent": "Mozilla/5.0"
 }
 
-
-# =========================================================
-# 日本語翻訳
-# =========================================================
-
-def translate_to_japanese(text):
-
-    if not text:
-        return ""
-
-    try:
-
-        encoded_text = quote(text)
-
-        url = (
-            "https://api.mymemory.translated.net/get"
-            "?q=" + encoded_text
-            + "&langpair=en|ja"
-        )
-
-        response = requests.get(
-            url,
-            headers=HEADERS,
-            timeout=20
-        )
-
-        response.raise_for_status()
-
-        data = response.json()
-
-        translated = (
-            data
-            .get("responseData", {})
-            .get("translatedText", "")
-        )
-
-        if translated:
-            return translated
-
-    except Exception as error:
-
-        print(
-            "Translation error:",
-            error
-        )
-
-    # 翻訳できなかった場合は英語タイトルを使用
-    return text
-
-
-# =========================================================
-# MLBニュース取得
-# =========================================================
 
 def fetch_news():
 
@@ -81,40 +27,73 @@ def fetch_news():
     )
 
     articles = []
+    seen_urls = set()
 
-    for link in soup.select(
-        "a[href*='/phillies/news/']"
-    ):
+    # MLBニュースページ内の記事カードを探す
+    for article in soup.find_all("article"):
+
+        link = article.find(
+            "a",
+            href=True
+        )
+
+        if not link:
+            continue
 
         href = link.get("href")
 
-        title = link.get_text(
-            " ",
-            strip=True
-        )
-
-        if not href or not title:
+        if not href:
             continue
 
-        # 相対URLを完全なURLにする
+        # Phillies記事だけ
+        if "/phillies/news/" not in href:
+            continue
+
+        # 完全URL
         if href.startswith("/"):
             href = (
                 "https://www.mlb.com"
                 + href
             )
 
-        # 一覧ページ自身を除外
-        if (
-            href.rstrip("/")
-            == MLB_URL.rstrip("/")
-        ):
+        # 重複除外
+        if href in seen_urls:
             continue
 
-        # 重複記事を除外
-        if any(
-            article["url"] == href
-            for article in articles
-        ):
+        seen_urls.add(href)
+
+        # 記事カード内の見出しを探す
+        title_element = article.find(
+            ["h1", "h2", "h3", "h4"]
+        )
+
+        if title_element:
+
+            title = title_element.get_text(
+                " ",
+                strip=True
+            )
+
+        else:
+
+            title = link.get_text(
+                " ",
+                strip=True
+            )
+
+        # 「続きを読む」などを除外
+        if not title:
+            continue
+
+        if title in [
+            "続きを読む",
+            "Read More",
+            "Read more"
+        ]:
+            continue
+
+        # 明らかにボタンの場合も除外
+        if len(title) < 10:
             continue
 
         print(
@@ -122,27 +101,22 @@ def fetch_news():
             title
         )
 
-        # 日本語に翻訳
-        japanese_title = (
-            translate_to_japanese(title)
-        )
-
-        print(
-            "翻訳:",
-            japanese_title
-        )
-
         articles.append({
 
-            "id": len(articles) + 1,
+            "id":
+                len(articles) + 1,
 
-            "title_en": title,
+            "title_en":
+                title,
 
-            "title_ja": japanese_title,
+            "title_ja":
+                title,
 
-            "url": href,
+            "url":
+                href,
 
-            "source": "MLB.com",
+            "source":
+                "MLB.com",
 
             "fetched_at":
                 datetime.now(
@@ -158,10 +132,6 @@ def fetch_news():
     return articles
 
 
-# =========================================================
-# news.json作成
-# =========================================================
-
 def main():
 
     articles = fetch_news()
@@ -173,7 +143,8 @@ def main():
                 timezone.utc
             ).isoformat(),
 
-        "articles": articles
+        "articles":
+            articles
 
     }
 
@@ -194,10 +165,6 @@ def main():
         f"{len(articles)} articles saved."
     )
 
-
-# =========================================================
-# START
-# =========================================================
 
 if __name__ == "__main__":
     main()
