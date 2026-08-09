@@ -27,8 +27,7 @@ def translate_to_japanese(text):
 
         url = (
             "https://api.mymemory.translated.net/get"
-            "?q="
-            + encoded_text
+            "?q=" + encoded_text
             + "&langpair=en|ja"
         )
 
@@ -58,7 +57,7 @@ def translate_to_japanese(text):
             error
         )
 
-    # 翻訳できなかった場合は英語を残す
+    # 翻訳できなかった場合は英語タイトルを使用
     return text
 
 
@@ -97,71 +96,53 @@ def fetch_news():
         if not href or not title:
             continue
 
-
-        # 完全URLにする
-
+        # 相対URLを完全なURLにする
         if href.startswith("/"):
             href = (
                 "https://www.mlb.com"
                 + href
             )
 
-
         # 一覧ページ自身を除外
-
         if (
             href.rstrip("/")
-            ==
-            MLB_URL.rstrip("/")
+            == MLB_URL.rstrip("/")
         ):
             continue
 
-
         # 重複記事を除外
-
         if any(
             article["url"] == href
             for article in articles
         ):
             continue
 
-
         print(
             "取得:",
             title
         )
 
-
-        # 日本語訳
-
-        japanese_title =
-            translate_to_japanese(
-                title
-            )
-
+        # 日本語に翻訳
+        japanese_title = (
+            translate_to_japanese(title)
+        )
 
         print(
             "翻訳:",
             japanese_title
         )
 
-
         articles.append({
 
-            "id":
-                len(articles) + 1,
+            "id": len(articles) + 1,
 
-            "title_en":
-                title,
+            "title_en": title,
 
-            "title_ja":
-                japanese_title,
+            "title_ja": japanese_title,
 
-            "url":
-                href,
+            "url": href,
 
-            "source":
-                "MLB.com",
+            "source": "MLB.com",
 
             "fetched_at":
                 datetime.now(
@@ -170,12 +151,9 @@ def fetch_news():
 
         })
 
-
         # 最大30記事
-
         if len(articles) >= 30:
             break
-
 
     return articles
 
@@ -186,9 +164,7 @@ def fetch_news():
 
 def main():
 
-    articles =
-        fetch_news()
-
+    articles = fetch_news()
 
     data = {
 
@@ -197,11 +173,9 @@ def main():
                 timezone.utc
             ).isoformat(),
 
-        "articles":
-            articles
+        "articles": articles
 
     }
-
 
     with open(
         "news.json",
@@ -216,7 +190,6 @@ def main():
             indent=2
         )
 
-
     print(
         f"{len(articles)} articles saved."
     )
@@ -227,5 +200,4 @@ def main():
 # =========================================================
 
 if __name__ == "__main__":
-
     main()
