@@ -735,7 +735,7 @@ body {
 
 
 /* =========================================================
-   EMPTY
+   EMPTY / LOADING
 ========================================================= */
 
 .empty {
@@ -1027,7 +1027,6 @@ body {
 </head>
 
 
-
 <body>
 
 
@@ -1078,7 +1077,9 @@ body {
 <main class="main">
 
 
-<!-- HERO -->
+<!-- =====================================================
+     HERO
+===================================================== -->
 
 <section class="hero">
 
@@ -1117,7 +1118,9 @@ body {
 
 
 
-<!-- STATS -->
+<!-- =====================================================
+     STATS
+===================================================== -->
 
 <section class="stats">
 
@@ -1132,7 +1135,7 @@ body {
     <div class="stat-number">
 
       <strong id="total">
-        6
+        0
       </strong>
 
       <span>
@@ -1155,7 +1158,7 @@ body {
     <div class="stat-number">
 
       <strong id="unread">
-        6
+        0
       </strong>
 
       <span>
@@ -1177,8 +1180,8 @@ body {
 
     <div class="stat-number">
 
-      <strong>
-        2
+      <strong id="today">
+        0
       </strong>
 
       <span>
@@ -1194,7 +1197,9 @@ body {
 
 
 
-<!-- FILTERS -->
+<!-- =====================================================
+     FILTERS
+===================================================== -->
 
 <section class="filter-area">
 
@@ -1270,7 +1275,9 @@ body {
 
 
 
-<!-- NEWS -->
+<!-- =====================================================
+     NEWS
+===================================================== -->
 
 <section>
 
@@ -1309,6 +1316,12 @@ body {
   <div
     class="news-list"
     id="newsList">
+
+    <div class="empty">
+
+      ニュースを読み込んでいます…
+
+    </div>
 
   </div>
 
@@ -1399,96 +1412,25 @@ body {
 <script>
 
 
-/* =====================================================
-   SAMPLE DATA
-===================================================== */
+/* =========================================================
+   NEWS DATA
+========================================================= */
+
+let articles = [];
 
 
-const articles = [
+/* =========================================================
+   FILTER STATE
+========================================================= */
 
-
-  {
-    id: 1,
-    days: 1,
-    source: "MLB.COM",
-    title:
-      "Phillies continue to build around their core",
-    time:
-      "Today · 10:20"
-  },
-
-
-  {
-    id: 2,
-    days: 1,
-    source: "THE ATHLETIC",
-    title:
-      "What is working for Philadelphia right now?",
-    time:
-      "Today · 08:45"
-  },
-
-
-  {
-    id: 3,
-    days: 2,
-    source:
-      "PHILADELPHIA INQUIRER",
-    title:
-      "Phillies prepare for another important series",
-    time:
-      "Yesterday · 21:30"
-  },
-
-
-  {
-    id: 4,
-    days: 3,
-    source:
-      "MLB.COM",
-    title:
-      "Pitching staff showing signs of improvement",
-    time:
-      "Aug 8 · 18:10"
-  },
-
-
-  {
-    id: 5,
-    days: 5,
-    source:
-      "FANRAG SPORTS",
-    title:
-      "The latest on the Phillies roster",
-    time:
-      "Aug 6 · 12:05"
-  },
-
-
-  {
-    id: 6,
-    days: 7,
-    source:
-      "NBC SPORTS PHILADELPHIA",
-    title:
-      "Five things to watch around the Phillies",
-    time:
-      "Aug 3 · 09:15"
-  }
-
-];
-
-
-
-/* =====================================================
-   STATE
-===================================================== */
-
-
-let selectedDays = 1;
+let selectedDays = 7;
 
 let selectedFilter = "all";
 
+
+/* =========================================================
+   READ ARTICLES
+========================================================= */
 
 let readArticles =
   JSON.parse(
@@ -1498,21 +1440,133 @@ let readArticles =
   );
 
 
+/* =========================================================
+   LOAD NEWS.JSON
+========================================================= */
 
-/* =====================================================
+async function loadNews() {
+
+  try {
+
+
+    const response =
+      await fetch(
+        "news.json?time=" +
+        Date.now()
+      );
+
+
+    if (!response.ok) {
+
+      throw new Error(
+        "news.json could not be loaded"
+      );
+
+    }
+
+
+    const data =
+      await response.json();
+
+
+    articles =
+      data.articles || [];
+
+
+    render();
+
+
+  } catch (error) {
+
+
+    console.error(error);
+
+
+    document
+      .getElementById(
+        "newsList"
+      )
+      .innerHTML = `
+
+        <div class="empty">
+
+          ニュースを取得できませんでした。<br>
+          少し時間を置いて再読み込みしてください。
+
+        </div>
+
+      `;
+
+  }
+
+}
+
+
+/* =========================================================
    RENDER
-===================================================== */
-
+========================================================= */
 
 function render() {
 
 
+  /*
+     現在時刻
+  */
+
+  const now =
+    new Date();
+
+
+  /*
+     選択された期間
+  */
+
+  const limit =
+    selectedDays *
+    24 *
+    60 *
+    60 *
+    1000;
+
+
+  /*
+     期間内の記事だけ表示
+  */
+
   let visible =
     articles.filter(
-      article =>
-        article.days <= selectedDays
+      article => {
+
+
+        const date =
+          new Date(
+            article.published_at ||
+            article.fetched_at
+          );
+
+
+        if (
+          Number.isNaN(
+            date.getTime()
+          )
+        ) {
+
+          return true;
+
+        }
+
+
+        return (
+          now - date <= limit
+        );
+
+      }
     );
 
+
+  /*
+     READ / UNREAD
+  */
 
   if (
     selectedFilter === "read"
@@ -1522,7 +1576,7 @@ function render() {
       visible.filter(
         article =>
           readArticles.includes(
-            article.id
+            Number(article.id)
           )
       );
 
@@ -1537,49 +1591,83 @@ function render() {
       visible.filter(
         article =>
           !readArticles.includes(
-            article.id
+            Number(article.id)
           )
       );
 
   }
 
 
+  /*
+     TOTAL
+  */
 
-  /* TOTAL */
+  document
+    .getElementById(
+      "total"
+    )
+    .textContent =
+      visible.length;
 
 
-  const total =
-    articles.filter(
-      article =>
-        article.days <= selectedDays
-    ).length;
-
-
-  /* UNREAD */
-
+  /*
+     UNREAD
+  */
 
   const unread =
-    articles.filter(
+    visible.filter(
       article =>
-        article.days <= selectedDays &&
         !readArticles.includes(
-          article.id
+          Number(article.id)
         )
     ).length;
 
 
   document
-    .getElementById("total")
-    .textContent =
-      total;
-
-
-  document
-    .getElementById("unread")
+    .getElementById(
+      "unread"
+    )
     .textContent =
       unread;
 
 
+  /*
+     TODAY
+  */
+
+  const today =
+    articles.filter(
+      article => {
+
+
+        const date =
+          new Date(
+            article.published_at ||
+            article.fetched_at
+          );
+
+
+        return (
+          date.toDateString()
+          ===
+          now.toDateString()
+        );
+
+      }
+    ).length;
+
+
+  document
+    .getElementById(
+      "today"
+    )
+    .textContent =
+      today;
+
+
+  /*
+     NEWS LIST
+  */
 
   const container =
     document.getElementById(
@@ -1587,10 +1675,10 @@ function render() {
     );
 
 
-
   if (
     visible.length === 0
   ) {
+
 
     container.innerHTML = `
 
@@ -1602,11 +1690,42 @@ function render() {
 
     `;
 
+
     return;
 
   }
 
 
+  /*
+     新しい記事を上にする
+  */
+
+  visible.sort(
+    (a, b) => {
+
+      const dateA =
+        new Date(
+          a.published_at ||
+          a.fetched_at
+        );
+
+
+      const dateB =
+        new Date(
+          b.published_at ||
+          b.fetched_at
+        );
+
+
+      return dateB - dateA;
+
+    }
+  );
+
+
+  /*
+     HTML生成
+  */
 
   container.innerHTML =
 
@@ -1614,29 +1733,42 @@ function render() {
       article => {
 
 
-        const isRead =
-          readArticles.includes(
+        const id =
+          Number(
             article.id
           );
+
+
+        const isRead =
+          readArticles.includes(
+            id
+          );
+
+
+        const title =
+          article.title_ja ||
+          article.title_en ||
+          "タイトルなし";
 
 
         return `
 
           <article
+
             class="
               news-card
               ${isRead
                 ? "read"
                 : ""}
             "
-            data-id="${article.id}"
+
+            data-id="${id}"
+
           >
 
 
             <div
-              class="
-                news-indicator
-              ">
+              class="news-indicator">
             </div>
 
 
@@ -1644,31 +1776,33 @@ function render() {
 
 
               <div
-                class="
-                  news-source
-                ">
+                class="news-source">
 
-                ${article.source}
-
-              </div>
-
-
-              <div
-                class="
-                  news-title
-                ">
-
-                ${article.title}
+                ${escapeHTML(
+                  article.source ||
+                  "MLB.com"
+                )}
 
               </div>
 
 
               <div
-                class="
-                  news-meta
-                ">
+                class="news-title">
 
-                ${article.time}
+                ${escapeHTML(
+                  title
+                )}
+
+              </div>
+
+
+              <div
+                class="news-meta">
+
+                ${formatDate(
+                  article.published_at ||
+                  article.fetched_at
+                )}
 
               </div>
 
@@ -1677,12 +1811,15 @@ function render() {
 
 
             <div
+
               class="
                 news-status
                 ${isRead
                   ? "read"
                   : "unread"}
-              ">
+              "
+
+            >
 
               ${isRead
                 ? "READ"
@@ -1699,155 +1836,288 @@ function render() {
     ).join("");
 
 
-
-  /* ARTICLE CLICK */
-
+  /*
+     記事クリック
+  */
 
   document
     .querySelectorAll(
       ".news-card"
     )
-    .forEach(card => {
+    .forEach(
+      card => {
 
 
-      card.onclick = () => {
+        card.onclick = () => {
 
 
-        const id =
+          const id =
+            Number(
+              card.dataset.id
+            );
+
+
+          const article =
+            articles.find(
+              item =>
+                Number(item.id)
+                ===
+                id
+            );
+
+
+          if (!article) {
+
+            return;
+
+          }
+
+
+          /*
+             既読にする
+          */
+
+          if (
+            !readArticles.includes(
+              id
+            )
+          ) {
+
+            readArticles.push(
+              id
+            );
+
+
+            localStorage.setItem(
+              "phillies-read",
+              JSON.stringify(
+                readArticles
+              )
+            );
+
+          }
+
+
+          /*
+             元記事を開く
+          */
+
+          if (
+            article.url
+          ) {
+
+            window.open(
+              article.url,
+              "_blank"
+            );
+
+          }
+
+
+          render();
+
+        };
+
+      }
+    );
+
+}
+
+
+/* =========================================================
+   HTML ESCAPE
+========================================================= */
+
+function escapeHTML(
+  value
+) {
+
+
+  if (!value) {
+
+    return "";
+
+  }
+
+
+  return String(value)
+
+    .replace(
+      /&/g,
+      "&amp;"
+    )
+
+    .replace(
+      /</g,
+      "&lt;"
+    )
+
+    .replace(
+      />/g,
+      "&gt;"
+    )
+
+    .replace(
+      /"/g,
+      "&quot;"
+    )
+
+    .replace(
+      /'/g,
+      "&#039;"
+    );
+
+}
+
+
+/* =========================================================
+   DATE FORMAT
+========================================================= */
+
+function formatDate(
+  value
+) {
+
+
+  if (!value) {
+
+    return "";
+
+  }
+
+
+  const date =
+    new Date(value);
+
+
+  if (
+    Number.isNaN(
+      date.getTime()
+    )
+  ) {
+
+    return value;
+
+  }
+
+
+  return date.toLocaleString(
+    "ja-JP",
+    {
+
+      year: "numeric",
+
+      month: "numeric",
+
+      day: "numeric",
+
+      hour: "2-digit",
+
+      minute: "2-digit"
+
+    }
+  );
+
+}
+
+
+/* =========================================================
+   DAY FILTER
+========================================================= */
+
+document
+  .querySelectorAll(
+    "[data-days]"
+  )
+  .forEach(
+    button => {
+
+
+      button.onclick = () => {
+
+
+        selectedDays =
           Number(
-            card.dataset.id
+            button.dataset.days
           );
 
 
-        if (
-          readArticles.includes(id)
-        ) {
-
-          readArticles =
-            readArticles.filter(
-              x =>
-                x !== id
-            );
-
-        } else {
-
-          readArticles.push(id);
-
-        }
-
-
-        localStorage.setItem(
-          "phillies-read",
-          JSON.stringify(
-            readArticles
+        document
+          .querySelectorAll(
+            "[data-days]"
           )
-        );
+          .forEach(
+            item =>
+              item.classList
+                .remove(
+                  "active"
+                )
+          );
+
+
+        button.classList
+          .add(
+            "active"
+          );
 
 
         render();
 
       };
 
-    });
-
-}
-
+    }
+  );
 
 
-/* =====================================================
-   DAY FILTER
-===================================================== */
-
-
-document
-  .querySelectorAll(
-    "[data-days]"
-  )
-  .forEach(button => {
-
-
-    button.onclick = () => {
-
-
-      selectedDays =
-        Number(
-          button.dataset.days
-        );
-
-
-      document
-        .querySelectorAll(
-          "[data-days]"
-        )
-        .forEach(
-          item =>
-            item.classList.remove(
-              "active"
-            )
-        );
-
-
-      button.classList.add(
-        "active"
-      );
-
-
-      render();
-
-    };
-
-  });
-
-
-
-/* =====================================================
+/* =========================================================
    READ FILTER
-===================================================== */
-
+========================================================= */
 
 document
   .querySelectorAll(
     "[data-filter]"
   )
-  .forEach(button => {
+  .forEach(
+    button => {
 
 
-    button.onclick = () => {
+      button.onclick = () => {
 
 
-      selectedFilter =
-        button.dataset.filter;
+        selectedFilter =
+          button.dataset.filter;
 
 
-      document
-        .querySelectorAll(
-          "[data-filter]"
-        )
-        .forEach(
-          item =>
-            item.classList.remove(
-              "active"
-            )
-        );
+        document
+          .querySelectorAll(
+            "[data-filter]"
+          )
+          .forEach(
+            item =>
+              item.classList
+                .remove(
+                  "active"
+                )
+          );
 
 
-      button.classList.add(
-        "active"
-      );
+        button.classList
+          .add(
+            "active"
+          );
 
 
-      render();
+        render();
 
-    };
+      };
 
-  });
+    }
+  );
 
 
-
-/* =====================================================
-   RESET
-===================================================== */
-
+/* =========================================================
+   RESET READ
+========================================================= */
 
 document
   .getElementById(
@@ -1869,14 +2139,11 @@ document
   };
 
 
-
-/* =====================================================
+/* =========================================================
    START
-===================================================== */
+========================================================= */
 
-
-render();
-
+loadNews();
 
 </script>
 
