@@ -1,7 +1,9 @@
+```yaml
 name: Update Phillies News
 
 on:
   workflow_dispatch:
+
   schedule:
     - cron: "*/30 * * * *"
 
@@ -10,29 +12,52 @@ permissions:
 
 jobs:
   update-news:
+
     runs-on: ubuntu-latest
 
     steps:
+
+      # GitHubリポジトリを取得
       - name: Checkout
         uses: actions/checkout@v4
 
+      # Pythonを準備
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
 
+      # 必要なライブラリをインストール
       - name: Install dependencies
         run: |
+          python -m pip install --upgrade pip
           pip install requests beautifulsoup4
 
+      # ニュースを取得
       - name: Fetch Phillies news
         run: |
           python fetch_news.py
 
+      # news.jsonを確認
+      - name: Check news.json
+        run: |
+          echo "===== news.json ====="
+          cat news.json
+          echo "====================="
+
+      # 更新されたnews.jsonを保存
       - name: Commit news.json
         run: |
+
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
           git add news.json
-          git diff --cached --quiet || git commit -m "Update Phillies news"
-          git push
+
+          if git diff --cached --quiet; then
+            echo "No changes to news.json"
+          else
+            git commit -m "Update Phillies news"
+            git push
+          fi
+```
