@@ -75,39 +75,97 @@ def normalize_url(url):
 
 
 # =========================================================
-# JSON-LDから公開日時を探す
+# 日時をISO形式に変換
+# =========================================================
+
+def normalize_datetime(value):
+
+    if not value:
+        return None
+
+    value = value.strip()
+
+    # 不要な文字を除去
+    value = value.replace(
+        "Published",
+        ""
+    ).strip()
+
+    value = value.replace(
+        "Updated",
+        ""
+    ).strip()
+
+    try:
+
+        if value.endswith("Z"):
+
+            dt = datetime.fromisoformat(
+                value.replace(
+                    "Z",
+                    "+00:00"
+                )
+            )
+
+        else:
+
+            dt = datetime.fromisoformat(
+                value
+            )
+
+        if dt.tzinfo is None:
+
+            dt = dt.replace(
+                tzinfo=timezone.utc
+            )
+
+        return dt.isoformat()
+
+    except Exception:
+
+        return value
+
+
+# =========================================================
+# JSON-LDから日時を探す
 # =========================================================
 
 def find_date_in_jsonld(data):
 
     if isinstance(data, dict):
 
-        # 直接 datePublished
-        for key in [
-            "datePublished",
-            "dateCreated"
-        ]:
+        # datePublishedを最優先
+        if data.get("datePublished"):
 
-            value = data.get(key)
+            return data.get(
+                "datePublished"
+            )
 
-            if value:
-                return value
+        # dateCreated
+        if data.get("dateCreated"):
 
+            return data.get(
+                "dateCreated"
+            )
 
-        # @graph の中
-        graph = data.get("@graph")
+        # @graph
+        if isinstance(
+            data.get("@graph"),
+            list
+        ):
 
-        if isinstance(graph, list):
+            for item in data["@graph"]:
 
-            for item in graph:
-
-                result = find_date_in_jsonld(item)
+                result = (
+                    find_date_in_jsonld(
+                        item
+                    )
+                )
 
                 if result:
                     return result
 
-
-        # その他の入れ子
+        # 入れ子
         for value in data.values():
 
             if isinstance(
@@ -115,8 +173,10 @@ def find_date_in_jsonld(data):
                 (dict, list)
             ):
 
-                result = find_date_in_jsonld(
-                    value
+                result = (
+                    find_date_in_jsonld(
+                        value
+                    )
                 )
 
                 if result:
@@ -127,8 +187,10 @@ def find_date_in_jsonld(data):
 
         for item in data:
 
-            result = find_date_in_jsonld(
-                item
+            result = (
+                find_date_in_jsonld(
+                    item
+                )
             )
 
             if result:
@@ -139,7 +201,72 @@ def find_date_in_jsonld(data):
 
 
 # =========================================================
-# 記事ページからタイトル・公開日時取得
+# ページ内テキストから日時を探す
+# =========================================================
+
+def find_date_in_text(soup):
+
+    text = soup.get_text(
+        " ",
+        strip=True
+    )
+
+
+    # -----------------------------------------------------
+    # ISO形式
+    # -----------------------------------------------------
+
+    iso_matches = re.findall(
+        r"\b20\d{2}-\d{2}-\d{2}"
+        r"(?:T|\s)"
+        r"\d{2}:\d{2}"
+        r"(?::\d{2})?"
+        r"(?:Z|[+-]\d{2}:?\d{2})?",
+        text
+    )
+
+
+    if iso_matches:
+
+        return iso_matches[0]
+
+
+    # -----------------------------------------------------
+    # Month DD, YYYY HH:MM
+    # 例:
+    # August 9, 2026 7:32 PM
+    # -----------------------------------------------------
+
+    pattern = (
+        r"\b("
+        r"January|February|March|April|May|June|"
+        r"July|August|September|October|November|December"
+        r")\s+"
+        r"(\d{1,2}),\s+"
+        r"(20\d{2})"
+        r"(?:\s+at)?\s+"
+        r"(\d{1,2}:\d{2})"
+        r"\s*(AM|PM)"
+    )
+
+
+    match = re.search(
+        pattern,
+        text,
+        re.IGNORECASE
+    )
+
+
+    if match:
+
+        return match.group(0)
+
+
+    return None
+
+
+# =========================================================
+# 記事ページから情報取得
 # =========================================================
 
 def get_article_info(url):
@@ -160,16 +287,19 @@ def get_article_info(url):
         )
 
 
-        # -------------------------------------------------
+        # =================================================
         # タイトル
-        # -------------------------------------------------
+        # =================================================
 
         title = None
 
+
+        # og:title
         og_title = soup.find(
             "meta",
             property="og:title"
         )
+
 
         if og_title:
 
@@ -179,6 +309,7 @@ def get_article_info(url):
             ).strip()
 
 
+        # h1
         if not title:
 
             h1 = soup.find("h1")
@@ -191,6 +322,7 @@ def get_article_info(url):
                 )
 
 
+        # title
         if not title and soup.title:
 
             title = soup.title.get_text(
@@ -200,17 +332,22 @@ def get_article_info(url):
 
             if title:
 
-                title = title.split("|")[0].strip()
+                title = title.split(
+                    "|"
+                )[0].strip()
 
 
-        # -------------------------------------------------
+        # =================================================
         # 公開日時
-        # -------------------------------------------------
+        # =================================================
 
         published_at = None
 
 
+        # -------------------------------------------------
         # ① JSON-LD
+        # -------------------------------------------------
+
         for script in soup.find_all(
             "script",
             type="application/ld+json"
@@ -218,10 +355,13 @@ def get_article_info(url):
 
             try:
 
-                data = json.loads(
-                    script.string or
+                raw = (
+                    script.string
+                    or
                     script.get_text()
                 )
+
+                data = json.loads(raw)
 
                 date_value = (
                     find_date_in_jsonld(
@@ -232,7 +372,9 @@ def get_article_info(url):
                 if date_value:
 
                     published_at = (
-                        date_value.strip()
+                        normalize_datetime(
+                            date_value
+                        )
                     )
 
                     break
@@ -242,7 +384,10 @@ def get_article_info(url):
                 continue
 
 
+        # -------------------------------------------------
         # ② article:published_time
+        # -------------------------------------------------
+
         if not published_at:
 
             tag = soup.find(
@@ -252,12 +397,23 @@ def get_article_info(url):
 
             if tag:
 
-                published_at = (
-                    tag.get("content")
+                value = tag.get(
+                    "content"
                 )
 
+                if value:
 
+                    published_at = (
+                        normalize_datetime(
+                            value
+                        )
+                    )
+
+
+        # -------------------------------------------------
         # ③ datePublished
+        # -------------------------------------------------
+
         if not published_at:
 
             tag = soup.find(
@@ -267,37 +423,64 @@ def get_article_info(url):
 
             if tag:
 
-                published_at = (
+                value = (
                     tag.get("content")
-                )
-
-
-        # ④ time datetime
-        if not published_at:
-
-            tag = soup.find(
-                "time",
-                datetime=True
-            )
-
-            if tag:
-
-                published_at = (
+                    or
                     tag.get("datetime")
                 )
 
+                if value:
+
+                    published_at = (
+                        normalize_datetime(
+                            value
+                        )
+                    )
+
 
         # -------------------------------------------------
-        # 日時をISO形式に整理
+        # ④ timeタグ
         # -------------------------------------------------
 
-        if published_at:
+        if not published_at:
 
-            published_at = (
-                normalize_datetime(
-                    published_at
+            for tag in soup.find_all(
+                "time"
+            ):
+
+                value = (
+                    tag.get("datetime")
                 )
+
+                if value:
+
+                    published_at = (
+                        normalize_datetime(
+                            value
+                        )
+                    )
+
+                    if published_at:
+                        break
+
+
+        # -------------------------------------------------
+        # ⑤ ページ内テキスト
+        # -------------------------------------------------
+
+        if not published_at:
+
+            value = find_date_in_text(
+                soup
             )
+
+            if value:
+
+                published_at = (
+                    normalize_datetime(
+                        value
+                    )
+                )
 
 
         return title, published_at
@@ -311,52 +494,6 @@ def get_article_info(url):
         )
 
         return None, None
-
-
-# =========================================================
-# 日時をISO形式に変換
-# =========================================================
-
-def normalize_datetime(value):
-
-    if not value:
-        return None
-
-    value = value.strip()
-
-    try:
-
-        # Z → UTC
-        if value.endswith("Z"):
-
-            dt = datetime.fromisoformat(
-                value.replace(
-                    "Z",
-                    "+00:00"
-                )
-            )
-
-        else:
-
-            dt = datetime.fromisoformat(
-                value
-            )
-
-
-        # timezone情報がなければUTC
-        if dt.tzinfo is None:
-
-            dt = dt.replace(
-                tzinfo=timezone.utc
-            )
-
-
-        return dt.isoformat()
-
-
-    except Exception:
-
-        return value
 
 
 # =========================================================
@@ -388,7 +525,10 @@ def get_article_urls():
         href=True
     ):
 
-        href = link.get("href")
+        href = link.get(
+            "href"
+        )
+
 
         if not href:
             continue
@@ -404,8 +544,10 @@ def get_article_urls():
         )
 
 
-        normalized_url = normalize_url(
-            href
+        normalized_url = (
+            normalize_url(
+                href
+            )
         )
 
 
@@ -420,6 +562,7 @@ def get_article_urls():
         seen_urls.add(
             normalized_url
         )
+
 
         urls.append(
             normalized_url
@@ -480,14 +623,19 @@ def fetch_news():
         print(url)
 
 
-        normalized_url = normalize_url(
-            url
+        normalized_url = (
+            normalize_url(
+                url
+            )
         )
 
 
+        # URL重複
         if normalized_url in seen_urls:
 
-            print("URL重複 → スキップ")
+            print(
+                "URL重複 → スキップ"
+            )
 
             continue
 
@@ -497,10 +645,7 @@ def fetch_news():
         )
 
 
-        # -------------------------------------------------
         # 記事情報
-        # -------------------------------------------------
-
         title, published_at = (
             get_article_info(
                 normalized_url
@@ -517,6 +662,7 @@ def fetch_news():
             continue
 
 
+        # 「続きを読む」除外
         if title.lower() in [
             "続きを読む",
             "read more",
@@ -530,10 +676,7 @@ def fetch_news():
             continue
 
 
-        # -------------------------------------------------
         # タイトル重複
-        # -------------------------------------------------
-
         title_key = normalize_title(
             title
         )
@@ -557,11 +700,9 @@ def fetch_news():
         print(title)
 
 
-        # -------------------------------------------------
         # 公開日時
-        # -------------------------------------------------
-
         print("公開日時:")
+
 
         if published_at:
 
@@ -576,10 +717,7 @@ def fetch_news():
             )
 
 
-        # -------------------------------------------------
-        # 日本語翻訳
-        # -------------------------------------------------
-
+        # 日本語
         japanese_title = (
             translate_to_japanese(
                 title
@@ -591,10 +729,7 @@ def fetch_news():
         print(japanese_title)
 
 
-        # -------------------------------------------------
         # 記事保存
-        # -------------------------------------------------
-
         articles.append({
 
             "id":
@@ -629,7 +764,7 @@ def fetch_news():
 
 
 # =========================================================
-# news.json
+# JSON保存
 # =========================================================
 
 def main():
