@@ -75,6 +75,70 @@ def normalize_url(url):
 
 
 # =========================================================
+# JSON-LDから公開日時を探す
+# =========================================================
+
+def find_date_in_jsonld(data):
+
+    if isinstance(data, dict):
+
+        # 直接 datePublished
+        for key in [
+            "datePublished",
+            "dateCreated"
+        ]:
+
+            value = data.get(key)
+
+            if value:
+                return value
+
+
+        # @graph の中
+        graph = data.get("@graph")
+
+        if isinstance(graph, list):
+
+            for item in graph:
+
+                result = find_date_in_jsonld(item)
+
+                if result:
+                    return result
+
+
+        # その他の入れ子
+        for value in data.values():
+
+            if isinstance(
+                value,
+                (dict, list)
+            ):
+
+                result = find_date_in_jsonld(
+                    value
+                )
+
+                if result:
+                    return result
+
+
+    elif isinstance(data, list):
+
+        for item in data:
+
+            result = find_date_in_jsonld(
+                item
+            )
+
+            if result:
+                return result
+
+
+    return None
+
+
+# =========================================================
 # 記事ページからタイトル・公開日時取得
 # =========================================================
 
@@ -95,13 +159,12 @@ def get_article_info(url):
             "html.parser"
         )
 
+
+        # -------------------------------------------------
+        # タイトル
+        # -------------------------------------------------
+
         title = None
-        published_at = None
-
-
-        # -------------------------------------------------
-        # タイトル：og:title
-        # -------------------------------------------------
 
         og_title = soup.find(
             "meta",
@@ -116,10 +179,6 @@ def get_article_info(url):
             ).strip()
 
 
-        # -------------------------------------------------
-        # タイトル：h1
-        # -------------------------------------------------
-
         if not title:
 
             h1 = soup.find("h1")
@@ -131,10 +190,6 @@ def get_article_info(url):
                     strip=True
                 )
 
-
-        # -------------------------------------------------
-        # タイトル：titleタグ
-        # -------------------------------------------------
 
         if not title and soup.title:
 
@@ -149,73 +204,100 @@ def get_article_info(url):
 
 
         # -------------------------------------------------
-        # 公開日時：metaタグ
+        # 公開日時
         # -------------------------------------------------
 
-        date_selectors = [
-
-            ("meta", {
-                "property": "article:published_time"
-            }),
-
-            ("meta", {
-                "property": "og:published_time"
-            }),
-
-            ("meta", {
-                "name": "publish-date"
-            }),
-
-            ("meta", {
-                "name": "date"
-            }),
-
-            ("meta", {
-                "itemprop": "datePublished"
-            })
-
-        ]
+        published_at = None
 
 
-        for tag_name, attrs in date_selectors:
+        # ① JSON-LD
+        for script in soup.find_all(
+            "script",
+            type="application/ld+json"
+        ):
+
+            try:
+
+                data = json.loads(
+                    script.string or
+                    script.get_text()
+                )
+
+                date_value = (
+                    find_date_in_jsonld(
+                        data
+                    )
+                )
+
+                if date_value:
+
+                    published_at = (
+                        date_value.strip()
+                    )
+
+                    break
+
+            except Exception:
+
+                continue
+
+
+        # ② article:published_time
+        if not published_at:
 
             tag = soup.find(
-                tag_name,
-                attrs
+                "meta",
+                property="article:published_time"
             )
 
             if tag:
 
-                value = (
+                published_at = (
                     tag.get("content")
-                    or tag.get("datetime")
                 )
 
-                if value:
 
-                    published_at = value.strip()
-
-                    break
-
-
-        # -------------------------------------------------
-        # 公開日時：timeタグ
-        # -------------------------------------------------
-
+        # ③ datePublished
         if not published_at:
 
-            time_tag = soup.find(
+            tag = soup.find(
+                "meta",
+                itemprop="datePublished"
+            )
+
+            if tag:
+
+                published_at = (
+                    tag.get("content")
+                )
+
+
+        # ④ time datetime
+        if not published_at:
+
+            tag = soup.find(
                 "time",
                 datetime=True
             )
 
-            if time_tag:
+            if tag:
 
                 published_at = (
-                    time_tag.get(
-                        "datetime"
-                    )
+                    tag.get("datetime")
                 )
+
+
+        # -------------------------------------------------
+        # 日時をISO形式に整理
+        # -------------------------------------------------
+
+        if published_at:
+
+            published_at = (
+                normalize_datetime(
+                    published_at
+                )
+            )
 
 
         return title, published_at
@@ -229,6 +311,52 @@ def get_article_info(url):
         )
 
         return None, None
+
+
+# =========================================================
+# 日時をISO形式に変換
+# =========================================================
+
+def normalize_datetime(value):
+
+    if not value:
+        return None
+
+    value = value.strip()
+
+    try:
+
+        # Z → UTC
+        if value.endswith("Z"):
+
+            dt = datetime.fromisoformat(
+                value.replace(
+                    "Z",
+                    "+00:00"
+                )
+            )
+
+        else:
+
+            dt = datetime.fromisoformat(
+                value
+            )
+
+
+        # timezone情報がなければUTC
+        if dt.tzinfo is None:
+
+            dt = dt.replace(
+                tzinfo=timezone.utc
+            )
+
+
+        return dt.isoformat()
+
+
+    except Exception:
+
+        return value
 
 
 # =========================================================
@@ -251,7 +379,9 @@ def get_article_urls():
     )
 
     urls = []
+
     seen_urls = set()
+
 
     for link in soup.find_all(
         "a",
@@ -263,23 +393,29 @@ def get_article_urls():
         if not href:
             continue
 
+
         if "/phillies/news/" not in href:
             continue
+
 
         href = urljoin(
             "https://www.mlb.com",
             href
         )
 
+
         normalized_url = normalize_url(
             href
         )
 
+
         if not normalized_url:
             continue
 
+
         if normalized_url in seen_urls:
             continue
+
 
         seen_urls.add(
             normalized_url
@@ -289,8 +425,10 @@ def get_article_urls():
             normalized_url
         )
 
+
         if len(urls) >= 40:
             break
+
 
     return urls
 
@@ -334,6 +472,7 @@ def fetch_news():
     seen_urls = set()
     seen_titles = set()
 
+
     for url in urls:
 
         print("")
@@ -346,15 +485,12 @@ def fetch_news():
         )
 
 
-        # -------------------------------------------------
-        # URL重複
-        # -------------------------------------------------
-
         if normalized_url in seen_urls:
 
             print("URL重複 → スキップ")
 
             continue
+
 
         seen_urls.add(
             normalized_url
@@ -362,7 +498,7 @@ def fetch_news():
 
 
         # -------------------------------------------------
-        # 記事情報取得
+        # 記事情報
         # -------------------------------------------------
 
         title, published_at = (
@@ -380,10 +516,6 @@ def fetch_news():
 
             continue
 
-
-        # -------------------------------------------------
-        # 「続きを読む」除外
-        # -------------------------------------------------
 
         if title.lower() in [
             "続きを読む",
@@ -432,9 +564,16 @@ def fetch_news():
         print("公開日時:")
 
         if published_at:
-            print(published_at)
+
+            print(
+                published_at
+            )
+
         else:
-            print("取得できませんでした")
+
+            print(
+                "取得できませんでした"
+            )
 
 
         # -------------------------------------------------
@@ -453,35 +592,35 @@ def fetch_news():
 
 
         # -------------------------------------------------
-        # 記事データ
+        # 記事保存
         # -------------------------------------------------
 
         articles.append({
 
-            "id": len(articles) + 1,
+            "id":
+                len(articles) + 1,
 
-            "title_en": title,
+            "title_en":
+                title,
 
-            "title_ja": japanese_title,
+            "title_ja":
+                japanese_title,
 
-            "url": normalized_url,
+            "url":
+                normalized_url,
 
-            "source": "MLB.com",
+            "source":
+                "MLB.com",
 
-            "published_at": published_at,
-
-            "fetched_at": datetime.now(
-                timezone.utc
-            ).isoformat()
+            "published_at":
+                published_at
 
         })
 
 
-        # MLBへのアクセス間隔
         time.sleep(0.5)
 
 
-        # 最大30記事
         if len(articles) >= 30:
             break
 
@@ -490,20 +629,23 @@ def fetch_news():
 
 
 # =========================================================
-# news.json保存
+# news.json
 # =========================================================
 
 def main():
 
     articles = fetch_news()
 
+
     data = {
 
-        "updated_at": datetime.now(
-            timezone.utc
-        ).isoformat(),
+        "updated_at":
+            datetime.now(
+                timezone.utc
+            ).isoformat(),
 
-        "articles": articles
+        "articles":
+            articles
 
     }
 
