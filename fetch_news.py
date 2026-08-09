@@ -75,10 +75,10 @@ def normalize_url(url):
 
 
 # =========================================================
-# 記事ページからタイトル取得
+# 記事ページからタイトル・公開日時取得
 # =========================================================
 
-def get_article_title(url):
+def get_article_info(url):
 
     try:
 
@@ -95,7 +95,14 @@ def get_article_title(url):
             "html.parser"
         )
 
-        # og:title
+        title = None
+        published_at = None
+
+
+        # -------------------------------------------------
+        # タイトル：og:title
+        # -------------------------------------------------
+
         og_title = soup.find(
             "meta",
             property="og:title"
@@ -108,24 +115,28 @@ def get_article_title(url):
                 ""
             ).strip()
 
-            if title:
-                return title
 
-        # h1
-        h1 = soup.find("h1")
+        # -------------------------------------------------
+        # タイトル：h1
+        # -------------------------------------------------
 
-        if h1:
+        if not title:
 
-            title = h1.get_text(
-                " ",
-                strip=True
-            )
+            h1 = soup.find("h1")
 
-            if title:
-                return title
+            if h1:
 
-        # titleタグ
-        if soup.title:
+                title = h1.get_text(
+                    " ",
+                    strip=True
+                )
+
+
+        # -------------------------------------------------
+        # タイトル：titleタグ
+        # -------------------------------------------------
+
+        if not title and soup.title:
 
             title = soup.title.get_text(
                 " ",
@@ -136,17 +147,88 @@ def get_article_title(url):
 
                 title = title.split("|")[0].strip()
 
-                if title:
-                    return title
+
+        # -------------------------------------------------
+        # 公開日時：metaタグ
+        # -------------------------------------------------
+
+        date_selectors = [
+
+            ("meta", {
+                "property": "article:published_time"
+            }),
+
+            ("meta", {
+                "property": "og:published_time"
+            }),
+
+            ("meta", {
+                "name": "publish-date"
+            }),
+
+            ("meta", {
+                "name": "date"
+            }),
+
+            ("meta", {
+                "itemprop": "datePublished"
+            })
+
+        ]
+
+
+        for tag_name, attrs in date_selectors:
+
+            tag = soup.find(
+                tag_name,
+                attrs
+            )
+
+            if tag:
+
+                value = (
+                    tag.get("content")
+                    or tag.get("datetime")
+                )
+
+                if value:
+
+                    published_at = value.strip()
+
+                    break
+
+
+        # -------------------------------------------------
+        # 公開日時：timeタグ
+        # -------------------------------------------------
+
+        if not published_at:
+
+            time_tag = soup.find(
+                "time",
+                datetime=True
+            )
+
+            if time_tag:
+
+                published_at = (
+                    time_tag.get(
+                        "datetime"
+                    )
+                )
+
+
+        return title, published_at
+
 
     except Exception as error:
 
         print(
-            "タイトル取得エラー:",
+            "記事情報取得エラー:",
             error
         )
 
-    return None
+        return None, None
 
 
 # =========================================================
@@ -258,11 +340,16 @@ def fetch_news():
         print("記事URL:")
         print(url)
 
+
         normalized_url = normalize_url(
             url
         )
 
+
+        # -------------------------------------------------
         # URL重複
+        # -------------------------------------------------
+
         if normalized_url in seen_urls:
 
             print("URL重複 → スキップ")
@@ -273,10 +360,17 @@ def fetch_news():
             normalized_url
         )
 
-        # タイトル取得
-        title = get_article_title(
-            normalized_url
+
+        # -------------------------------------------------
+        # 記事情報取得
+        # -------------------------------------------------
+
+        title, published_at = (
+            get_article_info(
+                normalized_url
+            )
         )
+
 
         if not title:
 
@@ -286,7 +380,11 @@ def fetch_news():
 
             continue
 
-        # 不要タイトル除外
+
+        # -------------------------------------------------
+        # 「続きを読む」除外
+        # -------------------------------------------------
+
         if title.lower() in [
             "続きを読む",
             "read more",
@@ -299,10 +397,15 @@ def fetch_news():
 
             continue
 
+
+        # -------------------------------------------------
         # タイトル重複
+        # -------------------------------------------------
+
         title_key = normalize_title(
             title
         )
+
 
         if title_key in seen_titles:
 
@@ -312,24 +415,47 @@ def fetch_news():
 
             continue
 
+
         seen_titles.add(
             title_key
         )
 
+
         print("英語:")
         print(title)
 
+
+        # -------------------------------------------------
+        # 公開日時
+        # -------------------------------------------------
+
+        print("公開日時:")
+
+        if published_at:
+            print(published_at)
+        else:
+            print("取得できませんでした")
+
+
+        # -------------------------------------------------
         # 日本語翻訳
+        # -------------------------------------------------
+
         japanese_title = (
             translate_to_japanese(
                 title
             )
         )
 
+
         print("日本語:")
         print(japanese_title)
 
-        # 保存
+
+        # -------------------------------------------------
+        # 記事データ
+        # -------------------------------------------------
+
         articles.append({
 
             "id": len(articles) + 1,
@@ -342,18 +468,23 @@ def fetch_news():
 
             "source": "MLB.com",
 
+            "published_at": published_at,
+
             "fetched_at": datetime.now(
                 timezone.utc
             ).isoformat()
 
         })
 
-        # 少し待つ
+
+        # MLBへのアクセス間隔
         time.sleep(0.5)
+
 
         # 最大30記事
         if len(articles) >= 30:
             break
+
 
     return articles
 
@@ -376,6 +507,7 @@ def main():
 
     }
 
+
     with open(
         "news.json",
         "w",
@@ -388,6 +520,7 @@ def main():
             ensure_ascii=False,
             indent=2
         )
+
 
     print("")
     print("==============================")
