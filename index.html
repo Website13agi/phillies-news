@@ -11,7 +11,6 @@
 
 <title>Phillies News Reader</title>
 
-
 <style>
 
 /* =========================================================
@@ -43,7 +42,6 @@ html {
   --line: #e3e7ec;
 
 }
-
 
 body {
 
@@ -101,7 +99,6 @@ body {
 
 }
 
-
 .brand {
 
   display: flex;
@@ -111,7 +108,6 @@ body {
   gap: 12px;
 
 }
-
 
 .logo {
 
@@ -137,7 +133,6 @@ body {
 
 }
 
-
 .brand-title {
 
   font-size: 19px;
@@ -147,7 +142,6 @@ body {
   letter-spacing: 2px;
 
 }
-
 
 .brand-subtitle {
 
@@ -159,6 +153,70 @@ body {
 
 }
 
+
+/* =========================================================
+   HEADER BUTTONS
+========================================================= */
+
+.header-actions {
+
+  display: flex;
+
+  align-items: center;
+
+  gap: 8px;
+
+}
+
+.refresh-button {
+
+  height: 40px;
+
+  border: 0;
+
+  border-radius: 10px;
+
+  background:
+    rgba(255,255,255,.14);
+
+  color: white;
+
+  padding:
+    0 13px;
+
+  font-size: 12px;
+
+  font-weight: 800;
+
+  cursor: pointer;
+
+  transition:
+    background .15s ease,
+    transform .15s ease;
+
+}
+
+.refresh-button:hover {
+
+  background:
+    rgba(255,255,255,.23);
+
+}
+
+.refresh-button:active {
+
+  transform:
+    scale(.96);
+
+}
+
+.refresh-button:disabled {
+
+  opacity: .65;
+
+  cursor: wait;
+
+}
 
 .menu {
 
@@ -228,7 +286,6 @@ body {
 
 }
 
-
 .hero::before {
 
   content: "";
@@ -250,7 +307,6 @@ body {
   top: -260px;
 
 }
-
 
 .hero::after {
 
@@ -274,7 +330,6 @@ body {
 
 }
 
-
 .hero-content {
 
   position: relative;
@@ -284,7 +339,6 @@ body {
   padding: 43px;
 
 }
-
 
 .hero-kicker {
 
@@ -298,7 +352,6 @@ body {
     #bfcce0;
 
 }
-
 
 .hero-title {
 
@@ -315,7 +368,6 @@ body {
 
 }
 
-
 .hero-description {
 
   margin: 0;
@@ -325,7 +377,6 @@ body {
   font-size: 14px;
 
 }
-
 
 .hero-accent {
 
@@ -359,7 +410,6 @@ body {
 
 }
 
-
 .stat {
 
   background: white;
@@ -374,7 +424,6 @@ body {
 
 }
 
-
 .stat-label {
 
   font-size: 9px;
@@ -386,7 +435,6 @@ body {
   color: var(--muted);
 
 }
-
 
 .stat-number {
 
@@ -400,13 +448,11 @@ body {
 
 }
 
-
 .stat-number strong {
 
   font-size: 28px;
 
 }
-
 
 .stat-number span {
 
@@ -438,7 +484,6 @@ body {
 
 }
 
-
 .filter-group {
 
   display: flex;
@@ -456,7 +501,6 @@ body {
   border-radius: 11px;
 
 }
-
 
 .filter-button {
 
@@ -479,14 +523,12 @@ body {
 
 }
 
-
 .filter-button:hover {
 
   background:
     #f1f3f5;
 
 }
-
 
 .filter-button.active {
 
@@ -516,7 +558,6 @@ body {
 
 }
 
-
 .news-heading {
 
   display: flex;
@@ -526,7 +567,6 @@ body {
   gap: 9px;
 
 }
-
 
 .news-heading-dot {
 
@@ -540,7 +580,6 @@ body {
 
 }
 
-
 .news-heading h2 {
 
   margin: 0;
@@ -548,7 +587,6 @@ body {
   font-size: 18px;
 
 }
-
 
 .reset-button {
 
@@ -578,7 +616,6 @@ body {
   gap: 8px;
 
 }
-
 
 .news-card {
 
@@ -611,7 +648,6 @@ body {
 
 }
 
-
 .news-card:hover {
 
   transform:
@@ -626,7 +662,6 @@ body {
 
 }
 
-
 .news-indicator {
 
   background:
@@ -636,15 +671,12 @@ body {
 
 }
 
-
-.news-card.read
-.news-indicator {
+.news-card.read .news-indicator {
 
   background:
     #cbd0d7;
 
 }
-
 
 .news-source {
 
@@ -660,7 +692,6 @@ body {
 
 }
 
-
 .news-title {
 
   font-size: 15px;
@@ -671,15 +702,12 @@ body {
 
 }
 
-
-.news-card.read
-.news-title {
+.news-card.read .news-title {
 
   color:
     #858b94;
 
 }
-
 
 .news-meta {
 
@@ -694,7 +722,6 @@ body {
   font-size: 10px;
 
 }
-
 
 .news-status {
 
@@ -713,7 +740,6 @@ body {
 
 }
 
-
 .news-status.unread {
 
   color: var(--red);
@@ -722,7 +748,6 @@ body {
     #fff0f1;
 
 }
-
 
 .news-status.read {
 
@@ -735,7 +760,7 @@ body {
 
 
 /* =========================================================
-   EMPTY / LOADING
+   EMPTY
 ========================================================= */
 
 .empty {
@@ -805,16 +830,14 @@ body {
 
 @media(max-width: 700px) {
 
-
   .header {
 
     height: 62px;
 
     padding:
-      0 15px;
+      0 11px;
 
   }
-
 
   .logo {
 
@@ -826,6 +849,11 @@ body {
 
   }
 
+  .brand {
+
+    gap: 9px;
+
+  }
 
   .brand-title {
 
@@ -833,6 +861,30 @@ body {
 
   }
 
+  .header-actions {
+
+    gap: 5px;
+
+  }
+
+  .refresh-button {
+
+    height: 36px;
+
+    padding:
+      0 10px;
+
+    font-size: 11px;
+
+  }
+
+  .menu {
+
+    width: 36px;
+
+    height: 36px;
+
+  }
 
   .main {
 
@@ -843,7 +895,6 @@ body {
 
   }
 
-
   .hero {
 
     min-height: 245px;
@@ -852,14 +903,12 @@ body {
 
   }
 
-
   .hero-content {
 
     padding:
       31px 24px;
 
   }
-
 
   .hero-title {
 
@@ -870,7 +919,6 @@ body {
 
   }
 
-
   .stats {
 
     grid-template-columns:
@@ -878,13 +926,11 @@ body {
 
   }
 
-
   .stat:last-child {
 
     display: none;
 
   }
-
 
   .stat {
 
@@ -893,13 +939,11 @@ body {
 
   }
 
-
   .stat-number strong {
 
     font-size: 24px;
 
   }
-
 
   .filter-area {
 
@@ -909,13 +953,11 @@ body {
 
   }
 
-
   .filter-group {
 
     width: 100%;
 
   }
-
 
   .filter-button {
 
@@ -925,7 +967,6 @@ body {
       10px 4px;
 
   }
-
 
   .news-card {
 
@@ -938,20 +979,17 @@ body {
 
   }
 
-
   .news-status {
 
     display: none;
 
   }
 
-
   .news-title {
 
     font-size: 14px;
 
   }
-
 
   .mobile-nav {
 
@@ -982,7 +1020,6 @@ body {
 
   }
 
-
   .mobile-nav-item {
 
     text-align: center;
@@ -995,13 +1032,11 @@ body {
 
   }
 
-
   .mobile-nav-item.active {
 
     color: var(--red);
 
   }
-
 
   .mobile-icon {
 
@@ -1012,7 +1047,6 @@ body {
     margin-bottom: 3px;
 
   }
-
 
   .footer {
 
@@ -1036,14 +1070,11 @@ body {
 
 <header class="header">
 
-
   <div class="brand">
-
 
     <div class="logo">
       P
     </div>
-
 
     <div>
 
@@ -1057,14 +1088,25 @@ body {
 
     </div>
 
-
   </div>
 
 
-  <button class="menu">
-    ☰
-  </button>
+  <div class="header-actions">
 
+    <button
+      class="refresh-button"
+      id="refreshButton">
+
+      ↻ 更新
+
+    </button>
+
+
+    <button class="menu">
+      ☰
+    </button>
+
+  </div>
 
 </header>
 
@@ -1077,50 +1119,31 @@ body {
 <main class="main">
 
 
-<!-- =====================================================
-     HERO
-===================================================== -->
-
 <section class="hero">
 
-
   <div class="hero-content">
-
 
     <div class="hero-kicker">
       PHILADELPHIA PHILLIES
     </div>
 
-
     <h1 class="hero-title">
-
       Phillies<br>
       News
-
     </h1>
 
-
     <p class="hero-description">
-
       フィリーズ関連ニュースを
       まとめてチェック
-
     </p>
-
 
     <div class="hero-accent"></div>
 
-
   </div>
-
 
 </section>
 
 
-
-<!-- =====================================================
-     STATS
-===================================================== -->
 
 <section class="stats">
 
@@ -1130,7 +1153,6 @@ body {
     <div class="stat-label">
       TOTAL NEWS
     </div>
-
 
     <div class="stat-number">
 
@@ -1154,7 +1176,6 @@ body {
       UNREAD
     </div>
 
-
     <div class="stat-number">
 
       <strong id="unread">
@@ -1177,7 +1198,6 @@ body {
       TODAY
     </div>
 
-
     <div class="stat-number">
 
       <strong id="today">
@@ -1197,15 +1217,10 @@ body {
 
 
 
-<!-- =====================================================
-     FILTERS
-===================================================== -->
-
 <section class="filter-area">
 
 
   <div class="filter-group">
-
 
     <button
       class="filter-button active"
@@ -1233,13 +1248,11 @@ body {
 
     </button>
 
-
   </div>
 
 
 
   <div class="filter-group">
-
 
     <button
       class="filter-button active"
@@ -1267,7 +1280,6 @@ body {
 
     </button>
 
-
   </div>
 
 
@@ -1275,27 +1287,18 @@ body {
 
 
 
-<!-- =====================================================
-     NEWS
-===================================================== -->
-
 <section>
 
 
   <div class="news-header">
 
-
     <div class="news-heading">
 
-
-      <div class="news-heading-dot">
-      </div>
-
+      <div class="news-heading-dot"></div>
 
       <h2>
         Latest News
       </h2>
-
 
     </div>
 
@@ -1308,9 +1311,7 @@ body {
 
     </button>
 
-
   </div>
-
 
 
   <div
@@ -1318,13 +1319,10 @@ body {
     id="newsList">
 
     <div class="empty">
-
       ニュースを読み込んでいます…
-
     </div>
 
   </div>
-
 
 </section>
 
@@ -1340,8 +1338,7 @@ body {
 <nav class="mobile-nav">
 
 
-  <div
-    class="mobile-nav-item active">
+  <div class="mobile-nav-item active">
 
     <span class="mobile-icon">
       📰
@@ -1352,8 +1349,7 @@ body {
   </div>
 
 
-  <div
-    class="mobile-nav-item">
+  <div class="mobile-nav-item">
 
     <span class="mobile-icon">
       ⚾
@@ -1364,8 +1360,7 @@ body {
   </div>
 
 
-  <div
-    class="mobile-nav-item">
+  <div class="mobile-nav-item">
 
     <span class="mobile-icon">
       👤
@@ -1376,8 +1371,7 @@ body {
   </div>
 
 
-  <div
-    class="mobile-nav-item">
+  <div class="mobile-nav-item">
 
     <span class="mobile-icon">
       ⚙
@@ -1394,23 +1388,19 @@ body {
 
 <footer class="footer">
 
-
   <span>
     PHILLIES NEWS READER
   </span>
 
-
   <span>
     PERSONAL USE
   </span>
-
 
 </footer>
 
 
 
 <script>
-
 
 /* =========================================================
    NEWS DATA
@@ -1448,7 +1438,6 @@ async function loadNews() {
 
   try {
 
-
     const response =
       await fetch(
         "news.json?time=" +
@@ -1478,7 +1467,6 @@ async function loadNews() {
 
   } catch (error) {
 
-
     console.error(error);
 
 
@@ -1503,23 +1491,82 @@ async function loadNews() {
 
 
 /* =========================================================
+   REFRESH BUTTON
+========================================================= */
+
+const refreshButton =
+  document.getElementById(
+    "refreshButton"
+  );
+
+
+refreshButton.addEventListener(
+  "click",
+  async () => {
+
+    refreshButton.disabled = true;
+
+    refreshButton.textContent =
+      "↻ 更新中…";
+
+
+    try {
+
+      await loadNews();
+
+
+      refreshButton.textContent =
+        "✓ 更新完了";
+
+
+      setTimeout(
+        () => {
+
+          refreshButton.textContent =
+            "↻ 更新";
+
+        },
+        1500
+      );
+
+
+    } catch (error) {
+
+      console.error(error);
+
+      refreshButton.textContent =
+        "更新失敗";
+
+
+      setTimeout(
+        () => {
+
+          refreshButton.textContent =
+            "↻ 更新";
+
+        },
+        2000
+      );
+
+    } finally {
+
+      refreshButton.disabled = false;
+
+    }
+
+  }
+);
+
+
+/* =========================================================
    RENDER
 ========================================================= */
 
 function render() {
 
-
-  /*
-     現在時刻
-  */
-
   const now =
     new Date();
 
-
-  /*
-     選択された期間
-  */
 
   const limit =
     selectedDays *
@@ -1530,18 +1577,26 @@ function render() {
 
 
   /*
-     期間内の記事だけ表示
+     公開日時が取得できている記事だけ
+     期間フィルターの対象にする
   */
 
   let visible =
     articles.filter(
       article => {
 
+        if (
+          !article.published_at
+        ) {
+
+          return false;
+
+        }
+
 
         const date =
           new Date(
-            article.published_at ||
-            article.fetched_at
+            article.published_at
           );
 
 
@@ -1551,22 +1606,21 @@ function render() {
           )
         ) {
 
-          return true;
+          return false;
 
         }
 
 
         return (
-          now - date <= limit
+          now - date <= limit &&
+          now - date >= 0
         );
 
       }
     );
 
 
-  /*
-     READ / UNREAD
-  */
+  /* READ / UNREAD */
 
   if (
     selectedFilter === "read"
@@ -1598,9 +1652,7 @@ function render() {
   }
 
 
-  /*
-     TOTAL
-  */
+  /* TOTAL */
 
   document
     .getElementById(
@@ -1610,9 +1662,7 @@ function render() {
       visible.length;
 
 
-  /*
-     UNREAD
-  */
+  /* UNREAD */
 
   const unread =
     visible.filter(
@@ -1631,23 +1681,31 @@ function render() {
       unread;
 
 
-  /*
-     TODAY
-  */
+  /* TODAY */
 
   const today =
     articles.filter(
       article => {
 
+        if (
+          !article.published_at
+        ) {
+
+          return false;
+
+        }
+
 
         const date =
           new Date(
-            article.published_at ||
-            article.fetched_at
+            article.published_at
           );
 
 
         return (
+          !Number.isNaN(
+            date.getTime()
+          ) &&
           date.toDateString()
           ===
           now.toDateString()
@@ -1665,9 +1723,7 @@ function render() {
       today;
 
 
-  /*
-     NEWS LIST
-  */
+  /* NEWS LIST */
 
   const container =
     document.getElementById(
@@ -1679,7 +1735,6 @@ function render() {
     visible.length === 0
   ) {
 
-
     container.innerHTML = `
 
       <div class="empty">
@@ -1690,30 +1745,25 @@ function render() {
 
     `;
 
-
     return;
 
   }
 
 
-  /*
-     新しい記事を上にする
-  */
+  /* 新しい記事を上にする */
 
   visible.sort(
     (a, b) => {
 
       const dateA =
         new Date(
-          a.published_at ||
-          a.fetched_at
+          a.published_at
         );
 
 
       const dateB =
         new Date(
-          b.published_at ||
-          b.fetched_at
+          b.published_at
         );
 
 
@@ -1723,15 +1773,12 @@ function render() {
   );
 
 
-  /*
-     HTML生成
-  */
+  /* HTML生成 */
 
   container.innerHTML =
 
     visible.map(
       article => {
-
 
         const id =
           Number(
@@ -1766,14 +1813,12 @@ function render() {
 
           >
 
-
             <div
               class="news-indicator">
             </div>
 
 
             <div>
-
 
               <div
                 class="news-source">
@@ -1800,12 +1845,10 @@ function render() {
                 class="news-meta">
 
                 ${formatDate(
-                  article.published_at ||
-                  article.fetched_at
+                  article.published_at
                 )}
 
               </div>
-
 
             </div>
 
@@ -1836,9 +1879,7 @@ function render() {
     ).join("");
 
 
-  /*
-     記事クリック
-  */
+  /* 記事クリック */
 
   document
     .querySelectorAll(
@@ -1847,9 +1888,7 @@ function render() {
     .forEach(
       card => {
 
-
         card.onclick = () => {
-
 
           const id =
             Number(
@@ -1873,9 +1912,7 @@ function render() {
           }
 
 
-          /*
-             既読にする
-          */
+          /* 既読 */
 
           if (
             !readArticles.includes(
@@ -1898,9 +1935,7 @@ function render() {
           }
 
 
-          /*
-             元記事を開く
-          */
+          /* 元記事 */
 
           if (
             article.url
@@ -1928,10 +1963,7 @@ function render() {
    HTML ESCAPE
 ========================================================= */
 
-function escapeHTML(
-  value
-) {
-
+function escapeHTML(value) {
 
   if (!value) {
 
@@ -1974,14 +2006,11 @@ function escapeHTML(
    DATE FORMAT
 ========================================================= */
 
-function formatDate(
-  value
-) {
-
+function formatDate(value) {
 
   if (!value) {
 
-    return "";
+    return "日時不明";
 
   }
 
@@ -1996,7 +2025,7 @@ function formatDate(
     )
   ) {
 
-    return value;
+    return "日時不明";
 
   }
 
@@ -2032,9 +2061,7 @@ document
   .forEach(
     button => {
 
-
       button.onclick = () => {
-
 
         selectedDays =
           Number(
@@ -2080,9 +2107,7 @@ document
   .forEach(
     button => {
 
-
       button.onclick = () => {
-
 
         selectedFilter =
           button.dataset.filter;
@@ -2125,7 +2150,6 @@ document
   )
   .onclick = () => {
 
-
     readArticles = [];
 
 
@@ -2146,7 +2170,6 @@ document
 loadNews();
 
 </script>
-
 
 </body>
 
