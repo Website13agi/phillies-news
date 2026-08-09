@@ -2,8 +2,9 @@ import requests
 from bs4 import BeautifulSoup
 import json
 from datetime import datetime, timezone
-from urllib.parse import urljoin
+from urllib.parse import urljoin, quote
 import time
+import re
 
 
 MLB_URL = "https://www.mlb.com/phillies/news"
@@ -11,6 +12,72 @@ MLB_URL = "https://www.mlb.com/phillies/news"
 HEADERS = {
     "User-Agent": "Mozilla/5.0"
 }
+
+
+# =========================================================
+# 日本語翻訳
+# =========================================================
+
+def translate_to_japanese(text):
+
+    if not text:
+        return ""
+
+    try:
+
+        encoded_text = quote(text)
+
+        url = (
+            "https://api.mymemory.translated.net/get"
+            "?q=" + encoded_text
+            + "&langpair=en|ja"
+        )
+
+        response = requests.get(
+            url,
+            headers=HEADERS,
+            timeout=30
+        )
+
+        response.raise_for_status()
+
+        data = response.json()
+
+        translated = (
+            data
+            .get("responseData", {})
+            .get("translatedText", "")
+        )
+
+        if translated:
+
+            return translated.strip()
+
+    except Exception as error:
+
+        print(
+            "翻訳エラー:",
+            error
+        )
+
+    # 翻訳できなかった場合は英語を残す
+    return text
+
+
+# =========================================================
+# URLを正規化
+# =========================================================
+
+def normalize_url(url):
+
+    if not url:
+        return ""
+
+    # クエリや末尾のスラッシュを除去
+    url = url.split("?")[0]
+    url = url.rstrip("/")
+
+    return url
 
 
 # =========================================================
@@ -35,7 +102,10 @@ def get_article_title(url):
         )
 
 
+        # -------------------------------------------------
         # ① og:title
+        # -------------------------------------------------
+
         og_title = soup.find(
             "meta",
             property="og:title"
@@ -49,10 +119,14 @@ def get_article_title(url):
             ).strip()
 
             if title:
+
                 return title
 
 
+        # -------------------------------------------------
         # ② h1
+        # -------------------------------------------------
+
         h1 = soup.find("h1")
 
         if h1:
@@ -63,10 +137,14 @@ def get_article_title(url):
             )
 
             if title:
+
                 return title
 
 
+        # -------------------------------------------------
         # ③ titleタグ
+        # -------------------------------------------------
+
         if soup.title:
 
             title = soup.title.get_text(
@@ -76,10 +154,10 @@ def get_article_title(url):
 
             if title:
 
-                # MLB | MLB.com のような部分を除去
                 title = title.split("|")[0].strip()
 
                 if title:
+
                     return title
 
 
@@ -95,7 +173,7 @@ def get_article_title(url):
 
 
 # =========================================================
-# ニュース一覧から記事URLを取得
+# ニュース記事URLを取得
 # =========================================================
 
 def get_article_urls():
@@ -114,7 +192,8 @@ def get_article_urls():
     )
 
     urls = []
-    seen = set()
+
+    seen_urls = set()
 
 
     for link in soup.find_all(
@@ -141,21 +220,64 @@ def get_article_urls():
         )
 
 
-        # 重複除外
-        if href in seen:
+        # URL正規化
+        normalized =
+            normalize_url(href)
+
+
+        if not normalized:
             continue
 
 
-        seen.add(href)
+        # URLによる重複除去
+        if normalized in seen_urls:
+            continue
 
-        urls.append(href)
+
+        seen_urls.add(
+            normalized
+        )
 
 
-        if len(urls) >= 30:
+        urls.append(
+            normalized
+        )
+
+
+        # 最大40記事取得
+        if len(urls) >= 40:
             break
 
 
     return urls
+
+
+# =========================================================
+# タイトルの重複を判定するための正規化
+# =========================================================
+
+def normalize_title(title):
+
+    if not title:
+        return ""
+
+    title = title.lower()
+
+    # 記号を除去
+    title = re.sub(
+        r"[^a-z0-9\s]",
+        "",
+        title
+    )
+
+    # 連続スペースを1つに
+    title = re.sub(
+        r"\s+",
+        " ",
+        title
+    )
+
+    return title.strip()
 
 
 # =========================================================
@@ -168,6 +290,10 @@ def fetch_news():
 
     articles = []
 
+    seen_urls = set()
+
+    seen_titles = set()
+
 
     for url in urls:
 
@@ -177,35 +303,110 @@ def fetch_news():
         )
 
 
+        # -------------------------------------------------
+        # URL重複チェック
+        # -------------------------------------------------
+
+        normalized_url =
+            normalize_url(url)
+
+
+        if normalized_url in seen_urls:
+
+            print(
+                "重複URL → スキップ"
+            )
+
+            continue
+
+
+        seen_urls.add(
+            normalized_url
+        )
+
+
+        # -------------------------------------------------
+        # タイトル取得
+        # -------------------------------------------------
+
         title = get_article_title(
-            url
+            normalized_url
         )
 
 
         if not title:
 
             print(
-                "タイトルを取得できませんでした"
+                "タイトル取得失敗 → スキップ"
             )
 
             continue
 
 
-        # 「続きを読む」などは除外
-        if title in [
+        # -------------------------------------------------
+        # 「続きを読む」などを除外
+        # -------------------------------------------------
+
+        if title.lower() in [
             "続きを読む",
-            "Read More",
-            "Read more"
+            "read more",
+            "read more..."
         ]:
+
+            print(
+                "無効なタイトル → スキップ"
+            )
 
             continue
 
 
+        # -------------------------------------------------
+        # タイトル重複チェック
+        # -------------------------------------------------
+
+        title_key =
+            normalize_title(title)
+
+
+        if title_key in seen_titles:
+
+            print(
+                "重複タイトル → スキップ"
+            )
+
+            continue
+
+
+        seen_titles.add(
+            title_key
+        )
+
+
         print(
-            "タイトル:",
+            "英語:",
             title
         )
 
+
+        # -------------------------------------------------
+        # 日本語翻訳
+        # -------------------------------------------------
+
+        japanese_title =
+            translate_to_japanese(
+                title
+            )
+
+
+        print(
+            "日本語:",
+            japanese_title
+        )
+
+
+        # -------------------------------------------------
+        # 記事データ
+        # -------------------------------------------------
 
         articles.append({
 
@@ -216,10 +417,10 @@ def fetch_news():
                 title,
 
             "title_ja":
-                title,
+                japanese_title,
 
             "url":
-                url,
+                normalized_url,
 
             "source":
                 "MLB.com",
@@ -236,7 +437,9 @@ def fetch_news():
         time.sleep(0.5)
 
 
+        # 最大30記事
         if len(articles) >= 30:
+
             break
 
 
@@ -244,7 +447,7 @@ def fetch_news():
 
 
 # =========================================================
-# JSON保存
+# news.json保存
 # =========================================================
 
 def main():
@@ -280,7 +483,15 @@ def main():
 
 
     print(
+        "================================"
+    )
+
+    print(
         f"{len(articles)} articles saved."
+    )
+
+    print(
+        "================================"
     )
 
 
