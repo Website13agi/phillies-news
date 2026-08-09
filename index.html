@@ -9,16 +9,21 @@
 <meta name="viewport"
       content="width=device-width, initial-scale=1.0">
 
-<title>Phillies | News Reader</title>
+<title>Phillies News Reader</title>
+
 
 <style>
 
-/* =========================
+/* =========================================================
    BASE
-========================= */
+========================================================= */
 
 * {
   box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 :root {
@@ -27,27 +32,24 @@
   --red-dark: #c8102e;
 
   --blue: #002d72;
-  --navy: #071b3a;
+  --navy: #061a36;
 
-  --bg: #f3f4f6;
+  --background: #f3f4f6;
   --white: #ffffff;
 
-  --text: #111827;
-  --muted: #7a818c;
+  --text: #101828;
+  --muted: #737b88;
 
-  --border: #e3e6eb;
+  --line: #e3e7ec;
 
 }
 
-html {
-  scroll-behavior: smooth;
-}
 
 body {
 
   margin: 0;
 
-  background: var(--bg);
+  background: var(--background);
 
   color: var(--text);
 
@@ -61,19 +63,20 @@ body {
 }
 
 
-/* =========================
-   TOP BAR
-========================= */
+/* =========================================================
+   HEADER
+========================================================= */
 
-.topbar {
+.header {
 
-  height: 68px;
+  height: 70px;
 
   background:
     linear-gradient(
       90deg,
-      var(--red),
-      #ed1c2e
+      #d7192d 0%,
+      #e81828 60%,
+      #ef2434 100%
     );
 
   color: white;
@@ -84,7 +87,7 @@ body {
 
   justify-content: space-between;
 
-  padding: 0 28px;
+  padding: 0 30px;
 
   position: sticky;
 
@@ -93,7 +96,8 @@ body {
   z-index: 100;
 
   box-shadow:
-    0 3px 15px rgba(0,0,0,.18);
+    0 3px 15px
+    rgba(0,0,0,.18);
 
 }
 
@@ -109,17 +113,17 @@ body {
 }
 
 
-.brand-logo {
+.logo {
 
   width: 40px;
 
   height: 40px;
 
+  border-radius: 50%;
+
   background: white;
 
   color: var(--red);
-
-  border-radius: 50%;
 
   display: flex;
 
@@ -134,7 +138,7 @@ body {
 }
 
 
-.brand-name {
+.brand-title {
 
   font-size: 19px;
 
@@ -145,7 +149,7 @@ body {
 }
 
 
-.brand-sub {
+.brand-subtitle {
 
   font-size: 8px;
 
@@ -166,56 +170,61 @@ body {
 
   border-radius: 10px;
 
-  background: rgba(255,255,255,.12);
+  background:
+    rgba(255,255,255,.12);
 
   color: white;
 
-  font-size: 22px;
+  font-size: 21px;
 
 }
 
 
-/* =========================
+/* =========================================================
    MAIN
-========================= */
+========================================================= */
 
-.container {
+.main {
 
   max-width: 1080px;
 
   margin: auto;
 
-  padding: 24px 18px 80px;
+  padding:
+    24px
+    18px
+    90px;
 
 }
 
 
-/* =========================
+/* =========================================================
    HERO
-========================= */
+========================================================= */
 
 .hero {
 
-  min-height: 260px;
-
-  border-radius: 22px;
+  position: relative;
 
   overflow: hidden;
 
-  position: relative;
+  min-height: 285px;
 
-  color: white;
+  border-radius: 22px;
 
   background:
-
     linear-gradient(
       135deg,
       #002d72 0%,
-      #071b3a 100%
+      #071b3a 70%,
+      #020b19 100%
     );
 
+  color: white;
+
   box-shadow:
-    0 10px 35px rgba(0,45,114,.20);
+    0 12px 40px
+    rgba(0,45,114,.20);
 
 }
 
@@ -226,19 +235,19 @@ body {
 
   position: absolute;
 
-  width: 420px;
+  width: 480px;
 
-  height: 420px;
+  height: 480px;
 
   border-radius: 50%;
 
   border:
-    65px solid
+    70px solid
     rgba(255,255,255,.035);
 
-  right: -170px;
+  right: -200px;
 
-  top: -210px;
+  top: -260px;
 
 }
 
@@ -249,19 +258,19 @@ body {
 
   position: absolute;
 
-  width: 200px;
+  width: 240px;
 
-  height: 200px;
+  height: 240px;
 
   border-radius: 50%;
 
   border:
-    30px solid
-    rgba(232,24,40,.20);
+    32px solid
+    rgba(232,24,40,.18);
 
   right: 80px;
 
-  bottom: -140px;
+  bottom: -160px;
 
 }
 
@@ -272,12 +281,12 @@ body {
 
   z-index: 2;
 
-  padding: 38px;
+  padding: 43px;
 
 }
 
 
-.hero-tag {
+.hero-kicker {
 
   font-size: 10px;
 
@@ -285,21 +294,24 @@ body {
 
   letter-spacing: 3px;
 
-  color: #cbd8ec;
+  color:
+    #bfcce0;
 
 }
 
 
-.hero h1 {
+.hero-title {
 
-  margin: 12px 0 8px;
+  margin:
+    12px 0
+    10px;
 
   font-size:
-    clamp(40px, 7vw, 68px);
+    clamp(42px, 7vw, 70px);
 
-  line-height: .95;
+  line-height: .9;
 
-  letter-spacing: -3px;
+  letter-spacing: -4px;
 
 }
 
@@ -308,31 +320,31 @@ body {
 
   margin: 0;
 
-  color: #cbd8ec;
+  color: #c6d2e4;
 
   font-size: 14px;
 
 }
 
 
-.hero-line {
+.hero-accent {
 
-  width: 60px;
+  width: 58px;
 
   height: 4px;
 
-  margin-top: 22px;
+  margin-top: 24px;
 
   background: var(--red);
 
-  border-radius: 5px;
+  border-radius: 10px;
 
 }
 
 
-/* =========================
+/* =========================================================
    STATS
-========================= */
+========================================================= */
 
 .stats {
 
@@ -341,9 +353,9 @@ body {
   grid-template-columns:
     repeat(3, 1fr);
 
-  gap: 12px;
+  gap: 10px;
 
-  margin-top: 14px;
+  margin-top: 13px;
 
 }
 
@@ -352,18 +364,18 @@ body {
 
   background: white;
 
-  border: 1px solid var(--border);
+  border:
+    1px solid
+    var(--line);
 
   border-radius: 14px;
 
-  padding: 17px 19px;
+  padding: 18px 20px;
 
 }
 
 
 .stat-label {
-
-  color: var(--muted);
 
   font-size: 9px;
 
@@ -371,12 +383,12 @@ body {
 
   letter-spacing: 1.5px;
 
+  color: var(--muted);
+
 }
 
 
 .stat-number {
-
-  margin-top: 4px;
 
   display: flex;
 
@@ -384,36 +396,39 @@ body {
 
   gap: 6px;
 
+  margin-top: 3px;
+
 }
 
 
 .stat-number strong {
 
-  font-size: 27px;
+  font-size: 28px;
 
 }
 
 
 .stat-number span {
 
-  color: var(--muted);
+  font-size: 10px;
 
-  font-size: 11px;
+  color: var(--muted);
 
 }
 
 
-/* =========================
-   TOOLBAR
-========================= */
+/* =========================================================
+   FILTER BAR
+========================================================= */
 
-.toolbar {
+.filter-area {
 
-  margin-top: 22px;
+  margin-top: 23px;
 
   display: flex;
 
-  justify-content: space-between;
+  justify-content:
+    space-between;
 
   align-items: center;
 
@@ -424,22 +439,26 @@ body {
 }
 
 
-.pills {
+.filter-group {
 
   display: flex;
 
+  gap: 3px;
+
   background: white;
 
-  padding: 4px;
+  border:
+    1px solid
+    var(--line);
 
-  border: 1px solid var(--border);
+  padding: 4px;
 
   border-radius: 11px;
 
 }
 
 
-.pill {
+.filter-button {
 
   border: 0;
 
@@ -447,7 +466,8 @@ body {
 
   color: var(--muted);
 
-  padding: 9px 15px;
+  padding:
+    9px 15px;
 
   border-radius: 8px;
 
@@ -460,14 +480,15 @@ body {
 }
 
 
-.pill:hover {
+.filter-button:hover {
 
-  background: #f0f2f5;
+  background:
+    #f1f3f5;
 
 }
 
 
-.pill.active {
+.filter-button.active {
 
   color: white;
 
@@ -476,42 +497,38 @@ body {
 }
 
 
-/* =========================
-   SECTION
-========================= */
+/* =========================================================
+   NEWS HEADER
+========================================================= */
 
-.section {
-
-  margin-top: 28px;
-
-}
-
-
-.section-top {
+.news-header {
 
   display: flex;
 
-  justify-content: space-between;
+  justify-content:
+    space-between;
 
   align-items: center;
 
-  margin-bottom: 12px;
+  margin-top: 30px;
+
+  margin-bottom: 11px;
 
 }
 
 
-.section-title {
+.news-heading {
 
   display: flex;
 
   align-items: center;
 
-  gap: 8px;
+  gap: 9px;
 
 }
 
 
-.red-dot {
+.news-heading-dot {
 
   width: 8px;
 
@@ -524,7 +541,7 @@ body {
 }
 
 
-.section-title h2 {
+.news-heading h2 {
 
   margin: 0;
 
@@ -533,7 +550,7 @@ body {
 }
 
 
-.reset {
+.reset-button {
 
   border: 0;
 
@@ -550,9 +567,9 @@ body {
 }
 
 
-/* =========================
-   NEWS CARD
-========================= */
+/* =========================================================
+   NEWS LIST
+========================================================= */
 
 .news-list {
 
@@ -567,24 +584,30 @@ body {
 
   background: white;
 
-  border: 1px solid var(--border);
+  border:
+    1px solid
+    var(--line);
 
   border-radius: 13px;
 
-  padding: 17px;
+  padding:
+    17px 18px;
 
   display: grid;
 
-  grid-template-columns: 5px 1fr auto;
+  grid-template-columns:
+    5px
+    minmax(0, 1fr)
+    auto;
 
   gap: 15px;
 
   cursor: pointer;
 
   transition:
-    transform .15s,
-    box-shadow .15s,
-    border .15s;
+    transform .14s ease,
+    box-shadow .14s ease,
+    border-color .14s ease;
 
 }
 
@@ -604,9 +627,10 @@ body {
 }
 
 
-.news-line {
+.news-indicator {
 
-  background: var(--red);
+  background:
+    var(--red);
 
   border-radius: 10px;
 
@@ -614,9 +638,10 @@ body {
 
 
 .news-card.read
-.news-line {
+.news-indicator {
 
-  background: #cbd0d7;
+  background:
+    #cbd0d7;
 
 }
 
@@ -650,12 +675,17 @@ body {
 .news-card.read
 .news-title {
 
-  color: #858b94;
+  color:
+    #858b94;
 
 }
 
 
-.news-info {
+.news-meta {
+
+  display: flex;
+
+  gap: 10px;
 
   margin-top: 7px;
 
@@ -666,13 +696,14 @@ body {
 }
 
 
-.badge {
+.news-status {
 
   align-self: center;
 
-  border-radius: 20px;
+  padding:
+    5px 9px;
 
-  padding: 5px 9px;
+  border-radius: 20px;
 
   font-size: 9px;
 
@@ -683,39 +714,43 @@ body {
 }
 
 
-.badge.unread {
+.news-status.unread {
 
   color: var(--red);
 
-  background: #fff0f1;
+  background:
+    #fff0f1;
 
 }
 
 
-.badge.read {
+.news-status.read {
 
   color: #777e88;
 
-  background: #f1f2f4;
+  background:
+    #f1f2f4;
 
 }
 
 
-/* =========================
+/* =========================================================
    EMPTY
-========================= */
+========================================================= */
 
 .empty {
 
   background: white;
 
-  border: 1px dashed #cfd4da;
+  border:
+    1px dashed
+    #cdd3da;
 
   border-radius: 14px;
 
-  text-align: center;
-
   padding: 55px 20px;
+
+  text-align: center;
 
   color: var(--muted);
 
@@ -724,20 +759,20 @@ body {
 }
 
 
-/* =========================
-   BOTTOM NAV
-========================= */
+/* =========================================================
+   MOBILE NAV
+========================================================= */
 
-.bottom-nav {
+.mobile-nav {
 
   display: none;
 
 }
 
 
-/* =========================
+/* =========================================================
    FOOTER
-========================= */
+========================================================= */
 
 .footer {
 
@@ -745,13 +780,17 @@ body {
 
   margin: auto;
 
-  padding: 0 18px 35px;
+  padding:
+    0 18px
+    35px;
 
   display: flex;
 
-  justify-content: space-between;
+  justify-content:
+    space-between;
 
-  color: #9aa0a8;
+  color:
+    #9aa1aa;
 
   font-size: 9px;
 
@@ -760,23 +799,24 @@ body {
 }
 
 
-/* =========================
+/* =========================================================
    MOBILE
-========================= */
+========================================================= */
 
 @media(max-width: 700px) {
 
 
-  .topbar {
+  .header {
 
     height: 62px;
 
-    padding: 0 15px;
+    padding:
+      0 15px;
 
   }
 
 
-  .brand-logo {
+  .logo {
 
     width: 36px;
 
@@ -787,26 +827,26 @@ body {
   }
 
 
-  .brand-name {
+  .brand-title {
 
     font-size: 16px;
 
   }
 
 
-  .container {
+  .main {
 
     padding:
       12px
       11px
-      85px;
+      82px;
 
   }
 
 
   .hero {
 
-    min-height: 230px;
+    min-height: 245px;
 
     border-radius: 17px;
 
@@ -815,14 +855,18 @@ body {
 
   .hero-content {
 
-    padding: 28px 23px;
+    padding:
+      31px 24px;
 
   }
 
 
-  .hero h1 {
+  .hero-title {
 
-    font-size: 40px;
+    font-size: 42px;
+
+    letter-spacing:
+      -2.5px;
 
   }
 
@@ -835,14 +879,29 @@ body {
   }
 
 
-  .stats .stat:last-child {
+  .stat:last-child {
 
     display: none;
 
   }
 
 
-  .toolbar {
+  .stat {
+
+    padding:
+      15px;
+
+  }
+
+
+  .stat-number strong {
+
+    font-size: 24px;
+
+  }
+
+
+  .filter-area {
 
     display: grid;
 
@@ -851,20 +910,19 @@ body {
   }
 
 
-  .pills {
+  .filter-group {
 
     width: 100%;
 
   }
 
 
-  .pill {
+  .filter-button {
 
     flex: 1;
 
     padding:
-      10px
-      4px;
+      10px 4px;
 
   }
 
@@ -872,14 +930,16 @@ body {
   .news-card {
 
     grid-template-columns:
-      5px 1fr;
+      5px
+      minmax(0, 1fr);
 
-    padding: 15px;
+    padding:
+      15px;
 
   }
 
 
-  .badge {
+  .news-status {
 
     display: none;
 
@@ -893,11 +953,11 @@ body {
   }
 
 
-  .bottom-nav {
-
-    display: flex;
+  .mobile-nav {
 
     position: fixed;
+
+    display: flex;
 
     bottom: 0;
 
@@ -910,7 +970,8 @@ body {
     background: white;
 
     border-top:
-      1px solid var(--border);
+      1px solid
+      var(--line);
 
     z-index: 200;
 
@@ -922,27 +983,27 @@ body {
   }
 
 
-  .bottom-item {
+  .mobile-nav-item {
 
     text-align: center;
 
-    color: #9aa0a8;
+    color: #9299a3;
 
-    font-size: 9px;
+    font-size: 8px;
 
-    font-weight: 800;
+    font-weight: 900;
 
   }
 
 
-  .bottom-item.active {
+  .mobile-nav-item.active {
 
     color: var(--red);
 
   }
 
 
-  .bottom-icon {
+  .mobile-icon {
 
     display: block;
 
@@ -970,29 +1031,33 @@ body {
 <body>
 
 
-<!-- =========================
+<!-- =====================================================
      HEADER
-========================= -->
+===================================================== -->
 
-<header class="topbar">
+<header class="header">
+
 
   <div class="brand">
 
-    <div class="brand-logo">
+
+    <div class="logo">
       P
     </div>
 
+
     <div>
 
-      <div class="brand-name">
+      <div class="brand-title">
         PHILLIES
       </div>
 
-      <div class="brand-sub">
+      <div class="brand-subtitle">
         NEWS READER
       </div>
 
     </div>
+
 
   </div>
 
@@ -1001,45 +1066,58 @@ body {
     ☰
   </button>
 
+
 </header>
 
 
 
-<main class="container">
+<!-- =====================================================
+     MAIN
+===================================================== -->
+
+<main class="main">
 
 
-<!-- =========================
-     HERO
-========================= -->
+<!-- HERO -->
 
 <section class="hero">
 
+
   <div class="hero-content">
 
-    <div class="hero-tag">
+
+    <div class="hero-kicker">
       PHILADELPHIA PHILLIES
     </div>
 
-    <h1>
+
+    <h1 class="hero-title">
+
       Phillies<br>
       News
+
     </h1>
 
+
     <p class="hero-description">
-      フィリーズ関連ニュースをまとめてチェック
+
+      フィリーズ関連ニュースを
+      まとめてチェック
+
     </p>
 
-    <div class="hero-line"></div>
+
+    <div class="hero-accent"></div>
+
 
   </div>
+
 
 </section>
 
 
 
-<!-- =========================
-     STATS
-========================= -->
+<!-- STATS -->
 
 <section class="stats">
 
@@ -1049,6 +1127,7 @@ body {
     <div class="stat-label">
       TOTAL NEWS
     </div>
+
 
     <div class="stat-number">
 
@@ -1072,6 +1151,7 @@ body {
       UNREAD
     </div>
 
+
     <div class="stat-number">
 
       <strong id="unread">
@@ -1094,6 +1174,7 @@ body {
       TODAY
     </div>
 
+
     <div class="stat-number">
 
       <strong>
@@ -1113,56 +1194,74 @@ body {
 
 
 
-<!-- =========================
-     FILTER
-========================= -->
+<!-- FILTERS -->
 
-<section class="toolbar">
+<section class="filter-area">
 
 
-  <div class="pills">
+  <div class="filter-group">
+
 
     <button
-      class="pill active"
+      class="filter-button active"
       data-days="1">
-      1日
+
+      1 DAY
+
     </button>
 
+
     <button
-      class="pill"
+      class="filter-button"
       data-days="3">
-      3日
+
+      3 DAYS
+
     </button>
 
+
     <button
-      class="pill"
+      class="filter-button"
       data-days="7">
-      7日
+
+      7 DAYS
+
     </button>
+
 
   </div>
 
 
 
-  <div class="pills">
+  <div class="filter-group">
+
 
     <button
-      class="pill active"
+      class="filter-button active"
       data-filter="all">
-      すべて
+
+      ALL
+
     </button>
 
+
     <button
-      class="pill"
+      class="filter-button"
       data-filter="unread">
-      未読
+
+      UNREAD
+
     </button>
 
+
     <button
-      class="pill"
+      class="filter-button"
       data-filter="read">
-      既読
+
+      READ
+
     </button>
+
 
   </div>
 
@@ -1171,31 +1270,37 @@ body {
 
 
 
-<!-- =========================
-     NEWS
-========================= -->
+<!-- NEWS -->
 
-<section class="section">
+<section>
 
 
-  <div class="section-top">
+  <div class="news-header">
 
-    <div class="section-title">
 
-      <div class="red-dot"></div>
+    <div class="news-heading">
+
+
+      <div class="news-heading-dot">
+      </div>
+
 
       <h2>
         Latest News
       </h2>
 
+
     </div>
 
 
     <button
-      class="reset"
+      class="reset-button"
       id="reset">
-      既読をリセット
+
+      RESET READ
+
     </button>
+
 
   </div>
 
@@ -1204,6 +1309,7 @@ body {
   <div
     class="news-list"
     id="newsList">
+
   </div>
 
 
@@ -1214,16 +1320,17 @@ body {
 
 
 
-<!-- =========================
+<!-- =====================================================
      MOBILE NAV
-========================= -->
+===================================================== -->
 
-<nav class="bottom-nav">
+<nav class="mobile-nav">
 
 
-  <div class="bottom-item active">
+  <div
+    class="mobile-nav-item active">
 
-    <span class="bottom-icon">
+    <span class="mobile-icon">
       📰
     </span>
 
@@ -1232,9 +1339,10 @@ body {
   </div>
 
 
-  <div class="bottom-item">
+  <div
+    class="mobile-nav-item">
 
-    <span class="bottom-icon">
+    <span class="mobile-icon">
       ⚾
     </span>
 
@@ -1243,9 +1351,10 @@ body {
   </div>
 
 
-  <div class="bottom-item">
+  <div
+    class="mobile-nav-item">
 
-    <span class="bottom-icon">
+    <span class="mobile-icon">
       👤
     </span>
 
@@ -1254,9 +1363,10 @@ body {
   </div>
 
 
-  <div class="bottom-item">
+  <div
+    class="mobile-nav-item">
 
-    <span class="bottom-icon">
+    <span class="mobile-icon">
       ⚙
     </span>
 
@@ -1271,13 +1381,16 @@ body {
 
 <footer class="footer">
 
+
   <span>
     PHILLIES NEWS READER
   </span>
 
+
   <span>
     PERSONAL USE
   </span>
+
 
 </footer>
 
@@ -1286,12 +1399,13 @@ body {
 <script>
 
 
-/* =========================
-   SAMPLE ARTICLES
-========================= */
+/* =====================================================
+   SAMPLE DATA
+===================================================== */
 
 
 const articles = [
+
 
   {
     id: 1,
@@ -1300,7 +1414,7 @@ const articles = [
     title:
       "Phillies continue to build around their core",
     time:
-      "今日 10:20"
+      "Today · 10:20"
   },
 
 
@@ -1311,7 +1425,7 @@ const articles = [
     title:
       "What is working for Philadelphia right now?",
     time:
-      "今日 08:45"
+      "Today · 08:45"
   },
 
 
@@ -1323,18 +1437,19 @@ const articles = [
     title:
       "Phillies prepare for another important series",
     time:
-      "昨日 21:30"
+      "Yesterday · 21:30"
   },
 
 
   {
     id: 4,
     days: 3,
-    source: "MLB.COM",
+    source:
+      "MLB.COM",
     title:
       "Pitching staff showing signs of improvement",
     time:
-      "8月8日 18:10"
+      "Aug 8 · 18:10"
   },
 
 
@@ -1346,7 +1461,7 @@ const articles = [
     title:
       "The latest on the Phillies roster",
     time:
-      "8月6日 12:05"
+      "Aug 6 · 12:05"
   },
 
 
@@ -1358,24 +1473,24 @@ const articles = [
     title:
       "Five things to watch around the Phillies",
     time:
-      "8月3日 09:15"
+      "Aug 3 · 09:15"
   }
 
 ];
 
 
 
-/* =========================
+/* =====================================================
    STATE
-========================= */
+===================================================== */
 
 
-let days = 1;
+let selectedDays = 1;
 
-let filter = "all";
+let selectedFilter = "all";
 
 
-let read =
+let readArticles =
   JSON.parse(
     localStorage.getItem(
       "phillies-read"
@@ -1384,70 +1499,85 @@ let read =
 
 
 
-/* =========================
+/* =====================================================
    RENDER
-========================= */
+===================================================== */
 
 
 function render() {
 
 
-  let list =
+  let visible =
     articles.filter(
       article =>
-        article.days <= days
+        article.days <= selectedDays
     );
 
 
-  if (filter === "read") {
+  if (
+    selectedFilter === "read"
+  ) {
 
-    list =
-      list.filter(
+    visible =
+      visible.filter(
         article =>
-          read.includes(article.id)
+          readArticles.includes(
+            article.id
+          )
       );
 
   }
 
 
-  if (filter === "unread") {
+  if (
+    selectedFilter === "unread"
+  ) {
 
-    list =
-      list.filter(
+    visible =
+      visible.filter(
         article =>
-          !read.includes(article.id)
+          !readArticles.includes(
+            article.id
+          )
       );
 
   }
 
 
 
-  /* stats */
+  /* TOTAL */
 
 
   const total =
     articles.filter(
       article =>
-        article.days <= days
+        article.days <= selectedDays
     ).length;
+
+
+  /* UNREAD */
 
 
   const unread =
     articles.filter(
       article =>
-        article.days <= days &&
-        !read.includes(article.id)
+        article.days <= selectedDays &&
+        !readArticles.includes(
+          article.id
+        )
     ).length;
 
 
   document
     .getElementById("total")
-    .textContent = total;
+    .textContent =
+      total;
 
 
   document
     .getElementById("unread")
-    .textContent = unread;
+    .textContent =
+      unread;
 
 
 
@@ -1458,7 +1588,9 @@ function render() {
 
 
 
-  if (!list.length) {
+  if (
+    visible.length === 0
+  ) {
 
     container.innerHTML = `
 
@@ -1478,90 +1610,103 @@ function render() {
 
   container.innerHTML =
 
-    list.map(article => {
+    visible.map(
+      article => {
 
 
-      const isRead =
-        read.includes(
-          article.id
-        );
+        const isRead =
+          readArticles.includes(
+            article.id
+          );
 
 
-      return `
+        return `
 
-        <article
-          class="
-            news-card
-            ${isRead ? "read" : ""}
-          "
-          data-id="${article.id}"
-        >
-
-
-          <div
-            class="news-line">
-          </div>
-
-
-          <div>
-
-
-            <div
-              class="news-source">
-
-              ${article.source}
-
-            </div>
-
-
-            <div
-              class="news-title">
-
-              ${article.title}
-
-            </div>
-
-
-            <div
-              class="news-info">
-
-              ${article.time}
-
-            </div>
-
-
-          </div>
-
-
-          <div
+          <article
             class="
-              badge
+              news-card
               ${isRead
                 ? "read"
-                : "unread"}
+                : ""}
             "
+            data-id="${article.id}"
           >
 
-            ${isRead
-              ? "既読"
-              : "未読"}
 
-          </div>
-
-
-        </article>
-
-      `;
-
-    }).join("");
+            <div
+              class="
+                news-indicator
+              ">
+            </div>
 
 
+            <div>
 
-  /* click */
+
+              <div
+                class="
+                  news-source
+                ">
+
+                ${article.source}
+
+              </div>
+
+
+              <div
+                class="
+                  news-title
+                ">
+
+                ${article.title}
+
+              </div>
+
+
+              <div
+                class="
+                  news-meta
+                ">
+
+                ${article.time}
+
+              </div>
+
+
+            </div>
+
+
+            <div
+              class="
+                news-status
+                ${isRead
+                  ? "read"
+                  : "unread"}
+              ">
+
+              ${isRead
+                ? "READ"
+                : "UNREAD"}
+
+            </div>
+
+
+          </article>
+
+        `;
+
+      }
+    ).join("");
+
+
+
+  /* ARTICLE CLICK */
 
 
   document
-    .querySelectorAll(".news-card")
+    .querySelectorAll(
+      ".news-card"
+    )
     .forEach(card => {
 
 
@@ -1575,24 +1720,27 @@ function render() {
 
 
         if (
-          read.includes(id)
+          readArticles.includes(id)
         ) {
 
-          read =
-            read.filter(
-              x => x !== id
+          readArticles =
+            readArticles.filter(
+              x =>
+                x !== id
             );
 
         } else {
 
-          read.push(id);
+          readArticles.push(id);
 
         }
 
 
         localStorage.setItem(
           "phillies-read",
-          JSON.stringify(read)
+          JSON.stringify(
+            readArticles
+          )
         );
 
 
@@ -1606,9 +1754,9 @@ function render() {
 
 
 
-/* =========================
-   PERIOD
-========================= */
+/* =====================================================
+   DAY FILTER
+===================================================== */
 
 
 document
@@ -1621,7 +1769,7 @@ document
     button.onclick = () => {
 
 
-      days =
+      selectedDays =
         Number(
           button.dataset.days
         );
@@ -1632,8 +1780,8 @@ document
           "[data-days]"
         )
         .forEach(
-          b =>
-            b.classList.remove(
+          item =>
+            item.classList.remove(
               "active"
             )
         );
@@ -1652,9 +1800,9 @@ document
 
 
 
-/* =========================
-   FILTER
-========================= */
+/* =====================================================
+   READ FILTER
+===================================================== */
 
 
 document
@@ -1667,7 +1815,7 @@ document
     button.onclick = () => {
 
 
-      filter =
+      selectedFilter =
         button.dataset.filter;
 
 
@@ -1676,8 +1824,8 @@ document
           "[data-filter]"
         )
         .forEach(
-          b =>
-            b.classList.remove(
+          item =>
+            item.classList.remove(
               "active"
             )
         );
@@ -1696,17 +1844,19 @@ document
 
 
 
-/* =========================
+/* =====================================================
    RESET
-========================= */
+===================================================== */
 
 
 document
-  .getElementById("reset")
+  .getElementById(
+    "reset"
+  )
   .onclick = () => {
 
 
-    read = [];
+    readArticles = [];
 
 
     localStorage.removeItem(
@@ -1720,9 +1870,9 @@ document
 
 
 
-/* =========================
+/* =====================================================
    START
-========================= */
+===================================================== */
 
 
 render();
