@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-09T20:00:36.194595+00:00",
+  "updated_at": "2026-08-09T21:52:19.622609+00:00",
   "articles": [
     {
       "id": "f176402e869190c9",
@@ -26,12 +26,36 @@
       "published_at": "2026-03-10T00:00:00+00:00"
     },
     {
+      "id": "64b4a59f3ab5c9c0",
+      "title_en": "Schwarber snaps dinger drought with 2 HRs in walk-off win",
+      "title_ja": "Schwarberは、ウォークオフ勝利で2人のHRでジンガーの干ばつをスナップします",
+      "url": "https://www.mlb.com/phillies/news/kyle-schwarber-hits-two-homers-in-phillies-walk-off-win",
+      "source": "MLB.com",
+      "published_at": "2026-08-09T21:33:21.866000+00:00"
+    },
+    {
+      "id": "894e8740f17d708b",
+      "title_en": "Phillies give 4 former players their 'Moonlight' moment in ode to Field of Dreams",
+      "title_ja": "フィリーズは、4人の元プレイヤーにField of Dreamsの「月光」の瞬間を与えます",
+      "url": "https://www.mlb.com/phillies/news/phillies-host-former-players-in-ode-to-moonlight-graham-from-field-of-dreams",
+      "source": "MLB.com",
+      "published_at": "2026-08-09T20:46:44.630000+00:00"
+    },
+    {
       "id": "a56c4fc2a0aab7cb",
       "title_en": "Comebacker ends Nola's night after he notches milestone 2,000th K",
       "title_ja": "カムバックする者がマイルストーン2,000 Kを達成した後、ノラの夜を終わらせる",
       "url": "https://www.mlb.com/phillies/news/aaron-nola-exits-start-after-being-struck-on-right-knee",
       "source": "MLB.com",
       "published_at": "2026-08-09T04:59:00+00:00"
+    },
+    {
+      "id": "8176b8558347633c",
+      "title_en": "Price drop! Stream games on PHILLIES.TV",
+      "title_ja": "値下げ！ PHILLIES.TVでゲームをストリーミング",
+      "url": "https://www.mlb.com/phillies/news/phillies-tv-stream-2026",
+      "source": "MLB.com",
+      "published_at": "2026-08-03T16:23:00+00:00"
     },
     {
       "id": "145ad6665eab1814",
@@ -50,12 +74,12 @@
       "published_at": "2026-08-08T05:44:00+00:00"
     },
     {
-      "id": "8176b8558347633c",
-      "title_en": "Price drop! Stream games on PHILLIES.TV",
-      "title_ja": "値下げ！ PHILLIES.TVでゲームをストリーミング",
-      "url": "https://www.mlb.com/phillies/news/phillies-tv-stream-2026",
+      "id": "3f91d4c204f9aeb6",
+      "title_en": "Latest Phillies injuries & transactions",
+      "title_ja": "最新のフィリーズの怪我と取引",
+      "url": "https://www.mlb.com/phillies/news/phillies-injuries-and-roster-moves",
       "source": "MLB.com",
-      "published_at": "2026-08-03T16:23:00+00:00"
+      "published_at": "2026-08-09T14:38:00+00:00"
     },
     {
       "id": "766a86f94ec3877b",
@@ -72,14 +96,6 @@
       "url": "https://www.mlb.com/phillies/news/viral-phillies-fan-calls-inning-on-radio",
       "source": "MLB.com",
       "published_at": "2026-08-07T18:08:17.939000+00:00"
-    },
-    {
-      "id": "3f91d4c204f9aeb6",
-      "title_en": "Latest Phillies injuries & transactions",
-      "title_ja": "最新のフィリーズの怪我と取引",
-      "url": "https://www.mlb.com/phillies/news/phillies-injuries-and-roster-moves",
-      "source": "MLB.com",
-      "published_at": "2026-08-09T14:38:00+00:00"
     },
     {
       "id": "60f9a4c6f62360d9",
@@ -184,22 +200,6 @@
       "url": "https://www.mlb.com/phillies/news/jose-alvarado-phillies-bullpen-rebound-vs-orioles",
       "source": "MLB.com",
       "published_at": "2026-08-02T03:17:49.113000+00:00"
-    },
-    {
-      "id": "8a30974f54657fe3",
-      "title_en": "Painter shows promise in strong return as Phils search for No. 5 starter",
-      "title_ja": "PhilsがNo.5スターターを探す中、画家は強力な見返りを約束します",
-      "url": "https://www.mlb.com/phillies/news/andrew-painter-start-for-phillies-in-baltimore",
-      "source": "MLB.com",
-      "published_at": "2026-08-01T05:24:00+00:00"
-    },
-    {
-      "id": "327354f618b37dd2",
-      "title_en": "Drafted last month, this Phillies prospect's first career hit was GRAND",
-      "title_ja": "先月起草されたこのフィリーズの見込み客の最初のキャリアヒットは壮大でした",
-      "url": "https://www.mlb.com/phillies/news/phillies-prospect-will-gasparino-hits-grand-slam-for-first-pro-hit",
-      "source": "MLB.com",
-      "published_at": "2026-08-01T15:15:35.411000+00:00"
     }
   ]
 }
