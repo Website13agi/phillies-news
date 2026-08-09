@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-09T16:14:18.580550+00:00",
+  "updated_at": "2026-08-09T16:22:50.848135+00:00",
   "articles": [
     {
       "id": 1,
@@ -7,8 +7,7 @@
       "title_ja": "フィリーズ・プレスリリース",
       "url": "https://www.mlb.com/phillies/news/topic/phillies-press-releases",
       "source": "MLB.com",
-      "published_at": null,
-      "fetched_at": "2026-08-09T16:13:41.276748+00:00"
+      "published_at": null
     },
     {
       "id": 2,
@@ -16,8 +15,7 @@
       "title_ja": "フィリーズパイプライン",
       "url": "https://www.mlb.com/phillies/news/topic/phillies-pipeline-coverage",
       "source": "MLB.com",
-      "published_at": null,
-      "fetched_at": "2026-08-09T16:13:42.902081+00:00"
+      "published_at": null
     },
     {
       "id": 3,
@@ -25,8 +23,7 @@
       "title_ja": "フィリーズのオールタイムリストとトリビア",
       "url": "https://www.mlb.com/phillies/news/topic/phillies-history-trivia",
       "source": "MLB.com",
-      "published_at": null,
-      "fetched_at": "2026-08-09T16:13:44.686867+00:00"
+      "published_at": null
     },
     {
       "id": 4,
@@ -34,8 +31,7 @@
       "title_ja": "カムバックする者がマイルストーン2,000 Kを達成した後、ノラの夜を終わらせる",
       "url": "https://www.mlb.com/phillies/news/aaron-nola-exits-start-after-being-struck-on-right-knee",
       "source": "MLB.com",
-      "published_at": null,
-      "fetched_at": "2026-08-09T16:13:46.026660+00:00"
+      "published_at": "2026-08-09T04:59:00+00:00"
     },
     {
       "id": 5,
@@ -43,8 +39,7 @@
       "title_ja": "ゴムのトーイング？なぜウィーラーの後ろ足がかき混ぜられているのか",
       "url": "https://www.mlb.com/phillies/news/examining-placement-zack-wheeler-foot-pitchers-mound",
       "source": "MLB.com",
-      "published_at": null,
-      "fetched_at": "2026-08-09T16:13:47.451883+00:00"
+      "published_at": "2026-08-09T02:55:16.692000+00:00"
     },
     {
       "id": 6,
@@ -52,8 +47,7 @@
       "title_ja": "ウィーラーのワイルドナイトには、壮大な15ピッチの決闘とジェイズのためのいくつかの選択肢が含まれています",
       "url": "https://www.mlb.com/phillies/news/zack-wheeler-faces-blue-jays-at-citizens-bank-park",
       "source": "MLB.com",
-      "published_at": null,
-      "fetched_at": "2026-08-09T16:13:49.068406+00:00"
+      "published_at": "2026-08-08T05:44:00+00:00"
     },
     {
       "id": 7,
@@ -61,8 +55,7 @@
       "title_ja": "値下げ！ PHILLIES.TVでゲームをストリーミング",
       "url": "https://www.mlb.com/phillies/news/phillies-tv-stream-2026",
       "source": "MLB.com",
-      "published_at": null,
-      "fetched_at": "2026-08-09T16:13:50.687930+00:00"
+      "published_at": "2026-08-03T16:23:00+00:00"
     },
     {
       "id": 8,
@@ -70,8 +63,7 @@
       "title_ja": "「誰もそれに値しない」：アトリーがフィリーズ・ウォール・オブ・フェイムに殿堂入り",
       "url": "https://www.mlb.com/phillies/news/chase-utley-joins-phillies-wall-of-fame",
       "source": "MLB.com",
-      "published_at": null,
-      "fetched_at": "2026-08-09T16:13:52.055093+00:00"
+      "published_at": "2026-08-08T03:40:07.749000+00:00"
     },
     {
       "id": 9,
@@ -79,8 +71,7 @@
       "title_ja": "ラジオブースに参加するチャンスを勝ち取った後、フィリーズのファンはウイルスに感染します",
       "url": "https://www.mlb.com/phillies/news/viral-phillies-fan-calls-inning-on-radio",
       "source": "MLB.com",
-      "published_at": null,
-      "fetched_at": "2026-08-09T16:13:53.731156+00:00"
+      "published_at": "2026-08-07T18:08:17.939000+00:00"
     },
     {
       "id": 10,
@@ -88,8 +79,7 @@
       "title_ja": "最新のフィリーズの怪我と取引",
       "url": "https://www.mlb.com/phillies/news/phillies-injuries-and-roster-moves",
       "source": "MLB.com",
-      "published_at": null,
-      "fetched_at": "2026-08-09T16:13:54.841242+00:00"
+      "published_at": "2026-08-09T14:38:00+00:00"
     },
     {
       "id": 11,
@@ -97,8 +87,7 @@
       "title_ja": "16ヒットで8ダブルス？ ！短い外出の後、フィリップスのオフェンスがサンチェスを拾う",
       "url": "https://www.mlb.com/phillies/news/cristopher-sanchez-faces-nationals-at-home-on-thursday",
       "source": "MLB.com",
-      "published_at": null,
-      "fetched_at": "2026-08-09T16:13:56.110936+00:00"
+      "published_at": "2026-08-07T02:31:00+00:00"
     },
     {
       "id": 12,
@@ -106,8 +95,7 @@
       "title_ja": "アラエスが立ち上がってきた！しかし、非常に重要なことを1つ忘れています",
       "url": "https://www.mlb.com/phillies/news/luis-arraez-avoids-tag-but-misses-home-plate",
       "source": "MLB.com",
-      "published_at": null,
-      "fetched_at": "2026-08-09T16:13:57.468293+00:00"
+      "published_at": "2026-08-07T02:01:14.105000+00:00"
     },
     {
       "id": 13,
@@ -115,8 +103,7 @@
       "title_ja": "毎日のRFをハーパー？フィリーズはそれよりも複雑だと言います",
       "url": "https://www.mlb.com/phillies/news/bryce-harper-to-play-multiple-defensive-positions-for-phillies",
       "source": "MLB.com",
-      "published_at": null,
-      "fetched_at": "2026-08-09T16:13:58.896264+00:00"
+      "published_at": "2026-08-06T14:52:52.014000+00:00"
     },
     {
       "id": 14,
@@ -124,8 +111,7 @@
       "title_ja": "画家（ハムストリング）が退場した後、ヒル、ハーパーは怪我の恐怖を抱えています",
       "url": "https://www.mlb.com/phillies/news/andrew-painter-leaves-game-with-left-hamstring-tightness",
       "source": "MLB.com",
-      "published_at": null,
-      "fetched_at": "2026-08-09T16:14:00.184333+00:00"
+      "published_at": "2026-08-06T04:40:00+00:00"
     },
     {
       "id": 15,
@@ -133,8 +119,7 @@
       "title_ja": "フィラデルフィアへようこそ！ Arraezは、Philsとの2 ndゲームでHRの後に巨大なバットフリップを解放します",
       "url": "https://www.mlb.com/phillies/news/luis-arraez-homers-in-second-game-with-phillies",
       "source": "MLB.com",
-      "published_at": null,
-      "fetched_at": "2026-08-09T16:14:01.476052+00:00"
+      "published_at": "2026-08-06T04:51:00+00:00"
     },
     {
       "id": 16,
@@ -142,8 +127,7 @@
       "title_ja": "デッドライン後の青写真が完璧に機能する「フィリーズにとって素晴らしい日」",
       "url": "https://www.mlb.com/phillies/news/jesus-luzardo-shuts-out-nationals-over-8-innings",
       "source": "MLB.com",
-      "published_at": null,
-      "fetched_at": "2026-08-09T16:14:03.052447+00:00"
+      "published_at": "2026-08-05T02:42:00+00:00"
     },
     {
       "id": 17,
@@ -151,8 +135,7 @@
       "title_ja": "Arraezがフィリーズの新ラインナップに即座にインパクトを与える",
       "url": "https://www.mlb.com/phillies/news/phillies-new-batting-order-after-luis-arraez-trade",
       "source": "MLB.com",
-      "published_at": null,
-      "fetched_at": "2026-08-09T16:14:04.640374+00:00"
+      "published_at": "2026-08-05T02:02:00+00:00"
     },
     {
       "id": 18,
@@ -160,8 +143,7 @@
       "title_ja": "Philsの締め切りには、3回のバッティングチャンピオン、リリーバーのペア、ブライスの新しい手袋が含まれています",
       "url": "https://www.mlb.com/phillies/news/phillies-acquire-luis-arraez-brooks-raley-trade",
       "source": "MLB.com",
-      "published_at": null,
-      "fetched_at": "2026-08-09T16:14:06.200687+00:00"
+      "published_at": "2026-08-04T01:40:00+00:00"
     },
     {
       "id": 19,
@@ -169,8 +151,7 @@
       "title_ja": "Arraezの取引後にRFに移行したHarper ：「私はこの組織のために何でもします」",
       "url": "https://www.mlb.com/phillies/news/bryce-harper-to-move-back-to-outfield-after-luis-arraez-trade",
       "source": "MLB.com",
-      "published_at": null,
-      "fetched_at": "2026-08-09T16:14:07.943202+00:00"
+      "published_at": "2026-08-04T01:18:00+00:00"
     },
     {
       "id": 20,
@@ -178,8 +159,7 @@
       "title_ja": "アトリーが今週末フィリーズ・ウォール・オブ・フェイムに殿堂入り",
       "url": "https://www.mlb.com/phillies/news/chase-utley-to-be-honored-at-toyota-phillies-alumni-weekend",
       "source": "MLB.com",
-      "published_at": null,
-      "fetched_at": "2026-08-09T16:14:09.508495+00:00"
+      "published_at": "2026-08-04T17:05:31.541000+00:00"
     },
     {
       "id": 21,
@@ -187,8 +167,7 @@
       "title_ja": "締め切りのカスプでオールスターブレイク以来、Philsはシリーズ初の勝利を収めました",
       "url": "https://www.mlb.com/phillies/news/phillies-win-first-series-since-all-star-break",
       "source": "MLB.com",
-      "published_at": null,
-      "fetched_at": "2026-08-09T16:14:11.753776+00:00"
+      "published_at": "2026-08-02T22:40:00+00:00"
     },
     {
       "id": 22,
@@ -196,8 +175,7 @@
       "title_ja": "「それは私を刺激する」： Oのおしゃべりに動機づけられたサンチェス、野生のスコアレススタートのKの11",
       "url": "https://www.mlb.com/phillies/news/cristopher-sanchez-faces-orioles-on-august-1",
       "source": "MLB.com",
-      "published_at": null,
-      "fetched_at": "2026-08-09T16:14:13.321874+00:00"
+      "published_at": "2026-08-02T03:49:00+00:00"
     },
     {
       "id": 23,
@@ -205,8 +183,7 @@
       "title_ja": "Alvaradoの「ペン」との試合前のトークは、Philsのシャットアウトの勝利で報われているようです",
       "url": "https://www.mlb.com/phillies/news/jose-alvarado-phillies-bullpen-rebound-vs-orioles",
       "source": "MLB.com",
-      "published_at": null,
-      "fetched_at": "2026-08-09T16:14:15.039269+00:00"
+      "published_at": "2026-08-02T03:17:49.113000+00:00"
     },
     {
       "id": 24,
@@ -214,8 +191,7 @@
       "title_ja": "PhilsがNo.5スターターを探す中、画家は強力な見返りを約束します",
       "url": "https://www.mlb.com/phillies/news/andrew-painter-start-for-phillies-in-baltimore",
       "source": "MLB.com",
-      "published_at": null,
-      "fetched_at": "2026-08-09T16:14:16.510215+00:00"
+      "published_at": "2026-08-01T05:24:00+00:00"
     },
     {
       "id": 25,
@@ -223,8 +199,7 @@
       "title_ja": "先月起草されたこのフィリーズの見込み客の最初のキャリアヒットは壮大でした",
       "url": "https://www.mlb.com/phillies/news/phillies-prospect-will-gasparino-hits-grand-slam-for-first-pro-hit",
       "source": "MLB.com",
-      "published_at": null,
-      "fetched_at": "2026-08-09T16:14:18.080377+00:00"
+      "published_at": "2026-08-01T15:15:35.411000+00:00"
     }
   ]
 }
