@@ -1,66 +1,45 @@
+```python
 import requests
 from bs4 import BeautifulSoup
 import json
+import re
+import time
+import hashlib
 from datetime import datetime, timezone
 from urllib.parse import urljoin, quote
-import time
-import re
-import hashlib
+
+
+# =========================================================
+# 設定
+# =========================================================
 
 MLB_URL = "https://www.mlb.com/phillies/news"
+MLB_VIDEO_URL = "https://www.mlb.com/phillies/video"
+
 BASE_URL = "https://www.mlb.com"
 
 HEADERS = {
     "User-Agent": (
         "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
-        "AppleWebKit/537.36 (KHTML, like Gecko) "
+        "AppleWebKit/537.36 "
+        "(KHTML, like Gecko) "
         "Chrome/131.0.0.0 Safari/537.36"
-    ),
-    "Accept": (
-        "text/html,application/xhtml+xml,"
-        "application/xml;q=0.9,image/avif,"
-        "image/webp,*/*;q=0.8"
     ),
     "Accept-Language": "en-US,en;q=0.9",
 }
+
+
+# =========================================================
+# Session
+# =========================================================
 
 session = requests.Session()
 session.headers.update(HEADERS)
 
 
-def translate_to_japanese(text):
-
-    if not text:
-        return ""
-
-    try:
-        response = session.get(
-            "https://api.mymemory.translated.net/get",
-            params={
-                "q": text,
-                "langpair": "en|ja"
-            },
-            timeout=30
-        )
-
-        response.raise_for_status()
-
-        data = response.json()
-
-        translated = (
-            data
-            .get("responseData", {})
-            .get("translatedText", "")
-        )
-
-        if translated:
-            return translated.strip()
-
-    except Exception as error:
-        print("翻訳エラー:", error)
-
-    return text
-
+# =========================================================
+# URL正規化
+# =========================================================
 
 def normalize_url(url):
 
@@ -74,6 +53,10 @@ def normalize_url(url):
     return url
 
 
+# =========================================================
+# 安定したID
+# =========================================================
+
 def make_article_id(url):
 
     return hashlib.sha256(
@@ -81,17 +64,14 @@ def make_article_id(url):
     ).hexdigest()[:16]
 
 
+# =========================================================
+# 日時変換
+# =========================================================
+
 def normalize_datetime(value):
 
     if not value:
         return None
-
-    if isinstance(value, list):
-
-        if not value:
-            return None
-
-        value = value[0]
 
     if not isinstance(value, str):
         return None
@@ -121,10 +101,15 @@ def normalize_datetime(value):
         flags=re.IGNORECASE
     ).strip()
 
+
+    # =====================================================
     # ISO 8601
+    # =====================================================
+
     iso_value = value
 
     if iso_value.endswith("Z"):
+
         iso_value = (
             iso_value[:-1]
             + "+00:00"
@@ -137,6 +122,7 @@ def normalize_datetime(value):
         )
 
         if dt.tzinfo is None:
+
             dt = dt.replace(
                 tzinfo=timezone.utc
             )
@@ -146,33 +132,42 @@ def normalize_datetime(value):
     except Exception:
         pass
 
+
+    # =====================================================
     # 英語日時
-    clean_value = re.sub(
+    # =====================================================
+
+    value = re.sub(
         r"\bat\b",
         "",
         value,
         flags=re.IGNORECASE
     )
 
-    clean_value = re.sub(
+    value = re.sub(
         r"\s+",
         " ",
-        clean_value
+        value
     ).strip()
 
+
     patterns = [
+
         "%B %d, %Y %I:%M %p",
         "%b %d, %Y %I:%M %p",
+
         "%B %d, %Y",
         "%b %d, %Y",
+
     ]
+
 
     for pattern in patterns:
 
         try:
 
             dt = datetime.strptime(
-                clean_value,
+                value,
                 pattern
             )
 
@@ -185,36 +180,41 @@ def normalize_datetime(value):
         except Exception:
             continue
 
+
     return None
 
 
-def find_date_in_jsonld(data):
+# =========================================================
+# JSON-LD検索
+# =========================================================
+
+def search_jsonld_date(data):
 
     if isinstance(data, dict):
 
+        # 公開日時だけを使用
         if data.get("datePublished"):
-            return data["datePublished"]
 
-        for key in [
-            "mainEntity",
-            "article",
-            "@graph"
-        ]:
+            return data.get(
+                "datePublished"
+            )
 
-            value = data.get(key)
 
-            if isinstance(
-                value,
-                (dict, list)
-            ):
+        # @graph
+        if isinstance(
+            data.get("@graph"),
+            list
+        ):
 
-                result = find_date_in_jsonld(
-                    value
-                )
+            result = search_jsonld_date(
+                data["@graph"]
+            )
 
-                if result:
-                    return result
+            if result:
+                return result
 
+
+        # その他の入れ子
         for key, value in data.items():
 
             if key in [
@@ -223,40 +223,45 @@ def find_date_in_jsonld(data):
             ]:
                 continue
 
+
             if isinstance(
                 value,
                 (dict, list)
             ):
 
-                result = find_date_in_jsonld(
+                result = search_jsonld_date(
                     value
                 )
 
                 if result:
                     return result
 
+
     elif isinstance(data, list):
 
         for item in data:
 
-            result = find_date_in_jsonld(
+            result = search_jsonld_date(
                 item
             )
 
             if result:
                 return result
 
+
     return None
 
 
-def find_date_in_jsonld_page(soup):
+# =========================================================
+# JSON-LDから日時
+# =========================================================
 
-    scripts = soup.find_all(
+def get_date_from_jsonld(soup):
+
+    for script in soup.find_all(
         "script",
         type="application/ld+json"
-    )
-
-    for script in scripts:
+    ):
 
         try:
 
@@ -268,25 +273,11 @@ def find_date_in_jsonld_page(soup):
             if not raw:
                 continue
 
-            raw = raw.strip()
-
-            raw = re.sub(
-                r"^\s*<!--",
-                "",
-                raw
-            )
-
-            raw = re.sub(
-                r"-->\s*$",
-                "",
-                raw
-            )
-
             data = json.loads(
                 raw
             )
 
-            value = find_date_in_jsonld(
+            value = search_jsonld_date(
                 data
             )
 
@@ -302,12 +293,17 @@ def find_date_in_jsonld_page(soup):
         except Exception:
             continue
 
+
     return None
 
 
-def find_date_in_meta(soup):
+# =========================================================
+# METAから日時
+# =========================================================
 
-    candidates = [
+def get_date_from_meta(soup):
+
+    selectors = [
 
         {
             "property":
@@ -325,13 +321,8 @@ def find_date_in_meta(soup):
         },
 
         {
-            "itemprop":
-                "datepublished"
-        },
-
-        {
             "name":
-                "date"
+                "datePublished"
         },
 
         {
@@ -346,21 +337,18 @@ def find_date_in_meta(soup):
 
         {
             "name":
-                "published"
-        },
-
-        {
-            "name":
                 "published_at"
         },
 
         {
             "name":
-                "datepublished"
+                "published"
         },
+
     ]
 
-    for attrs in candidates:
+
+    for attrs in selectors:
 
         tag = soup.find(
             "meta",
@@ -370,32 +358,40 @@ def find_date_in_meta(soup):
         if not tag:
             continue
 
+
         value = (
             tag.get("content")
             or tag.get("datetime")
             or tag.get("value")
         )
 
-        if not value:
-            continue
 
         normalized = normalize_datetime(
             value
         )
 
+
         if normalized:
             return normalized
+
 
     return None
 
 
-def find_date_in_time_tags(soup):
+# =========================================================
+# TIMEタグから日時
+# =========================================================
 
-    for tag in soup.find_all("time"):
+def get_date_from_time(soup):
+
+    for tag in soup.find_all(
+        "time"
+    ):
 
         value = tag.get(
             "datetime"
         )
+
 
         if value:
 
@@ -406,10 +402,12 @@ def find_date_in_time_tags(soup):
             if normalized:
                 return normalized
 
+
         text = tag.get_text(
             " ",
             strip=True
         )
+
 
         if text:
 
@@ -420,28 +418,43 @@ def find_date_in_time_tags(soup):
             if normalized:
                 return normalized
 
+
     return None
 
 
-def find_date_in_text(soup):
+# =========================================================
+# ページ本文から日時
+# =========================================================
+
+def get_date_from_text(soup):
 
     text = soup.get_text(
         " ",
         strip=True
     )
 
-    # ISO日時
-    iso_matches = re.findall(
+
+    # =====================================================
+    # ISO
+    # =====================================================
+
+    iso_pattern = (
         r"\b20\d{2}-\d{2}-\d{2}"
-        r"(?:T|\s)"
+        r"T"
         r"\d{2}:\d{2}"
         r"(?::\d{2})?"
         r"(?:\.\d+)?"
-        r"(?:Z|[+-]\d{2}:?\d{2})?",
+        r"(?:Z|[+-]\d{2}:?\d{2})?"
+    )
+
+
+    matches = re.findall(
+        iso_pattern,
         text
     )
 
-    for value in iso_matches:
+
+    for value in matches:
 
         normalized = normalize_datetime(
             value
@@ -450,7 +463,11 @@ def find_date_in_text(soup):
         if normalized:
             return normalized
 
+
+    # =====================================================
     # Month DD, YYYY HH:MM AM/PM
+    # =====================================================
+
     pattern = (
         r"\b("
         r"January|February|March|April|May|June|"
@@ -462,14 +479,17 @@ def find_date_in_text(soup):
         r"(20\d{2})"
         r"(?:\s+at)?\s+"
         r"(\d{1,2}:\d{2})"
-        r"\s*(AM|PM)"
+        r"\s*"
+        r"(AM|PM)"
     )
+
 
     matches = re.findall(
         pattern,
         text,
         re.IGNORECASE
     )
+
 
     for match in matches:
 
@@ -481,15 +501,21 @@ def find_date_in_text(soup):
             f"{match[4]}"
         )
 
+
         normalized = normalize_datetime(
             value
         )
 
+
         if normalized:
             return normalized
 
-    # Month DD, YYYY
-    pattern_date_only = (
+
+    # =====================================================
+    # 日付だけ
+    # =====================================================
+
+    pattern_date = (
         r"\b("
         r"January|February|March|April|May|June|"
         r"July|August|September|October|November|December|"
@@ -500,11 +526,13 @@ def find_date_in_text(soup):
         r"(20\d{2})"
     )
 
+
     matches = re.findall(
-        pattern_date_only,
+        pattern_date,
         text,
         re.IGNORECASE
     )
+
 
     for match in matches:
 
@@ -514,143 +542,185 @@ def find_date_in_text(soup):
             f"{match[2]}"
         )
 
+
         normalized = normalize_datetime(
             value
         )
 
+
         if normalized:
             return normalized
 
-    return None
-
-
-def find_published_date(soup):
-
-    methods = [
-
-        (
-            "JSON-LD",
-            lambda:
-                find_date_in_jsonld_page(
-                    soup
-                )
-        ),
-
-        (
-            "META",
-            lambda:
-                find_date_in_meta(
-                    soup
-                )
-        ),
-
-        (
-            "TIME",
-            lambda:
-                find_date_in_time_tags(
-                    soup
-                )
-        ),
-
-        (
-            "TEXT",
-            lambda:
-                find_date_in_text(
-                    soup
-                )
-        ),
-    ]
-
-    for name, function in methods:
-
-        try:
-
-            value = function()
-
-            if value:
-
-                print(
-                    "日時取得方法:",
-                    name
-                )
-
-                return value
-
-        except Exception as error:
-
-            print(
-                "日時取得エラー:",
-                name,
-                error
-            )
 
     return None
 
+
+# =========================================================
+# 公開日時を総当たり
+# =========================================================
+
+def get_published_date(soup):
+
+    # ① JSON-LD
+    date = get_date_from_jsonld(
+        soup
+    )
+
+    if date:
+
+        print(
+            "日時取得方法: JSON-LD"
+        )
+
+        return date
+
+
+    # ② META
+    date = get_date_from_meta(
+        soup
+    )
+
+    if date:
+
+        print(
+            "日時取得方法: META"
+        )
+
+        return date
+
+
+    # ③ TIME
+    date = get_date_from_time(
+        soup
+    )
+
+    if date:
+
+        print(
+            "日時取得方法: TIME"
+        )
+
+        return date
+
+
+    # ④ 本文
+    date = get_date_from_text(
+        soup
+    )
+
+    if date:
+
+        print(
+            "日時取得方法: TEXT"
+        )
+
+        return date
+
+
+    print(
+        "日時取得: 不明"
+    )
+
+    return None
+
+
+# =========================================================
+# タイトル取得
+# =========================================================
 
 def get_title(soup):
 
+    # og:title
     tag = soup.find(
         "meta",
         property="og:title"
     )
 
-    if tag and tag.get("content"):
-        return tag.get(
-            "content"
-        ).strip()
 
+    if tag:
+
+        value = tag.get(
+            "content"
+        )
+
+        if value:
+            return value.strip()
+
+
+    # twitter:title
     tag = soup.find(
         "meta",
-        name="twitter:title"
+        attrs={
+            "name":
+                "twitter:title"
+        }
     )
 
-    if tag and tag.get("content"):
-        return tag.get(
-            "content"
-        ).strip()
 
-    h1 = soup.find("h1")
+    if tag:
+
+        value = tag.get(
+            "content"
+        )
+
+        if value:
+            return value.strip()
+
+
+    # h1
+    h1 = soup.find(
+        "h1"
+    )
+
 
     if h1:
 
-        title = h1.get_text(
+        value = h1.get_text(
             " ",
             strip=True
         )
 
-        if title:
-            return title
+        if value:
+            return value
 
+
+    # title
     if soup.title:
 
-        title = soup.title.get_text(
+        value = soup.title.get_text(
             " ",
             strip=True
         )
 
-        if title:
 
-            title = re.split(
+        if value:
+
+            value = re.split(
                 r"\s*\|\s*",
-                title
-            )[0].strip()
+                value
+            )[0]
 
-            if title:
-                return title
+
+            return value.strip()
+
 
     return None
 
 
-def get_article_info(url):
+# =========================================================
+# 記事 / 動画ページ取得
+# =========================================================
 
-    for attempt in range(1, 4):
+def get_page_info(url):
+
+    for attempt in range(3):
 
         try:
 
             print(
-                f"記事ページ取得 "
-                f"({attempt}/3)"
+                f"ページ取得 {attempt + 1}/3"
             )
+
 
             response = session.get(
                 url,
@@ -658,57 +728,58 @@ def get_article_info(url):
                 allow_redirects=True
             )
 
+
             response.raise_for_status()
+
 
             soup = BeautifulSoup(
                 response.text,
                 "html.parser"
             )
 
+
             title = get_title(
                 soup
             )
 
-            published_at = (
-                find_published_date(
-                    soup
-                )
+
+            published_at = get_published_date(
+                soup
             )
+
 
             print(
                 "タイトル:",
                 title
             )
 
-            if published_at:
 
-                print(
-                    "公開日時:",
-                    published_at
-                )
+            print(
+                "公開日時:",
+                published_at
+                if published_at
+                else "日時不明"
+            )
 
-            else:
-
-                print(
-                    "公開日時: 取得できず"
-                )
 
             return (
                 title,
                 published_at
             )
 
+
         except Exception as error:
 
             print(
-                "記事情報取得エラー:",
+                "ページ取得エラー:",
                 error
             )
 
-            if attempt < 3:
-                time.sleep(
-                    2 * attempt
-                )
+
+            time.sleep(
+                2
+            )
+
 
     return (
         None,
@@ -716,91 +787,177 @@ def get_article_info(url):
     )
 
 
-def get_article_urls():
+# =========================================================
+# ニュース記事URL取得
+# =========================================================
 
-    for attempt in range(1, 4):
+def get_news_urls():
 
-        try:
+    try:
 
-            print(
-                f"ニュース一覧取得 "
-                f"({attempt}/3)"
+        response = session.get(
+            MLB_URL,
+            timeout=30
+        )
+
+        response.raise_for_status()
+
+
+        soup = BeautifulSoup(
+            response.text,
+            "html.parser"
+        )
+
+
+        urls = []
+        seen = set()
+
+
+        for link in soup.find_all(
+            "a",
+            href=True
+        ):
+
+            href = link.get(
+                "href"
             )
 
-            response = session.get(
-                MLB_URL,
-                timeout=30
+
+            if not href:
+                continue
+
+
+            if "/phillies/news/" not in href:
+                continue
+
+
+            url = urljoin(
+                BASE_URL,
+                href
             )
 
-            response.raise_for_status()
 
-            soup = BeautifulSoup(
-                response.text,
-                "html.parser"
+            url = normalize_url(
+                url
             )
 
-            urls = []
-            seen_urls = set()
 
-            for link in soup.find_all(
-                "a",
-                href=True
-            ):
+            if not url:
+                continue
 
-                href = link.get(
-                    "href"
-                )
 
-                if not href:
-                    continue
+            if url in seen:
+                continue
 
-                if "/phillies/news/" not in href:
-                    continue
 
-                href = urljoin(
-                    BASE_URL,
-                    href
-                )
+            seen.add(url)
+            urls.append(url)
 
-                normalized_url = (
-                    normalize_url(
-                        href
-                    )
-                )
 
-                if not normalized_url:
-                    continue
+            if len(urls) >= 30:
+                break
 
-                if normalized_url in seen_urls:
-                    continue
 
-                seen_urls.add(
-                    normalized_url
-                )
+        return urls
 
-                urls.append(
-                    normalized_url
-                )
 
-                if len(urls) >= 40:
-                    break
+    except Exception as error:
 
-            return urls
+        print(
+            "ニュース一覧取得エラー:",
+            error
+        )
 
-        except Exception as error:
+        return []
 
-            print(
-                "ニュース一覧取得エラー:",
-                error
+
+# =========================================================
+# 動画URL取得
+# =========================================================
+
+def get_video_urls():
+
+    try:
+
+        response = session.get(
+            MLB_VIDEO_URL,
+            timeout=30
+        )
+
+        response.raise_for_status()
+
+
+        soup = BeautifulSoup(
+            response.text,
+            "html.parser"
+        )
+
+
+        urls = []
+        seen = set()
+
+
+        for link in soup.find_all(
+            "a",
+            href=True
+        ):
+
+            href = link.get(
+                "href"
             )
 
-            if attempt < 3:
-                time.sleep(
-                    2 * attempt
-                )
 
-    return []
+            if not href:
+                continue
 
+
+            if "/phillies/video/" not in href:
+                continue
+
+
+            url = urljoin(
+                BASE_URL,
+                href
+            )
+
+
+            url = normalize_url(
+                url
+            )
+
+
+            if not url:
+                continue
+
+
+            if url in seen:
+                continue
+
+
+            seen.add(url)
+            urls.append(url)
+
+
+            if len(urls) >= 30:
+                break
+
+
+        return urls
+
+
+    except Exception as error:
+
+        print(
+            "動画一覧取得エラー:",
+            error
+        )
+
+        return []
+
+
+# =========================================================
+# タイトル重複判定
+# =========================================================
 
 def normalize_title(title):
 
@@ -824,123 +981,208 @@ def normalize_title(title):
     return title.strip()
 
 
-def fetch_news():
+# =========================================================
+# 日本語翻訳
+# =========================================================
 
-    urls = get_article_urls()
+def translate_to_japanese(text):
+
+    if not text:
+        return ""
+
+
+    try:
+
+        url = (
+            "https://api.mymemory.translated.net/get"
+            "?q="
+            + quote(text)
+            + "&langpair=en|ja"
+        )
+
+
+        response = session.get(
+            url,
+            timeout=30
+        )
+
+
+        response.raise_for_status()
+
+
+        data = response.json()
+
+
+        translated = (
+            data
+            .get("responseData", {})
+            .get("translatedText", "")
+        )
+
+
+        if translated:
+
+            return translated.strip()
+
+
+    except Exception as error:
+
+        print(
+            "翻訳エラー:",
+            error
+        )
+
+
+    return text
+
+
+# =========================================================
+# ニュース + 動画取得
+# =========================================================
+
+def fetch_news():
 
     print("")
     print(
-        f"取得対象URL: {len(urls)}"
+        "ニュースURLを取得中..."
     )
+
+
+    news_urls = get_news_urls()
+
+
+    print(
+        f"ニュース: {len(news_urls)}"
+    )
+
+
     print("")
+    print(
+        "動画URLを取得中..."
+    )
+
+
+    video_urls = get_video_urls()
+
+
+    print(
+        f"動画: {len(video_urls)}"
+    )
+
+
+    # =====================================================
+    # 記事と動画をまとめる
+    # =====================================================
+
+    targets = []
+
+
+    for url in news_urls:
+
+        targets.append(
+            (
+                url,
+                "article"
+            )
+        )
+
+
+    for url in video_urls:
+
+        targets.append(
+            (
+                url,
+                "video"
+            )
+        )
+
 
     articles = []
 
     seen_urls = set()
     seen_titles = set()
 
-    for index, url in enumerate(
-        urls,
+
+    for index, item in enumerate(
+        targets,
         start=1
     ):
+
+        url, content_type = item
+
 
         print("")
         print(
             "================================"
         )
         print(
-            f"記事 {index}/{len(urls)}"
+            f"{index}/{len(targets)}"
+        )
+        print(
+            content_type.upper()
+        )
+        print(
+            url
         )
         print(
             "================================"
         )
 
-        normalized_url = normalize_url(
+
+        if url in seen_urls:
+            continue
+
+
+        seen_urls.add(url)
+
+
+        title, published_at = get_page_info(
             url
         )
 
-        if normalized_url in seen_urls:
-            print(
-                "URL重複 → スキップ"
-            )
-            continue
-
-        seen_urls.add(
-            normalized_url
-        )
-
-        title, published_at = (
-            get_article_info(
-                normalized_url
-            )
-        )
 
         if not title:
-
-            print(
-                "タイトル取得失敗 → スキップ"
-            )
-
             continue
 
+
+        # 無効タイトル
         if title.lower() in [
             "続きを読む",
             "read more",
             "read more..."
         ]:
-
-            print(
-                "無効タイトル → スキップ"
-            )
-
             continue
 
+
+        # タイトル重複
         title_key = normalize_title(
             title
         )
 
+
         if title_key in seen_titles:
-
-            print(
-                "タイトル重複 → スキップ"
-            )
-
             continue
+
 
         seen_titles.add(
             title_key
         )
 
-        print("")
+
         print(
-            "英語タイトル:"
+            "日本語翻訳中..."
         )
-        print(
+
+
+        japanese_title = translate_to_japanese(
             title
         )
 
-        japanese_title = (
-            translate_to_japanese(
-                title
-            )
-        )
 
-        print("")
-        print(
-            "日本語タイトル:"
-        )
-        print(
-            japanese_title
-        )
-
-        article_id = make_article_id(
-            normalized_url
-        )
-
-        articles.append({
+        article = {
 
             "id":
-                article_id,
+                make_article_id(url),
 
             "title_en":
                 title,
@@ -949,24 +1191,76 @@ def fetch_news():
                 japanese_title,
 
             "url":
-                normalized_url,
+                url,
 
             "source":
                 "MLB.com",
 
+            "type":
+                content_type,
+
             "published_at":
                 published_at
-        })
+
+        }
+
+
+        articles.append(
+            article
+        )
+
 
         time.sleep(
             0.8
         )
 
-        if len(articles) >= 30:
+
+        if len(articles) >= 50:
             break
+
+
+    # =====================================================
+    # 日時順
+    # =====================================================
+
+    def sort_key(article):
+
+        value = article.get(
+            "published_at"
+        )
+
+
+        if not value:
+            return datetime.min.replace(
+                tzinfo=timezone.utc
+            )
+
+
+        try:
+
+            return datetime.fromisoformat(
+                value
+            )
+
+        except Exception:
+
+            return datetime.min.replace(
+                tzinfo=timezone.utc
+            )
+
+
+    articles.sort(
+        key=sort_key,
+        reverse=True
+    )
+
 
     return articles
 
+
+# =========================================================
+# JSON保存
+# =========================================================
 
 def main():
 
@@ -975,13 +1269,15 @@ def main():
         "================================"
     )
     print(
-        "Phillies News Fetcher"
+        "PHILLIES NEWS FETCHER"
     )
     print(
         "================================"
     )
 
+
     articles = fetch_news()
+
 
     data = {
 
@@ -992,7 +1288,9 @@ def main():
 
         "articles":
             articles
+
     }
+
 
     with open(
         "news.json",
@@ -1007,20 +1305,37 @@ def main():
             indent=2
         )
 
-    with_date = 0
-    without_date = 0
 
-    for article in articles:
+    # =====================================================
+    # 結果
+    # =====================================================
 
-        if article.get(
-            "published_at"
-        ):
+    news_count = sum(
+        1
+        for article in articles
+        if article.get("type") == "article"
+    )
 
-            with_date += 1
 
-        else:
+    video_count = sum(
+        1
+        for article in articles
+        if article.get("type") == "video"
+    )
 
-            without_date += 1
+
+    date_count = sum(
+        1
+        for article in articles
+        if article.get("published_at")
+    )
+
+
+    unknown_count = (
+        len(articles)
+        - date_count
+    )
+
 
     print("")
     print(
@@ -1032,19 +1347,43 @@ def main():
     print(
         "================================"
     )
+
+
     print(
-        f"記事数: {len(articles)}"
+        f"合計: {len(articles)}"
     )
+
+
     print(
-        f"公開日時取得成功: {with_date}"
+        f"記事: {news_count}"
     )
+
+
     print(
-        f"公開日時取得失敗: {without_date}"
+        f"動画: {video_count}"
     )
+
+
+    print(
+        f"日時取得成功: {date_count}"
+    )
+
+
+    print(
+        f"日時不明: {unknown_count}"
+    )
+
+
     print(
         "================================"
     )
 
 
+# =========================================================
+# START
+# =========================================================
+
 if __name__ == "__main__":
+
     main()
+```
