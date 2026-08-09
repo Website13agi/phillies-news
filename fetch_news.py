@@ -50,22 +50,17 @@ def translate_to_japanese(text):
         )
 
         if translated:
-
             return translated.strip()
 
     except Exception as error:
 
-        print(
-            "翻訳エラー:",
-            error
-        )
+        print("翻訳エラー:", error)
 
-    # 翻訳できなかった場合は英語を残す
     return text
 
 
 # =========================================================
-# URLを正規化
+# URL正規化
 # =========================================================
 
 def normalize_url(url):
@@ -73,7 +68,6 @@ def normalize_url(url):
     if not url:
         return ""
 
-    # クエリや末尾のスラッシュを除去
     url = url.split("?")[0]
     url = url.rstrip("/")
 
@@ -81,7 +75,7 @@ def normalize_url(url):
 
 
 # =========================================================
-# 記事ページから正式なタイトルを取得
+# 記事ページからタイトル取得
 # =========================================================
 
 def get_article_title(url):
@@ -101,11 +95,7 @@ def get_article_title(url):
             "html.parser"
         )
 
-
-        # -------------------------------------------------
-        # ① og:title
-        # -------------------------------------------------
-
+        # og:title
         og_title = soup.find(
             "meta",
             property="og:title"
@@ -119,14 +109,9 @@ def get_article_title(url):
             ).strip()
 
             if title:
-
                 return title
 
-
-        # -------------------------------------------------
-        # ② h1
-        # -------------------------------------------------
-
+        # h1
         h1 = soup.find("h1")
 
         if h1:
@@ -137,14 +122,9 @@ def get_article_title(url):
             )
 
             if title:
-
                 return title
 
-
-        # -------------------------------------------------
-        # ③ titleタグ
-        # -------------------------------------------------
-
+        # titleタグ
         if soup.title:
 
             title = soup.title.get_text(
@@ -157,9 +137,7 @@ def get_article_title(url):
                 title = title.split("|")[0].strip()
 
                 if title:
-
                     return title
-
 
     except Exception as error:
 
@@ -168,12 +146,11 @@ def get_article_title(url):
             error
         )
 
-
     return None
 
 
 # =========================================================
-# ニュース記事URLを取得
+# ニュースURL取得
 # =========================================================
 
 def get_article_urls():
@@ -192,9 +169,7 @@ def get_article_urls():
     )
 
     urls = []
-
     seen_urls = set()
-
 
     for link in soup.find_all(
         "a",
@@ -203,57 +178,43 @@ def get_article_urls():
 
         href = link.get("href")
 
-
         if not href:
             continue
 
-
-        # Philliesニュース記事だけ
         if "/phillies/news/" not in href:
             continue
 
-
-        # 完全URL
         href = urljoin(
             "https://www.mlb.com",
             href
         )
 
+        normalized_url = normalize_url(
+            href
+        )
 
-        # URL正規化
-        normalized =
-            normalize_url(href)
-
-
-        if not normalized:
+        if not normalized_url:
             continue
 
-
-        # URLによる重複除去
-        if normalized in seen_urls:
+        if normalized_url in seen_urls:
             continue
-
 
         seen_urls.add(
-            normalized
+            normalized_url
         )
-
 
         urls.append(
-            normalized
+            normalized_url
         )
 
-
-        # 最大40記事取得
         if len(urls) >= 40:
             break
-
 
     return urls
 
 
 # =========================================================
-# タイトルの重複を判定するための正規化
+# タイトル正規化
 # =========================================================
 
 def normalize_title(title):
@@ -263,14 +224,12 @@ def normalize_title(title):
 
     title = title.lower()
 
-    # 記号を除去
     title = re.sub(
         r"[^a-z0-9\s]",
         "",
         title
     )
 
-    # 連続スペースを1つに
     title = re.sub(
         r"\s+",
         " ",
@@ -291,48 +250,33 @@ def fetch_news():
     articles = []
 
     seen_urls = set()
-
     seen_titles = set()
-
 
     for url in urls:
 
-        print(
-            "記事:",
+        print("")
+        print("記事URL:")
+        print(url)
+
+        normalized_url = normalize_url(
             url
         )
 
-
-        # -------------------------------------------------
-        # URL重複チェック
-        # -------------------------------------------------
-
-        normalized_url =
-            normalize_url(url)
-
-
+        # URL重複
         if normalized_url in seen_urls:
 
-            print(
-                "重複URL → スキップ"
-            )
+            print("URL重複 → スキップ")
 
             continue
-
 
         seen_urls.add(
             normalized_url
         )
 
-
-        # -------------------------------------------------
         # タイトル取得
-        # -------------------------------------------------
-
         title = get_article_title(
             normalized_url
         )
-
 
         if not title:
 
@@ -342,11 +286,7 @@ def fetch_news():
 
             continue
 
-
-        # -------------------------------------------------
-        # 「続きを読む」などを除外
-        # -------------------------------------------------
-
+        # 不要タイトル除外
         if title.lower() in [
             "続きを読む",
             "read more",
@@ -354,94 +294,66 @@ def fetch_news():
         ]:
 
             print(
-                "無効なタイトル → スキップ"
+                "無効タイトル → スキップ"
             )
 
             continue
 
-
-        # -------------------------------------------------
-        # タイトル重複チェック
-        # -------------------------------------------------
-
-        title_key =
-            normalize_title(title)
-
+        # タイトル重複
+        title_key = normalize_title(
+            title
+        )
 
         if title_key in seen_titles:
 
             print(
-                "重複タイトル → スキップ"
+                "タイトル重複 → スキップ"
             )
 
             continue
-
 
         seen_titles.add(
             title_key
         )
 
+        print("英語:")
+        print(title)
 
-        print(
-            "英語:",
-            title
-        )
-
-
-        # -------------------------------------------------
         # 日本語翻訳
-        # -------------------------------------------------
-
-        japanese_title =
+        japanese_title = (
             translate_to_japanese(
                 title
             )
-
-
-        print(
-            "日本語:",
-            japanese_title
         )
 
+        print("日本語:")
+        print(japanese_title)
 
-        # -------------------------------------------------
-        # 記事データ
-        # -------------------------------------------------
-
+        # 保存
         articles.append({
 
-            "id":
-                len(articles) + 1,
+            "id": len(articles) + 1,
 
-            "title_en":
-                title,
+            "title_en": title,
 
-            "title_ja":
-                japanese_title,
+            "title_ja": japanese_title,
 
-            "url":
-                normalized_url,
+            "url": normalized_url,
 
-            "source":
-                "MLB.com",
+            "source": "MLB.com",
 
-            "fetched_at":
-                datetime.now(
-                    timezone.utc
-                ).isoformat()
+            "fetched_at": datetime.now(
+                timezone.utc
+            ).isoformat()
 
         })
 
-
-        # MLBサーバーへのアクセス間隔
+        # 少し待つ
         time.sleep(0.5)
-
 
         # 最大30記事
         if len(articles) >= 30:
-
             break
-
 
     return articles
 
@@ -454,19 +366,15 @@ def main():
 
     articles = fetch_news()
 
-
     data = {
 
-        "updated_at":
-            datetime.now(
-                timezone.utc
-            ).isoformat(),
+        "updated_at": datetime.now(
+            timezone.utc
+        ).isoformat(),
 
-        "articles":
-            articles
+        "articles": articles
 
     }
-
 
     with open(
         "news.json",
@@ -481,18 +389,12 @@ def main():
             indent=2
         )
 
-
-    print(
-        "================================"
-    )
-
+    print("")
+    print("==============================")
     print(
         f"{len(articles)} articles saved."
     )
-
-    print(
-        "================================"
-    )
+    print("==============================")
 
 
 # =========================================================
@@ -500,5 +402,4 @@ def main():
 # =========================================================
 
 if __name__ == "__main__":
-
     main()
