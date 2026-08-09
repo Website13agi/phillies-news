@@ -1,34 +1,1167 @@
+```html
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Phillies News Reader</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Phillies News Reader</title>
+
+<style>
+
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --red: #e81828;
+  --dark-red: #c8102e;
+  --blue: #002d72;
+  --navy: #071d41;
+  --background: #f4f5f7;
+  --card: #ffffff;
+  --text: #111827;
+  --muted: #737b87;
+  --line: #e4e7eb;
+}
+
+body {
+  margin: 0;
+  background: var(--background);
+  color: var(--text);
+  font-family:
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Arial,
+    sans-serif;
+}
+
+
+/* =========================
+   HEADER
+========================= */
+
+.header {
+  height: 72px;
+  background: var(--red);
+  color: white;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 0 32px;
+
+  position: sticky;
+  top: 0;
+  z-index: 10;
+
+  box-shadow: 0 2px 10px rgba(0,0,0,.15);
+}
+
+.logo-area {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.logo {
+  width: 42px;
+  height: 42px;
+
+  border-radius: 50%;
+
+  background: white;
+  color: var(--red);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 26px;
+  font-weight: 900;
+}
+
+.logo-text {
+  line-height: 1.05;
+}
+
+.logo-text strong {
+  display: block;
+
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+
+.logo-text span {
+  font-size: 9px;
+  letter-spacing: 2px;
+
+  opacity: .8;
+}
+
+.menu-button {
+  width: 42px;
+  height: 42px;
+
+  border: none;
+  border-radius: 10px;
+
+  background: rgba(255,255,255,.12);
+
+  color: white;
+
+  font-size: 22px;
+
+  cursor: pointer;
+}
+
+
+/* =========================
+   MAIN
+========================= */
+
+.main {
+  max-width: 1050px;
+
+  margin: auto;
+
+  padding: 28px 20px 60px;
+}
+
+
+/* =========================
+   HERO
+========================= */
+
+.hero {
+  position: relative;
+
+  overflow: hidden;
+
+  background:
+    linear-gradient(
+      135deg,
+      var(--blue),
+      var(--navy)
+    );
+
+  color: white;
+
+  border-radius: 20px;
+
+  padding: 42px;
+
+  box-shadow:
+    0 8px 30px rgba(0,45,114,.18);
+}
+
+.hero::before {
+  content: "";
+
+  position: absolute;
+
+  width: 330px;
+  height: 330px;
+
+  border-radius: 50%;
+
+  border: 45px solid rgba(255,255,255,.05);
+
+  right: -100px;
+  top: -150px;
+}
+
+.hero::after {
+  content: "";
+
+  position: absolute;
+
+  width: 170px;
+  height: 170px;
+
+  border-radius: 50%;
+
+  border: 25px solid rgba(232,24,40,.25);
+
+  right: 90px;
+  bottom: -110px;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 1;
+}
+
+.eyebrow {
+  font-size: 11px;
+
+  letter-spacing: 3px;
+
+  font-weight: 700;
+
+  opacity: .7;
+}
+
+.hero h1 {
+  margin: 9px 0 8px;
+
+  font-size: clamp(36px, 6vw, 58px);
+
+  letter-spacing: -2px;
+}
+
+.hero p {
+  margin: 0;
+
+  color: #d9e3f2;
+
+  font-size: 14px;
+}
+
+
+/* =========================
+   DASHBOARD
+========================= */
+
+.dashboard {
+  margin-top: 20px;
+
+  display: grid;
+
+  grid-template-columns: 1fr 1fr;
+
+  gap: 14px;
+}
+
+.stat {
+  background: white;
+
+  border: 1px solid var(--line);
+
+  border-radius: 14px;
+
+  padding: 18px 20px;
+}
+
+.stat-label {
+  color: var(--muted);
+
+  font-size: 10px;
+
+  letter-spacing: 1.5px;
+
+  font-weight: 800;
+}
+
+.stat-value {
+  display: flex;
+
+  align-items: baseline;
+
+  gap: 7px;
+
+  margin-top: 5px;
+}
+
+.stat-value strong {
+  font-size: 28px;
+}
+
+.stat-value span {
+  color: var(--muted);
+
+  font-size: 12px;
+}
+
+
+/* =========================
+   CONTROLS
+========================= */
+
+.controls {
+  margin-top: 22px;
+
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: center;
+
+  gap: 12px;
+
+  flex-wrap: wrap;
+}
+
+.control-group {
+  display: flex;
+
+  gap: 4px;
+
+  background: white;
+
+  border: 1px solid var(--line);
+
+  padding: 4px;
+
+  border-radius: 11px;
+}
+
+.control {
+  border: none;
+
+  background: transparent;
+
+  color: var(--muted);
+
+  padding: 9px 15px;
+
+  border-radius: 8px;
+
+  font-weight: 700;
+
+  font-size: 12px;
+
+  cursor: pointer;
+
+  transition: .15s;
+}
+
+.control:hover {
+  background: #f0f2f5;
+}
+
+.control.active {
+  background: var(--blue);
+
+  color: white;
+}
+
+
+/* =========================
+   SECTION TITLE
+========================= */
+
+.section-header {
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: center;
+
+  margin: 30px 2px 12px;
+}
+
+.section-title {
+  display: flex;
+
+  align-items: center;
+
+  gap: 8px;
+}
+
+.section-dot {
+  width: 8px;
+  height: 8px;
+
+  background: var(--red);
+
+  border-radius: 50%;
+}
+
+.section-title h2 {
+  margin: 0;
+
+  font-size: 17px;
+}
+
+.reset {
+  border: none;
+
+  background: transparent;
+
+  color: var(--blue);
+
+  font-size: 11px;
+
+  font-weight: 700;
+
+  cursor: pointer;
+}
+
+
+/* =========================
+   ARTICLES
+========================= */
+
+.articles {
+  display: grid;
+
+  gap: 9px;
+}
+
+.article {
+  background: white;
+
+  border: 1px solid var(--line);
+
+  border-radius: 13px;
+
+  padding: 17px 18px;
+
+  display: grid;
+
+  grid-template-columns: 5px 1fr auto;
+
+  gap: 15px;
+
+  align-items: stretch;
+
+  cursor: pointer;
+
+  transition:
+    transform .12s,
+    box-shadow .12s,
+    border-color .12s;
+}
+
+.article:hover {
+  transform: translateY(-1px);
+
+  border-color: #d3d7dc;
+
+  box-shadow:
+    0 6px 20px rgba(0,0,0,.06);
+}
+
+.article-indicator {
+  background: var(--red);
+
+  border-radius: 8px;
+}
+
+.article.read .article-indicator {
+  background: #cbd0d7;
+}
+
+.article-source {
+  color: var(--red);
+
+  font-size: 10px;
+
+  font-weight: 900;
+
+  letter-spacing: 1px;
+
+  margin-bottom: 5px;
+}
+
+.article-title {
+  font-size: 15px;
+
+  line-height: 1.5;
+
+  font-weight: 700;
+}
+
+.article.read .article-title {
+  color: #7d838c;
+}
+
+.article-meta {
+  display: flex;
+
+  gap: 10px;
+
+  margin-top: 7px;
+
+  color: var(--muted);
+
+  font-size: 11px;
+}
+
+.status {
+  align-self: center;
+
+  padding: 5px 9px;
+
+  border-radius: 20px;
+
+  font-size: 9px;
+
+  font-weight: 800;
+
+  white-space: nowrap;
+}
+
+.status.unread {
+  background: #fff0f1;
+
+  color: var(--red);
+}
+
+.status.read {
+  background: #f1f2f4;
+
+  color: #7d838c;
+}
+
+
+/* =========================
+   EMPTY
+========================= */
+
+.empty {
+  background: white;
+
+  border: 1px dashed #cdd2d9;
+
+  border-radius: 14px;
+
+  padding: 55px 20px;
+
+  text-align: center;
+
+  color: var(--muted);
+
+  font-size: 13px;
+}
+
+
+/* =========================
+   FOOTER
+========================= */
+
+.footer {
+  max-width: 1050px;
+
+  margin: auto;
+
+  padding: 0 20px 35px;
+
+  display: flex;
+
+  justify-content: space-between;
+
+  color: #9aa0a9;
+
+  font-size: 9px;
+
+  letter-spacing: 1px;
+}
+
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 650px) {
+
+  .header {
+    height: 64px;
+
+    padding: 0 16px;
+  }
+
+  .logo {
+    width: 36px;
+    height: 36px;
+
+    font-size: 22px;
+  }
+
+  .logo-text strong {
+    font-size: 16px;
+  }
+
+  .main {
+    padding: 15px 12px 45px;
+  }
+
+  .hero {
+    padding: 30px 24px;
+
+    border-radius: 16px;
+  }
+
+  .hero h1 {
+    font-size: 36px;
+
+    letter-spacing: -1.5px;
+  }
+
+  .dashboard {
+    grid-template-columns: 1fr 1fr;
+
+    gap: 8px;
+  }
+
+  .stat {
+    padding: 14px;
+  }
+
+  .stat-value strong {
+    font-size: 23px;
+  }
+
+  .controls {
+    display: grid;
+
+    gap: 8px;
+  }
+
+  .control-group {
+    width: 100%;
+  }
+
+  .control {
+    flex: 1;
+
+    padding: 10px 5px;
+  }
+
+  .article {
+    grid-template-columns: 5px 1fr;
+
+    padding: 15px;
+  }
+
+  .status {
+    display: none;
+  }
+
+  .article-title {
+    font-size: 14px;
+  }
+
+  .footer {
+    padding: 0 15px 25px;
+  }
+
+}
+
+</style>
 </head>
+
 
 <body>
 
-  <h1>PHILLIES NEWS READER</h1>
 
-  <p>Philadelphia Phillies</p>
+<header class="header">
 
-  <hr>
+  <div class="logo-area">
 
-  <h2>ニュース</h2>
+    <div class="logo">
+      P
+    </div>
 
-  <button>過去1日</button>
-  <button>過去3日</button>
-  <button>過去7日</button>
+    <div class="logo-text">
+      <strong>PHILLIES</strong>
+      <span>NEWS READER</span>
+    </div>
 
-  <br><br>
+  </div>
 
-  <button>すべて</button>
-  <button>未読</button>
-  <button>既読</button>
+  <button class="menu-button">
+    ☰
+  </button>
 
-  <hr>
+</header>
 
-  <p>ここにフィリーズの記事が表示されます。</p>
+
+
+<main class="main">
+
+
+<section class="hero">
+
+  <div class="hero-content">
+
+    <div class="eyebrow">
+      PHILADELPHIA PHILLIES
+    </div>
+
+    <h1>
+      Phillies News
+    </h1>
+
+    <p>
+      フィリーズ関連ニュースをまとめてチェック
+    </p>
+
+  </div>
+
+</section>
+
+
+
+<section class="dashboard">
+
+  <div class="stat">
+
+    <div class="stat-label">
+      TOTAL NEWS
+    </div>
+
+    <div class="stat-value">
+      <strong id="totalCount">6</strong>
+      <span>articles</span>
+    </div>
+
+  </div>
+
+
+  <div class="stat">
+
+    <div class="stat-label">
+      UNREAD
+    </div>
+
+    <div class="stat-value">
+      <strong id="unreadCount">6</strong>
+      <span>articles</span>
+    </div>
+
+  </div>
+
+</section>
+
+
+
+<section class="controls">
+
+
+  <div class="control-group">
+
+    <button
+      class="control active"
+      data-days="1">
+      1日
+    </button>
+
+    <button
+      class="control"
+      data-days="3">
+      3日
+    </button>
+
+    <button
+      class="control"
+      data-days="7">
+      7日
+    </button>
+
+  </div>
+
+
+
+  <div class="control-group">
+
+    <button
+      class="control active"
+      data-filter="all">
+      すべて
+    </button>
+
+    <button
+      class="control"
+      data-filter="unread">
+      未読
+    </button>
+
+    <button
+      class="control"
+      data-filter="read">
+      既読
+    </button>
+
+  </div>
+
+
+</section>
+
+
+
+<div class="section-header">
+
+  <div class="section-title">
+
+    <div class="section-dot"></div>
+
+    <h2>
+      Latest News
+    </h2>
+
+  </div>
+
+  <button
+    class="reset"
+    id="reset">
+    既読をリセット
+  </button>
+
+</div>
+
+
+
+<section
+  class="articles"
+  id="articles">
+</section>
+
+
+</main>
+
+
+
+<footer class="footer">
+
+  <span>
+    PHILLIES NEWS READER
+  </span>
+
+  <span>
+    PERSONAL USE
+  </span>
+
+</footer>
+
+
+
+<script>
+
+
+const articles = [
+
+  {
+    id: 1,
+    days: 1,
+    source: "MLB.COM",
+    title: "Phillies continue to build around their core",
+    time: "今日 10:20"
+  },
+
+  {
+    id: 2,
+    days: 1,
+    source: "THE ATHLETIC",
+    title: "What is working for Philadelphia right now?",
+    time: "今日 08:45"
+  },
+
+  {
+    id: 3,
+    days: 2,
+    source: "PHILADELPHIA INQUIRER",
+    title: "Phillies prepare for another important series",
+    time: "昨日 21:30"
+  },
+
+  {
+    id: 4,
+    days: 3,
+    source: "MLB.COM",
+    title: "Pitching staff showing signs of improvement",
+    time: "8月8日 18:10"
+  },
+
+  {
+    id: 5,
+    days: 5,
+    source: "FANRAG SPORTS",
+    title: "The latest on the Phillies roster",
+    time: "8月6日 12:05"
+  },
+
+  {
+    id: 6,
+    days: 7,
+    source: "NBC SPORTS PHILADELPHIA",
+    title: "Five things to watch around the Phillies",
+    time: "8月3日 09:15"
+  }
+
+];
+
+
+let selectedDays = 1;
+
+let selectedFilter = "all";
+
+
+let readArticles =
+  JSON.parse(
+    localStorage.getItem("phillies-read") || "[]"
+  );
+
+
+
+function render() {
+
+
+  let visibleArticles =
+    articles.filter(article => {
+
+      return article.days <= selectedDays;
+
+    });
+
+
+  visibleArticles =
+    visibleArticles.filter(article => {
+
+
+      if (selectedFilter === "read") {
+
+        return readArticles.includes(article.id);
+
+      }
+
+
+      if (selectedFilter === "unread") {
+
+        return !readArticles.includes(article.id);
+
+      }
+
+
+      return true;
+
+    });
+
+
+
+  document.getElementById("totalCount")
+    .textContent =
+      articles.filter(
+        article => article.days <= selectedDays
+      ).length;
+
+
+
+  document.getElementById("unreadCount")
+    .textContent =
+      articles.filter(
+        article =>
+          article.days <= selectedDays &&
+          !readArticles.includes(article.id)
+      ).length;
+
+
+
+  const container =
+    document.getElementById("articles");
+
+
+
+  if (visibleArticles.length === 0) {
+
+    container.innerHTML = `
+
+      <div class="empty">
+
+        該当するニュースはありません。
+
+      </div>
+
+    `;
+
+    return;
+
+  }
+
+
+
+  container.innerHTML =
+    visibleArticles.map(article => {
+
+
+      const isRead =
+        readArticles.includes(article.id);
+
+
+      return `
+
+        <article
+          class="article ${isRead ? "read" : ""}"
+          data-id="${article.id}"
+        >
+
+          <div class="article-indicator"></div>
+
+
+          <div>
+
+            <div class="article-source">
+              ${article.source}
+            </div>
+
+
+            <div class="article-title">
+              ${article.title}
+            </div>
+
+
+            <div class="article-meta">
+
+              <span>
+                ${article.time}
+              </span>
+
+            </div>
+
+          </div>
+
+
+          <div
+            class="status ${isRead ? "read" : "unread"}">
+
+            ${isRead ? "既読" : "未読"}
+
+          </div>
+
+
+        </article>
+
+      `;
+
+    }).join("");
+
+
+
+  document
+    .querySelectorAll(".article")
+    .forEach(article => {
+
+
+      article.onclick = () => {
+
+
+        const id =
+          Number(article.dataset.id);
+
+
+        if (!readArticles.includes(id)) {
+
+          readArticles.push(id);
+
+        } else {
+
+          readArticles =
+            readArticles.filter(
+              x => x !== id
+            );
+
+        }
+
+
+        localStorage.setItem(
+          "phillies-read",
+          JSON.stringify(readArticles)
+        );
+
+
+        render();
+
+      };
+
+    });
+
+}
+
+
+
+/* 期間 */
+
+document
+  .querySelectorAll("[data-days]")
+  .forEach(button => {
+
+
+    button.onclick = () => {
+
+
+      selectedDays =
+        Number(button.dataset.days);
+
+
+      document
+        .querySelectorAll("[data-days]")
+        .forEach(
+          b => b.classList.remove("active")
+        );
+
+
+      button.classList.add("active");
+
+
+      render();
+
+    };
+
+  });
+
+
+
+/* 既読フィルター */
+
+document
+  .querySelectorAll("[data-filter]")
+  .forEach(button => {
+
+
+    button.onclick = () => {
+
+
+      selectedFilter =
+        button.dataset.filter;
+
+
+      document
+        .querySelectorAll("[data-filter]")
+        .forEach(
+          b => b.classList.remove("active")
+        );
+
+
+      button.classList.add("active");
+
+
+      render();
+
+    };
+
+  });
+
+
+
+/* リセット */
+
+document
+  .getElementById("reset")
+  .onclick = () => {
+
+
+    readArticles = [];
+
+
+    localStorage.removeItem(
+      "phillies-read"
+    );
+
+
+    render();
+
+  };
+
+
+
+render();
+
+</script>
+
 
 </body>
 </html>
+```
