@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-10T10:05:22.755179+00:00",
+  "updated_at": "2026-08-10T14:36:49.307814+00:00",
   "articles": [
     {
       "id": "f176402e869190c9",
@@ -66,12 +66,12 @@
       "published_at": "2026-08-09T02:55:16.692000+00:00"
     },
     {
-      "id": "a90a662c1b50ecf9",
-      "title_en": "Wheeler's wild night features epic 15-pitch duel ... and some choice words for Jays",
-      "title_ja": "ウィーラーのワイルドナイトには、壮大な15ピッチの決闘とジェイズのためのいくつかの選択肢が含まれています",
-      "url": "https://www.mlb.com/phillies/news/zack-wheeler-faces-blue-jays-at-citizens-bank-park",
+      "id": "766a86f94ec3877b",
+      "title_en": "'No one deserves it as much': Utley inducted into Phillies Wall of Fame",
+      "title_ja": "「誰もそれに値しない」：アトリーがフィリーズ・ウォール・オブ・フェイムに殿堂入り",
+      "url": "https://www.mlb.com/phillies/news/chase-utley-joins-phillies-wall-of-fame",
       "source": "MLB.com",
-      "published_at": "2026-08-08T05:44:00+00:00"
+      "published_at": "2026-08-08T03:40:07.749000+00:00"
     },
     {
       "id": "3f91d4c204f9aeb6",
@@ -82,12 +82,12 @@
       "published_at": "2026-08-09T22:29:00+00:00"
     },
     {
-      "id": "766a86f94ec3877b",
-      "title_en": "'No one deserves it as much': Utley inducted into Phillies Wall of Fame",
-      "title_ja": "「誰もそれに値しない」：アトリーがフィリーズ・ウォール・オブ・フェイムに殿堂入り",
-      "url": "https://www.mlb.com/phillies/news/chase-utley-joins-phillies-wall-of-fame",
+      "id": "a90a662c1b50ecf9",
+      "title_en": "Wheeler's wild night features epic 15-pitch duel ... and some choice words for Jays",
+      "title_ja": "ウィーラーのワイルドナイトには、壮大な15ピッチの決闘とジェイズのためのいくつかの選択肢が含まれています",
+      "url": "https://www.mlb.com/phillies/news/zack-wheeler-faces-blue-jays-at-citizens-bank-park",
       "source": "MLB.com",
-      "published_at": "2026-08-08T03:40:07.749000+00:00"
+      "published_at": "2026-08-08T05:44:00+00:00"
     },
     {
       "id": "2d1d2812ccc8a0e4",
@@ -170,14 +170,6 @@
       "published_at": "2026-08-04T01:18:00+00:00"
     },
     {
-      "id": "e71895666eef3b29",
-      "title_en": "Utley to be inducted into Phillies Wall of Fame this weekend",
-      "title_ja": "アトリーが今週末フィリーズ・ウォール・オブ・フェイムに殿堂入り",
-      "url": "https://www.mlb.com/phillies/news/chase-utley-to-be-honored-at-toyota-phillies-alumni-weekend",
-      "source": "MLB.com",
-      "published_at": "2026-08-04T17:05:31.541000+00:00"
-    },
-    {
       "id": "6e4197e82825e369",
       "title_en": "Phils notch first series win since All-Star break on cusp of Deadline",
       "title_ja": "締め切りのカスプでオールスターブレイク以来、Philsはシリーズ初の勝利を収めました",
@@ -200,6 +192,14 @@
       "url": "https://www.mlb.com/phillies/news/jose-alvarado-phillies-bullpen-rebound-vs-orioles",
       "source": "MLB.com",
       "published_at": "2026-08-02T03:17:49.113000+00:00"
+    },
+    {
+      "id": "8a30974f54657fe3",
+      "title_en": "Painter shows promise in strong return as Phils search for No. 5 starter",
+      "title_ja": "PhilsがNo.5スターターを探す中、画家は強力な見返りを約束します",
+      "url": "https://www.mlb.com/phillies/news/andrew-painter-start-for-phillies-in-baltimore",
+      "source": "MLB.com",
+      "published_at": "2026-08-01T05:24:00+00:00"
     }
   ]
 }
