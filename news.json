@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-12T20:03:42.922036+00:00",
+  "updated_at": "2026-08-12T22:26:36.777414+00:00",
   "articles": [
     {
       "id": "f176402e869190c9",
@@ -26,20 +26,20 @@
       "published_at": "2026-03-10T00:00:00+00:00"
     },
     {
+      "id": "4fd25b10a64409a6",
+      "title_en": "Four-run 5th inning sinks Wheeler in another shaky outing for Phils ace",
+      "title_ja": "4回走った5回目のシンクフィルズエースのための別の不安定な外出でウィーラー",
+      "url": "https://www.mlb.com/phillies/news/zack-wheeler-start-cardinals-phillies-aug-12-2026",
+      "source": "MLB.com",
+      "published_at": "2026-08-12T21:00:00+00:00"
+    },
+    {
       "id": "b950e7467b90ab10",
       "title_en": "Harper: Soreness in left knee 'nothing over the top' as Phils prepare for stretch run",
       "title_ja": "ハーパー：フィリップスがストレッチランの準備をしているとき、左膝の痛みは「上には何もありません」",
       "url": "https://www.mlb.com/phillies/news/bryce-harper-dealing-with-knee-soreness-after-move-back-to-outfield",
       "source": "MLB.com",
       "published_at": "2026-08-12T17:44:00+00:00"
-    },
-    {
-      "id": "4fd25b10a64409a6",
-      "title_en": "Wheeler looks to get back on track against Leahy, Cards",
-      "title_ja": "ウィーラーはリーヒー、カードに対して軌道に戻ろうとしています",
-      "url": "https://www.mlb.com/phillies/news/zack-wheeler-start-cardinals-phillies-aug-12-2026",
-      "source": "MLB.com",
-      "published_at": "2026-08-12T17:55:00+00:00"
     },
     {
       "id": "b44f7d316da5d955",
@@ -147,11 +147,11 @@
     },
     {
       "id": "87c30d445ea26287",
-      "title_en": "Watch 2026 No. 1 Draft pick Cholowsky take on Top 100 prospect Florentino for FREE tonight",
-      "title_ja": "2026年のNo.1ドラフトピックチョロフスキーが今夜無料でトップ100の見込み客フロレンティーノに挑戦するのを見てください",
+      "title_en": "Watch LIVE: 2026 No. 1 Draft pick Cholowsky take on Pirates No. 2 prospect Florentino",
+      "title_ja": "ライブ視聴： 2026年No.1ドラフトピックCholowskyがPirates No.2見込み客Florentinoに挑戦",
       "url": "https://www.mlb.com/phillies/news/watch-minor-league-baseball-games-for-free-2026",
       "source": "MLB.com",
-      "published_at": "2026-08-12T05:25:00+00:00"
+      "published_at": "2026-08-12T22:24:00+00:00"
     },
     {
       "id": "a90a662c1b50ecf9",
