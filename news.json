@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-11T22:28:29.479519+00:00",
+  "updated_at": "2026-08-12T05:13:25.542498+00:00",
   "articles": [
     {
       "id": "f176402e869190c9",
@@ -27,11 +27,19 @@
     },
     {
       "id": "b21f6720e22f9090",
-      "title_en": "With Cards on deck, Sánchez looks to continue five-start win streak",
-      "title_ja": "デッキにカードがあるので、サンチェスは5連勝を続けようとしています",
+      "title_en": "On humid night, stymied Phils pull Sánchez after 6 scoreless frames",
+      "title_ja": "湿気の多い夜、6つのスコアレスフレームの後、窮地に立たされたPhilsはSánchezを引っ張ります",
       "url": "https://www.mlb.com/phillies/news/cristopher-sanchez-start-cardinals-phillies-aug-11-2026",
       "source": "MLB.com",
-      "published_at": "2026-08-11T06:29:15.182000+00:00"
+      "published_at": "2026-08-12T04:34:00+00:00"
+    },
+    {
+      "id": "50ed7b916f56aa23",
+      "title_en": "Philly's new-look lineup bucks baseball tradition. Here's why it works",
+      "title_ja": "フィラデルフィアの新しいラインナップは、野球の伝統を重視しています。機能する理由は次のとおりです",
+      "url": "https://www.mlb.com/phillies/news/explaining-the-phillies-unconventional-batting-order",
+      "source": "MLB.com",
+      "published_at": "2026-08-12T04:12:00+00:00"
     },
     {
       "id": "d3970ea678954ea0",
@@ -42,14 +50,6 @@
       "published_at": "2026-08-11T04:04:00+00:00"
     },
     {
-      "id": "50669172d625f924",
-      "title_en": "Kilian heads to IL with moderate left oblique strain, out 'for a while'",
-      "title_ja": "キリアンは中程度の左斜めのひずみでILに向かい、「しばらくの間」外に出ます",
-      "url": "https://www.mlb.com/phillies/news/caleb-kilian-placed-on-injured-list-with-left-oblique-strain",
-      "source": "MLB.com",
-      "published_at": "2026-08-10T23:34:36.933000+00:00"
-    },
-    {
       "id": "8176b8558347633c",
       "title_en": "Price drop! Stream games on PHILLIES.TV",
       "title_ja": "値下げ！ PHILLIES.TVでゲームをストリーミング",
@@ -58,12 +58,12 @@
       "published_at": "2026-08-10T18:54:00+00:00"
     },
     {
-      "id": "64b4a59f3ab5c9c0",
-      "title_en": "Schwarber snaps dinger drought, Hill gets walk-off hit in Phils' much-needed win",
-      "title_ja": "シュワーバーはジンジャーの干ばつを襲い、ヒルはPhilsの大いに必要な勝利でウォークオフの打撃を受ける",
-      "url": "https://www.mlb.com/phillies/news/kyle-schwarber-hits-two-homers-in-phillies-walk-off-win",
+      "id": "50669172d625f924",
+      "title_en": "Kilian heads to IL with moderate left oblique strain, out 'for a while'",
+      "title_ja": "キリアンは中程度の左斜めのひずみでILに向かい、「しばらくの間」外に出ます",
+      "url": "https://www.mlb.com/phillies/news/caleb-kilian-placed-on-injured-list-with-left-oblique-strain",
       "source": "MLB.com",
-      "published_at": "2026-08-10T00:10:00+00:00"
+      "published_at": "2026-08-10T23:34:36.933000+00:00"
     },
     {
       "id": "3f91d4c204f9aeb6",
@@ -72,6 +72,14 @@
       "url": "https://www.mlb.com/phillies/news/phillies-injuries-and-roster-moves",
       "source": "MLB.com",
       "published_at": "2026-08-11T20:55:00+00:00"
+    },
+    {
+      "id": "64b4a59f3ab5c9c0",
+      "title_en": "Schwarber snaps dinger drought, Hill gets walk-off hit in Phils' much-needed win",
+      "title_ja": "シュワーバーはジンジャーの干ばつを襲い、ヒルはPhilsの大いに必要な勝利でウォークオフの打撃を受ける",
+      "url": "https://www.mlb.com/phillies/news/kyle-schwarber-hits-two-homers-in-phillies-walk-off-win",
+      "source": "MLB.com",
+      "published_at": "2026-08-10T00:10:00+00:00"
     },
     {
       "id": "894e8740f17d708b",
@@ -107,11 +115,11 @@
     },
     {
       "id": "87c30d445ea26287",
-      "title_en": "Watch Triple-A St. Paul face Iowa in MiLB at Field of Dreams game tonight",
-      "title_ja": "今夜Field of Dreamsの試合でMiLBのTriple - A St. Paul FACE Iowaを見る",
+      "title_en": "Watch 2026 No. 1 Draft pick Roch Cholowsky for FREE on Wednesday night",
+      "title_ja": "水曜日の夜、2026年No.1ドラフトピックのRoch Cholowskyを無料で視聴",
       "url": "https://www.mlb.com/phillies/news/watch-minor-league-baseball-games-for-free-2026",
       "source": "MLB.com",
-      "published_at": "2026-08-11T19:01:00+00:00"
+      "published_at": "2026-08-11T22:49:00+00:00"
     },
     {
       "id": "a90a662c1b50ecf9",
@@ -184,14 +192,6 @@
       "url": "https://www.mlb.com/phillies/news/phillies-new-batting-order-after-luis-arraez-trade",
       "source": "MLB.com",
       "published_at": "2026-08-05T02:02:00+00:00"
-    },
-    {
-      "id": "86247cf84c19d831",
-      "title_en": "Phils' Deadline haul includes 3-time batting champ, pair of relievers, new glove for Bryce",
-      "title_ja": "Philsの締め切りには、3回のバッティングチャンピオン、リリーバーのペア、ブライスの新しい手袋が含まれています",
-      "url": "https://www.mlb.com/phillies/news/phillies-acquire-luis-arraez-brooks-raley-trade",
-      "source": "MLB.com",
-      "published_at": "2026-08-04T01:40:00+00:00"
     }
   ]
 }
