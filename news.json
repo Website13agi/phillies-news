@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-12T05:13:25.542498+00:00",
+  "updated_at": "2026-08-12T09:44:22.726583+00:00",
   "articles": [
     {
       "id": "f176402e869190c9",
@@ -26,6 +26,14 @@
       "published_at": "2026-03-10T00:00:00+00:00"
     },
     {
+      "id": "4fd25b10a64409a6",
+      "title_en": "Wheeler looks to get back on track against Leahy, Cards",
+      "title_ja": "ウィーラーはリーヒー、カードに対して軌道に戻ろうとしています",
+      "url": "https://www.mlb.com/phillies/news/zack-wheeler-start-cardinals-phillies-aug-12-2026",
+      "source": "MLB.com",
+      "published_at": "2026-08-12T06:35:53.919000+00:00"
+    },
+    {
       "id": "b21f6720e22f9090",
       "title_en": "On humid night, stymied Phils pull Sánchez after 6 scoreless frames",
       "title_ja": "湿気の多い夜、6つのスコアレスフレームの後、窮地に立たされたPhilsはSánchezを引っ張ります",
@@ -42,14 +50,6 @@
       "published_at": "2026-08-12T04:12:00+00:00"
     },
     {
-      "id": "d3970ea678954ea0",
-      "title_en": "Painter crafts work of art with no-hit bid into sixth inning",
-      "title_ja": "6回目に当たらずに芸術作品を描こう",
-      "url": "https://www.mlb.com/phillies/news/andrew-painter-pitches-five-no-hit-innings-in-win-against-cardinals",
-      "source": "MLB.com",
-      "published_at": "2026-08-11T04:04:00+00:00"
-    },
-    {
       "id": "8176b8558347633c",
       "title_en": "Price drop! Stream games on PHILLIES.TV",
       "title_ja": "値下げ！ PHILLIES.TVでゲームをストリーミング",
@@ -58,12 +58,20 @@
       "published_at": "2026-08-10T18:54:00+00:00"
     },
     {
-      "id": "50669172d625f924",
-      "title_en": "Kilian heads to IL with moderate left oblique strain, out 'for a while'",
-      "title_ja": "キリアンは中程度の左斜めのひずみでILに向かい、「しばらくの間」外に出ます",
-      "url": "https://www.mlb.com/phillies/news/caleb-kilian-placed-on-injured-list-with-left-oblique-strain",
+      "id": "29bc2f32ca60a2cb",
+      "title_en": "Who will be the HR king? We haven't had a race this close in over 40 years",
+      "title_ja": "誰がHRキングになりますか？ここ40年以上、これほど接近したレースはありませんでした",
+      "url": "https://www.mlb.com/phillies/news/who-will-win-the-mlb-home-run-race",
       "source": "MLB.com",
-      "published_at": "2026-08-10T23:34:36.933000+00:00"
+      "published_at": "2026-08-12T05:27:58.063000+00:00"
+    },
+    {
+      "id": "d3970ea678954ea0",
+      "title_en": "Painter crafts work of art with no-hit bid into sixth inning",
+      "title_ja": "6回目に当たらずに芸術作品を描こう",
+      "url": "https://www.mlb.com/phillies/news/andrew-painter-pitches-five-no-hit-innings-in-win-against-cardinals",
+      "source": "MLB.com",
+      "published_at": "2026-08-11T04:04:00+00:00"
     },
     {
       "id": "3f91d4c204f9aeb6",
@@ -72,6 +80,14 @@
       "url": "https://www.mlb.com/phillies/news/phillies-injuries-and-roster-moves",
       "source": "MLB.com",
       "published_at": "2026-08-11T20:55:00+00:00"
+    },
+    {
+      "id": "50669172d625f924",
+      "title_en": "Kilian heads to IL with moderate left oblique strain, out 'for a while'",
+      "title_ja": "キリアンは中程度の左斜めのひずみでILに向かい、「しばらくの間」外に出ます",
+      "url": "https://www.mlb.com/phillies/news/caleb-kilian-placed-on-injured-list-with-left-oblique-strain",
+      "source": "MLB.com",
+      "published_at": "2026-08-10T23:34:36.933000+00:00"
     },
     {
       "id": "64b4a59f3ab5c9c0",
@@ -115,11 +131,11 @@
     },
     {
       "id": "87c30d445ea26287",
-      "title_en": "Watch 2026 No. 1 Draft pick Roch Cholowsky for FREE on Wednesday night",
-      "title_ja": "水曜日の夜、2026年No.1ドラフトピックのRoch Cholowskyを無料で視聴",
+      "title_en": "Watch 2026 No. 1 Draft pick Cholowsky take on Top 100 prospect Florentino for FREE tonight",
+      "title_ja": "2026年のNo.1ドラフトピックチョロフスキーが今夜無料でトップ100の見込み客フロレンティーノに挑戦するのを見てください",
       "url": "https://www.mlb.com/phillies/news/watch-minor-league-baseball-games-for-free-2026",
       "source": "MLB.com",
-      "published_at": "2026-08-11T22:49:00+00:00"
+      "published_at": "2026-08-12T05:25:00+00:00"
     },
     {
       "id": "a90a662c1b50ecf9",
@@ -176,22 +192,6 @@
       "url": "https://www.mlb.com/phillies/news/luis-arraez-homers-in-second-game-with-phillies",
       "source": "MLB.com",
       "published_at": "2026-08-06T04:51:00+00:00"
-    },
-    {
-      "id": "12565cb2a6cb22c0",
-      "title_en": "'A great day for the Phillies' as post-Deadline blueprint works to perfection",
-      "title_ja": "デッドライン後の青写真が完璧に機能する「フィリーズにとって素晴らしい日」",
-      "url": "https://www.mlb.com/phillies/news/jesus-luzardo-shuts-out-nationals-over-8-innings",
-      "source": "MLB.com",
-      "published_at": "2026-08-05T02:42:00+00:00"
-    },
-    {
-      "id": "3cad3c9adb584313",
-      "title_en": "Arraez makes immediate impact in Phillies' new-look lineup",
-      "title_ja": "Arraezがフィリーズの新ラインナップに即座にインパクトを与える",
-      "url": "https://www.mlb.com/phillies/news/phillies-new-batting-order-after-luis-arraez-trade",
-      "source": "MLB.com",
-      "published_at": "2026-08-05T02:02:00+00:00"
     }
   ]
 }
