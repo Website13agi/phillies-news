@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-13T16:13:31.069027+00:00",
+  "updated_at": "2026-08-13T19:48:52.358705+00:00",
   "articles": [
     {
       "id": "f176402e869190c9",
@@ -34,20 +34,20 @@
       "published_at": "2026-08-13T15:30:00+00:00"
     },
     {
+      "id": "b95a760d562162c7",
+      "title_en": "Everything to know about tonight's MLB at Field of Dreams Game on Netflix (7:30 ET)",
+      "title_ja": "NetflixのField of Dreams Gameで今夜のMLBについて知っておくべきすべてのこと（ 7:30 ET ）",
+      "url": "https://www.mlb.com/phillies/news/2026-mlb-at-field-of-dreams-game-on-netflix-date-time-matchup",
+      "source": "MLB.com",
+      "published_at": "2026-08-13T14:35:00+00:00"
+    },
+    {
       "id": "d041813af34694e7",
       "title_en": "The Phanatic takes on the Field (trip) of Dreams",
       "title_ja": "ファナティックが夢のフィールド（トリップ）に挑む",
       "url": "https://www.mlb.com/phillies/news/phanatic-takes-trip-through-field-of-dreams-ballpark",
       "source": "MLB.com",
       "published_at": "2026-08-13T15:55:43.756000+00:00"
-    },
-    {
-      "id": "5e63800d69428adf",
-      "title_en": "Stott bringing angels to infield with homage to late Phillies at Field of Dreams Game",
-      "title_ja": "フィールド・オブ・ドリームズ・ゲームで後半のフィリーズに敬意を表して天使をインフィールドに連れて行くストット",
-      "url": "https://www.mlb.com/phillies/news/bryson-stott-to-wear-custom-cleats-at-field-of-dreams",
-      "source": "MLB.com",
-      "published_at": "2026-08-12T23:07:11.562000+00:00"
     },
     {
       "id": "8176b8558347633c",
@@ -58,12 +58,12 @@
       "published_at": "2026-08-10T18:54:00+00:00"
     },
     {
-      "id": "b95a760d562162c7",
-      "title_en": "Everything to know about tonight's MLB at Field of Dreams Game on Netflix (7:30 ET)",
-      "title_ja": "NetflixのField of Dreams Gameで今夜のMLBについて知っておくべきすべてのこと（ 7:30 ET ）",
-      "url": "https://www.mlb.com/phillies/news/2026-mlb-at-field-of-dreams-game-on-netflix-date-time-matchup",
+      "id": "5e63800d69428adf",
+      "title_en": "Stott bringing angels to infield with homage to late Phillies at MLB at Field of Dreams",
+      "title_ja": "StottがField of DreamsのMLBで故フィリーズに敬意を表して天使をインフィールドに連れてくる",
+      "url": "https://www.mlb.com/phillies/news/bryson-stott-to-wear-custom-cleats-at-field-of-dreams",
       "source": "MLB.com",
-      "published_at": "2026-08-13T14:35:00+00:00"
+      "published_at": "2026-08-12T23:07:11.562000+00:00"
     },
     {
       "id": "56dc65aae7548333",
