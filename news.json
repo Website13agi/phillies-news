@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-13T19:48:52.358705+00:00",
+  "updated_at": "2026-08-13T22:25:07.298728+00:00",
   "articles": [
     {
       "id": "f176402e869190c9",
@@ -58,6 +58,14 @@
       "published_at": "2026-08-10T18:54:00+00:00"
     },
     {
+      "id": "93f5dd9eb24a1d1c",
+      "title_en": "NEW Top 100 and Top 30 Prospects lists are here!",
+      "title_ja": "新しいトップ100とトップ30の見込み客リストがここにあります！",
+      "url": "https://www.mlb.com/phillies/news/top-100-prospects-updated-in-season-rankings-2026",
+      "source": "MLB.com",
+      "published_at": "2026-08-13T21:05:58.263000+00:00"
+    },
+    {
       "id": "5e63800d69428adf",
       "title_en": "Stott bringing angels to infield with homage to late Phillies at MLB at Field of Dreams",
       "title_ja": "StottがField of DreamsのMLBで故フィリーズに敬意を表して天使をインフィールドに連れてくる",
@@ -66,20 +74,20 @@
       "published_at": "2026-08-12T23:07:11.562000+00:00"
     },
     {
+      "id": "3f91d4c204f9aeb6",
+      "title_en": "Latest Phillies injuries & transactions",
+      "title_ja": "最新のフィリーズの怪我と取引",
+      "url": "https://www.mlb.com/phillies/news/phillies-injuries-and-roster-moves",
+      "source": "MLB.com",
+      "published_at": "2026-08-13T22:04:00+00:00"
+    },
+    {
       "id": "56dc65aae7548333",
       "title_en": "Contenders' aces fill up latest SP Power Rankings",
       "title_ja": "競争相手のエースが最新のSPパワーランキングを埋め尽くす",
       "url": "https://www.mlb.com/phillies/news/10-starting-pitcher-power-rankings-of-2026",
       "source": "MLB.com",
       "published_at": "2026-08-13T04:07:45.616000+00:00"
-    },
-    {
-      "id": "3f91d4c204f9aeb6",
-      "title_en": "Latest Phillies injuries & transactions",
-      "title_ja": "最新のフィリーズの怪我と取引",
-      "url": "https://www.mlb.com/phillies/news/phillies-injuries-and-roster-moves",
-      "source": "MLB.com",
-      "published_at": "2026-08-11T20:55:00+00:00"
     },
     {
       "id": "4fd25b10a64409a6",
@@ -184,14 +192,6 @@
       "url": "https://www.mlb.com/phillies/news/chase-utley-joins-phillies-wall-of-fame",
       "source": "MLB.com",
       "published_at": "2026-08-08T03:40:07.749000+00:00"
-    },
-    {
-      "id": "87c30d445ea26287",
-      "title_en": "Watch Rays' Top 100 prospects Gillen, Bodine vs. Double-A Reds tonight",
-      "title_ja": "今夜、Gillen、Bodine対Double - A RedsのRaysのトップ100の見込み客を見てください",
-      "url": "https://www.mlb.com/phillies/news/watch-minor-league-baseball-games-for-free-2026",
-      "source": "MLB.com",
-      "published_at": "2026-08-13T05:07:00+00:00"
     }
   ]
 }
