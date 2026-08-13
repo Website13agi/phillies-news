@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-12T22:26:36.777414+00:00",
+  "updated_at": "2026-08-13T05:20:15.114114+00:00",
   "articles": [
     {
       "id": "f176402e869190c9",
@@ -15,7 +15,7 @@
       "title_ja": "フィリーズパイプライン",
       "url": "https://www.mlb.com/phillies/news/topic/phillies-pipeline-coverage",
       "source": "MLB.com",
-      "published_at": "2026-08-09T00:00:00+00:00"
+      "published_at": "2026-08-12T00:00:00+00:00"
     },
     {
       "id": "872bf5359c768da8",
@@ -26,28 +26,28 @@
       "published_at": "2026-03-10T00:00:00+00:00"
     },
     {
-      "id": "4fd25b10a64409a6",
-      "title_en": "Four-run 5th inning sinks Wheeler in another shaky outing for Phils ace",
-      "title_ja": "4回走った5回目のシンクフィルズエースのための別の不安定な外出でウィーラー",
-      "url": "https://www.mlb.com/phillies/news/zack-wheeler-start-cardinals-phillies-aug-12-2026",
+      "id": "b7219a008e5f823c",
+      "title_en": "'Excited to see the corn': Schwarber, Phillies head to Iowa for Field of Dreams Game",
+      "title_ja": "「トウモロコシを見るのが楽しみ」：シュワーバー、フィリーズはフィールド・オブ・ドリームズ・ゲームのためにアイオワに向かう",
+      "url": "https://www.mlb.com/phillies/news/phillies-vs-twins-2026-field-of-dreams-game-preview",
       "source": "MLB.com",
-      "published_at": "2026-08-12T21:00:00+00:00"
+      "published_at": "2026-08-13T00:12:07.733000+00:00"
     },
     {
-      "id": "b950e7467b90ab10",
-      "title_en": "Harper: Soreness in left knee 'nothing over the top' as Phils prepare for stretch run",
-      "title_ja": "ハーパー：フィリップスがストレッチランの準備をしているとき、左膝の痛みは「上には何もありません」",
-      "url": "https://www.mlb.com/phillies/news/bryce-harper-dealing-with-knee-soreness-after-move-back-to-outfield",
+      "id": "5e63800d69428adf",
+      "title_en": "Stott bringing angels to infield with homage to late Phillies at Field of Dreams Game",
+      "title_ja": "フィールド・オブ・ドリームズ・ゲームで後半のフィリーズに敬意を表して天使をインフィールドに連れて行くストット",
+      "url": "https://www.mlb.com/phillies/news/bryson-stott-to-wear-custom-cleats-at-field-of-dreams",
       "source": "MLB.com",
-      "published_at": "2026-08-12T17:44:00+00:00"
+      "published_at": "2026-08-12T23:07:11.562000+00:00"
     },
     {
-      "id": "b44f7d316da5d955",
-      "title_en": "Quick-thinking prospect tosses glove for an out",
-      "title_ja": "素早い思考の見込み客は、アウトのために手袋を投げます",
-      "url": "https://www.mlb.com/phillies/news/phillies-prospect-aroon-escobar-throws-his-glove-for-an-out",
+      "id": "b95a760d562162c7",
+      "title_en": "Everything to know about the 2026 MLB at Field of Dreams Game on Netflix",
+      "title_ja": "NetflixのField of Dreams Gameで2026年MLBについて知っておくべきすべてのこと",
+      "url": "https://www.mlb.com/phillies/news/2026-mlb-at-field-of-dreams-game-on-netflix-date-time-matchup",
       "source": "MLB.com",
-      "published_at": "2026-08-12T13:39:48.654000+00:00"
+      "published_at": "2026-08-13T00:02:00+00:00"
     },
     {
       "id": "8176b8558347633c",
@@ -56,6 +56,46 @@
       "url": "https://www.mlb.com/phillies/news/phillies-tv-stream-2026",
       "source": "MLB.com",
       "published_at": "2026-08-10T18:54:00+00:00"
+    },
+    {
+      "id": "56dc65aae7548333",
+      "title_en": "Contenders' aces fill up latest SP Power Rankings",
+      "title_ja": "競争相手のエースが最新のSPパワーランキングを埋め尽くす",
+      "url": "https://www.mlb.com/phillies/news/10-starting-pitcher-power-rankings-of-2026",
+      "source": "MLB.com",
+      "published_at": "2026-08-13T04:07:45.616000+00:00"
+    },
+    {
+      "id": "4fd25b10a64409a6",
+      "title_en": "Four-run 5th inning sinks Wheeler in another shaky outing for Phils ace",
+      "title_ja": "4回走った5回目のシンクフィルズエースのための別の不安定な外出でウィーラー",
+      "url": "https://www.mlb.com/phillies/news/zack-wheeler-start-cardinals-phillies-aug-12-2026",
+      "source": "MLB.com",
+      "published_at": "2026-08-12T22:25:00+00:00"
+    },
+    {
+      "id": "3f91d4c204f9aeb6",
+      "title_en": "Latest Phillies injuries & transactions",
+      "title_ja": "最新のフィリーズの怪我と取引",
+      "url": "https://www.mlb.com/phillies/news/phillies-injuries-and-roster-moves",
+      "source": "MLB.com",
+      "published_at": "2026-08-11T20:55:00+00:00"
+    },
+    {
+      "id": "b950e7467b90ab10",
+      "title_en": "Harper: Soreness in left knee 'nothing over the top' as Phils prepare for stretch run",
+      "title_ja": "ハーパー：フィリップスがストレッチランの準備をしているとき、左膝の痛みは「上には何もありません」",
+      "url": "https://www.mlb.com/phillies/news/bryce-harper-dealing-with-knee-soreness-after-move-back-to-outfield",
+      "source": "MLB.com",
+      "published_at": "2026-08-12T22:51:00+00:00"
+    },
+    {
+      "id": "b44f7d316da5d955",
+      "title_en": "Quick-thinking prospect tosses glove for an out",
+      "title_ja": "素早い思考の見込み客は、アウトのために手袋を投げます",
+      "url": "https://www.mlb.com/phillies/news/phillies-prospect-aroon-escobar-throws-his-glove-for-an-out",
+      "source": "MLB.com",
+      "published_at": "2026-08-12T13:39:48.654000+00:00"
     },
     {
       "id": "b21f6720e22f9090",
@@ -72,14 +112,6 @@
       "url": "https://www.mlb.com/phillies/news/explaining-the-phillies-unconventional-batting-order",
       "source": "MLB.com",
       "published_at": "2026-08-12T04:12:00+00:00"
-    },
-    {
-      "id": "3f91d4c204f9aeb6",
-      "title_en": "Latest Phillies injuries & transactions",
-      "title_ja": "最新のフィリーズの怪我と取引",
-      "url": "https://www.mlb.com/phillies/news/phillies-injuries-and-roster-moves",
-      "source": "MLB.com",
-      "published_at": "2026-08-11T20:55:00+00:00"
     },
     {
       "id": "29bc2f32ca60a2cb",
@@ -147,11 +179,11 @@
     },
     {
       "id": "87c30d445ea26287",
-      "title_en": "Watch LIVE: 2026 No. 1 Draft pick Cholowsky take on Pirates No. 2 prospect Florentino",
-      "title_ja": "ライブ視聴： 2026年No.1ドラフトピックCholowskyがPirates No.2見込み客Florentinoに挑戦",
+      "title_en": "Watch Rays' Top 100 prospects Gillen, Bodine vs. Double-A Reds tonight",
+      "title_ja": "今夜、Gillen、Bodine対Double - A RedsのRaysのトップ100の見込み客を見てください",
       "url": "https://www.mlb.com/phillies/news/watch-minor-league-baseball-games-for-free-2026",
       "source": "MLB.com",
-      "published_at": "2026-08-12T22:24:00+00:00"
+      "published_at": "2026-08-13T05:07:00+00:00"
     },
     {
       "id": "a90a662c1b50ecf9",
@@ -160,38 +192,6 @@
       "url": "https://www.mlb.com/phillies/news/zack-wheeler-faces-blue-jays-at-citizens-bank-park",
       "source": "MLB.com",
       "published_at": "2026-08-08T05:44:00+00:00"
-    },
-    {
-      "id": "2d1d2812ccc8a0e4",
-      "title_en": "Phillies fan goes viral after winning chance to join radio booth for an inning",
-      "title_ja": "ラジオブースに参加するチャンスを勝ち取った後、フィリーズのファンはウイルスに感染します",
-      "url": "https://www.mlb.com/phillies/news/viral-phillies-fan-calls-inning-on-radio",
-      "source": "MLB.com",
-      "published_at": "2026-08-07T18:08:17.939000+00:00"
-    },
-    {
-      "id": "60f9a4c6f62360d9",
-      "title_en": "EIGHT doubles on 16 hits?! Phils' offense picks up Sánchez after short outing",
-      "title_ja": "16ヒットで8ダブルス？ ！短い外出の後、フィリップスのオフェンスがサンチェスを拾う",
-      "url": "https://www.mlb.com/phillies/news/cristopher-sanchez-faces-nationals-at-home-on-thursday",
-      "source": "MLB.com",
-      "published_at": "2026-08-07T02:31:00+00:00"
-    },
-    {
-      "id": "edb8067d9f6facdf",
-      "title_en": "Arraez rises up and over tag! But forgets one very important thing",
-      "title_ja": "アラエスが立ち上がってきた！しかし、非常に重要なことを1つ忘れています",
-      "url": "https://www.mlb.com/phillies/news/luis-arraez-avoids-tag-but-misses-home-plate",
-      "source": "MLB.com",
-      "published_at": "2026-08-07T02:01:14.105000+00:00"
-    },
-    {
-      "id": "433fe9fa75497a92",
-      "title_en": "Harper the everyday RF? Phillies say it's more complicated than that",
-      "title_ja": "毎日のRFをハーパー？フィリーズはそれよりも複雑だと言います",
-      "url": "https://www.mlb.com/phillies/news/bryce-harper-to-play-multiple-defensive-positions-for-phillies",
-      "source": "MLB.com",
-      "published_at": "2026-08-06T14:52:52.014000+00:00"
     }
   ]
 }
