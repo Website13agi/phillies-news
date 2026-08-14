@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-14T22:54:37.372860+00:00",
+  "updated_at": "2026-08-14T23:53:29.025848+00:00",
   "articles": [
     {
       "id": "f176402e869190c9",
@@ -42,12 +42,12 @@
       "published_at": "2026-08-14T03:55:00+00:00"
     },
     {
-      "id": "0d0baa1fe2aa5e64",
-      "title_en": "If you build it, Schwarbombs will come! Phils slugger blasts 2 HRs at Field of Dreams Game",
-      "title_ja": "建設すれば、シュワーボムがやってくるぞ！ Phils sluggerがField of Dreamsゲームで2 HRを爆発させる",
-      "url": "https://www.mlb.com/phillies/news/kyle-schwarber-multihomer-game-2026-mlb-field-of-dreams-game",
+      "id": "87c30d445ea26287",
+      "title_en": "Watch LIVE: Top 50 prospects Eyanson (BAL), Wood (PHI) duel on Double-A mound",
+      "title_ja": "ライブ視聴：ダブルAマウンドでの見込み客トップ50 Eyanson （ BAL ）、Wood （ PHI ）の決闘",
+      "url": "https://www.mlb.com/phillies/news/watch-minor-league-baseball-games-for-free-2026",
       "source": "MLB.com",
-      "published_at": "2026-08-14T04:15:00+00:00"
+      "published_at": "2026-08-14T22:51:00+00:00"
     },
     {
       "id": "8176b8558347633c",
@@ -58,20 +58,20 @@
       "published_at": "2026-08-10T18:54:00+00:00"
     },
     {
+      "id": "0d0baa1fe2aa5e64",
+      "title_en": "If you build it, Schwarbombs will come! Phils slugger blasts 2 HRs at Field of Dreams Game",
+      "title_ja": "建設すれば、シュワーボムがやってくるぞ！ Phils sluggerがField of Dreamsゲームで2 HRを爆発させる",
+      "url": "https://www.mlb.com/phillies/news/kyle-schwarber-multihomer-game-2026-mlb-field-of-dreams-game",
+      "source": "MLB.com",
+      "published_at": "2026-08-14T04:15:00+00:00"
+    },
+    {
       "id": "e68f429337087142",
       "title_en": "Check out every kernel of detail in Harper's head-to-toe corn-themed apparel",
       "title_ja": "Harperのトウモロコシをテーマにしたアパレルのすべてのカーネルをチェックしてください",
       "url": "https://www.mlb.com/phillies/news/bryce-harper-decked-out-in-corn-for-field-of-dreams-game",
       "source": "MLB.com",
       "published_at": "2026-08-14T02:43:00+00:00"
-    },
-    {
-      "id": "a35e9466e4ccf0c2",
-      "title_en": "Hall of Famers of all stripes open Field of Dreams Game festivities",
-      "title_ja": "すべてのストライプの殿堂入り者がField of Dreamsゲームのお祝いを開きます",
-      "url": "https://www.mlb.com/phillies/news/field-of-dreams-game-hall-of-famers",
-      "source": "MLB.com",
-      "published_at": "2026-08-14T04:15:00+00:00"
     },
     {
       "id": "3f91d4c204f9aeb6",
@@ -82,20 +82,20 @@
       "published_at": "2026-08-13T22:04:00+00:00"
     },
     {
+      "id": "a35e9466e4ccf0c2",
+      "title_en": "Hall of Famers of all stripes open Field of Dreams Game festivities",
+      "title_ja": "すべてのストライプの殿堂入り者がField of Dreamsゲームのお祝いを開きます",
+      "url": "https://www.mlb.com/phillies/news/field-of-dreams-game-hall-of-famers",
+      "source": "MLB.com",
+      "published_at": "2026-08-14T04:15:00+00:00"
+    },
+    {
       "id": "77f66d270438b167",
       "title_en": "Is it 'Have a catch' or 'Play catch'? Hall of Famers have strong feelings",
       "title_ja": "それは「キャッチを持っている」ですか、それとも「キャッチをプレイ」ですか？殿堂入り者は強い感情を持っています",
       "url": "https://www.mlb.com/phillies/news/have-a-catch-or-play-catch-debate",
       "source": "MLB.com",
       "published_at": "2026-08-14T01:39:18.726000+00:00"
-    },
-    {
-      "id": "87c30d445ea26287",
-      "title_en": "Watch LIVE: Top 50 prospects Eyanson (BAL), Wood (PHI) duel on Double-A mound",
-      "title_ja": "ライブ視聴：ダブルAマウンドでの見込み客トップ50 Eyanson （ BAL ）、Wood （ PHI ）の決闘",
-      "url": "https://www.mlb.com/phillies/news/watch-minor-league-baseball-games-for-free-2026",
-      "source": "MLB.com",
-      "published_at": "2026-08-14T22:51:00+00:00"
     },
     {
       "id": "b7219a008e5f823c",
