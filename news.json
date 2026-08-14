@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-13T22:25:07.298728+00:00",
+  "updated_at": "2026-08-14T05:14:24.177556+00:00",
   "articles": [
     {
       "id": "f176402e869190c9",
@@ -26,28 +26,28 @@
       "published_at": "2026-03-10T00:00:00+00:00"
     },
     {
-      "id": "b7219a008e5f823c",
-      "title_en": "'Excited to see the corn': Schwarber, Phillies head to Iowa for Field of Dreams Game",
-      "title_ja": "「トウモロコシを見るのが楽しみ」：シュワーバー、フィリーズはフィールド・オブ・ドリームズ・ゲームのためにアイオワに向かう",
-      "url": "https://www.mlb.com/phillies/news/phillies-vs-twins-2026-field-of-dreams-game-preview",
+      "id": "f0470c94197db0b2",
+      "title_en": "Schwarber's blasts, Nola's gem have Phils asking 'Is this heaven?' in Field of Dreams win",
+      "title_ja": "シュワーバーの爆発、ノラのジェムでは、フィールド・オブ・ドリームズでフィルが「ここは天国か？」と尋ねる",
+      "url": "https://www.mlb.com/phillies/news/aaron-nola-kyle-schwarber-phillies-win-field-of-dreams-game",
       "source": "MLB.com",
-      "published_at": "2026-08-13T15:30:00+00:00"
+      "published_at": "2026-08-14T04:05:00+00:00"
     },
     {
-      "id": "b95a760d562162c7",
-      "title_en": "Everything to know about tonight's MLB at Field of Dreams Game on Netflix (7:30 ET)",
-      "title_ja": "NetflixのField of Dreams Gameで今夜のMLBについて知っておくべきすべてのこと（ 7:30 ET ）",
-      "url": "https://www.mlb.com/phillies/news/2026-mlb-at-field-of-dreams-game-on-netflix-date-time-matchup",
+      "id": "0526fe0c7064e0e3",
+      "title_en": "Best moments from MLB at Field of Dreams Game",
+      "title_ja": "フィールド・オブ・ドリームズ・ゲームでMLBの最高の瞬間を体験しよう",
+      "url": "https://www.mlb.com/phillies/news/top-moments-from-2026-mlb-field-of-dreams-game",
       "source": "MLB.com",
-      "published_at": "2026-08-13T14:35:00+00:00"
+      "published_at": "2026-08-14T03:55:00+00:00"
     },
     {
-      "id": "d041813af34694e7",
-      "title_en": "The Phanatic takes on the Field (trip) of Dreams",
-      "title_ja": "ファナティックが夢のフィールド（トリップ）に挑む",
-      "url": "https://www.mlb.com/phillies/news/phanatic-takes-trip-through-field-of-dreams-ballpark",
+      "id": "0d0baa1fe2aa5e64",
+      "title_en": "If you build it, Schwarbombs will come! Phils slugger blasts 2 HRs at Field of Dreams Game",
+      "title_ja": "建設すれば、シュワーボムがやってくるぞ！ Phils sluggerがField of Dreamsゲームで2 HRを爆発させる",
+      "url": "https://www.mlb.com/phillies/news/kyle-schwarber-multihomer-game-2026-mlb-field-of-dreams-game",
       "source": "MLB.com",
-      "published_at": "2026-08-13T15:55:43.756000+00:00"
+      "published_at": "2026-08-14T04:15:00+00:00"
     },
     {
       "id": "8176b8558347633c",
@@ -56,6 +56,62 @@
       "url": "https://www.mlb.com/phillies/news/phillies-tv-stream-2026",
       "source": "MLB.com",
       "published_at": "2026-08-10T18:54:00+00:00"
+    },
+    {
+      "id": "e68f429337087142",
+      "title_en": "Check out every kernel of detail in Harper's head-to-toe corn-themed apparel",
+      "title_ja": "Harperのトウモロコシをテーマにしたアパレルのすべてのカーネルをチェックしてください",
+      "url": "https://www.mlb.com/phillies/news/bryce-harper-decked-out-in-corn-for-field-of-dreams-game",
+      "source": "MLB.com",
+      "published_at": "2026-08-14T02:43:00+00:00"
+    },
+    {
+      "id": "a35e9466e4ccf0c2",
+      "title_en": "Hall of Famers of all stripes open Field of Dreams Game festivities",
+      "title_ja": "すべてのストライプの殿堂入り者がField of Dreamsゲームのお祝いを開きます",
+      "url": "https://www.mlb.com/phillies/news/field-of-dreams-game-hall-of-famers",
+      "source": "MLB.com",
+      "published_at": "2026-08-14T04:15:00+00:00"
+    },
+    {
+      "id": "3f91d4c204f9aeb6",
+      "title_en": "Latest Phillies injuries & transactions",
+      "title_ja": "最新のフィリーズの怪我と取引",
+      "url": "https://www.mlb.com/phillies/news/phillies-injuries-and-roster-moves",
+      "source": "MLB.com",
+      "published_at": "2026-08-13T22:04:00+00:00"
+    },
+    {
+      "id": "77f66d270438b167",
+      "title_en": "Is it 'Have a catch' or 'Play catch'? Hall of Famers have strong feelings",
+      "title_ja": "それは「キャッチを持っている」ですか、それとも「キャッチをプレイ」ですか？殿堂入り者は強い感情を持っています",
+      "url": "https://www.mlb.com/phillies/news/have-a-catch-or-play-catch-debate",
+      "source": "MLB.com",
+      "published_at": "2026-08-14T01:39:18.726000+00:00"
+    },
+    {
+      "id": "b7219a008e5f823c",
+      "title_en": "'Excited to see the corn': Schwarber, Phillies head to Iowa for Field of Dreams Game",
+      "title_ja": "「トウモロコシを見るのが楽しみ」：シュワーバー、フィリーズはフィールド・オブ・ドリームズ・ゲームのためにアイオワに向かう",
+      "url": "https://www.mlb.com/phillies/news/phillies-vs-twins-2026-field-of-dreams-game-preview",
+      "source": "MLB.com",
+      "published_at": "2026-08-13T15:30:00+00:00"
+    },
+    {
+      "id": "e7264276e1484e59",
+      "title_en": "MLB surprises MercyOne patients with Field of Dreams experience",
+      "title_ja": "MLBは、フィールド・オブ・ドリームズの経験を持つMercyOne患者を驚かせます",
+      "url": "https://www.mlb.com/phillies/news/mlb-gives-field-of-dreams-game-tickets-to-mercyone-dubuque-patients",
+      "source": "MLB.com",
+      "published_at": "2026-08-13T23:47:06.749000+00:00"
+    },
+    {
+      "id": "d041813af34694e7",
+      "title_en": "The Phanatic takes on the Field (trip) of Dreams",
+      "title_ja": "ファナティックが夢のフィールド（トリップ）に挑む",
+      "url": "https://www.mlb.com/phillies/news/phanatic-takes-trip-through-field-of-dreams-ballpark",
+      "source": "MLB.com",
+      "published_at": "2026-08-13T15:55:43.756000+00:00"
     },
     {
       "id": "93f5dd9eb24a1d1c",
@@ -72,14 +128,6 @@
       "url": "https://www.mlb.com/phillies/news/bryson-stott-to-wear-custom-cleats-at-field-of-dreams",
       "source": "MLB.com",
       "published_at": "2026-08-12T23:07:11.562000+00:00"
-    },
-    {
-      "id": "3f91d4c204f9aeb6",
-      "title_en": "Latest Phillies injuries & transactions",
-      "title_ja": "最新のフィリーズの怪我と取引",
-      "url": "https://www.mlb.com/phillies/news/phillies-injuries-and-roster-moves",
-      "source": "MLB.com",
-      "published_at": "2026-08-13T22:04:00+00:00"
     },
     {
       "id": "56dc65aae7548333",
@@ -152,46 +200,6 @@
       "url": "https://www.mlb.com/phillies/news/caleb-kilian-placed-on-injured-list-with-left-oblique-strain",
       "source": "MLB.com",
       "published_at": "2026-08-10T23:34:36.933000+00:00"
-    },
-    {
-      "id": "64b4a59f3ab5c9c0",
-      "title_en": "Schwarber snaps dinger drought, Hill gets walk-off hit in Phils' much-needed win",
-      "title_ja": "シュワーバーはジンジャーの干ばつを襲い、ヒルはPhilsの大いに必要な勝利でウォークオフの打撃を受ける",
-      "url": "https://www.mlb.com/phillies/news/kyle-schwarber-hits-two-homers-in-phillies-walk-off-win",
-      "source": "MLB.com",
-      "published_at": "2026-08-10T00:10:00+00:00"
-    },
-    {
-      "id": "894e8740f17d708b",
-      "title_en": "Phillies give 4 former players their 'Moonlight' moment in ode to Field of Dreams",
-      "title_ja": "フィリーズは、4人の元プレイヤーにField of Dreamsの「月光」の瞬間を与えます",
-      "url": "https://www.mlb.com/phillies/news/phillies-host-former-players-in-ode-to-moonlight-graham-from-field-of-dreams",
-      "source": "MLB.com",
-      "published_at": "2026-08-09T20:46:44.630000+00:00"
-    },
-    {
-      "id": "a56c4fc2a0aab7cb",
-      "title_en": "Comebacker ends Nola's night after he notches milestone 2,000th K",
-      "title_ja": "カムバックする者がマイルストーン2,000 Kを達成した後、ノラの夜を終わらせる",
-      "url": "https://www.mlb.com/phillies/news/aaron-nola-exits-start-after-being-struck-on-right-knee",
-      "source": "MLB.com",
-      "published_at": "2026-08-09T04:59:00+00:00"
-    },
-    {
-      "id": "145ad6665eab1814",
-      "title_en": "Toeing the rubber? Why Wheeler's back foot is causing a stir",
-      "title_ja": "ゴムのトーイング？なぜウィーラーの後ろ足がかき混ぜられているのか",
-      "url": "https://www.mlb.com/phillies/news/examining-placement-zack-wheeler-foot-pitchers-mound",
-      "source": "MLB.com",
-      "published_at": "2026-08-09T02:55:16.692000+00:00"
-    },
-    {
-      "id": "766a86f94ec3877b",
-      "title_en": "'No one deserves it as much': Utley inducted into Phillies Wall of Fame",
-      "title_ja": "「誰もそれに値しない」：アトリーがフィリーズ・ウォール・オブ・フェイムに殿堂入り",
-      "url": "https://www.mlb.com/phillies/news/chase-utley-joins-phillies-wall-of-fame",
-      "source": "MLB.com",
-      "published_at": "2026-08-08T03:40:07.749000+00:00"
     }
   ]
 }
