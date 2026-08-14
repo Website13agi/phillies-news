@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-14T05:14:24.177556+00:00",
+  "updated_at": "2026-08-14T09:36:00.496592+00:00",
   "articles": [
     {
       "id": "f176402e869190c9",
@@ -88,6 +88,14 @@
       "url": "https://www.mlb.com/phillies/news/have-a-catch-or-play-catch-debate",
       "source": "MLB.com",
       "published_at": "2026-08-14T01:39:18.726000+00:00"
+    },
+    {
+      "id": "87c30d445ea26287",
+      "title_en": "Watch FREE: Top 50 prospects Eyanson (BAL), Wood (PHI) duel on Double-A mound tonight",
+      "title_ja": "無料視聴：今夜ダブルAマウンドでの見込み客トップ50 Eyanson （ BAL ）、Wood （ PHI ）の決闘",
+      "url": "https://www.mlb.com/phillies/news/watch-minor-league-baseball-games-for-free-2026",
+      "source": "MLB.com",
+      "published_at": "2026-08-14T05:25:00+00:00"
     },
     {
       "id": "b7219a008e5f823c",
@@ -184,22 +192,6 @@
       "url": "https://www.mlb.com/phillies/news/who-will-win-the-mlb-home-run-race",
       "source": "MLB.com",
       "published_at": "2026-08-12T15:05:00+00:00"
-    },
-    {
-      "id": "d3970ea678954ea0",
-      "title_en": "Painter crafts work of art with no-hit bid into sixth inning",
-      "title_ja": "6回目に当たらずに芸術作品を描こう",
-      "url": "https://www.mlb.com/phillies/news/andrew-painter-pitches-five-no-hit-innings-in-win-against-cardinals",
-      "source": "MLB.com",
-      "published_at": "2026-08-11T04:04:00+00:00"
-    },
-    {
-      "id": "50669172d625f924",
-      "title_en": "Kilian heads to IL with moderate left oblique strain, out 'for a while'",
-      "title_ja": "キリアンは中程度の左斜めのひずみでILに向かい、「しばらくの間」外に出ます",
-      "url": "https://www.mlb.com/phillies/news/caleb-kilian-placed-on-injured-list-with-left-oblique-strain",
-      "source": "MLB.com",
-      "published_at": "2026-08-10T23:34:36.933000+00:00"
     }
   ]
 }
