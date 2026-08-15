@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-15T11:57:32.488195+00:00",
+  "updated_at": "2026-08-15T13:42:38.498550+00:00",
   "articles": [
     {
       "id": "f176402e869190c9",
@@ -26,6 +26,14 @@
       "published_at": "2026-03-10T00:00:00+00:00"
     },
     {
+      "id": "205825af6361b697",
+      "title_en": "New Top 30 prospects are in! Where do Phillies' draftees rank?",
+      "title_ja": "新しいトップ30の見込み客が登場！フィリーズの徴兵兵はどこにランクされていますか？",
+      "url": "https://www.mlb.com/phillies/news/phillies-2026-updated-prospect-rankings",
+      "source": "MLB.com",
+      "published_at": "2026-08-15T12:18:23.341000+00:00"
+    },
+    {
       "id": "f0470c94197db0b2",
       "title_en": "Schwarber's blasts, Nola's gem have Phils asking 'Is this heaven?' in Field of Dreams win",
       "title_ja": "シュワーバーの爆発、ノラのジェムでは、フィールド・オブ・ドリームズでフィルが「ここは天国か？」と尋ねる",
@@ -42,20 +50,20 @@
       "published_at": "2026-08-14T03:55:00+00:00"
     },
     {
-      "id": "16e8a92bcc4d0acc",
-      "title_en": "2026 second-round pick hits HR harder than any Phillie in Statcast era",
-      "title_ja": "2026年のセカンドラウンドのピックアップは、Statcast時代のどのフィリーよりもHRに強く当たった",
-      "url": "https://www.mlb.com/phillies/news/phillies-prospect-caden-bogenpohl-hits-117-1-mph-home-run",
-      "source": "MLB.com",
-      "published_at": "2026-08-15T04:34:00+00:00"
-    },
-    {
       "id": "8176b8558347633c",
       "title_en": "Price drop! Stream games on PHILLIES.TV",
       "title_ja": "値下げ！ PHILLIES.TVでゲームをストリーミング",
       "url": "https://www.mlb.com/phillies/news/phillies-tv-stream-2026",
       "source": "MLB.com",
       "published_at": "2026-08-10T18:54:00+00:00"
+    },
+    {
+      "id": "16e8a92bcc4d0acc",
+      "title_en": "2026 second-round pick hits HR harder than any Phillie in Statcast era",
+      "title_ja": "2026年のセカンドラウンドのピックアップは、Statcast時代のどのフィリーよりもHRに強く当たった",
+      "url": "https://www.mlb.com/phillies/news/phillies-prospect-caden-bogenpohl-hits-117-1-mph-home-run",
+      "source": "MLB.com",
+      "published_at": "2026-08-15T04:34:00+00:00"
     },
     {
       "id": "0d0baa1fe2aa5e64",
@@ -66,20 +74,20 @@
       "published_at": "2026-08-14T04:15:00+00:00"
     },
     {
-      "id": "e68f429337087142",
-      "title_en": "Check out every kernel of detail in Harper's head-to-toe corn-themed apparel",
-      "title_ja": "Harperのトウモロコシをテーマにしたアパレルのすべてのカーネルをチェックしてください",
-      "url": "https://www.mlb.com/phillies/news/bryce-harper-decked-out-in-corn-for-field-of-dreams-game",
-      "source": "MLB.com",
-      "published_at": "2026-08-14T02:43:00+00:00"
-    },
-    {
       "id": "3f91d4c204f9aeb6",
       "title_en": "Latest Phillies injuries & transactions",
       "title_ja": "最新のフィリーズの怪我と取引",
       "url": "https://www.mlb.com/phillies/news/phillies-injuries-and-roster-moves",
       "source": "MLB.com",
       "published_at": "2026-08-13T22:04:00+00:00"
+    },
+    {
+      "id": "e68f429337087142",
+      "title_en": "Check out every kernel of detail in Harper's head-to-toe corn-themed apparel",
+      "title_ja": "Harperのトウモロコシをテーマにしたアパレルのすべてのカーネルをチェックしてください",
+      "url": "https://www.mlb.com/phillies/news/bryce-harper-decked-out-in-corn-for-field-of-dreams-game",
+      "source": "MLB.com",
+      "published_at": "2026-08-14T02:43:00+00:00"
     },
     {
       "id": "a35e9466e4ccf0c2",
@@ -184,14 +192,6 @@
       "url": "https://www.mlb.com/phillies/news/explaining-the-phillies-unconventional-batting-order",
       "source": "MLB.com",
       "published_at": "2026-08-12T04:12:00+00:00"
-    },
-    {
-      "id": "29bc2f32ca60a2cb",
-      "title_en": "Who will be the HR king? We haven't had a race this close in over 40 years",
-      "title_ja": "誰がHRキングになりますか？ここ40年以上、これほど接近したレースはありませんでした",
-      "url": "https://www.mlb.com/phillies/news/who-will-win-the-mlb-home-run-race",
-      "source": "MLB.com",
-      "published_at": "2026-08-12T15:05:00+00:00"
     }
   ]
 }
