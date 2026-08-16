@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-16T20:51:07.067115+00:00",
+  "updated_at": "2026-08-16T21:41:30.294675+00:00",
   "articles": [
     {
       "id": "f176402e869190c9",
@@ -26,6 +26,14 @@
       "published_at": "2026-03-10T00:00:00+00:00"
     },
     {
+      "id": "131fbaaaf164ce81",
+      "title_en": "Painter prevails after rocky start as Phils rally for first sweep since June",
+      "title_ja": "ペインターは、6月以来の最初のスイープのためのフィルズラリーとして、岩のようなスタートの後に勝利します",
+      "url": "https://www.mlb.com/phillies/news/phillies-overcome-five-run-deficit-to-sweep-twins",
+      "source": "MLB.com",
+      "published_at": "2026-08-16T21:23:43.572000+00:00"
+    },
+    {
       "id": "7d1ad2c660332682",
       "title_en": "Turner OK after injury scare, available off bench Sunday",
       "title_ja": "怪我の恐怖の後にターナーOK、日曜日にオフベンチで利用可能",
@@ -42,20 +50,20 @@
       "published_at": "2026-08-16T18:33:05.093000+00:00"
     },
     {
-      "id": "0230c8ca2e554e3b",
-      "title_en": "Red-hot Bohm, Stott showing position change no problem as duo sparks Phils' win",
-      "title_ja": "レッドホットボーム、ストットは、デュオがフィリップスの勝利を刺激するので、ポジションの変更は問題ありません",
-      "url": "https://www.mlb.com/phillies/news/alec-bohm-has-five-hits-in-phillies-win-over-twins",
-      "source": "MLB.com",
-      "published_at": "2026-08-16T04:04:00+00:00"
-    },
-    {
       "id": "8176b8558347633c",
       "title_en": "Price drop! Stream games on PHILLIES.TV",
       "title_ja": "値下げ！ PHILLIES.TVでゲームをストリーミング",
       "url": "https://www.mlb.com/phillies/news/phillies-tv-stream-2026",
       "source": "MLB.com",
       "published_at": "2026-08-10T18:54:00+00:00"
+    },
+    {
+      "id": "0230c8ca2e554e3b",
+      "title_en": "Red-hot Bohm, Stott showing position change no problem as duo sparks Phils' win",
+      "title_ja": "レッドホットボーム、ストットは、デュオがフィリップスの勝利を刺激するので、ポジションの変更は問題ありません",
+      "url": "https://www.mlb.com/phillies/news/alec-bohm-has-five-hits-in-phillies-win-over-twins",
+      "source": "MLB.com",
+      "published_at": "2026-08-16T04:04:00+00:00"
     },
     {
       "id": "16e8a92bcc4d0acc",
@@ -66,20 +74,20 @@
       "published_at": "2026-08-15T23:51:00+00:00"
     },
     {
-      "id": "205825af6361b697",
-      "title_en": "New Top 30 prospects are in! Where do Phillies' draftees rank?",
-      "title_ja": "新しいトップ30の見込み客が登場！フィリーズの徴兵兵はどこにランクされていますか？",
-      "url": "https://www.mlb.com/phillies/news/phillies-2026-updated-prospect-rankings",
-      "source": "MLB.com",
-      "published_at": "2026-08-15T12:18:23.341000+00:00"
-    },
-    {
       "id": "3f91d4c204f9aeb6",
       "title_en": "Latest Phillies injuries & transactions",
       "title_ja": "最新のフィリーズの怪我と取引",
       "url": "https://www.mlb.com/phillies/news/phillies-injuries-and-roster-moves",
       "source": "MLB.com",
       "published_at": "2026-08-16T17:13:00+00:00"
+    },
+    {
+      "id": "205825af6361b697",
+      "title_en": "New Top 30 prospects are in! Where do Phillies' draftees rank?",
+      "title_ja": "新しいトップ30の見込み客が登場！フィリーズの徴兵兵はどこにランクされていますか？",
+      "url": "https://www.mlb.com/phillies/news/phillies-2026-updated-prospect-rankings",
+      "source": "MLB.com",
+      "published_at": "2026-08-15T12:18:23.341000+00:00"
     },
     {
       "id": "f0470c94197db0b2",
@@ -184,14 +192,6 @@
       "url": "https://www.mlb.com/phillies/news/zack-wheeler-start-cardinals-phillies-aug-12-2026",
       "source": "MLB.com",
       "published_at": "2026-08-12T22:25:00+00:00"
-    },
-    {
-      "id": "b950e7467b90ab10",
-      "title_en": "Harper: Soreness in left knee 'nothing over the top' as Phils prepare for stretch run",
-      "title_ja": "ハーパー：フィリップスがストレッチランの準備をしているとき、左膝の痛みは「上には何もありません」",
-      "url": "https://www.mlb.com/phillies/news/bryce-harper-dealing-with-knee-soreness-after-move-back-to-outfield",
-      "source": "MLB.com",
-      "published_at": "2026-08-12T22:51:00+00:00"
     }
   ]
 }
