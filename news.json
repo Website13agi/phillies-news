@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-18T21:42:43.787341+00:00",
+  "updated_at": "2026-08-18T22:56:55.144354+00:00",
   "articles": [
     {
       "id": "f176402e869190c9",
@@ -34,20 +34,20 @@
       "published_at": "2026-08-18T05:56:16.277000+00:00"
     },
     {
+      "id": "87c30d445ea26287",
+      "title_en": "LIVE: Watch rehabbing Roman Anthony, Justin Gonzales' Double-A debut vs. Phils prospects for FREE",
+      "title_ja": "ライブ：ローマン・アンソニー、ジャスティン・ゴンザレスのダブルAデビューvs.フィルスの見込み客を無料で視聴",
+      "url": "https://www.mlb.com/phillies/news/watch-minor-league-baseball-games-for-free-2026",
+      "source": "MLB.com",
+      "published_at": "2026-08-18T22:00:00+00:00"
+    },
+    {
       "id": "695f157e84447d48",
       "title_en": "Sánchez's home dominance continues as Phillies stay in Wild Card run",
       "title_ja": "フィリーズがワイルドカードで走り続ける中、サンチェスのホームの優位性は続く",
       "url": "https://www.mlb.com/phillies/news/cristopher-sanchez-faces-marlins-on-monday-at-home",
       "source": "MLB.com",
       "published_at": "2026-08-18T03:58:00+00:00"
-    },
-    {
-      "id": "95f340f27680ed19",
-      "title_en": "How does the Phillies' path to postseason stack up with fellow NL contenders?",
-      "title_ja": "フィリーズのポストシーズンへの道のりは、他のNL候補者とどのように積み重なっていますか？",
-      "url": "https://www.mlb.com/phillies/news/phillies-remaining-schedule-in-wild-card-playoff-race",
-      "source": "MLB.com",
-      "published_at": "2026-08-17T14:01:58.400000+00:00"
     },
     {
       "id": "8176b8558347633c",
@@ -58,6 +58,14 @@
       "published_at": "2026-08-10T18:54:00+00:00"
     },
     {
+      "id": "95f340f27680ed19",
+      "title_en": "How does the Phillies' path to postseason stack up with fellow NL contenders?",
+      "title_ja": "フィリーズのポストシーズンへの道のりは、他のNL候補者とどのように積み重なっていますか？",
+      "url": "https://www.mlb.com/phillies/news/phillies-remaining-schedule-in-wild-card-playoff-race",
+      "source": "MLB.com",
+      "published_at": "2026-08-17T14:01:58.400000+00:00"
+    },
+    {
       "id": "3307733bacd7d515",
       "title_en": "AL, NL Cy Young races seem all but decided as Schlittler, Miz dominate latest poll",
       "title_ja": "AL、NLサイヤングのレースは、Schlittler、Mizが最新の世論調査を支配しているように見えます",
@@ -66,20 +74,12 @@
       "published_at": "2026-08-18T04:00:00+00:00"
     },
     {
-      "id": "87c30d445ea26287",
-      "title_en": "Watch rehabbing Roman Anthony, Justin Gonzales' Double-A debut vs. Phils prospects for FREE tonight",
-      "title_ja": "今夜、ローマン・アンソニー、ジャスティン・ゴンザレスのダブルAデビューvs.フィルスの見込み客を無料で視聴しよう",
-      "url": "https://www.mlb.com/phillies/news/watch-minor-league-baseball-games-for-free-2026",
-      "source": "MLB.com",
-      "published_at": "2026-08-18T05:38:00+00:00"
-    },
-    {
       "id": "3f91d4c204f9aeb6",
       "title_en": "Latest Phillies injuries & transactions",
       "title_ja": "最新のフィリーズの怪我と取引",
       "url": "https://www.mlb.com/phillies/news/phillies-injuries-and-roster-moves",
       "source": "MLB.com",
-      "published_at": "2026-08-16T17:13:00+00:00"
+      "published_at": "2026-08-18T21:59:00+00:00"
     },
     {
       "id": "131fbaaaf164ce81",
