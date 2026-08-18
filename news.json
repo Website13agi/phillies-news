@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-18T14:07:42.539748+00:00",
+  "updated_at": "2026-08-18T15:58:56.670323+00:00",
   "articles": [
     {
       "id": "f176402e869190c9",
@@ -26,20 +26,20 @@
       "published_at": "2026-03-10T00:00:00+00:00"
     },
     {
-      "id": "695f157e84447d48",
-      "title_en": "Sánchez's home dominance continues as Phillies stay in Wild Card run",
-      "title_ja": "フィリーズがワイルドカードで走り続ける中、サンチェスのホームの優位性は続く",
-      "url": "https://www.mlb.com/phillies/news/cristopher-sanchez-faces-marlins-on-monday-at-home",
-      "source": "MLB.com",
-      "published_at": "2026-08-18T03:58:00+00:00"
-    },
-    {
       "id": "7e5077f8e3eeee6b",
       "title_en": "Wheeler looks for sharper outing vs. Marlins",
       "title_ja": "ウィーラーはマーリンと比較してよりシャープな外出を探しています",
       "url": "https://www.mlb.com/phillies/news/zack-wheeler-takes-on-marlins-on-tuesday-at-home",
       "source": "MLB.com",
       "published_at": "2026-08-18T05:56:16.277000+00:00"
+    },
+    {
+      "id": "695f157e84447d48",
+      "title_en": "Sánchez's home dominance continues as Phillies stay in Wild Card run",
+      "title_ja": "フィリーズがワイルドカードで走り続ける中、サンチェスのホームの優位性は続く",
+      "url": "https://www.mlb.com/phillies/news/cristopher-sanchez-faces-marlins-on-monday-at-home",
+      "source": "MLB.com",
+      "published_at": "2026-08-18T03:58:00+00:00"
     },
     {
       "id": "95f340f27680ed19",
