@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-17T23:49:29.267693+00:00",
+  "updated_at": "2026-08-18T03:11:28.771768+00:00",
   "articles": [
     {
       "id": "f176402e869190c9",
@@ -27,11 +27,11 @@
     },
     {
       "id": "695f157e84447d48",
-      "title_en": "Sánchez in prime spot at home (10-1, 1.41 ERA) in a start vs. Miami (3-0, 0.50 ERA)",
-      "title_ja": "マイアミ（ 3 -0、0.50 ERA ）と比較して、ホーム（ 10 -1、1.41 ERA ）のプライムスポットでサンチェス",
+      "title_en": "Sánchez's home dominance continues as Phillies stay in Wild Card run",
+      "title_ja": "フィリーズがワイルドカードで走り続ける中、サンチェスのホームの優位性は続く",
       "url": "https://www.mlb.com/phillies/news/cristopher-sanchez-faces-marlins-on-monday-at-home",
       "source": "MLB.com",
-      "published_at": "2026-08-16T18:33:05.093000+00:00"
+      "published_at": "2026-08-18T01:56:00+00:00"
     },
     {
       "id": "95f340f27680ed19",
@@ -58,6 +58,14 @@
       "published_at": "2026-08-10T18:54:00+00:00"
     },
     {
+      "id": "87c30d445ea26287",
+      "title_en": "Watch Wood (PHI) vs. Anthony and Gonzales (BOS) and Made (MIL) vs. Nimmala (LAA) for FREE!",
+      "title_ja": "Wood （ PHI ） vs. Anthony and Gonzales （ BOS ）とMade （ MIL ） vs. Nimmala （ LAA ）を無料で視聴！",
+      "url": "https://www.mlb.com/phillies/news/watch-minor-league-baseball-games-for-free-2026",
+      "source": "MLB.com",
+      "published_at": "2026-08-17T23:51:00+00:00"
+    },
+    {
       "id": "334745b995ce0279",
       "title_en": "Teenage Top 100 prospect headlines latest Team of the Week",
       "title_ja": "Teenage Top 100 prospect headlines latest Team of the Week",
@@ -66,20 +74,20 @@
       "published_at": "2026-08-17T22:12:41.734000+00:00"
     },
     {
-      "id": "f9b8b76640f3dea0",
-      "title_en": "How do Power Rankings look with just 6 weeks(!) left in season?",
-      "title_ja": "シーズン残りわずか6週間（ ！ ）で、軍事力ランキングはどのようになりますか？",
-      "url": "https://www.mlb.com/phillies/news/mlb-power-rankings-for-week-of-august-16",
-      "source": "MLB.com",
-      "published_at": "2026-08-17T02:17:51.191000+00:00"
-    },
-    {
       "id": "3f91d4c204f9aeb6",
       "title_en": "Latest Phillies injuries & transactions",
       "title_ja": "最新のフィリーズの怪我と取引",
       "url": "https://www.mlb.com/phillies/news/phillies-injuries-and-roster-moves",
       "source": "MLB.com",
       "published_at": "2026-08-16T17:13:00+00:00"
+    },
+    {
+      "id": "f9b8b76640f3dea0",
+      "title_en": "How do Power Rankings look with just 6 weeks(!) left in season?",
+      "title_ja": "シーズン残りわずか6週間（ ！ ）で、軍事力ランキングはどのようになりますか？",
+      "url": "https://www.mlb.com/phillies/news/mlb-power-rankings-for-week-of-august-16",
+      "source": "MLB.com",
+      "published_at": "2026-08-17T02:17:51.191000+00:00"
     },
     {
       "id": "0230c8ca2e554e3b",
@@ -184,14 +192,6 @@
       "url": "https://www.mlb.com/phillies/news/top-100-prospects-updated-in-season-rankings-2026",
       "source": "MLB.com",
       "published_at": "2026-08-13T21:05:58.263000+00:00"
-    },
-    {
-      "id": "5e63800d69428adf",
-      "title_en": "Stott bringing angels to infield with homage to late Phillies at MLB at Field of Dreams",
-      "title_ja": "StottがField of DreamsのMLBで故フィリーズに敬意を表して天使をインフィールドに連れてくる",
-      "url": "https://www.mlb.com/phillies/news/bryson-stott-to-wear-custom-cleats-at-field-of-dreams",
-      "source": "MLB.com",
-      "published_at": "2026-08-12T23:07:11.562000+00:00"
     }
   ]
 }
