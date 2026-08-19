@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-19T17:02:53.809526+00:00",
+  "updated_at": "2026-08-19T18:03:52.694584+00:00",
   "articles": [
     {
       "id": "f176402e869190c9",
@@ -26,6 +26,14 @@
       "published_at": "2026-03-10T00:00:00+00:00"
     },
     {
+      "id": "19923f8d620b6207",
+      "title_en": "Crafty lefty Cortes agrees to Major League deal with Phillies (source)",
+      "title_ja": "狡猾な左翼コルテスがメジャーリーグのフィリーズとの取引に同意する（出典）",
+      "url": "https://www.mlb.com/phillies/news/nestor-cortes-phillies-deal",
+      "source": "MLB.com",
+      "published_at": "2026-08-19T16:59:49.004000+00:00"
+    },
+    {
       "id": "7e5077f8e3eeee6b",
       "title_en": "Wheeler loses zone in fifth but limits damage in ongoing search for ace form",
       "title_ja": "ウィーラーは5番目のゾーンを失いますが、進行中のエースフォームの検索でダメージを制限します",
@@ -42,20 +50,20 @@
       "published_at": "2026-08-19T03:14:00+00:00"
     },
     {
-      "id": "d954863c2e871098",
-      "title_en": "These 10 Top 100 prospects could be called up to The Show SOON",
-      "title_ja": "これらのトップ100の見込み客は、まもなくザ・ショーに招集される可能性があります",
-      "url": "https://www.mlb.com/phillies/news/prospects-who-could-get-mlb-callup-in-season-2026",
-      "source": "MLB.com",
-      "published_at": "2026-08-19T01:19:00+00:00"
-    },
-    {
       "id": "8176b8558347633c",
       "title_en": "Price drop! Stream games on PHILLIES.TV",
       "title_ja": "値下げ！ PHILLIES.TVでゲームをストリーミング",
       "url": "https://www.mlb.com/phillies/news/phillies-tv-stream-2026",
       "source": "MLB.com",
       "published_at": "2026-08-10T18:54:00+00:00"
+    },
+    {
+      "id": "d954863c2e871098",
+      "title_en": "These 10 Top 100 prospects could be called up to The Show SOON",
+      "title_ja": "これらのトップ100の見込み客は、まもなくザ・ショーに招集される可能性があります",
+      "url": "https://www.mlb.com/phillies/news/prospects-who-could-get-mlb-callup-in-season-2026",
+      "source": "MLB.com",
+      "published_at": "2026-08-19T01:19:00+00:00"
     },
     {
       "id": "695f157e84447d48",
@@ -66,20 +74,20 @@
       "published_at": "2026-08-18T03:58:00+00:00"
     },
     {
-      "id": "95f340f27680ed19",
-      "title_en": "How does the Phillies' path to postseason stack up with fellow NL contenders?",
-      "title_ja": "フィリーズのポストシーズンへの道のりは、他のNL候補者とどのように積み重なっていますか？",
-      "url": "https://www.mlb.com/phillies/news/phillies-remaining-schedule-in-wild-card-playoff-race",
-      "source": "MLB.com",
-      "published_at": "2026-08-17T14:01:58.400000+00:00"
-    },
-    {
       "id": "3f91d4c204f9aeb6",
       "title_en": "Latest Phillies injuries & transactions",
       "title_ja": "最新のフィリーズの怪我と取引",
       "url": "https://www.mlb.com/phillies/news/phillies-injuries-and-roster-moves",
       "source": "MLB.com",
       "published_at": "2026-08-18T21:59:00+00:00"
+    },
+    {
+      "id": "95f340f27680ed19",
+      "title_en": "How does the Phillies' path to postseason stack up with fellow NL contenders?",
+      "title_ja": "フィリーズのポストシーズンへの道のりは、他のNL候補者とどのように積み重なっていますか？",
+      "url": "https://www.mlb.com/phillies/news/phillies-remaining-schedule-in-wild-card-playoff-race",
+      "source": "MLB.com",
+      "published_at": "2026-08-17T14:01:58.400000+00:00"
     },
     {
       "id": "3307733bacd7d515",
@@ -184,14 +192,6 @@
       "url": "https://www.mlb.com/phillies/news/field-of-dreams-game-hall-of-famers",
       "source": "MLB.com",
       "published_at": "2026-08-14T04:15:00+00:00"
-    },
-    {
-      "id": "77f66d270438b167",
-      "title_en": "Is it 'Have a catch' or 'Play catch'? Hall of Famers have strong feelings",
-      "title_ja": "それは「キャッチを持っている」ですか、それとも「キャッチをプレイ」ですか？殿堂入り者は強い感情を持っています",
-      "url": "https://www.mlb.com/phillies/news/have-a-catch-or-play-catch-debate",
-      "source": "MLB.com",
-      "published_at": "2026-08-14T01:39:18.726000+00:00"
     }
   ]
 }
