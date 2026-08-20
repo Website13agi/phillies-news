@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-20T14:04:08.202381+00:00",
+  "updated_at": "2026-08-20T16:02:24.101383+00:00",
   "articles": [
     {
       "id": "f176402e869190c9",
@@ -26,6 +26,14 @@
       "published_at": "2026-03-10T00:00:00+00:00"
     },
     {
+      "id": "518f5ded7a5c8605",
+      "title_en": "Schwarber's Neighborhood Heroes reflects family roots",
+      "title_ja": "シュワーバーの近所のヒーローは家族のルーツを反映しています",
+      "url": "https://www.mlb.com/phillies/news/kyle-schwarber-gives-back-to-first-responders-with-neighborhood-heroes",
+      "source": "MLB.com",
+      "published_at": "2026-08-19T02:28:50.968000+00:00"
+    },
+    {
       "id": "8ce8e55e2001b49a",
       "title_en": "Nola continues resurgence with 7-inning gem to extend Phils' win streak to six",
       "title_ja": "ノーラは7イニングのジェムで復活を続け、フィルズの連続勝利数を6に拡大します",
@@ -42,20 +50,20 @@
       "published_at": "2026-08-20T03:35:53.447000+00:00"
     },
     {
-      "id": "19923f8d620b6207",
-      "title_en": "Crafty lefty Cortes agrees to Major League deal with Phillies",
-      "title_ja": "狡猾な左翼コルテスがフィリーズとのメジャーリーグ契約に同意",
-      "url": "https://www.mlb.com/phillies/news/nestor-cortes-phillies-deal",
-      "source": "MLB.com",
-      "published_at": "2026-08-20T02:38:00+00:00"
-    },
-    {
       "id": "8176b8558347633c",
       "title_en": "Price drop! Stream games on PHILLIES.TV",
       "title_ja": "値下げ！ PHILLIES.TVでゲームをストリーミング",
       "url": "https://www.mlb.com/phillies/news/phillies-tv-stream-2026",
       "source": "MLB.com",
       "published_at": "2026-08-10T18:54:00+00:00"
+    },
+    {
+      "id": "19923f8d620b6207",
+      "title_en": "Crafty lefty Cortes agrees to Major League deal with Phillies",
+      "title_ja": "狡猾な左翼コルテスがフィリーズとのメジャーリーグ契約に同意",
+      "url": "https://www.mlb.com/phillies/news/nestor-cortes-phillies-deal",
+      "source": "MLB.com",
+      "published_at": "2026-08-20T02:38:00+00:00"
     },
     {
       "id": "7e5077f8e3eeee6b",
@@ -66,20 +74,20 @@
       "published_at": "2026-08-19T02:56:00+00:00"
     },
     {
-      "id": "bb4818f32b380b80",
-      "title_en": "Dynamic duo of Bohm, Stott come to rescue as Phils win fifth straight",
-      "title_ja": "ボームのダイナミックなデュオ、ストットは、フィルズが5連勝したときに救助に来ます",
-      "url": "https://www.mlb.com/phillies/news/alec-bohm-bryson-stott-lead-phillies-to-fifth-straight-win",
-      "source": "MLB.com",
-      "published_at": "2026-08-19T03:14:00+00:00"
-    },
-    {
       "id": "3f91d4c204f9aeb6",
       "title_en": "Latest Phillies injuries & transactions",
       "title_ja": "最新のフィリーズの怪我と取引",
       "url": "https://www.mlb.com/phillies/news/phillies-injuries-and-roster-moves",
       "source": "MLB.com",
       "published_at": "2026-08-20T04:33:00+00:00"
+    },
+    {
+      "id": "bb4818f32b380b80",
+      "title_en": "Dynamic duo of Bohm, Stott come to rescue as Phils win fifth straight",
+      "title_ja": "ボームのダイナミックなデュオ、ストットは、フィルズが5連勝したときに救助に来ます",
+      "url": "https://www.mlb.com/phillies/news/alec-bohm-bryson-stott-lead-phillies-to-fifth-straight-win",
+      "source": "MLB.com",
+      "published_at": "2026-08-19T03:14:00+00:00"
     },
     {
       "id": "d954863c2e871098",
@@ -192,14 +200,6 @@
       "url": "https://www.mlb.com/phillies/news/kyle-schwarber-multihomer-game-2026-mlb-field-of-dreams-game",
       "source": "MLB.com",
       "published_at": "2026-08-14T04:15:00+00:00"
-    },
-    {
-      "id": "e68f429337087142",
-      "title_en": "Check out every kernel of detail in Harper's head-to-toe corn-themed apparel",
-      "title_ja": "Harperのトウモロコシをテーマにしたアパレルのすべてのカーネルをチェックしてください",
-      "url": "https://www.mlb.com/phillies/news/bryce-harper-decked-out-in-corn-for-field-of-dreams-game",
-      "source": "MLB.com",
-      "published_at": "2026-08-14T02:43:00+00:00"
     }
   ]
 }
