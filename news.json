@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-21T11:47:48.707401+00:00",
+  "updated_at": "2026-08-21T14:07:22.085852+00:00",
   "articles": [
     {
       "id": "f176402e869190c9",
@@ -26,6 +26,14 @@
       "published_at": "2026-03-10T00:00:00+00:00"
     },
     {
+      "id": "c86a783af8233cbe",
+      "title_en": "How Jesús Luzardo blossomed into a frontline pitcher",
+      "title_ja": "ヘスス・ルサルドがどのようにして最前線のピッチャーに成長したか",
+      "url": "https://www.mlb.com/phillies/news/jesus-luzardo-august-2026-breakdown",
+      "source": "MLB.com",
+      "published_at": "2026-08-21T00:15:00+00:00"
+    },
+    {
       "id": "518f5ded7a5c8605",
       "title_en": "Schwarber's Neighborhood Heroes reflects family roots",
       "title_ja": "シュワーバーの近所のヒーローは家族のルーツを反映しています",
@@ -40,14 +48,6 @@
       "url": "https://www.mlb.com/phillies/news/one-potential-prospect-callup-for-each-team-2026",
       "source": "MLB.com",
       "published_at": "2026-08-20T23:30:00+00:00"
-    },
-    {
-      "id": "c86a783af8233cbe",
-      "title_en": "How Jesús Luzardo blossomed into a frontline pitcher",
-      "title_ja": "ヘスス・ルサルドがどのようにして最前線のピッチャーに成長したか",
-      "url": "https://www.mlb.com/phillies/news/jesus-luzardo-august-2026-breakdown",
-      "source": "MLB.com",
-      "published_at": "2026-08-21T00:15:00+00:00"
     },
     {
       "id": "8176b8558347633c",
