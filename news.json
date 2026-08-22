@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-21T23:52:53.804900+00:00",
+  "updated_at": "2026-08-22T03:10:17.425110+00:00",
   "articles": [
     {
       "id": "f176402e869190c9",
@@ -26,6 +26,14 @@
       "published_at": "2026-03-10T00:00:00+00:00"
     },
     {
+      "id": "a128dbc55d3a9254",
+      "title_en": "Bohm's electric walk-off triple in extras leads Phils to season-best 7th straight win",
+      "title_ja": "ボームのエキストラでの電動ウォークオフトリプルは、フィリップスをシーズン最高の7連勝に導きます",
+      "url": "https://www.mlb.com/phillies/news/alec-bohm-hits-walk-off-triple-in-phillies-win",
+      "source": "MLB.com",
+      "published_at": "2026-08-22T02:13:57.779000+00:00"
+    },
+    {
       "id": "c86a783af8233cbe",
       "title_en": "How Jesús Luzardo blossomed into a frontline pitcher",
       "title_ja": "ヘスス・ルサルドがどのようにして最前線のピッチャーに成長したか",
@@ -34,20 +42,12 @@
       "published_at": "2026-08-21T00:15:00+00:00"
     },
     {
-      "id": "518f5ded7a5c8605",
-      "title_en": "Schwarber's Neighborhood Heroes reflects family roots",
-      "title_ja": "シュワーバーの近所のヒーローは家族のルーツを反映しています",
-      "url": "https://www.mlb.com/phillies/news/kyle-schwarber-gives-back-to-first-responders-with-neighborhood-heroes",
+      "id": "5aa79fc9439ff3b1",
+      "title_en": "Wood's best Double-A start yet includes K of rehabbing Team USA standout",
+      "title_ja": "ウッドの最高のダブルAスタートには、リハビリチームUSAのKが含まれています",
+      "url": "https://www.mlb.com/phillies/news/phillies-prospect-gage-wood-impressive-start-double-a",
       "source": "MLB.com",
-      "published_at": "2026-08-19T02:28:50.968000+00:00"
-    },
-    {
-      "id": "ea657b25455fed7c",
-      "title_en": "Save a Pet at the Park: Adoptable cats and puppies at Friday's game",
-      "title_ja": "公園でペットを救おう：金曜日の試合で養子縁組が可能な猫と子犬",
-      "url": "https://www.mlb.com/phillies/news/save-a-pet-at-the-park-adoptable-cats-and-puppies-at-friday-s-game",
-      "source": "MLB.com",
-      "published_at": null
+      "published_at": "2026-08-22T02:24:00+00:00"
     },
     {
       "id": "8176b8558347633c",
@@ -58,12 +58,12 @@
       "published_at": "2026-08-10T18:54:00+00:00"
     },
     {
-      "id": "87c30d445ea26287",
-      "title_en": "LIVE: Watch Top 100 prospect Wood (PHI) take on rehabbing Roman Anthony at Double-A",
-      "title_ja": "ライブ：見込み客トップ100のWood （ PHI ）がダブルAでローマン・アンソニーをリハビリするのを見る",
-      "url": "https://www.mlb.com/phillies/news/watch-minor-league-baseball-games-for-free-2026",
+      "id": "518f5ded7a5c8605",
+      "title_en": "Schwarber's Neighborhood Heroes reflects family roots",
+      "title_ja": "シュワーバーの近所のヒーローは家族のルーツを反映しています",
+      "url": "https://www.mlb.com/phillies/news/kyle-schwarber-gives-back-to-first-responders-with-neighborhood-heroes",
       "source": "MLB.com",
-      "published_at": "2026-08-21T22:00:00+00:00"
+      "published_at": "2026-08-19T02:28:50.968000+00:00"
     },
     {
       "id": "4f6c3bca9ff4202d",
