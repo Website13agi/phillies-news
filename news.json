@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-22T05:02:34.597011+00:00",
+  "updated_at": "2026-08-22T07:20:09.607824+00:00",
   "articles": [
     {
       "id": "f176402e869190c9",
@@ -34,20 +34,20 @@
       "published_at": "2026-08-22T03:18:00+00:00"
     },
     {
-      "id": "c86a783af8233cbe",
-      "title_en": "How Jesús Luzardo blossomed into a frontline pitcher",
-      "title_ja": "ヘスス・ルサルドがどのようにして最前線のピッチャーに成長したか",
-      "url": "https://www.mlb.com/phillies/news/jesus-luzardo-august-2026-breakdown",
-      "source": "MLB.com",
-      "published_at": "2026-08-21T00:15:00+00:00"
-    },
-    {
       "id": "5aa79fc9439ff3b1",
       "title_en": "Wood's best Double-A start yet includes K of rehabbing Team USA standout",
       "title_ja": "ウッドの最高のダブルAスタートには、リハビリチームUSAのKが含まれています",
       "url": "https://www.mlb.com/phillies/news/phillies-prospect-gage-wood-impressive-start-double-a",
       "source": "MLB.com",
       "published_at": "2026-08-22T02:24:00+00:00"
+    },
+    {
+      "id": "4a5651d7b24eacba",
+      "title_en": "10 slow starters who have turned their seasons around",
+      "title_ja": "シーズンを好転させた10人のスロースターター",
+      "url": "https://www.mlb.com/phillies/news/10-slow-starters-who-have-turned-their-2026-seasons-around",
+      "source": "MLB.com",
+      "published_at": "2026-08-22T05:31:00+00:00"
     },
     {
       "id": "8176b8558347633c",
@@ -58,6 +58,14 @@
       "published_at": "2026-08-10T18:54:00+00:00"
     },
     {
+      "id": "c86a783af8233cbe",
+      "title_en": "How Jesús Luzardo blossomed into a frontline pitcher",
+      "title_ja": "ヘスス・ルサルドがどのようにして最前線のピッチャーに成長したか",
+      "url": "https://www.mlb.com/phillies/news/jesus-luzardo-august-2026-breakdown",
+      "source": "MLB.com",
+      "published_at": "2026-08-21T00:15:00+00:00"
+    },
+    {
       "id": "518f5ded7a5c8605",
       "title_en": "Schwarber's Neighborhood Heroes reflects family roots",
       "title_ja": "シュワーバーの近所のヒーローは家族のルーツを反映しています",
@@ -66,20 +74,20 @@
       "published_at": "2026-08-19T02:28:50.968000+00:00"
     },
     {
-      "id": "4f6c3bca9ff4202d",
-      "title_en": "'He had first dibs': Marsh thanks fan for aiding with Superman-esque catch",
-      "title_ja": "「彼は最初のディブを持っていた」：スーパーマン風のキャッチを手伝ってくれたファンに感謝するマーシュ",
-      "url": "https://www.mlb.com/phillies/news/brandon-marsh-makes-spectacular-wall-climbing-catch",
-      "source": "MLB.com",
-      "published_at": "2026-08-20T03:35:53.447000+00:00"
-    },
-    {
       "id": "3f91d4c204f9aeb6",
       "title_en": "Latest Phillies injuries & transactions",
       "title_ja": "最新のフィリーズの怪我と取引",
       "url": "https://www.mlb.com/phillies/news/phillies-injuries-and-roster-moves",
       "source": "MLB.com",
       "published_at": "2026-08-21T22:38:00+00:00"
+    },
+    {
+      "id": "4f6c3bca9ff4202d",
+      "title_en": "'He had first dibs': Marsh thanks fan for aiding with Superman-esque catch",
+      "title_ja": "「彼は最初のディブを持っていた」：スーパーマン風のキャッチを手伝ってくれたファンに感謝するマーシュ",
+      "url": "https://www.mlb.com/phillies/news/brandon-marsh-makes-spectacular-wall-climbing-catch",
+      "source": "MLB.com",
+      "published_at": "2026-08-20T03:35:53.447000+00:00"
     },
     {
       "id": "4e2b803786c73221",
@@ -192,14 +200,6 @@
       "url": "https://www.mlb.com/phillies/news/phillies-prospect-caden-bogenpohl-hits-117-1-mph-home-run",
       "source": "MLB.com",
       "published_at": "2026-08-15T23:51:00+00:00"
-    },
-    {
-      "id": "205825af6361b697",
-      "title_en": "New Top 30 prospects are in! Where do Phillies' draftees rank?",
-      "title_ja": "新しいトップ30の見込み客が登場！フィリーズの徴兵兵はどこにランクされていますか？",
-      "url": "https://www.mlb.com/phillies/news/phillies-2026-updated-prospect-rankings",
-      "source": "MLB.com",
-      "published_at": "2026-08-15T12:18:23.341000+00:00"
     }
   ]
 }
