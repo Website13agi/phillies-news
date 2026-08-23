@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-22T23:44:36.647990+00:00",
+  "updated_at": "2026-08-23T03:31:28.400778+00:00",
   "articles": [
     {
       "id": "f176402e869190c9",
@@ -26,12 +26,36 @@
       "published_at": "2026-03-10T00:00:00+00:00"
     },
     {
+      "id": "1599e5fcfc7036bb",
+      "title_en": "Painter looking like 'a monster' for Phils, crosses off multiple career highs",
+      "title_ja": "Philsにとって「怪物」のように見える画家は、複数のキャリアの最高記録を消します",
+      "url": "https://www.mlb.com/phillies/news/andrew-painter-pitches-a-career-high-7-innings",
+      "source": "MLB.com",
+      "published_at": "2026-08-23T02:21:00+00:00"
+    },
+    {
+      "id": "cbaf3d57bf55531b",
+      "title_en": "Arraez exits with cramping; Hill leaves with neck stiffness",
+      "title_ja": "Arraezはけいれんで退出します。首のこわばりのある丘の葉",
+      "url": "https://www.mlb.com/phillies/news/luis-arraez-exits-with-lower-body-cramping-against-cardinals",
+      "source": "MLB.com",
+      "published_at": "2026-08-23T02:44:00+00:00"
+    },
+    {
       "id": "a128dbc55d3a9254",
       "title_en": "No long ball, no problem! Phils' 7-game win streak fueled by good ol' small ball",
       "title_ja": "ロングボールはありません、問題ありません！グッドオールスモールボールに支えられたPhilsの7試合連勝",
       "url": "https://www.mlb.com/phillies/news/alec-bohm-hits-walk-off-triple-in-phillies-win",
       "source": "MLB.com",
       "published_at": "2026-08-22T03:18:00+00:00"
+    },
+    {
+      "id": "8176b8558347633c",
+      "title_en": "Price drop! Stream games on PHILLIES.TV",
+      "title_ja": "値下げ！ PHILLIES.TVでゲームをストリーミング",
+      "url": "https://www.mlb.com/phillies/news/phillies-tv-stream-2026",
+      "source": "MLB.com",
+      "published_at": "2026-08-10T18:54:00+00:00"
     },
     {
       "id": "518f5ded7a5c8605",
@@ -50,12 +74,12 @@
       "published_at": "2026-08-22T02:24:00+00:00"
     },
     {
-      "id": "8176b8558347633c",
-      "title_en": "Price drop! Stream games on PHILLIES.TV",
-      "title_ja": "値下げ！ PHILLIES.TVでゲームをストリーミング",
-      "url": "https://www.mlb.com/phillies/news/phillies-tv-stream-2026",
+      "id": "3f91d4c204f9aeb6",
+      "title_en": "Latest Phillies injuries & transactions",
+      "title_ja": "最新のフィリーズの怪我と取引",
+      "url": "https://www.mlb.com/phillies/news/phillies-injuries-and-roster-moves",
       "source": "MLB.com",
-      "published_at": "2026-08-10T18:54:00+00:00"
+      "published_at": "2026-08-22T20:50:00+00:00"
     },
     {
       "id": "4a5651d7b24eacba",
@@ -72,14 +96,6 @@
       "url": "https://www.mlb.com/phillies/news/jesus-luzardo-august-2026-breakdown",
       "source": "MLB.com",
       "published_at": "2026-08-21T00:15:00+00:00"
-    },
-    {
-      "id": "3f91d4c204f9aeb6",
-      "title_en": "Latest Phillies injuries & transactions",
-      "title_ja": "最新のフィリーズの怪我と取引",
-      "url": "https://www.mlb.com/phillies/news/phillies-injuries-and-roster-moves",
-      "source": "MLB.com",
-      "published_at": "2026-08-22T20:50:00+00:00"
     },
     {
       "id": "4f6c3bca9ff4202d",
@@ -184,22 +200,6 @@
       "url": "https://www.mlb.com/phillies/news/mlb-power-rankings-for-week-of-august-16",
       "source": "MLB.com",
       "published_at": "2026-08-17T02:17:51.191000+00:00"
-    },
-    {
-      "id": "0230c8ca2e554e3b",
-      "title_en": "Red-hot Bohm, Stott showing position change no problem as duo sparks Phils' win",
-      "title_ja": "レッドホットボーム、ストットは、デュオがフィリップスの勝利を刺激するので、ポジションの変更は問題ありません",
-      "url": "https://www.mlb.com/phillies/news/alec-bohm-has-five-hits-in-phillies-win-over-twins",
-      "source": "MLB.com",
-      "published_at": "2026-08-16T04:04:00+00:00"
-    },
-    {
-      "id": "16e8a92bcc4d0acc",
-      "title_en": "2026 second-round pick hits HR harder than any Phillie in Statcast era",
-      "title_ja": "2026年のセカンドラウンドのピックアップは、Statcast時代のどのフィリーよりもHRに強く当たった",
-      "url": "https://www.mlb.com/phillies/news/phillies-prospect-caden-bogenpohl-hits-117-1-mph-home-run",
-      "source": "MLB.com",
-      "published_at": "2026-08-15T23:51:00+00:00"
     }
   ]
 }
