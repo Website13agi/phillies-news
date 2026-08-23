@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-23T03:31:28.400778+00:00",
+  "updated_at": "2026-08-23T05:16:51.085518+00:00",
   "articles": [
     {
       "id": "f176402e869190c9",
@@ -8,14 +8,6 @@
       "url": "https://www.mlb.com/phillies/news/topic/phillies-press-releases",
       "source": "MLB.com",
       "published_at": "2026-08-20T00:00:00+00:00"
-    },
-    {
-      "id": "e584e060479f6bf8",
-      "title_en": "Phillies Pipeline",
-      "title_ja": "フィリーズパイプライン",
-      "url": "https://www.mlb.com/phillies/news/topic/phillies-pipeline-coverage",
-      "source": "MLB.com",
-      "published_at": "2026-08-21T00:00:00+00:00"
     },
     {
       "id": "872bf5359c768da8",
@@ -79,7 +71,7 @@
       "title_ja": "最新のフィリーズの怪我と取引",
       "url": "https://www.mlb.com/phillies/news/phillies-injuries-and-roster-moves",
       "source": "MLB.com",
-      "published_at": "2026-08-22T20:50:00+00:00"
+      "published_at": "2026-08-23T05:08:00+00:00"
     },
     {
       "id": "4a5651d7b24eacba",
