@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-23T19:58:02.254218+00:00",
+  "updated_at": "2026-08-23T20:54:37.921121+00:00",
   "articles": [
     {
       "id": "f176402e869190c9",
@@ -26,6 +26,38 @@
       "published_at": "2026-03-10T00:00:00+00:00"
     },
     {
+      "id": "2b45fd60c2b340c3",
+      "title_en": "Phils' 6-run 9th capped by club's first walk-off HR in 3 YEARS for 9th straight victory",
+      "title_ja": "3年ぶりのウォークオフHRで9連勝を飾ったフィルスの6ラン9位",
+      "url": "https://www.mlb.com/phillies/news/phillies-score-six-runs-in-ninth-inning-to-walk-off-cardinals",
+      "source": "MLB.com",
+      "published_at": "2026-08-23T20:36:24.920000+00:00"
+    },
+    {
+      "id": "641857c1b7ebb009",
+      "title_en": "Stott exits in 8th inning after fouling pitch off right foot",
+      "title_ja": "右足からピッチを外した後、ストットは8回目のイニングで出る",
+      "url": "https://www.mlb.com/phillies/news/bryson-stott-exits-game-with-right-foot-contusion",
+      "source": "MLB.com",
+      "published_at": "2026-08-23T20:09:17.405000+00:00"
+    },
+    {
+      "id": "58f261e26d4a578b",
+      "title_en": "Absent run support, Sánchez still effective with 7 K's vs. Cards",
+      "title_ja": "ランサポートがない場合でも、サンチェスは7 K対カードで効果を発揮します",
+      "url": "https://www.mlb.com/phillies/news/cristopher-sanchez-strikes-out-seven-against-cardinals",
+      "source": "MLB.com",
+      "published_at": "2026-08-23T20:00:14.443000+00:00"
+    },
+    {
+      "id": "8176b8558347633c",
+      "title_en": "Price drop! Stream games on PHILLIES.TV",
+      "title_ja": "値下げ！ PHILLIES.TVでゲームをストリーミング",
+      "url": "https://www.mlb.com/phillies/news/phillies-tv-stream-2026",
+      "source": "MLB.com",
+      "published_at": "2026-08-10T18:54:00+00:00"
+    },
+    {
       "id": "cbaf3d57bf55531b",
       "title_en": "Arraez (cramping), Hill (stiff neck) out of Phils' lineup for finale vs. Cards",
       "title_ja": "フィナーレ対カードのPhilsラインナップからArraez （けいれん）、Hill （硬い首）",
@@ -42,20 +74,20 @@
       "published_at": "2026-08-23T02:21:00+00:00"
     },
     {
+      "id": "3f91d4c204f9aeb6",
+      "title_en": "Latest Phillies injuries & transactions",
+      "title_ja": "最新のフィリーズの怪我と取引",
+      "url": "https://www.mlb.com/phillies/news/phillies-injuries-and-roster-moves",
+      "source": "MLB.com",
+      "published_at": "2026-08-23T17:15:00+00:00"
+    },
+    {
       "id": "0b409a5fe699262a",
       "title_en": "Phillies invite fans to first-ever Open House & Watch Party in Cadillac Hall of Fame Club at Citizens Bank Park on Sunday, August 30",
       "title_ja": "フィリーズは、8月30日（日）にシチズンズ・バンク・パークのキャデラック・ホール・オブ・フェイム・クラブで開催される初のオープンハウス＆ウォッチパーティーにファンを招待します",
       "url": "https://www.mlb.com/phillies/news/phillies-invite-fans-to-first-ever-open-house-watch-party-in-cadillac-hall-of-fame-club-at-citizens-bank-park-on-sunday-august-30",
       "source": "MLB.com",
       "published_at": "2026-08-23T16:21:43.145000+00:00"
-    },
-    {
-      "id": "8176b8558347633c",
-      "title_en": "Price drop! Stream games on PHILLIES.TV",
-      "title_ja": "値下げ！ PHILLIES.TVでゲームをストリーミング",
-      "url": "https://www.mlb.com/phillies/news/phillies-tv-stream-2026",
-      "source": "MLB.com",
-      "published_at": "2026-08-10T18:54:00+00:00"
     },
     {
       "id": "a128dbc55d3a9254",
@@ -72,14 +104,6 @@
       "url": "https://www.mlb.com/phillies/news/kyle-schwarber-gives-back-to-first-responders-with-neighborhood-heroes",
       "source": "MLB.com",
       "published_at": "2026-08-19T02:28:50.968000+00:00"
-    },
-    {
-      "id": "3f91d4c204f9aeb6",
-      "title_en": "Latest Phillies injuries & transactions",
-      "title_ja": "最新のフィリーズの怪我と取引",
-      "url": "https://www.mlb.com/phillies/news/phillies-injuries-and-roster-moves",
-      "source": "MLB.com",
-      "published_at": "2026-08-23T17:15:00+00:00"
     },
     {
       "id": "5aa79fc9439ff3b1",
@@ -176,30 +200,6 @@
       "url": "https://www.mlb.com/phillies/news/phillies-remaining-schedule-in-wild-card-playoff-race",
       "source": "MLB.com",
       "published_at": "2026-08-17T14:01:58.400000+00:00"
-    },
-    {
-      "id": "3307733bacd7d515",
-      "title_en": "AL, NL Cy Young races seem all but decided as Schlittler, Miz dominate latest poll",
-      "title_ja": "AL、NLサイヤングのレースは、Schlittler、Mizが最新の世論調査を支配しているように見えます",
-      "url": "https://www.mlb.com/phillies/news/cam-schlittler-jacob-misiorowski-lead-fifth-2026-cy-young-poll",
-      "source": "MLB.com",
-      "published_at": "2026-08-18T04:00:00+00:00"
-    },
-    {
-      "id": "131fbaaaf164ce81",
-      "title_en": "Painter prevails after rocky start as Phils rally for first sweep since June",
-      "title_ja": "ペインターは、6月以来の最初のスイープのためのフィルズラリーとして、岩のようなスタートの後に勝利します",
-      "url": "https://www.mlb.com/phillies/news/phillies-overcome-five-run-deficit-to-sweep-twins",
-      "source": "MLB.com",
-      "published_at": "2026-08-16T22:37:00+00:00"
-    },
-    {
-      "id": "334745b995ce0279",
-      "title_en": "Teenage Top 100 prospect headlines latest Team of the Week",
-      "title_ja": "Teenage Top 100 prospect headlines latest Team of the Week",
-      "url": "https://www.mlb.com/phillies/news/prospect-team-of-the-week-august-17-2026",
-      "source": "MLB.com",
-      "published_at": "2026-08-17T22:12:41.734000+00:00"
     }
   ]
 }
