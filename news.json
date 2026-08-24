@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-24T16:08:13.090803+00:00",
+  "updated_at": "2026-08-24T18:01:20.051263+00:00",
   "articles": [
     {
       "id": "f176402e869190c9",
@@ -26,12 +26,12 @@
       "published_at": "2026-03-10T00:00:00+00:00"
     },
     {
-      "id": "2b45fd60c2b340c3",
-      "title_en": "Phils can't lose! Down 4 with 2 outs in 9th, unbelievable rally ends in 9th straight W",
-      "title_ja": "フィルは負けない！ 9位で2アウトで4ダウン、信じられないほどのラリーは9連続Wで終了",
-      "url": "https://www.mlb.com/phillies/news/phillies-score-six-runs-in-ninth-inning-to-walk-off-cardinals",
+      "id": "b988c6c12e9875c7",
+      "title_en": "Cornfields, Schwarbombs and gems: 10 best moments from Phillies' remarkable run",
+      "title_ja": "トウモロコシ畑、シュワルボム、宝石：フィリーズの素晴らしいランニングからの10の最高の瞬間",
+      "url": "https://www.mlb.com/phillies/news/best-moments-from-phillies-winning-streak",
       "source": "MLB.com",
-      "published_at": "2026-08-24T03:15:00+00:00"
+      "published_at": "2026-08-24T13:36:49.956000+00:00"
     },
     {
       "id": "7cb4ea7b630da912",
@@ -42,12 +42,12 @@
       "published_at": "2026-08-24T12:46:18.350000+00:00"
     },
     {
-      "id": "b988c6c12e9875c7",
-      "title_en": "Cornfields, Schwarbombs and gems: 10 best moments from Phillies' remarkable run",
-      "title_ja": "トウモロコシ畑、シュワルボム、宝石：フィリーズの素晴らしいランニングからの10の最高の瞬間",
-      "url": "https://www.mlb.com/phillies/news/best-moments-from-phillies-winning-streak",
+      "id": "2b45fd60c2b340c3",
+      "title_en": "Phils can't lose! Down 4 with 2 outs in 9th, unbelievable rally ends in 9th straight W",
+      "title_ja": "フィルは負けない！ 9位で2アウトで4ダウン、信じられないほどのラリーは9連続Wで終了",
+      "url": "https://www.mlb.com/phillies/news/phillies-score-six-runs-in-ninth-inning-to-walk-off-cardinals",
       "source": "MLB.com",
-      "published_at": "2026-08-24T13:36:49.956000+00:00"
+      "published_at": "2026-08-24T03:15:00+00:00"
     },
     {
       "id": "8176b8558347633c",
