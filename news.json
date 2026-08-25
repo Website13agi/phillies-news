@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-25T22:53:02.447063+00:00",
+  "updated_at": "2026-08-25T23:52:24.021199+00:00",
   "articles": [
     {
       "id": "f176402e869190c9",
@@ -26,6 +26,14 @@
       "published_at": "2026-03-10T00:00:00+00:00"
     },
     {
+      "id": "f10ea6835992a2a2",
+      "title_en": "Phillies-themed episode of ‘Abbott Elementary’ earns Emmy nomination",
+      "title_ja": "「Abbott Elementary」のフィリーズをテーマにしたエピソードがエミー賞にノミネート",
+      "url": "https://www.mlb.com/phillies/news/phillies-themed-episode-of-abbott-elementary-earns-emmy-nomination",
+      "source": "MLB.com",
+      "published_at": "2026-08-25T23:34:39.229000+00:00"
+    },
+    {
       "id": "7cb4ea7b630da912",
       "title_en": "Wheeler allows 4 HRs in loss to Mariners as troubling trends continue",
       "title_ja": "ウィーラーは、厄介な傾向が続いているため、マリナーズに4時間の損失をもたらします",
@@ -42,20 +50,20 @@
       "published_at": "2026-08-25T15:00:00+00:00"
     },
     {
-      "id": "b988c6c12e9875c7",
-      "title_en": "Cornfields, Schwarbombs and gems: 10 best moments from Phillies' remarkable run",
-      "title_ja": "トウモロコシ畑、シュワルボム、宝石：フィリーズの素晴らしいランニングからの10の最高の瞬間",
-      "url": "https://www.mlb.com/phillies/news/best-moments-from-phillies-winning-streak",
-      "source": "MLB.com",
-      "published_at": "2026-08-24T13:36:49.956000+00:00"
-    },
-    {
       "id": "8176b8558347633c",
       "title_en": "Price drop! Stream games on PHILLIES.TV",
       "title_ja": "値下げ！ PHILLIES.TVでゲームをストリーミング",
       "url": "https://www.mlb.com/phillies/news/phillies-tv-stream-2026",
       "source": "MLB.com",
       "published_at": "2026-08-10T18:54:00+00:00"
+    },
+    {
+      "id": "b988c6c12e9875c7",
+      "title_en": "Cornfields, Schwarbombs and gems: 10 best moments from Phillies' remarkable run",
+      "title_ja": "トウモロコシ畑、シュワルボム、宝石：フィリーズの素晴らしいランニングからの10の最高の瞬間",
+      "url": "https://www.mlb.com/phillies/news/best-moments-from-phillies-winning-streak",
+      "source": "MLB.com",
+      "published_at": "2026-08-24T13:36:49.956000+00:00"
     },
     {
       "id": "2b45fd60c2b340c3",
@@ -66,20 +74,20 @@
       "published_at": "2026-08-24T03:15:00+00:00"
     },
     {
-      "id": "641857c1b7ebb009",
-      "title_en": "X-rays negative after Stott (contusion) fouls pitch off right foot",
-      "title_ja": "ストット（挫傷）ファウルが右足を飛ばした後のX線陰性",
-      "url": "https://www.mlb.com/phillies/news/bryson-stott-exits-game-with-right-foot-contusion",
-      "source": "MLB.com",
-      "published_at": "2026-08-23T23:40:00+00:00"
-    },
-    {
       "id": "3f91d4c204f9aeb6",
       "title_en": "Latest Phillies injuries & transactions",
       "title_ja": "最新のフィリーズの怪我と取引",
       "url": "https://www.mlb.com/phillies/news/phillies-injuries-and-roster-moves",
       "source": "MLB.com",
       "published_at": "2026-08-24T00:01:00+00:00"
+    },
+    {
+      "id": "641857c1b7ebb009",
+      "title_en": "X-rays negative after Stott (contusion) fouls pitch off right foot",
+      "title_ja": "ストット（挫傷）ファウルが右足を飛ばした後のX線陰性",
+      "url": "https://www.mlb.com/phillies/news/bryson-stott-exits-game-with-right-foot-contusion",
+      "source": "MLB.com",
+      "published_at": "2026-08-23T23:40:00+00:00"
     },
     {
       "id": "87c30d445ea26287",
@@ -184,14 +192,6 @@
       "url": "https://www.mlb.com/phillies/news/aaron-nola-tosses-seven-innings-in-sweep-of-marlins",
       "source": "MLB.com",
       "published_at": "2026-08-20T03:40:00+00:00"
-    },
-    {
-      "id": "19923f8d620b6207",
-      "title_en": "Crafty lefty Cortes agrees to Major League deal with Phillies",
-      "title_ja": "狡猾な左翼コルテスがフィリーズとのメジャーリーグ契約に同意",
-      "url": "https://www.mlb.com/phillies/news/nestor-cortes-phillies-deal",
-      "source": "MLB.com",
-      "published_at": "2026-08-20T02:38:00+00:00"
     }
   ]
 }
