@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-25T03:16:51.570898+00:00",
+  "updated_at": "2026-08-25T05:18:14.143724+00:00",
   "articles": [
     {
       "id": "f176402e869190c9",
@@ -26,6 +26,22 @@
       "published_at": "2026-03-10T00:00:00+00:00"
     },
     {
+      "id": "7cb4ea7b630da912",
+      "title_en": "Wheeler allows 4 HRs in loss to Mariners as troubling trends continue",
+      "title_ja": "ウィーラーは、厄介な傾向が続いているため、マリナーズに4時間の損失をもたらします",
+      "url": "https://www.mlb.com/phillies/news/zack-wheeler-starts-vs-mariners-august-24",
+      "source": "MLB.com",
+      "published_at": "2026-08-25T04:27:00+00:00"
+    },
+    {
+      "id": "dd5ac4f208c8c4f2",
+      "title_en": "There's a tectonic shift at the top of our latest MVP poll",
+      "title_ja": "最新のMVP世論調査のトップには構造的な変化があります",
+      "url": "https://www.mlb.com/phillies/news/yordan-alvarez-pete-crow-armstrong-lead-fifth-2026-mvp-poll",
+      "source": "MLB.com",
+      "published_at": "2026-08-25T04:19:34.323000+00:00"
+    },
+    {
       "id": "b988c6c12e9875c7",
       "title_en": "Cornfields, Schwarbombs and gems: 10 best moments from Phillies' remarkable run",
       "title_ja": "トウモロコシ畑、シュワルボム、宝石：フィリーズの素晴らしいランニングからの10の最高の瞬間",
@@ -34,12 +50,12 @@
       "published_at": "2026-08-24T13:36:49.956000+00:00"
     },
     {
-      "id": "7cb4ea7b630da912",
-      "title_en": "Wheeler goes for his first win since July 12 as he faces Mariners",
-      "title_ja": "ウィーラーはマリナーズと対戦し、7月12日以来初めての勝利を収めます",
-      "url": "https://www.mlb.com/phillies/news/zack-wheeler-starts-vs-mariners-august-24",
+      "id": "8176b8558347633c",
+      "title_en": "Price drop! Stream games on PHILLIES.TV",
+      "title_ja": "値下げ！ PHILLIES.TVでゲームをストリーミング",
+      "url": "https://www.mlb.com/phillies/news/phillies-tv-stream-2026",
       "source": "MLB.com",
-      "published_at": "2026-08-24T12:46:18.350000+00:00"
+      "published_at": "2026-08-10T18:54:00+00:00"
     },
     {
       "id": "2b45fd60c2b340c3",
@@ -48,14 +64,6 @@
       "url": "https://www.mlb.com/phillies/news/phillies-score-six-runs-in-ninth-inning-to-walk-off-cardinals",
       "source": "MLB.com",
       "published_at": "2026-08-24T03:15:00+00:00"
-    },
-    {
-      "id": "8176b8558347633c",
-      "title_en": "Price drop! Stream games on PHILLIES.TV",
-      "title_ja": "値下げ！ PHILLIES.TVでゲームをストリーミング",
-      "url": "https://www.mlb.com/phillies/news/phillies-tv-stream-2026",
-      "source": "MLB.com",
-      "published_at": "2026-08-10T18:54:00+00:00"
     },
     {
       "id": "641857c1b7ebb009",
@@ -184,14 +192,6 @@
       "url": "https://www.mlb.com/phillies/news/nestor-cortes-phillies-deal",
       "source": "MLB.com",
       "published_at": "2026-08-20T02:38:00+00:00"
-    },
-    {
-      "id": "7e5077f8e3eeee6b",
-      "title_en": "Wheeler loses zone in fifth but limits damage in ongoing search for ace form",
-      "title_ja": "ウィーラーは5番目のゾーンを失いますが、進行中のエースフォームの検索でダメージを制限します",
-      "url": "https://www.mlb.com/phillies/news/zack-wheeler-takes-on-marlins-on-tuesday-at-home",
-      "source": "MLB.com",
-      "published_at": "2026-08-19T02:56:00+00:00"
     }
   ]
 }
