@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-28T22:36:12.098293+00:00",
+  "updated_at": "2026-08-28T23:06:34.155311+00:00",
   "articles": [
     {
       "id": "f176402e869190c9",
@@ -42,12 +42,12 @@
       "published_at": "2026-08-27T15:05:21.239000+00:00"
     },
     {
-      "id": "cd7aa988693551c9",
-      "title_en": "Harper's hot August -- at the plate and in the outfield -- just keeps going",
-      "title_ja": "プレートでも外野でも、ハーパーの暑い8月は続いています",
-      "url": "https://www.mlb.com/phillies/news/bryce-harper-extends-on-base-streak-in-phillies-win",
+      "id": "87c30d445ea26287",
+      "title_en": "LIVE: Top 100 prospects Rojas (NYM), Wood (PHI) square off at Double-A",
+      "title_ja": "ライブ：ダブルAで見込み客トップ100ロハス（ニム）、ウッド（ファイ）スクエアオフ",
+      "url": "https://www.mlb.com/phillies/news/watch-minor-league-baseball-games-for-free-2026",
       "source": "MLB.com",
-      "published_at": "2026-08-26T23:35:00+00:00"
+      "published_at": "2026-08-28T22:36:00+00:00"
     },
     {
       "id": "8176b8558347633c",
@@ -58,20 +58,20 @@
       "published_at": "2026-08-10T18:54:00+00:00"
     },
     {
+      "id": "cd7aa988693551c9",
+      "title_en": "Harper's hot August -- at the plate and in the outfield -- just keeps going",
+      "title_ja": "プレートでも外野でも、ハーパーの暑い8月は続いています",
+      "url": "https://www.mlb.com/phillies/news/bryce-harper-extends-on-base-streak-in-phillies-win",
+      "source": "MLB.com",
+      "published_at": "2026-08-26T23:35:00+00:00"
+    },
+    {
       "id": "9e886fec7ca28c2d",
       "title_en": "Schwarber becomes MLB's 1st to 40 HRs, and joins elite company doing so",
       "title_ja": "SchwarberはMLBの1人から40人のHRになり、そうすることでエリート企業に加わる",
       "url": "https://www.mlb.com/phillies/news/kyle-schwarber-reaches-40-home-runs",
       "source": "MLB.com",
       "published_at": "2026-08-27T00:00:00+00:00"
-    },
-    {
-      "id": "263815daab6ed239",
-      "title_en": "Phillies' No. 5 prospect Rincon breaks out using both power and speed at Double-A",
-      "title_ja": "PhilliesのNo.5プロスペクトRinconがDouble - Aでパワーとスピードの両方を使ってブレイクアウト",
-      "url": "https://www.mlb.com/phillies/news/phillies-prospect-bryan-rincon-breakout-season-double-a",
-      "source": "MLB.com",
-      "published_at": "2026-08-27T01:44:15.699000+00:00"
     },
     {
       "id": "3f91d4c204f9aeb6",
@@ -82,12 +82,12 @@
       "published_at": "2026-08-26T19:55:00+00:00"
     },
     {
-      "id": "87c30d445ea26287",
-      "title_en": "Watch FREE as Top 100 prospects Rojas (NYM), Wood (PHI) square off at Double-A tonight",
-      "title_ja": "今夜Double - Aで、見込み客トップ100のRojas （ Nym ）、Wood （ PHI ）を無料で視聴",
-      "url": "https://www.mlb.com/phillies/news/watch-minor-league-baseball-games-for-free-2026",
+      "id": "263815daab6ed239",
+      "title_en": "Phillies' No. 5 prospect Rincon breaks out using both power and speed at Double-A",
+      "title_ja": "PhilliesのNo.5プロスペクトRinconがDouble - Aでパワーとスピードの両方を使ってブレイクアウト",
+      "url": "https://www.mlb.com/phillies/news/phillies-prospect-bryan-rincon-breakout-season-double-a",
       "source": "MLB.com",
-      "published_at": "2026-08-28T05:13:00+00:00"
+      "published_at": "2026-08-27T01:44:15.699000+00:00"
     },
     {
       "id": "987490acdff04c71",
