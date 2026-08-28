@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-28T00:58:32.439227+00:00",
+  "updated_at": "2026-08-28T21:53:03.253406+00:00",
   "articles": [
     {
       "id": "f176402e869190c9",
@@ -15,7 +15,7 @@
       "title_ja": "フィリーズパイプライン",
       "url": "https://www.mlb.com/phillies/news/topic/phillies-pipeline-coverage",
       "source": "MLB.com",
-      "published_at": "2026-08-26T00:00:00+00:00"
+      "published_at": "2026-08-27T00:00:00+00:00"
     },
     {
       "id": "872bf5359c768da8",
@@ -24,6 +24,14 @@
       "url": "https://www.mlb.com/phillies/news/topic/phillies-history-trivia",
       "source": "MLB.com",
       "published_at": "2026-03-10T00:00:00+00:00"
+    },
+    {
+      "id": "e1c6f045ae22d34d",
+      "title_en": "The good and the bad as Phillies enter season's final month",
+      "title_ja": "フィリーズがシーズン最終月に入ったときの良し悪し",
+      "url": "https://www.mlb.com/phillies/news/the-good-and-the-bad-as-phillies-enter-september-2026",
+      "source": "MLB.com",
+      "published_at": "2026-08-28T13:05:22.225000+00:00"
     },
     {
       "id": "40e7541213db15be",
@@ -42,20 +50,20 @@
       "published_at": "2026-08-26T23:35:00+00:00"
     },
     {
-      "id": "9e886fec7ca28c2d",
-      "title_en": "Schwarber becomes MLB's 1st to 40 HRs, and joins elite company doing so",
-      "title_ja": "SchwarberはMLBの1人から40人のHRになり、そうすることでエリート企業に加わる",
-      "url": "https://www.mlb.com/phillies/news/kyle-schwarber-reaches-40-home-runs",
-      "source": "MLB.com",
-      "published_at": "2026-08-27T00:00:00+00:00"
-    },
-    {
       "id": "8176b8558347633c",
       "title_en": "Price drop! Stream games on PHILLIES.TV",
       "title_ja": "値下げ！ PHILLIES.TVでゲームをストリーミング",
       "url": "https://www.mlb.com/phillies/news/phillies-tv-stream-2026",
       "source": "MLB.com",
       "published_at": "2026-08-10T18:54:00+00:00"
+    },
+    {
+      "id": "9e886fec7ca28c2d",
+      "title_en": "Schwarber becomes MLB's 1st to 40 HRs, and joins elite company doing so",
+      "title_ja": "SchwarberはMLBの1人から40人のHRになり、そうすることでエリート企業に加わる",
+      "url": "https://www.mlb.com/phillies/news/kyle-schwarber-reaches-40-home-runs",
+      "source": "MLB.com",
+      "published_at": "2026-08-27T00:00:00+00:00"
     },
     {
       "id": "263815daab6ed239",
@@ -66,20 +74,28 @@
       "published_at": "2026-08-27T01:44:15.699000+00:00"
     },
     {
-      "id": "987490acdff04c71",
-      "title_en": "These are the hottest hitting prospects right now -- one for each club",
-      "title_ja": "これらは現在最も注目を集めている見込み客です。各クラブに1つずつ",
-      "url": "https://www.mlb.com/phillies/news/hottest-hitting-prospect-for-each-team-august-2026",
-      "source": "MLB.com",
-      "published_at": "2026-08-26T23:00:00+00:00"
-    },
-    {
       "id": "3f91d4c204f9aeb6",
       "title_en": "Latest Phillies injuries & transactions",
       "title_ja": "最新のフィリーズの怪我と取引",
       "url": "https://www.mlb.com/phillies/news/phillies-injuries-and-roster-moves",
       "source": "MLB.com",
       "published_at": "2026-08-26T19:55:00+00:00"
+    },
+    {
+      "id": "87c30d445ea26287",
+      "title_en": "Watch FREE as Top 100 prospects Rojas (NYM), Wood (PHI) square off at Double-A tonight",
+      "title_ja": "今夜Double - Aで、見込み客トップ100のRojas （ Nym ）、Wood （ PHI ）を無料で視聴",
+      "url": "https://www.mlb.com/phillies/news/watch-minor-league-baseball-games-for-free-2026",
+      "source": "MLB.com",
+      "published_at": "2026-08-28T05:13:00+00:00"
+    },
+    {
+      "id": "987490acdff04c71",
+      "title_en": "These are the hottest hitting prospects right now -- one for each club",
+      "title_ja": "これらは現在最も注目を集めている見込み客です。各クラブに1つずつ",
+      "url": "https://www.mlb.com/phillies/news/hottest-hitting-prospect-for-each-team-august-2026",
+      "source": "MLB.com",
+      "published_at": "2026-08-26T23:00:00+00:00"
     },
     {
       "id": "55c309e18782e6d3",
@@ -146,14 +162,6 @@
       "published_at": "2026-08-23T23:40:00+00:00"
     },
     {
-      "id": "87c30d445ea26287",
-      "title_en": "Watch Top 100 prospects Montes, Arroyo (SEA) takes on Triple-A Angels talent FREE tonight",
-      "title_ja": "見込み客トップ100モンテス、アロヨ（ SEA ）が今夜トリプルAエンジェルズのタレントフリーに挑戦",
-      "url": "https://www.mlb.com/phillies/news/watch-minor-league-baseball-games-for-free-2026",
-      "source": "MLB.com",
-      "published_at": "2026-08-28T00:44:00+00:00"
-    },
-    {
       "id": "58f261e26d4a578b",
       "title_en": "Sánchez effective enough, K's 7 vs. Cards to set up comeback win",
       "title_ja": "サンチェスは十分に効果的です。Kの7対カムバック勝利を設定するためのカード",
@@ -184,14 +192,6 @@
       "url": "https://www.mlb.com/phillies/news/phillies-invite-fans-to-first-ever-open-house-watch-party-in-cadillac-hall-of-fame-club-at-citizens-bank-park-on-sunday-august-30",
       "source": "MLB.com",
       "published_at": "2026-08-23T16:21:43.145000+00:00"
-    },
-    {
-      "id": "a128dbc55d3a9254",
-      "title_en": "No long ball, no problem! Phils' 7-game win streak fueled by good ol' small ball",
-      "title_ja": "ロングボールはありません、問題ありません！グッドオールスモールボールに支えられたPhilsの7試合連勝",
-      "url": "https://www.mlb.com/phillies/news/alec-bohm-hits-walk-off-triple-in-phillies-win",
-      "source": "MLB.com",
-      "published_at": "2026-08-22T03:18:00+00:00"
     }
   ]
 }
