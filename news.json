@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-29T01:06:36.127040+00:00",
+  "updated_at": "2026-08-29T01:36:32.185249+00:00",
   "articles": [
     {
       "id": "f176402e869190c9",
@@ -26,6 +26,14 @@
       "published_at": "2026-03-10T00:00:00+00:00"
     },
     {
+      "id": "c25122a53388fcc2",
+      "title_en": "Phillies pitcher Larry Christenson dies at age 72",
+      "title_ja": "フィリーズの投手ラリー・クリステンソンが72歳で死去",
+      "url": "https://www.mlb.com/phillies/news/phillies-pitcher-larry-christenson-dies-at-age-72",
+      "source": "MLB.com",
+      "published_at": "2026-08-29T00:53:00+00:00"
+    },
+    {
       "id": "e1c6f045ae22d34d",
       "title_en": "The good and the bad as Phillies enter season's final month",
       "title_ja": "フィリーズがシーズン最終月に入ったときの良し悪し",
@@ -40,14 +48,6 @@
       "url": "https://www.mlb.com/phillies/news/trea-turner-talks-hitting-with-legend-ichiro-suzuki",
       "source": "MLB.com",
       "published_at": "2026-08-27T15:05:21.239000+00:00"
-    },
-    {
-      "id": "87c30d445ea26287",
-      "title_en": "LIVE: Top 100 prospects Rojas (NYM), Wood (PHI) square off at Double-A",
-      "title_ja": "ライブ：ダブルAで見込み客トップ100ロハス（ニム）、ウッド（ファイ）スクエアオフ",
-      "url": "https://www.mlb.com/phillies/news/watch-minor-league-baseball-games-for-free-2026",
-      "source": "MLB.com",
-      "published_at": "2026-08-28T22:36:00+00:00"
     },
     {
       "id": "8176b8558347633c",
@@ -79,7 +79,7 @@
       "title_ja": "最新のフィリーズの怪我と取引",
       "url": "https://www.mlb.com/phillies/news/phillies-injuries-and-roster-moves",
       "source": "MLB.com",
-      "published_at": "2026-08-26T19:55:00+00:00"
+      "published_at": "2026-08-29T00:26:00+00:00"
     },
     {
       "id": "263815daab6ed239",
