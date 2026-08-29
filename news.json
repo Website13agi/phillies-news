@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-29T14:36:24.338669+00:00",
+  "updated_at": "2026-08-29T15:06:20.286132+00:00",
   "articles": [
     {
       "id": "f176402e869190c9",
@@ -34,20 +34,20 @@
       "published_at": "2026-08-29T06:47:00+00:00"
     },
     {
+      "id": "153e314be80213e3",
+      "title_en": "Sánchez eyeing 200-strikeout mark as he faces Angels",
+      "title_ja": "サンチェスは天使に向かって200ストライクアウトマークを目指す",
+      "url": "https://www.mlb.com/phillies/news/cristopher-sanchez-starts-vs-angels",
+      "source": "MLB.com",
+      "published_at": "2026-08-29T02:05:13.911000+00:00"
+    },
+    {
       "id": "c25122a53388fcc2",
       "title_en": "Larry Christenson, pitcher on 1980 World Series champion Phillies, dies at 72",
       "title_ja": "1980年ワールドシリーズチャンピオンフィリーズの投手、ラリー・クリステンソンが72歳で死去",
       "url": "https://www.mlb.com/phillies/news/phillies-pitcher-larry-christenson-dies-at-age-72",
       "source": "MLB.com",
       "published_at": "2026-08-29T01:30:00+00:00"
-    },
-    {
-      "id": "e1c6f045ae22d34d",
-      "title_en": "The good and the bad as Phillies enter season's final month",
-      "title_ja": "フィリーズがシーズン最終月に入ったときの良し悪し",
-      "url": "https://www.mlb.com/phillies/news/the-good-and-the-bad-as-phillies-enter-september-2026",
-      "source": "MLB.com",
-      "published_at": "2026-08-28T13:05:22.225000+00:00"
     },
     {
       "id": "8176b8558347633c",
@@ -58,6 +58,14 @@
       "published_at": "2026-08-10T18:54:00+00:00"
     },
     {
+      "id": "e1c6f045ae22d34d",
+      "title_en": "The good and the bad as Phillies enter season's final month",
+      "title_ja": "フィリーズがシーズン最終月に入ったときの良し悪し",
+      "url": "https://www.mlb.com/phillies/news/the-good-and-the-bad-as-phillies-enter-september-2026",
+      "source": "MLB.com",
+      "published_at": "2026-08-28T13:05:22.225000+00:00"
+    },
+    {
       "id": "40e7541213db15be",
       "title_en": "Could convo with Ichiro help Turner get on track?",
       "title_ja": "イチローとのコンボは、ターナーが軌道に乗るのを助けることができますか？",
@@ -66,20 +74,20 @@
       "published_at": "2026-08-27T15:05:21.239000+00:00"
     },
     {
-      "id": "cd7aa988693551c9",
-      "title_en": "Harper's hot August -- at the plate and in the outfield -- just keeps going",
-      "title_ja": "プレートでも外野でも、ハーパーの暑い8月は続いています",
-      "url": "https://www.mlb.com/phillies/news/bryce-harper-extends-on-base-streak-in-phillies-win",
-      "source": "MLB.com",
-      "published_at": "2026-08-26T23:35:00+00:00"
-    },
-    {
       "id": "3f91d4c204f9aeb6",
       "title_en": "Latest Phillies injuries & transactions",
       "title_ja": "最新のフィリーズの怪我と取引",
       "url": "https://www.mlb.com/phillies/news/phillies-injuries-and-roster-moves",
       "source": "MLB.com",
       "published_at": "2026-08-29T00:26:00+00:00"
+    },
+    {
+      "id": "cd7aa988693551c9",
+      "title_en": "Harper's hot August -- at the plate and in the outfield -- just keeps going",
+      "title_ja": "プレートでも外野でも、ハーパーの暑い8月は続いています",
+      "url": "https://www.mlb.com/phillies/news/bryce-harper-extends-on-base-streak-in-phillies-win",
+      "source": "MLB.com",
+      "published_at": "2026-08-26T23:35:00+00:00"
     },
     {
       "id": "9e886fec7ca28c2d",
@@ -184,14 +192,6 @@
       "url": "https://www.mlb.com/phillies/news/luis-arraez-exits-with-lower-body-cramping-against-cardinals",
       "source": "MLB.com",
       "published_at": "2026-08-23T22:11:00+00:00"
-    },
-    {
-      "id": "1599e5fcfc7036bb",
-      "title_en": "Painter looking like 'a monster' for Phils, crosses off multiple career highs",
-      "title_ja": "Philsにとって「怪物」のように見える画家は、複数のキャリアの最高記録を消します",
-      "url": "https://www.mlb.com/phillies/news/andrew-painter-pitches-a-career-high-7-innings",
-      "source": "MLB.com",
-      "published_at": "2026-08-23T02:21:00+00:00"
     }
   ]
 }
