@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-08-29T05:06:24.872376+00:00",
+  "updated_at": "2026-08-29T05:36:10.463914+00:00",
   "articles": [
     {
       "id": "f176402e869190c9",
       "title_en": "Phillies Press Releases",
-      "title_ja": "フィリーズ・プレスリリース",
+      "title_ja": "Phillies Press Releases",
       "url": "https://www.mlb.com/phillies/news/topic/phillies-press-releases",
       "source": "MLB.com",
       "published_at": "2026-08-23T00:00:00+00:00"
@@ -12,7 +12,7 @@
     {
       "id": "e584e060479f6bf8",
       "title_en": "Phillies Pipeline",
-      "title_ja": "フィリーズパイプライン",
+      "title_ja": "Phillies Pipeline",
       "url": "https://www.mlb.com/phillies/news/topic/phillies-pipeline-coverage",
       "source": "MLB.com",
       "published_at": "2026-08-27T00:00:00+00:00"
@@ -20,15 +20,23 @@
     {
       "id": "872bf5359c768da8",
       "title_en": "Phillies All-Time Lists & Trivia",
-      "title_ja": "フィリーズのオールタイムリストとトリビア",
+      "title_ja": "Phillies All-Time Lists & Trivia",
       "url": "https://www.mlb.com/phillies/news/topic/phillies-history-trivia",
       "source": "MLB.com",
       "published_at": "2026-03-10T00:00:00+00:00"
     },
     {
+      "id": "fd0c1f16870beaed",
+      "title_en": "Sosa slam! Pinch-hitter plays hero in Phillies' dramatic comeback win",
+      "title_ja": "Sosa slam! Pinch-hitter plays hero in Phillies' dramatic comeback win",
+      "url": "https://www.mlb.com/phillies/news/edmundo-sosa-s-pinch-hit-grand-slam-leads-phillies-past-angel",
+      "source": "MLB.com",
+      "published_at": "2026-08-29T04:57:24.994000+00:00"
+    },
+    {
       "id": "c25122a53388fcc2",
       "title_en": "Larry Christenson, pitcher on 1980 World Series champion Phillies, dies at 72",
-      "title_ja": "1980年ワールドシリーズチャンピオンフィリーズの投手、ラリー・クリステンソンが72歳で死去",
+      "title_ja": "Larry Christenson, pitcher on 1980 World Series champion Phillies, dies at 72",
       "url": "https://www.mlb.com/phillies/news/phillies-pitcher-larry-christenson-dies-at-age-72",
       "source": "MLB.com",
       "published_at": "2026-08-29T01:30:00+00:00"
@@ -36,55 +44,55 @@
     {
       "id": "e1c6f045ae22d34d",
       "title_en": "The good and the bad as Phillies enter season's final month",
-      "title_ja": "フィリーズがシーズン最終月に入ったときの良し悪し",
+      "title_ja": "The good and the bad as Phillies enter season's final month",
       "url": "https://www.mlb.com/phillies/news/the-good-and-the-bad-as-phillies-enter-september-2026",
       "source": "MLB.com",
       "published_at": "2026-08-28T13:05:22.225000+00:00"
     },
     {
-      "id": "40e7541213db15be",
-      "title_en": "Could convo with Ichiro help Turner get on track?",
-      "title_ja": "イチローとのコンボは、ターナーが軌道に乗るのを助けることができますか？",
-      "url": "https://www.mlb.com/phillies/news/trea-turner-talks-hitting-with-legend-ichiro-suzuki",
-      "source": "MLB.com",
-      "published_at": "2026-08-27T15:05:21.239000+00:00"
-    },
-    {
       "id": "8176b8558347633c",
       "title_en": "Price drop! Stream games on PHILLIES.TV",
-      "title_ja": "値下げ！ PHILLIES.TVでゲームをストリーミング",
+      "title_ja": "Price drop! Stream games on PHILLIES.TV",
       "url": "https://www.mlb.com/phillies/news/phillies-tv-stream-2026",
       "source": "MLB.com",
       "published_at": "2026-08-10T18:54:00+00:00"
     },
     {
+      "id": "40e7541213db15be",
+      "title_en": "Could convo with Ichiro help Turner get on track?",
+      "title_ja": "Could convo with Ichiro help Turner get on track?",
+      "url": "https://www.mlb.com/phillies/news/trea-turner-talks-hitting-with-legend-ichiro-suzuki",
+      "source": "MLB.com",
+      "published_at": "2026-08-27T15:05:21.239000+00:00"
+    },
+    {
       "id": "cd7aa988693551c9",
       "title_en": "Harper's hot August -- at the plate and in the outfield -- just keeps going",
-      "title_ja": "プレートでも外野でも、ハーパーの暑い8月は続いています",
+      "title_ja": "Harper's hot August -- at the plate and in the outfield -- just keeps going",
       "url": "https://www.mlb.com/phillies/news/bryce-harper-extends-on-base-streak-in-phillies-win",
       "source": "MLB.com",
       "published_at": "2026-08-26T23:35:00+00:00"
     },
     {
-      "id": "9e886fec7ca28c2d",
-      "title_en": "Schwarber becomes MLB's 1st to 40 HRs, and joins elite company doing so",
-      "title_ja": "SchwarberはMLBの1人から40人のHRになり、そうすることでエリート企業に加わる",
-      "url": "https://www.mlb.com/phillies/news/kyle-schwarber-reaches-40-home-runs",
-      "source": "MLB.com",
-      "published_at": "2026-08-27T00:00:00+00:00"
-    },
-    {
       "id": "3f91d4c204f9aeb6",
       "title_en": "Latest Phillies injuries & transactions",
-      "title_ja": "最新のフィリーズの怪我と取引",
+      "title_ja": "Latest Phillies injuries & transactions",
       "url": "https://www.mlb.com/phillies/news/phillies-injuries-and-roster-moves",
       "source": "MLB.com",
       "published_at": "2026-08-29T00:26:00+00:00"
     },
     {
+      "id": "9e886fec7ca28c2d",
+      "title_en": "Schwarber becomes MLB's 1st to 40 HRs, and joins elite company doing so",
+      "title_ja": "Schwarber becomes MLB's 1st to 40 HRs, and joins elite company doing so",
+      "url": "https://www.mlb.com/phillies/news/kyle-schwarber-reaches-40-home-runs",
+      "source": "MLB.com",
+      "published_at": "2026-08-27T00:00:00+00:00"
+    },
+    {
       "id": "263815daab6ed239",
       "title_en": "Phillies' No. 5 prospect Rincon breaks out using both power and speed at Double-A",
-      "title_ja": "PhilliesのNo.5プロスペクトRinconがDouble - Aでパワーとスピードの両方を使ってブレイクアウト",
+      "title_ja": "Phillies' No. 5 prospect Rincon breaks out using both power and speed at Double-A",
       "url": "https://www.mlb.com/phillies/news/phillies-prospect-bryan-rincon-breakout-season-double-a",
       "source": "MLB.com",
       "published_at": "2026-08-27T01:44:15.699000+00:00"
@@ -92,7 +100,7 @@
     {
       "id": "987490acdff04c71",
       "title_en": "These are the hottest hitting prospects right now -- one for each club",
-      "title_ja": "これらは現在最も注目を集めている見込み客です。各クラブに1つずつ",
+      "title_ja": "These are the hottest hitting prospects right now -- one for each club",
       "url": "https://www.mlb.com/phillies/news/hottest-hitting-prospect-for-each-team-august-2026",
       "source": "MLB.com",
       "published_at": "2026-08-26T23:00:00+00:00"
@@ -100,7 +108,7 @@
     {
       "id": "55c309e18782e6d3",
       "title_en": "Latest SP Power Rankings see another change at No. 2",
-      "title_ja": "最新のSPパワーランキングでは、2位にもう1つの変更があります",
+      "title_ja": "Latest SP Power Rankings see another change at No. 2",
       "url": "https://www.mlb.com/phillies/news/mlb-starting-pitcher-power-rankings-august-2026",
       "source": "MLB.com",
       "published_at": "2026-08-27T16:00:00+00:00"
@@ -108,7 +116,7 @@
     {
       "id": "22c0dc9e47c5dac3",
       "title_en": "Phillies' bats stay quiet to spoil another sharp Nola outing",
-      "title_ja": "フィリーズのコウモリは静かにして、別の鋭いノラの外出を台無しにします",
+      "title_ja": "Phillies' bats stay quiet to spoil another sharp Nola outing",
       "url": "https://www.mlb.com/phillies/news/phillies-lose-despite-aaron-nola-s-strong-outing",
       "source": "MLB.com",
       "published_at": "2026-08-26T05:06:00+00:00"
@@ -116,7 +124,7 @@
     {
       "id": "f10ea6835992a2a2",
       "title_en": "Phillies-themed episode of ‘Abbott Elementary’ earns Emmy nomination",
-      "title_ja": "「Abbott Elementary」のフィリーズをテーマにしたエピソードがエミー賞にノミネート",
+      "title_ja": "Phillies-themed episode of ‘Abbott Elementary’ earns Emmy nomination",
       "url": "https://www.mlb.com/phillies/news/phillies-themed-episode-of-abbott-elementary-earns-emmy-nomination",
       "source": "MLB.com",
       "published_at": "2026-08-25T23:34:39.229000+00:00"
@@ -124,7 +132,7 @@
     {
       "id": "7cb4ea7b630da912",
       "title_en": "Wheeler allows 4 HRs in loss to Mariners as troubling trends continue",
-      "title_ja": "ウィーラーは、厄介な傾向が続いているため、マリナーズに4時間の損失をもたらします",
+      "title_ja": "Wheeler allows 4 HRs in loss to Mariners as troubling trends continue",
       "url": "https://www.mlb.com/phillies/news/zack-wheeler-starts-vs-mariners-august-24",
       "source": "MLB.com",
       "published_at": "2026-08-25T05:39:00+00:00"
@@ -132,7 +140,7 @@
     {
       "id": "dd5ac4f208c8c4f2",
       "title_en": "There's a seismic shift at the top of our latest MVP poll",
-      "title_ja": "最新のMVP世論調査の上部に地震の変化があります",
+      "title_ja": "There's a seismic shift at the top of our latest MVP poll",
       "url": "https://www.mlb.com/phillies/news/yordan-alvarez-pete-crow-armstrong-lead-fifth-2026-mvp-poll",
       "source": "MLB.com",
       "published_at": "2026-08-25T15:00:00+00:00"
@@ -140,7 +148,7 @@
     {
       "id": "b988c6c12e9875c7",
       "title_en": "Cornfields, Schwarbombs and gems: 10 best moments from Phillies' remarkable run",
-      "title_ja": "トウモロコシ畑、シュワルボム、宝石：フィリーズの素晴らしいランニングからの10の最高の瞬間",
+      "title_ja": "Cornfields, Schwarbombs and gems: 10 best moments from Phillies' remarkable run",
       "url": "https://www.mlb.com/phillies/news/best-moments-from-phillies-winning-streak",
       "source": "MLB.com",
       "published_at": "2026-08-24T13:36:49.956000+00:00"
@@ -148,7 +156,7 @@
     {
       "id": "2b45fd60c2b340c3",
       "title_en": "Phils can't lose! Down 4 with 2 outs in 9th, unbelievable rally ends in 9th straight W",
-      "title_ja": "フィルは負けない！ 9位で2アウトで4ダウン、信じられないほどのラリーは9連続Wで終了",
+      "title_ja": "Phils can't lose! Down 4 with 2 outs in 9th, unbelievable rally ends in 9th straight W",
       "url": "https://www.mlb.com/phillies/news/phillies-score-six-runs-in-ninth-inning-to-walk-off-cardinals",
       "source": "MLB.com",
       "published_at": "2026-08-24T03:15:00+00:00"
@@ -156,7 +164,7 @@
     {
       "id": "641857c1b7ebb009",
       "title_en": "X-rays negative after Stott (contusion) fouls pitch off right foot",
-      "title_ja": "ストット（挫傷）ファウルが右足を飛ばした後のX線陰性",
+      "title_ja": "X-rays negative after Stott (contusion) fouls pitch off right foot",
       "url": "https://www.mlb.com/phillies/news/bryson-stott-exits-game-with-right-foot-contusion",
       "source": "MLB.com",
       "published_at": "2026-08-23T23:40:00+00:00"
@@ -164,7 +172,7 @@
     {
       "id": "58f261e26d4a578b",
       "title_en": "Sánchez effective enough, K's 7 vs. Cards to set up comeback win",
-      "title_ja": "サンチェスは十分に効果的です。Kの7対カムバック勝利を設定するためのカード",
+      "title_ja": "Sánchez effective enough, K's 7 vs. Cards to set up comeback win",
       "url": "https://www.mlb.com/phillies/news/cristopher-sanchez-strikes-out-seven-against-cardinals",
       "source": "MLB.com",
       "published_at": "2026-08-23T23:15:00+00:00"
@@ -172,7 +180,7 @@
     {
       "id": "cbaf3d57bf55531b",
       "title_en": "Arraez (cramping), Hill (stiff neck) out of Phils' lineup for finale vs. Cards",
-      "title_ja": "フィナーレ対カードのPhilsラインナップからArraez （けいれん）、Hill （硬い首）",
+      "title_ja": "Arraez (cramping), Hill (stiff neck) out of Phils' lineup for finale vs. Cards",
       "url": "https://www.mlb.com/phillies/news/luis-arraez-exits-with-lower-body-cramping-against-cardinals",
       "source": "MLB.com",
       "published_at": "2026-08-23T22:11:00+00:00"
@@ -180,18 +188,10 @@
     {
       "id": "1599e5fcfc7036bb",
       "title_en": "Painter looking like 'a monster' for Phils, crosses off multiple career highs",
-      "title_ja": "Philsにとって「怪物」のように見える画家は、複数のキャリアの最高記録を消します",
+      "title_ja": "Painter looking like 'a monster' for Phils, crosses off multiple career highs",
       "url": "https://www.mlb.com/phillies/news/andrew-painter-pitches-a-career-high-7-innings",
       "source": "MLB.com",
       "published_at": "2026-08-23T02:21:00+00:00"
-    },
-    {
-      "id": "0b409a5fe699262a",
-      "title_en": "Phillies invite fans to first-ever Open House & Watch Party in Cadillac Hall of Fame Club at Citizens Bank Park on Sunday, August 30",
-      "title_ja": "フィリーズは、8月30日（日）にシチズンズ・バンク・パークのキャデラック・ホール・オブ・フェイム・クラブで開催される初のオープンハウス＆ウォッチパーティーにファンを招待します",
-      "url": "https://www.mlb.com/phillies/news/phillies-invite-fans-to-first-ever-open-house-watch-party-in-cadillac-hall-of-fame-club-at-citizens-bank-park-on-sunday-august-30",
-      "source": "MLB.com",
-      "published_at": "2026-08-23T16:21:43.145000+00:00"
     }
   ]
 }
