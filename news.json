@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-30T16:06:48.805387+00:00",
+  "updated_at": "2026-08-30T16:36:28.864790+00:00",
   "articles": [
     {
       "id": "f176402e869190c9",
@@ -16,6 +16,14 @@
       "url": "https://www.mlb.com/phillies/news/topic/phillies-pipeline-coverage",
       "source": "MLB.com",
       "published_at": "2026-08-27T00:00:00+00:00"
+    },
+    {
+      "id": "872bf5359c768da8",
+      "title_en": "Phillies All-Time Lists & Trivia",
+      "title_ja": "フィリーズのオールタイムリストとトリビア",
+      "url": "https://www.mlb.com/phillies/news/topic/phillies-history-trivia",
+      "source": "MLB.com",
+      "published_at": "2026-03-10T00:00:00+00:00"
     },
     {
       "id": "d1d7b8d71b5a39e6",
