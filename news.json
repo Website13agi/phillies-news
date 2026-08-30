@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-30T03:36:22.253635+00:00",
+  "updated_at": "2026-08-30T04:06:47.625898+00:00",
   "articles": [
     {
       "id": "f176402e869190c9",
@@ -26,20 +26,20 @@
       "published_at": "2026-03-10T00:00:00+00:00"
     },
     {
+      "id": "153e314be80213e3",
+      "title_en": "Sánchez reaches 200 K's for second straight season",
+      "title_ja": "サンチェスがシーズン2連続で200 Kに到達",
+      "url": "https://www.mlb.com/phillies/news/cristopher-sanchez-starts-vs-angels",
+      "source": "MLB.com",
+      "published_at": "2026-08-30T03:52:00+00:00"
+    },
+    {
       "id": "eeb0e833b218c308",
       "title_en": "Baffled by recent rough stretch, Wheeler looks to 'zone it back in' vs. Angels",
       "title_ja": "最近の荒れたストレッチに困惑したウィーラーは、エンジェルに対して「ゾーンに戻す」ことを検討しています",
       "url": "https://www.mlb.com/phillies/news/zack-wheeler-starts-vs-angels",
       "source": "MLB.com",
       "published_at": "2026-08-30T02:08:37.011000+00:00"
-    },
-    {
-      "id": "153e314be80213e3",
-      "title_en": "Sánchez continues quest for 200-K, 20-win milestones vs. Angels",
-      "title_ja": "サンチェスは200 K、対天使20勝のマイルストーンを目指してクエストを続ける",
-      "url": "https://www.mlb.com/phillies/news/cristopher-sanchez-starts-vs-angels",
-      "source": "MLB.com",
-      "published_at": "2026-08-29T02:05:13.911000+00:00"
     },
     {
       "id": "fd0c1f16870beaed",
