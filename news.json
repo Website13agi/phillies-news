@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-30T20:36:22.317842+00:00",
+  "updated_at": "2026-08-30T21:06:19.746676+00:00",
   "articles": [
     {
       "id": "f176402e869190c9",
@@ -26,6 +26,14 @@
       "published_at": "2026-03-10T00:00:00+00:00"
     },
     {
+      "id": "eeb0e833b218c308",
+      "title_en": "Baffled by recent rough stretch, Wheeler looks to 'zone it back in' vs. Angels",
+      "title_ja": "最近の荒れたストレッチに困惑したウィーラーは、エンジェルに対して「ゾーンに戻す」ことを検討しています",
+      "url": "https://www.mlb.com/phillies/news/zack-wheeler-starts-vs-angels",
+      "source": "MLB.com",
+      "published_at": "2026-08-30T02:08:37.011000+00:00"
+    },
+    {
       "id": "d1d7b8d71b5a39e6",
       "title_en": "Harper caught stealing home, but Phils find way around baserunning miscues",
       "title_ja": "ハーパーは家を盗んでいるのを発見しましたが、フィルズはベースランニングのミスを回避する方法を見つけました",
@@ -40,14 +48,6 @@
       "url": "https://www.mlb.com/phillies/news/cristopher-sanchez-starts-vs-angels",
       "source": "MLB.com",
       "published_at": "2026-08-30T06:05:00+00:00"
-    },
-    {
-      "id": "eeb0e833b218c308",
-      "title_en": "Baffled by recent rough stretch, Wheeler looks to 'zone it back in' vs. Angels",
-      "title_ja": "最近の荒れたストレッチに困惑したウィーラーは、エンジェルに対して「ゾーンに戻す」ことを検討しています",
-      "url": "https://www.mlb.com/phillies/news/zack-wheeler-starts-vs-angels",
-      "source": "MLB.com",
-      "published_at": "2026-08-30T02:08:37.011000+00:00"
     },
     {
       "id": "8176b8558347633c",
