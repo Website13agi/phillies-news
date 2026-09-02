@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-02T07:11:02.444752+00:00",
+  "updated_at": "2026-09-02T07:40:19.737033+00:00",
   "articles": [
     {
       "id": "f176402e869190c9",
@@ -66,20 +66,20 @@
       "published_at": "2026-08-31T14:36:52.890000+00:00"
     },
     {
-      "id": "094ee86d77748474",
-      "title_en": "2-inch tweak helps Wheeler earn first win since July",
-      "title_ja": "2インチの微調整により、ウィーラーは7月以来初めての勝利を収めることができます",
-      "url": "https://www.mlb.com/phillies/news/zack-wheeler-strikes-out-6-in-phillies-win-over-angels",
-      "source": "MLB.com",
-      "published_at": "2026-08-31T01:25:00+00:00"
-    },
-    {
       "id": "3f91d4c204f9aeb6",
       "title_en": "Latest Phillies injuries & transactions",
       "title_ja": "最新のフィリーズの怪我と取引",
       "url": "https://www.mlb.com/phillies/news/phillies-injuries-and-roster-moves",
       "source": "MLB.com",
       "published_at": "2026-09-02T00:13:00+00:00"
+    },
+    {
+      "id": "094ee86d77748474",
+      "title_en": "2-inch tweak helps Wheeler earn first win since July",
+      "title_ja": "2インチの微調整により、ウィーラーは7月以来初めての勝利を収めることができます",
+      "url": "https://www.mlb.com/phillies/news/zack-wheeler-strikes-out-6-in-phillies-win-over-angels",
+      "source": "MLB.com",
+      "published_at": "2026-08-31T01:25:00+00:00"
     },
     {
       "id": "d1d7b8d71b5a39e6",
@@ -192,14 +192,6 @@
       "url": "https://www.mlb.com/phillies/news/phillies-themed-episode-of-abbott-elementary-earns-emmy-nomination",
       "source": "MLB.com",
       "published_at": "2026-08-25T23:34:39.229000+00:00"
-    },
-    {
-      "id": "7cb4ea7b630da912",
-      "title_en": "Wheeler allows 4 HRs in loss to Mariners as troubling trends continue",
-      "title_ja": "ウィーラーは、厄介な傾向が続いているため、マリナーズに4時間の損失をもたらします",
-      "url": "https://www.mlb.com/phillies/news/zack-wheeler-starts-vs-mariners-august-24",
-      "source": "MLB.com",
-      "published_at": "2026-08-25T05:39:00+00:00"
     }
   ]
 }
