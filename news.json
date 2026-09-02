@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-02T04:13:45.685462+00:00",
+  "updated_at": "2026-09-02T04:41:03.261755+00:00",
   "articles": [
     {
       "id": "f176402e869190c9",
@@ -26,6 +26,14 @@
       "published_at": "2026-03-10T00:00:00+00:00"
     },
     {
+      "id": "6e200ce5d7860223",
+      "title_en": "Luzardo's gem, hot bats propel Phillies to sole possession of top NL Wild Card spot",
+      "title_ja": "ルザルドの宝石、熱いコウモリは、フィリーズをNLワイルドカードのトップスポットの唯一の所有に推し進めます",
+      "url": "https://www.mlb.com/phillies/news/jesus-luzardo-continues-hot-stretch-with-win-over-d-backs",
+      "source": "MLB.com",
+      "published_at": "2026-09-02T04:35:50.663000+00:00"
+    },
+    {
       "id": "773a889c18fad2c0",
       "title_en": "Phillies add Holman, Marchán as rosters expand",
       "title_ja": "選手名簿が拡大するにつれて、フィリーズはホルマン、マーチャンを追加します",
@@ -34,20 +42,20 @@
       "published_at": "2026-09-02T01:19:43.156000+00:00"
     },
     {
-      "id": "f54877c576b28487",
-      "title_en": "Phillies, Stott end blazing August with an all-around win vs. D-backs",
-      "title_ja": "フィリーズ、ストットは8月を終え、Dバックに対して全面的な勝利を収めました",
-      "url": "https://www.mlb.com/phillies/news/phillies-finish-a-strong-august-with-an-important-win",
-      "source": "MLB.com",
-      "published_at": "2026-09-01T06:20:00+00:00"
-    },
-    {
       "id": "8176b8558347633c",
       "title_en": "Price drop! Stream games on PHILLIES.TV for $24.99",
       "title_ja": "値下げ！ PHILLIES.TVでゲームを$ 24.99でストリーミング",
       "url": "https://www.mlb.com/phillies/news/phillies-tv-stream-2026",
       "source": "MLB.com",
       "published_at": "2026-09-01T13:00:00+00:00"
+    },
+    {
+      "id": "f54877c576b28487",
+      "title_en": "Phillies, Stott end blazing August with an all-around win vs. D-backs",
+      "title_ja": "フィリーズ、ストットは8月を終え、Dバックに対して全面的な勝利を収めました",
+      "url": "https://www.mlb.com/phillies/news/phillies-finish-a-strong-august-with-an-important-win",
+      "source": "MLB.com",
+      "published_at": "2026-09-01T06:20:00+00:00"
     },
     {
       "id": "ff6719332c548799",
@@ -66,20 +74,20 @@
       "published_at": "2026-08-31T01:25:00+00:00"
     },
     {
-      "id": "d1d7b8d71b5a39e6",
-      "title_en": "Harper caught stealing home, but Phils find way around baserunning miscues",
-      "title_ja": "ハーパーは家を盗んでいるのを発見しましたが、フィルズはベースランニングのミスを回避する方法を見つけました",
-      "url": "https://www.mlb.com/phillies/news/bryce-harper-caught-stealing-home-vs-angels",
-      "source": "MLB.com",
-      "published_at": "2026-08-30T07:19:36.390000+00:00"
-    },
-    {
       "id": "3f91d4c204f9aeb6",
       "title_en": "Latest Phillies injuries & transactions",
       "title_ja": "最新のフィリーズの怪我と取引",
       "url": "https://www.mlb.com/phillies/news/phillies-injuries-and-roster-moves",
       "source": "MLB.com",
       "published_at": "2026-09-02T00:13:00+00:00"
+    },
+    {
+      "id": "d1d7b8d71b5a39e6",
+      "title_en": "Harper caught stealing home, but Phils find way around baserunning miscues",
+      "title_ja": "ハーパーは家を盗んでいるのを発見しましたが、フィルズはベースランニングのミスを回避する方法を見つけました",
+      "url": "https://www.mlb.com/phillies/news/bryce-harper-caught-stealing-home-vs-angels",
+      "source": "MLB.com",
+      "published_at": "2026-08-30T07:19:36.390000+00:00"
     },
     {
       "id": "153e314be80213e3",
@@ -192,14 +200,6 @@
       "url": "https://www.mlb.com/phillies/news/zack-wheeler-starts-vs-mariners-august-24",
       "source": "MLB.com",
       "published_at": "2026-08-25T05:39:00+00:00"
-    },
-    {
-      "id": "dd5ac4f208c8c4f2",
-      "title_en": "There's a seismic shift at the top of our latest MVP poll",
-      "title_ja": "最新のMVP世論調査の上部に地震の変化があります",
-      "url": "https://www.mlb.com/phillies/news/yordan-alvarez-pete-crow-armstrong-lead-fifth-2026-mvp-poll",
-      "source": "MLB.com",
-      "published_at": "2026-08-25T15:00:00+00:00"
     }
   ]
 }
