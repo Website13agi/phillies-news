@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-03T11:40:15.597708+00:00",
+  "updated_at": "2026-09-03T12:16:00.022178+00:00",
   "articles": [
     {
       "id": "f176402e869190c9",
@@ -26,6 +26,14 @@
       "published_at": "2026-03-10T00:00:00+00:00"
     },
     {
+      "id": "1e28543ec16f7191",
+      "title_en": "McFarlane's big strikeout has Phillies' clubhouse talking",
+      "title_ja": "マクファーレンの大三振でフィリーズのクラブハウスが話題に",
+      "url": "https://www.mlb.com/phillies/news/rookie-alex-mcfarlane-pitching-key-innings-for-phillies-down-stretch",
+      "source": "MLB.com",
+      "published_at": "2026-09-03T11:36:46.095000+00:00"
+    },
+    {
       "id": "247366f137150869",
       "title_en": "Painter twirls 7 scoreless frames before bullpen allows winning run",
       "title_ja": "ペインターは、ブルペンが勝利を可能にする前に7つのスコアレスフレームを回転させます",
@@ -34,20 +42,20 @@
       "published_at": "2026-09-03T00:04:00+00:00"
     },
     {
-      "id": "81afa9424e730ca9",
-      "title_en": "Yordan's Hitter Power Rankings reign has ended. Who took him down?",
-      "title_ja": "ヨーダンのヒッターパワーランキングの統治は終了しました。誰が彼を倒したのですか？",
-      "url": "https://www.mlb.com/phillies/news/mlb-hitter-power-rankings-for-september-3-2026",
-      "source": "MLB.com",
-      "published_at": "2026-09-03T03:44:56.612000+00:00"
-    },
-    {
       "id": "8176b8558347633c",
       "title_en": "Price drop! Stream games on PHILLIES.TV for $24.99",
       "title_ja": "値下げ！ PHILLIES.TVでゲームを$ 24.99でストリーミング",
       "url": "https://www.mlb.com/phillies/news/phillies-tv-stream-2026",
       "source": "MLB.com",
       "published_at": "2026-09-01T13:00:00+00:00"
+    },
+    {
+      "id": "81afa9424e730ca9",
+      "title_en": "Yordan's Hitter Power Rankings reign has ended. Who took him down?",
+      "title_ja": "ヨーダンのヒッターパワーランキングの統治は終了しました。誰が彼を倒したのですか？",
+      "url": "https://www.mlb.com/phillies/news/mlb-hitter-power-rankings-for-september-3-2026",
+      "source": "MLB.com",
+      "published_at": "2026-09-03T03:44:56.612000+00:00"
     },
     {
       "id": "42fc2d002003ddb2",
@@ -66,20 +74,20 @@
       "published_at": "2026-09-02T06:18:00+00:00"
     },
     {
-      "id": "773a889c18fad2c0",
-      "title_en": "Phillies add Holman, Marchán as rosters expand",
-      "title_ja": "選手名簿が拡大するにつれて、フィリーズはホルマン、マーチャンを追加します",
-      "url": "https://www.mlb.com/phillies/news/phillies-add-grant-holman-rafael-marchan-to-roster",
-      "source": "MLB.com",
-      "published_at": "2026-09-02T01:19:43.156000+00:00"
-    },
-    {
       "id": "3f91d4c204f9aeb6",
       "title_en": "Latest Phillies injuries & transactions",
       "title_ja": "最新のフィリーズの怪我と取引",
       "url": "https://www.mlb.com/phillies/news/phillies-injuries-and-roster-moves",
       "source": "MLB.com",
       "published_at": "2026-09-02T00:13:00+00:00"
+    },
+    {
+      "id": "773a889c18fad2c0",
+      "title_en": "Phillies add Holman, Marchán as rosters expand",
+      "title_ja": "選手名簿が拡大するにつれて、フィリーズはホルマン、マーチャンを追加します",
+      "url": "https://www.mlb.com/phillies/news/phillies-add-grant-holman-rafael-marchan-to-roster",
+      "source": "MLB.com",
+      "published_at": "2026-09-02T01:19:43.156000+00:00"
     },
     {
       "id": "f54877c576b28487",
@@ -184,14 +192,6 @@
       "url": "https://www.mlb.com/phillies/news/phillies-prospect-bryan-rincon-breakout-season-double-a",
       "source": "MLB.com",
       "published_at": "2026-08-27T01:44:15.699000+00:00"
-    },
-    {
-      "id": "987490acdff04c71",
-      "title_en": "These are the hottest hitting prospects right now -- one for each club",
-      "title_ja": "これらは現在最も注目を集めている見込み客です。各クラブに1つずつ",
-      "url": "https://www.mlb.com/phillies/news/hottest-hitting-prospect-for-each-team-august-2026",
-      "source": "MLB.com",
-      "published_at": "2026-08-26T23:00:00+00:00"
     }
   ]
 }
