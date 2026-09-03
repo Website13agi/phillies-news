@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-03T18:14:06.049271+00:00",
+  "updated_at": "2026-09-03T18:43:35.470556+00:00",
   "articles": [
     {
       "id": "f176402e869190c9",
@@ -50,6 +50,14 @@
       "published_at": "2026-09-01T13:00:00+00:00"
     },
     {
+      "id": "7c5c514602bd91a1",
+      "title_en": "They still got it! These big leaguers-turned-coaches show their teams how it's done",
+      "title_ja": "彼らはまだそれを持っています！これらのビッグリーガーから転向したコーチは、チームにそれがどのように行われているかを示しています",
+      "url": "https://www.mlb.com/phillies/news/don-mattingly-mitch-stetter-make-barehanded-plays",
+      "source": "MLB.com",
+      "published_at": "2026-09-03T18:08:06.839000+00:00"
+    },
+    {
       "id": "247366f137150869",
       "title_en": "Painter twirls 7 scoreless frames before bullpen allows winning run",
       "title_ja": "ペインターは、ブルペンが勝利を可能にする前に7つのスコアレスフレームを回転させます",
@@ -66,20 +74,20 @@
       "published_at": "2026-09-03T03:44:56.612000+00:00"
     },
     {
-      "id": "42fc2d002003ddb2",
-      "title_en": "Each team's hottest pitching prospect right now",
-      "title_ja": "現在、各チームで最も注目されている売り込みの見込み客",
-      "url": "https://www.mlb.com/phillies/news/each-club-s-hottest-pitching-prospect-august-2026",
-      "source": "MLB.com",
-      "published_at": "2026-09-02T22:45:00+00:00"
-    },
-    {
       "id": "3f91d4c204f9aeb6",
       "title_en": "Latest Phillies injuries & transactions",
       "title_ja": "最新のフィリーズの怪我と取引",
       "url": "https://www.mlb.com/phillies/news/phillies-injuries-and-roster-moves",
       "source": "MLB.com",
       "published_at": "2026-09-02T00:13:00+00:00"
+    },
+    {
+      "id": "42fc2d002003ddb2",
+      "title_en": "Each team's hottest pitching prospect right now",
+      "title_ja": "現在、各チームで最も注目されている売り込みの見込み客",
+      "url": "https://www.mlb.com/phillies/news/each-club-s-hottest-pitching-prospect-august-2026",
+      "source": "MLB.com",
+      "published_at": "2026-09-02T22:45:00+00:00"
     },
     {
       "id": "6e200ce5d7860223",
@@ -184,14 +192,6 @@
       "url": "https://www.mlb.com/phillies/news/bryce-harper-extends-on-base-streak-in-phillies-win",
       "source": "MLB.com",
       "published_at": "2026-08-26T23:35:00+00:00"
-    },
-    {
-      "id": "9e886fec7ca28c2d",
-      "title_en": "Schwarber becomes MLB's 1st to 40 HRs, and joins elite company doing so",
-      "title_ja": "SchwarberはMLBの1人から40人のHRになり、そうすることでエリート企業に加わる",
-      "url": "https://www.mlb.com/phillies/news/kyle-schwarber-reaches-40-home-runs",
-      "source": "MLB.com",
-      "published_at": "2026-08-27T00:00:00+00:00"
     }
   ]
 }
