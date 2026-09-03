@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-03T15:11:36.714388+00:00",
+  "updated_at": "2026-09-03T15:40:53.210265+00:00",
   "articles": [
     {
       "id": "f176402e869190c9",
@@ -26,6 +26,14 @@
       "published_at": "2026-03-10T00:00:00+00:00"
     },
     {
+      "id": "5e8ec951581db0d2",
+      "title_en": "These are the MLB monthly award winners for August",
+      "title_ja": "8月のMLB月間賞の受賞者は次のとおりです",
+      "url": "https://www.mlb.com/phillies/news/mlb-monthly-awards-for-august-2026",
+      "source": "MLB.com",
+      "published_at": "2026-09-03T15:16:34.113000+00:00"
+    },
+    {
       "id": "1e28543ec16f7191",
       "title_en": "McFarlane's big strikeout has Phillies' clubhouse talking",
       "title_ja": "マクファーレンの大三振でフィリーズのクラブハウスが話題に",
@@ -34,20 +42,20 @@
       "published_at": "2026-09-03T11:36:46.095000+00:00"
     },
     {
-      "id": "247366f137150869",
-      "title_en": "Painter twirls 7 scoreless frames before bullpen allows winning run",
-      "title_ja": "ペインターは、ブルペンが勝利を可能にする前に7つのスコアレスフレームを回転させます",
-      "url": "https://www.mlb.com/phillies/news/andrew-painter-tosses-seven-scoreless-innings-in-phillies-loss-to-d-backs",
-      "source": "MLB.com",
-      "published_at": "2026-09-03T00:04:00+00:00"
-    },
-    {
       "id": "8176b8558347633c",
       "title_en": "Price drop! Stream games on PHILLIES.TV for $24.99",
       "title_ja": "値下げ！ PHILLIES.TVでゲームを$ 24.99でストリーミング",
       "url": "https://www.mlb.com/phillies/news/phillies-tv-stream-2026",
       "source": "MLB.com",
       "published_at": "2026-09-01T13:00:00+00:00"
+    },
+    {
+      "id": "247366f137150869",
+      "title_en": "Painter twirls 7 scoreless frames before bullpen allows winning run",
+      "title_ja": "ペインターは、ブルペンが勝利を可能にする前に7つのスコアレスフレームを回転させます",
+      "url": "https://www.mlb.com/phillies/news/andrew-painter-tosses-seven-scoreless-innings-in-phillies-loss-to-d-backs",
+      "source": "MLB.com",
+      "published_at": "2026-09-03T00:04:00+00:00"
     },
     {
       "id": "81afa9424e730ca9",
@@ -66,20 +74,20 @@
       "published_at": "2026-09-02T22:45:00+00:00"
     },
     {
-      "id": "6e200ce5d7860223",
-      "title_en": "Luzardo's gem propels Phils to 6th straight win, sole possession of top NL Wild Card spot",
-      "title_ja": "ルサルドのジェムは、フィルを6連勝へと推し進め、NLワイルドカードのトップスポットを独占します",
-      "url": "https://www.mlb.com/phillies/news/jesus-luzardo-continues-hot-stretch-with-win-over-d-backs",
-      "source": "MLB.com",
-      "published_at": "2026-09-02T06:18:00+00:00"
-    },
-    {
       "id": "3f91d4c204f9aeb6",
       "title_en": "Latest Phillies injuries & transactions",
       "title_ja": "最新のフィリーズの怪我と取引",
       "url": "https://www.mlb.com/phillies/news/phillies-injuries-and-roster-moves",
       "source": "MLB.com",
       "published_at": "2026-09-02T00:13:00+00:00"
+    },
+    {
+      "id": "6e200ce5d7860223",
+      "title_en": "Luzardo's gem propels Phils to 6th straight win, sole possession of top NL Wild Card spot",
+      "title_ja": "ルサルドのジェムは、フィルを6連勝へと推し進め、NLワイルドカードのトップスポットを独占します",
+      "url": "https://www.mlb.com/phillies/news/jesus-luzardo-continues-hot-stretch-with-win-over-d-backs",
+      "source": "MLB.com",
+      "published_at": "2026-09-02T06:18:00+00:00"
     },
     {
       "id": "773a889c18fad2c0",
@@ -184,14 +192,6 @@
       "url": "https://www.mlb.com/phillies/news/kyle-schwarber-reaches-40-home-runs",
       "source": "MLB.com",
       "published_at": "2026-08-27T00:00:00+00:00"
-    },
-    {
-      "id": "263815daab6ed239",
-      "title_en": "Phillies' No. 5 prospect Rincon breaks out using both power and speed at Double-A",
-      "title_ja": "PhilliesのNo.5プロスペクトRinconがDouble - Aでパワーとスピードの両方を使ってブレイクアウト",
-      "url": "https://www.mlb.com/phillies/news/phillies-prospect-bryan-rincon-breakout-season-double-a",
-      "source": "MLB.com",
-      "published_at": "2026-08-27T01:44:15.699000+00:00"
     }
   ]
 }
