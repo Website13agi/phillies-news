@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-03T01:10:06.159077+00:00",
+  "updated_at": "2026-09-03T01:41:29.265949+00:00",
   "articles": [
     {
       "id": "f176402e869190c9",
@@ -34,12 +34,12 @@
       "published_at": "2026-09-03T00:04:00+00:00"
     },
     {
-      "id": "6e200ce5d7860223",
-      "title_en": "Luzardo's gem propels Phils to 6th straight win, sole possession of top NL Wild Card spot",
-      "title_ja": "ルサルドのジェムは、フィルを6連勝へと推し進め、NLワイルドカードのトップスポットを独占します",
-      "url": "https://www.mlb.com/phillies/news/jesus-luzardo-continues-hot-stretch-with-win-over-d-backs",
+      "id": "42fc2d002003ddb2",
+      "title_en": "Each team's hottest pitching prospect right now",
+      "title_ja": "現在、各チームで最も注目されている売り込みの見込み客",
+      "url": "https://www.mlb.com/phillies/news/each-club-s-hottest-pitching-prospect-august-2026",
       "source": "MLB.com",
-      "published_at": "2026-09-02T06:18:00+00:00"
+      "published_at": "2026-09-02T22:45:00+00:00"
     },
     {
       "id": "8176b8558347633c",
@@ -50,6 +50,14 @@
       "published_at": "2026-09-01T13:00:00+00:00"
     },
     {
+      "id": "6e200ce5d7860223",
+      "title_en": "Luzardo's gem propels Phils to 6th straight win, sole possession of top NL Wild Card spot",
+      "title_ja": "ルサルドのジェムは、フィルを6連勝へと推し進め、NLワイルドカードのトップスポットを独占します",
+      "url": "https://www.mlb.com/phillies/news/jesus-luzardo-continues-hot-stretch-with-win-over-d-backs",
+      "source": "MLB.com",
+      "published_at": "2026-09-02T06:18:00+00:00"
+    },
+    {
       "id": "773a889c18fad2c0",
       "title_en": "Phillies add Holman, Marchán as rosters expand",
       "title_ja": "選手名簿が拡大するにつれて、フィリーズはホルマン、マーチャンを追加します",
@@ -58,20 +66,20 @@
       "published_at": "2026-09-02T01:19:43.156000+00:00"
     },
     {
-      "id": "f54877c576b28487",
-      "title_en": "Phillies, Stott end blazing August with an all-around win vs. D-backs",
-      "title_ja": "フィリーズ、ストットは8月を終え、Dバックに対して全面的な勝利を収めました",
-      "url": "https://www.mlb.com/phillies/news/phillies-finish-a-strong-august-with-an-important-win",
-      "source": "MLB.com",
-      "published_at": "2026-09-01T06:20:00+00:00"
-    },
-    {
       "id": "3f91d4c204f9aeb6",
       "title_en": "Latest Phillies injuries & transactions",
       "title_ja": "最新のフィリーズの怪我と取引",
       "url": "https://www.mlb.com/phillies/news/phillies-injuries-and-roster-moves",
       "source": "MLB.com",
       "published_at": "2026-09-02T00:13:00+00:00"
+    },
+    {
+      "id": "f54877c576b28487",
+      "title_en": "Phillies, Stott end blazing August with an all-around win vs. D-backs",
+      "title_ja": "フィリーズ、ストットは8月を終え、Dバックに対して全面的な勝利を収めました",
+      "url": "https://www.mlb.com/phillies/news/phillies-finish-a-strong-august-with-an-important-win",
+      "source": "MLB.com",
+      "published_at": "2026-09-01T06:20:00+00:00"
     },
     {
       "id": "ff6719332c548799",
@@ -184,14 +192,6 @@
       "url": "https://www.mlb.com/phillies/news/mlb-starting-pitcher-power-rankings-august-2026",
       "source": "MLB.com",
       "published_at": "2026-08-27T16:00:00+00:00"
-    },
-    {
-      "id": "22c0dc9e47c5dac3",
-      "title_en": "Phillies' bats stay quiet to spoil another sharp Nola outing",
-      "title_ja": "フィリーズのコウモリは静かにして、別の鋭いノラの外出を台無しにします",
-      "url": "https://www.mlb.com/phillies/news/phillies-lose-despite-aaron-nola-s-strong-outing",
-      "source": "MLB.com",
-      "published_at": "2026-08-26T05:06:00+00:00"
     }
   ]
 }
