@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-03T02:16:12.218052+00:00",
+  "updated_at": "2026-09-03T05:18:47.313130+00:00",
   "articles": [
     {
       "id": "f176402e869190c9",
@@ -34,12 +34,12 @@
       "published_at": "2026-09-03T00:04:00+00:00"
     },
     {
-      "id": "42fc2d002003ddb2",
-      "title_en": "Each team's hottest pitching prospect right now",
-      "title_ja": "現在、各チームで最も注目されている売り込みの見込み客",
-      "url": "https://www.mlb.com/phillies/news/each-club-s-hottest-pitching-prospect-august-2026",
+      "id": "81afa9424e730ca9",
+      "title_en": "Yordan's Hitter Power Rankings reign has ended. Who took him down?",
+      "title_ja": "ヨーダンのヒッターパワーランキングの統治は終了しました。誰が彼を倒したのですか？",
+      "url": "https://www.mlb.com/phillies/news/mlb-hitter-power-rankings-for-september-3-2026",
       "source": "MLB.com",
-      "published_at": "2026-09-02T22:45:00+00:00"
+      "published_at": "2026-09-03T03:44:56.612000+00:00"
     },
     {
       "id": "8176b8558347633c",
@@ -48,6 +48,14 @@
       "url": "https://www.mlb.com/phillies/news/phillies-tv-stream-2026",
       "source": "MLB.com",
       "published_at": "2026-09-01T13:00:00+00:00"
+    },
+    {
+      "id": "42fc2d002003ddb2",
+      "title_en": "Each team's hottest pitching prospect right now",
+      "title_ja": "現在、各チームで最も注目されている売り込みの見込み客",
+      "url": "https://www.mlb.com/phillies/news/each-club-s-hottest-pitching-prospect-august-2026",
+      "source": "MLB.com",
+      "published_at": "2026-09-02T22:45:00+00:00"
     },
     {
       "id": "6e200ce5d7860223",
@@ -184,14 +192,6 @@
       "url": "https://www.mlb.com/phillies/news/hottest-hitting-prospect-for-each-team-august-2026",
       "source": "MLB.com",
       "published_at": "2026-08-26T23:00:00+00:00"
-    },
-    {
-      "id": "55c309e18782e6d3",
-      "title_en": "Latest SP Power Rankings see another change at No. 2",
-      "title_ja": "最新のSPパワーランキングでは、2位にもう1つの変更があります",
-      "url": "https://www.mlb.com/phillies/news/mlb-starting-pitcher-power-rankings-august-2026",
-      "source": "MLB.com",
-      "published_at": "2026-08-27T16:00:00+00:00"
     }
   ]
 }
