@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-04T22:11:07.645564+00:00",
+  "updated_at": "2026-09-04T22:38:12.324382+00:00",
   "articles": [
     {
       "id": "f176402e869190c9",
@@ -26,6 +26,14 @@
       "published_at": "2026-03-10T00:00:00+00:00"
     },
     {
+      "id": "a61da4191c56eb10",
+      "title_en": "Stott scratched due to personal matter; Sosa gets start at 3B",
+      "title_ja": "個人的な問題のためにストットが傷つきました。ソーサは3 Bで開始します",
+      "url": "https://www.mlb.com/phillies/news/bryson-stott-scratched-due-to-personal-matter",
+      "source": "MLB.com",
+      "published_at": "2026-09-04T22:20:29.198000+00:00"
+    },
+    {
       "id": "aca0dbd2bc97c5e3",
       "title_en": "Huge postseason implications at stake in Braves-Phillies series",
       "title_ja": "ブレイブス・フィリーズシリーズのポストシーズンにおける大きな影響",
@@ -34,20 +42,20 @@
       "published_at": "2026-09-04T13:16:44.008000+00:00"
     },
     {
-      "id": "5e8ec951581db0d2",
-      "title_en": "These are the MLB monthly award winners for August",
-      "title_ja": "8月のMLB月間賞の受賞者は次のとおりです",
-      "url": "https://www.mlb.com/phillies/news/mlb-monthly-awards-for-august-2026",
-      "source": "MLB.com",
-      "published_at": "2026-09-03T15:16:34.113000+00:00"
-    },
-    {
       "id": "8176b8558347633c",
       "title_en": "Price drop! Stream games on PHILLIES.TV for $24.99",
       "title_ja": "値下げ！ PHILLIES.TVでゲームを$ 24.99でストリーミング",
       "url": "https://www.mlb.com/phillies/news/phillies-tv-stream-2026",
       "source": "MLB.com",
       "published_at": "2026-09-01T13:00:00+00:00"
+    },
+    {
+      "id": "5e8ec951581db0d2",
+      "title_en": "These are the MLB monthly award winners for August",
+      "title_ja": "8月のMLB月間賞の受賞者は次のとおりです",
+      "url": "https://www.mlb.com/phillies/news/mlb-monthly-awards-for-august-2026",
+      "source": "MLB.com",
+      "published_at": "2026-09-03T15:16:34.113000+00:00"
     },
     {
       "id": "82a69bedea00fd47",
@@ -66,20 +74,20 @@
       "published_at": "2026-09-04T02:23:00+00:00"
     },
     {
-      "id": "1e28543ec16f7191",
-      "title_en": "McFarlane's big strikeout has Phillies' clubhouse talking",
-      "title_ja": "マクファーレンの大三振でフィリーズのクラブハウスが話題に",
-      "url": "https://www.mlb.com/phillies/news/rookie-alex-mcfarlane-pitching-key-innings-for-phillies-down-stretch",
-      "source": "MLB.com",
-      "published_at": "2026-09-03T11:36:46.095000+00:00"
-    },
-    {
       "id": "3f91d4c204f9aeb6",
       "title_en": "Latest Phillies injuries & transactions",
       "title_ja": "最新のフィリーズの怪我と取引",
       "url": "https://www.mlb.com/phillies/news/phillies-injuries-and-roster-moves",
       "source": "MLB.com",
       "published_at": "2026-09-04T21:19:00+00:00"
+    },
+    {
+      "id": "1e28543ec16f7191",
+      "title_en": "McFarlane's big strikeout has Phillies' clubhouse talking",
+      "title_ja": "マクファーレンの大三振でフィリーズのクラブハウスが話題に",
+      "url": "https://www.mlb.com/phillies/news/rookie-alex-mcfarlane-pitching-key-innings-for-phillies-down-stretch",
+      "source": "MLB.com",
+      "published_at": "2026-09-03T11:36:46.095000+00:00"
     },
     {
       "id": "7c5c514602bd91a1",
@@ -184,14 +192,6 @@
       "url": "https://www.mlb.com/phillies/news/edmundo-sosa-s-pinch-hit-grand-slam-leads-phillies-past-angel",
       "source": "MLB.com",
       "published_at": "2026-08-29T06:47:00+00:00"
-    },
-    {
-      "id": "c25122a53388fcc2",
-      "title_en": "Larry Christenson, pitcher on 1980 World Series champion Phillies, dies at 72",
-      "title_ja": "1980年ワールドシリーズチャンピオンフィリーズの投手、ラリー・クリステンソンが72歳で死去",
-      "url": "https://www.mlb.com/phillies/news/phillies-pitcher-larry-christenson-dies-at-age-72",
-      "source": "MLB.com",
-      "published_at": "2026-08-29T01:30:00+00:00"
     }
   ]
 }
