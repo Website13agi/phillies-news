@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-04T13:11:36.958768+00:00",
+  "updated_at": "2026-09-04T13:41:35.169232+00:00",
   "articles": [
     {
       "id": "f176402e869190c9",
@@ -26,6 +26,14 @@
       "published_at": "2026-03-10T00:00:00+00:00"
     },
     {
+      "id": "aca0dbd2bc97c5e3",
+      "title_en": "Huge postseason implications at stake in Braves-Phillies series",
+      "title_ja": "ブレイブス・フィリーズシリーズのポストシーズンにおける大きな影響",
+      "url": "https://www.mlb.com/phillies/news/chris-sale-cristopher-sanchez-open-crucial-braves-phillies-series",
+      "source": "MLB.com",
+      "published_at": "2026-09-04T13:16:44.008000+00:00"
+    },
+    {
       "id": "5e8ec951581db0d2",
       "title_en": "These are the MLB monthly award winners for August",
       "title_ja": "8月のMLB月間賞の受賞者は次のとおりです",
@@ -34,20 +42,20 @@
       "published_at": "2026-09-03T15:16:34.113000+00:00"
     },
     {
-      "id": "13d48f4af4ec58fa",
-      "title_en": "Secret to Phils top prospect Wood's career high in K's? He used the hammer",
-      "title_ja": "Philsのトップ見込み客WoodのK'sでのキャリアの秘訣は？彼はハンマーを使った",
-      "url": "https://www.mlb.com/phillies/news/phillies-prospect-gage-wood-career-high-10-strikeouts",
-      "source": "MLB.com",
-      "published_at": "2026-09-04T02:23:00+00:00"
-    },
-    {
       "id": "8176b8558347633c",
       "title_en": "Price drop! Stream games on PHILLIES.TV for $24.99",
       "title_ja": "値下げ！ PHILLIES.TVでゲームを$ 24.99でストリーミング",
       "url": "https://www.mlb.com/phillies/news/phillies-tv-stream-2026",
       "source": "MLB.com",
       "published_at": "2026-09-01T13:00:00+00:00"
+    },
+    {
+      "id": "13d48f4af4ec58fa",
+      "title_en": "Secret to Phils top prospect Wood's career high in K's? He used the hammer",
+      "title_ja": "Philsのトップ見込み客WoodのK'sでのキャリアの秘訣は？彼はハンマーを使った",
+      "url": "https://www.mlb.com/phillies/news/phillies-prospect-gage-wood-career-high-10-strikeouts",
+      "source": "MLB.com",
+      "published_at": "2026-09-04T02:23:00+00:00"
     },
     {
       "id": "1e28543ec16f7191",
@@ -66,20 +74,20 @@
       "published_at": "2026-09-03T18:08:06.839000+00:00"
     },
     {
-      "id": "247366f137150869",
-      "title_en": "Painter twirls 7 scoreless frames before bullpen allows winning run",
-      "title_ja": "ペインターは、ブルペンが勝利を可能にする前に7つのスコアレスフレームを回転させます",
-      "url": "https://www.mlb.com/phillies/news/andrew-painter-tosses-seven-scoreless-innings-in-phillies-loss-to-d-backs",
-      "source": "MLB.com",
-      "published_at": "2026-09-03T00:04:00+00:00"
-    },
-    {
       "id": "3f91d4c204f9aeb6",
       "title_en": "Latest Phillies injuries & transactions",
       "title_ja": "最新のフィリーズの怪我と取引",
       "url": "https://www.mlb.com/phillies/news/phillies-injuries-and-roster-moves",
       "source": "MLB.com",
       "published_at": "2026-09-02T00:13:00+00:00"
+    },
+    {
+      "id": "247366f137150869",
+      "title_en": "Painter twirls 7 scoreless frames before bullpen allows winning run",
+      "title_ja": "ペインターは、ブルペンが勝利を可能にする前に7つのスコアレスフレームを回転させます",
+      "url": "https://www.mlb.com/phillies/news/andrew-painter-tosses-seven-scoreless-innings-in-phillies-loss-to-d-backs",
+      "source": "MLB.com",
+      "published_at": "2026-09-03T00:04:00+00:00"
     },
     {
       "id": "81afa9424e730ca9",
@@ -184,14 +192,6 @@
       "url": "https://www.mlb.com/phillies/news/the-good-and-the-bad-as-phillies-enter-september-2026",
       "source": "MLB.com",
       "published_at": "2026-08-28T13:05:22.225000+00:00"
-    },
-    {
-      "id": "40e7541213db15be",
-      "title_en": "Could convo with Ichiro help Turner get on track?",
-      "title_ja": "イチローとのコンボは、ターナーが軌道に乗るのを助けることができますか？",
-      "url": "https://www.mlb.com/phillies/news/trea-turner-talks-hitting-with-legend-ichiro-suzuki",
-      "source": "MLB.com",
-      "published_at": "2026-08-27T15:05:21.239000+00:00"
     }
   ]
 }
