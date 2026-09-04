@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-04T02:11:45.546157+00:00",
+  "updated_at": "2026-09-04T02:40:12.043347+00:00",
   "articles": [
     {
       "id": "f176402e869190c9",
@@ -34,12 +34,12 @@
       "published_at": "2026-09-03T15:16:34.113000+00:00"
     },
     {
-      "id": "1e28543ec16f7191",
-      "title_en": "McFarlane's big strikeout has Phillies' clubhouse talking",
-      "title_ja": "マクファーレンの大三振でフィリーズのクラブハウスが話題に",
-      "url": "https://www.mlb.com/phillies/news/rookie-alex-mcfarlane-pitching-key-innings-for-phillies-down-stretch",
+      "id": "13d48f4af4ec58fa",
+      "title_en": "Secret to Phils top prospect Wood's career high in K's? He used the hammer",
+      "title_ja": "Philsのトップ見込み客WoodのK'sでのキャリアの秘訣は？彼はハンマーを使った",
+      "url": "https://www.mlb.com/phillies/news/phillies-prospect-gage-wood-career-high-10-strikeouts",
       "source": "MLB.com",
-      "published_at": "2026-09-03T11:36:46.095000+00:00"
+      "published_at": "2026-09-04T02:23:00+00:00"
     },
     {
       "id": "8176b8558347633c",
@@ -48,6 +48,14 @@
       "url": "https://www.mlb.com/phillies/news/phillies-tv-stream-2026",
       "source": "MLB.com",
       "published_at": "2026-09-01T13:00:00+00:00"
+    },
+    {
+      "id": "1e28543ec16f7191",
+      "title_en": "McFarlane's big strikeout has Phillies' clubhouse talking",
+      "title_ja": "マクファーレンの大三振でフィリーズのクラブハウスが話題に",
+      "url": "https://www.mlb.com/phillies/news/rookie-alex-mcfarlane-pitching-key-innings-for-phillies-down-stretch",
+      "source": "MLB.com",
+      "published_at": "2026-09-03T11:36:46.095000+00:00"
     },
     {
       "id": "7c5c514602bd91a1",
@@ -66,20 +74,20 @@
       "published_at": "2026-09-03T00:04:00+00:00"
     },
     {
-      "id": "81afa9424e730ca9",
-      "title_en": "Yordan's Hitter Power Rankings reign has ended. Who took him down?",
-      "title_ja": "ヨーダンのヒッターパワーランキングの統治は終了しました。誰が彼を倒したのですか？",
-      "url": "https://www.mlb.com/phillies/news/mlb-hitter-power-rankings-for-september-3-2026",
-      "source": "MLB.com",
-      "published_at": "2026-09-03T03:44:56.612000+00:00"
-    },
-    {
       "id": "3f91d4c204f9aeb6",
       "title_en": "Latest Phillies injuries & transactions",
       "title_ja": "最新のフィリーズの怪我と取引",
       "url": "https://www.mlb.com/phillies/news/phillies-injuries-and-roster-moves",
       "source": "MLB.com",
       "published_at": "2026-09-02T00:13:00+00:00"
+    },
+    {
+      "id": "81afa9424e730ca9",
+      "title_en": "Yordan's Hitter Power Rankings reign has ended. Who took him down?",
+      "title_ja": "ヨーダンのヒッターパワーランキングの統治は終了しました。誰が彼を倒したのですか？",
+      "url": "https://www.mlb.com/phillies/news/mlb-hitter-power-rankings-for-september-3-2026",
+      "source": "MLB.com",
+      "published_at": "2026-09-03T03:44:56.612000+00:00"
     },
     {
       "id": "42fc2d002003ddb2",
@@ -184,14 +192,6 @@
       "url": "https://www.mlb.com/phillies/news/trea-turner-talks-hitting-with-legend-ichiro-suzuki",
       "source": "MLB.com",
       "published_at": "2026-08-27T15:05:21.239000+00:00"
-    },
-    {
-      "id": "cd7aa988693551c9",
-      "title_en": "Harper's hot August -- at the plate and in the outfield -- just keeps going",
-      "title_ja": "プレートでも外野でも、ハーパーの暑い8月は続いています",
-      "url": "https://www.mlb.com/phillies/news/bryce-harper-extends-on-base-streak-in-phillies-win",
-      "source": "MLB.com",
-      "published_at": "2026-08-26T23:35:00+00:00"
     }
   ]
 }
