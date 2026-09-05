@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-05T01:10:00.496958+00:00",
+  "updated_at": "2026-09-05T01:39:02.422552+00:00",
   "articles": [
     {
       "id": "f176402e869190c9",
@@ -26,6 +26,14 @@
       "published_at": "2026-03-10T00:00:00+00:00"
     },
     {
+      "id": "4de3a63b2aecd96d",
+      "title_en": "Phils come up short on both sides of the ball in pivotal NL East showdown",
+      "title_ja": "フィリップスは、重要なNLイーストショーダウンでボールの両側でショートします",
+      "url": "https://www.mlb.com/phillies/news/cristopher-sanchez-strikes-out-five-in-loss-to-braves",
+      "source": "MLB.com",
+      "published_at": "2026-09-05T01:33:11.929000+00:00"
+    },
+    {
       "id": "04eefcfcce7689ed",
       "title_en": "Phils' No. 2 prospect Miller (back) to make 2026 debut with Single-A Clearwater",
       "title_ja": "PhilsのNo.2プロスペクトミラー（バック）が2026年にSingle - A Clearwaterでデビュー",
@@ -34,20 +42,20 @@
       "published_at": "2026-09-04T23:53:51.166000+00:00"
     },
     {
-      "id": "a61da4191c56eb10",
-      "title_en": "Stott scratched due to personal matter; Sosa gets start at 3B",
-      "title_ja": "個人的な問題のためにストットが傷つきました。ソーサは3 Bで開始します",
-      "url": "https://www.mlb.com/phillies/news/bryson-stott-scratched-due-to-personal-matter",
-      "source": "MLB.com",
-      "published_at": "2026-09-04T22:20:29.198000+00:00"
-    },
-    {
       "id": "8176b8558347633c",
       "title_en": "Price drop! Stream games on PHILLIES.TV for $24.99",
       "title_ja": "値下げ！ PHILLIES.TVでゲームを$ 24.99でストリーミング",
       "url": "https://www.mlb.com/phillies/news/phillies-tv-stream-2026",
       "source": "MLB.com",
       "published_at": "2026-09-01T13:00:00+00:00"
+    },
+    {
+      "id": "a61da4191c56eb10",
+      "title_en": "Stott scratched due to personal matter; Sosa gets start at 3B",
+      "title_ja": "個人的な問題のためにストットが傷つきました。ソーサは3 Bで開始します",
+      "url": "https://www.mlb.com/phillies/news/bryson-stott-scratched-due-to-personal-matter",
+      "source": "MLB.com",
+      "published_at": "2026-09-04T22:20:29.198000+00:00"
     },
     {
       "id": "aca0dbd2bc97c5e3",
@@ -66,20 +74,20 @@
       "published_at": "2026-09-03T15:16:34.113000+00:00"
     },
     {
-      "id": "82a69bedea00fd47",
-      "title_en": "All 30 teams set to open Spring Training 2027 on same day",
-      "title_ja": "全30チームが同日に2027年春季研修を開始",
-      "url": "https://www.mlb.com/phillies/news/mlb-spring-training-2026-schedule-released",
-      "source": "MLB.com",
-      "published_at": "2026-09-04T18:04:39.973000+00:00"
-    },
-    {
       "id": "3f91d4c204f9aeb6",
       "title_en": "Latest Phillies injuries & transactions",
       "title_ja": "最新のフィリーズの怪我と取引",
       "url": "https://www.mlb.com/phillies/news/phillies-injuries-and-roster-moves",
       "source": "MLB.com",
       "published_at": "2026-09-04T21:19:00+00:00"
+    },
+    {
+      "id": "82a69bedea00fd47",
+      "title_en": "All 30 teams set to open Spring Training 2027 on same day",
+      "title_ja": "全30チームが同日に2027年春季研修を開始",
+      "url": "https://www.mlb.com/phillies/news/mlb-spring-training-2026-schedule-released",
+      "source": "MLB.com",
+      "published_at": "2026-09-04T18:04:39.973000+00:00"
     },
     {
       "id": "13d48f4af4ec58fa",
@@ -184,14 +192,6 @@
       "url": "https://www.mlb.com/phillies/news/cristopher-sanchez-starts-vs-angels",
       "source": "MLB.com",
       "published_at": "2026-08-30T06:05:00+00:00"
-    },
-    {
-      "id": "7043dd57f33d1067",
-      "title_en": "MiLB's home run leader headlines latest Prospect Team of the Week",
-      "title_ja": "MiLBのホームランリーダーが最新の「今週の見込み客チーム」にヘッドライン",
-      "url": "https://www.mlb.com/phillies/news/prospect-team-of-the-week-august-31-2026",
-      "source": "MLB.com",
-      "published_at": "2026-08-31T21:42:53.603000+00:00"
     }
   ]
 }
