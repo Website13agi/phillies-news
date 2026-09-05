@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-05T20:38:55.356949+00:00",
+  "updated_at": "2026-09-05T21:10:37.338714+00:00",
   "articles": [
     {
       "id": "f176402e869190c9",
@@ -26,20 +26,20 @@
       "published_at": "2026-03-10T00:00:00+00:00"
     },
     {
+      "id": "a61da4191c56eb10",
+      "title_en": "Stott returns to lineup Saturday after birth of 3rd child",
+      "title_ja": "3人目の子供が生まれた後、ストットは土曜日にラインナップに戻ります",
+      "url": "https://www.mlb.com/phillies/news/bryson-stott-scratched-due-to-personal-matter",
+      "source": "MLB.com",
+      "published_at": "2026-09-05T20:21:00+00:00"
+    },
+    {
       "id": "4de3a63b2aecd96d",
       "title_en": "Phils lose ground in NL East race, fall behind Cubs in Wild Card standings",
       "title_ja": "フィリップスはNLイーストレースで優位を失い、ワイルドカード順位でカブスに後れを取る",
       "url": "https://www.mlb.com/phillies/news/cristopher-sanchez-strikes-out-five-in-loss-to-braves",
       "source": "MLB.com",
       "published_at": "2026-09-05T03:25:00+00:00"
-    },
-    {
-      "id": "04eefcfcce7689ed",
-      "title_en": "Phils' No. 2 prospect Miller (back) to make 2026 debut with Single-A Clearwater",
-      "title_ja": "PhilsのNo.2プロスペクトミラー（バック）が2026年にSingle - A Clearwaterでデビュー",
-      "url": "https://www.mlb.com/phillies/news/aidan-miller-to-make-2026-debut-with-single-a-clearwater",
-      "source": "MLB.com",
-      "published_at": "2026-09-04T23:53:51.166000+00:00"
     },
     {
       "id": "8176b8558347633c",
@@ -50,12 +50,12 @@
       "published_at": "2026-09-01T13:00:00+00:00"
     },
     {
-      "id": "a61da4191c56eb10",
-      "title_en": "Stott returns to lineup Saturday after birth of 3rd child",
-      "title_ja": "3人目の子供が生まれた後、ストットは土曜日にラインナップに戻ります",
-      "url": "https://www.mlb.com/phillies/news/bryson-stott-scratched-due-to-personal-matter",
+      "id": "04eefcfcce7689ed",
+      "title_en": "Phils' No. 2 prospect Miller (back) to make 2026 debut with Single-A Clearwater",
+      "title_ja": "PhilsのNo.2プロスペクトミラー（バック）が2026年にSingle - A Clearwaterでデビュー",
+      "url": "https://www.mlb.com/phillies/news/aidan-miller-to-make-2026-debut-with-single-a-clearwater",
       "source": "MLB.com",
-      "published_at": "2026-09-05T20:21:00+00:00"
+      "published_at": "2026-09-04T23:53:51.166000+00:00"
     },
     {
       "id": "79380db6efd1135f",
