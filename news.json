@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-06T07:39:44.799533+00:00",
+  "updated_at": "2026-09-06T08:12:22.209827+00:00",
   "articles": [
     {
       "id": "f176402e869190c9",
@@ -50,6 +50,14 @@
       "published_at": "2026-09-01T13:00:00+00:00"
     },
     {
+      "id": "098649f0e784fdfc",
+      "title_en": "Phillies, Nemours Children’s Health honor young cancer warriors for Childhood Cancer Awareness Day",
+      "title_ja": "Phillies、Nemours Children's Healthは、小児がん啓発デーのために若いがん戦士を称えます",
+      "url": "https://www.mlb.com/phillies/news/phillies-honor-young-cancer-warriors-for-childhood-cancer-awareness-day-on-september-6-2026",
+      "source": "MLB.com",
+      "published_at": "2026-09-06T08:02:53.388000+00:00"
+    },
+    {
       "id": "a61da4191c56eb10",
       "title_en": "Stott returns to lineup Saturday after birth of 3rd child",
       "title_ja": "3人目の子供が生まれた後、ストットは土曜日にラインナップに戻ります",
@@ -66,20 +74,20 @@
       "published_at": "2026-09-05T03:25:00+00:00"
     },
     {
-      "id": "79380db6efd1135f",
-      "title_en": "Phillies 2026 first-rounder Spangler swats first pro homer at Single-A",
-      "title_ja": "Phillies 2026初出場のSpanglerがSingle - Aで初のプロホーマーを披露",
-      "url": "https://www.mlb.com/phillies/news/phillies-tyler-spangler-first-pro-home-run-single-a",
-      "source": "MLB.com",
-      "published_at": "2026-09-05T22:01:00+00:00"
-    },
-    {
       "id": "3f91d4c204f9aeb6",
       "title_en": "Latest Phillies injuries & transactions",
       "title_ja": "最新のフィリーズの怪我と取引",
       "url": "https://www.mlb.com/phillies/news/phillies-injuries-and-roster-moves",
       "source": "MLB.com",
       "published_at": "2026-09-06T01:51:00+00:00"
+    },
+    {
+      "id": "79380db6efd1135f",
+      "title_en": "Phillies 2026 first-rounder Spangler swats first pro homer at Single-A",
+      "title_ja": "Phillies 2026初出場のSpanglerがSingle - Aで初のプロホーマーを披露",
+      "url": "https://www.mlb.com/phillies/news/phillies-tyler-spangler-first-pro-home-run-single-a",
+      "source": "MLB.com",
+      "published_at": "2026-09-05T22:01:00+00:00"
     },
     {
       "id": "5e8ec951581db0d2",
@@ -184,14 +192,6 @@
       "url": "https://www.mlb.com/phillies/news/zack-wheeler-strikes-out-6-in-phillies-win-over-angels",
       "source": "MLB.com",
       "published_at": "2026-08-31T01:25:00+00:00"
-    },
-    {
-      "id": "d1d7b8d71b5a39e6",
-      "title_en": "Harper caught stealing home, but Phils find way around baserunning miscues",
-      "title_ja": "ハーパーは家を盗んでいるのを発見しましたが、フィルズはベースランニングのミスを回避する方法を見つけました",
-      "url": "https://www.mlb.com/phillies/news/bryce-harper-caught-stealing-home-vs-angels",
-      "source": "MLB.com",
-      "published_at": "2026-08-30T07:19:36.390000+00:00"
     }
   ]
 }
