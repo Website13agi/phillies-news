@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-08T21:04:11.351058+00:00",
+  "updated_at": "2026-09-08T23:32:53.885328+00:00",
   "articles": [
     {
       "id": "f176402e869190c9",
@@ -34,12 +34,12 @@
       "published_at": "2026-09-08T13:09:15.733000+00:00"
     },
     {
-      "id": "bbb869932e3ac11b",
-      "title_en": "Luzardo's shutout, Schwarber's moonshot earn Phils crucial split with Braves",
-      "title_ja": "ルザルドのシャットアウト、シュワーバーのムーンショットは、ブレーブスとのフィルの重要な分裂を獲得します",
-      "url": "https://www.mlb.com/phillies/news/jesus-luzardo-throws-complete-game-shutout-vs-braves",
+      "id": "b98fa34fbc88d129",
+      "title_en": "Cy Young may elude Sánchez, but this impressive feat is still possible",
+      "title_ja": "サイ・ヤングはサンチェスから逃れるかもしれませんが、この印象的な偉業はまだ可能です",
+      "url": "https://www.mlb.com/phillies/news/cristopher-sanchez-faces-astros-at-citizens-bank-park",
       "source": "MLB.com",
-      "published_at": "2026-09-07T22:25:00+00:00"
+      "published_at": "2026-09-08T22:37:22.203000+00:00"
     },
     {
       "id": "8176b8558347633c",
@@ -48,6 +48,14 @@
       "url": "https://www.mlb.com/phillies/news/phillies-tv-stream-2026",
       "source": "MLB.com",
       "published_at": "2026-09-01T13:00:00+00:00"
+    },
+    {
+      "id": "bbb869932e3ac11b",
+      "title_en": "Luzardo's shutout, Schwarber's moonshot earn Phils crucial split with Braves",
+      "title_ja": "ルザルドのシャットアウト、シュワーバーのムーンショットは、ブレーブスとのフィルの重要な分裂を獲得します",
+      "url": "https://www.mlb.com/phillies/news/jesus-luzardo-throws-complete-game-shutout-vs-braves",
+      "source": "MLB.com",
+      "published_at": "2026-09-07T22:25:00+00:00"
     },
     {
       "id": "f2e3008a82f2897b",
@@ -75,11 +83,11 @@
     },
     {
       "id": "87c30d445ea26287",
-      "title_en": "Watch FREE: RHP Doughty (CLE) takes the mound against slugger Gray (PIT) at Double-A tonight",
-      "title_ja": "無料視聴： RHP Doughty （ CLE ）が今夜Double - Aでスラッガー・グレイ（ PIT ）とマウンドを戦う",
+      "title_en": "Watch LIVE: Doughty (CLE) takes the mound against slugger Gray (PIT) in Double-A action",
+      "title_ja": "ライブ視聴：ダウティー（ CLE ）がダブルAアクションでスラッガー・グレイ（ PIT ）とマウンドを戦う",
       "url": "https://www.mlb.com/phillies/news/watch-minor-league-baseball-games-for-free-2026",
       "source": "MLB.com",
-      "published_at": "2026-09-08T19:50:00+00:00"
+      "published_at": "2026-09-08T21:55:00+00:00"
     },
     {
       "id": "6a3b81e9fce1d140",
@@ -184,14 +192,6 @@
       "url": "https://www.mlb.com/phillies/news/each-club-s-hottest-pitching-prospect-august-2026",
       "source": "MLB.com",
       "published_at": "2026-09-02T22:45:00+00:00"
-    },
-    {
-      "id": "6e200ce5d7860223",
-      "title_en": "Luzardo's gem propels Phils to 6th straight win, sole possession of top NL Wild Card spot",
-      "title_ja": "ルサルドのジェムは、フィルを6連勝へと推し進め、NLワイルドカードのトップスポットを独占します",
-      "url": "https://www.mlb.com/phillies/news/jesus-luzardo-continues-hot-stretch-with-win-over-d-backs",
-      "source": "MLB.com",
-      "published_at": "2026-09-02T06:18:00+00:00"
     }
   ]
 }
