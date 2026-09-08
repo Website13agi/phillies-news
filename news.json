@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-09-08T04:19:19.001174+00:00",
+  "updated_at": "2026-09-08T04:50:11.544488+00:00",
   "articles": [
     {
       "id": "f176402e869190c9",
       "title_en": "Phillies Press Releases",
-      "title_ja": "Phillies Press Releases",
+      "title_ja": "フィリーズ・プレスリリース",
       "url": "https://www.mlb.com/phillies/news/topic/phillies-press-releases",
       "source": "MLB.com",
       "published_at": "2026-09-07T00:00:00+00:00"
@@ -12,7 +12,7 @@
     {
       "id": "e584e060479f6bf8",
       "title_en": "Phillies Pipeline",
-      "title_ja": "Phillies Pipeline",
+      "title_ja": "フィリーズパイプライン",
       "url": "https://www.mlb.com/phillies/news/topic/phillies-pipeline-coverage",
       "source": "MLB.com",
       "published_at": "2026-09-05T00:00:00+00:00"
@@ -20,7 +20,7 @@
     {
       "id": "872bf5359c768da8",
       "title_en": "Phillies All-Time Lists & Trivia",
-      "title_ja": "フィリーズのオールタイムリストとトリビア",
+      "title_ja": "Phillies All-Time Lists & Trivia",
       "url": "https://www.mlb.com/phillies/news/topic/phillies-history-trivia",
       "source": "MLB.com",
       "published_at": "2026-03-10T00:00:00+00:00"
@@ -36,7 +36,7 @@
     {
       "id": "f2e3008a82f2897b",
       "title_en": "McFarlane laments pitch location to Acuña as Phils mull bullpen options in stretch run",
-      "title_ja": "フィリップスがストレッチランでブルペンのオプションを検討したため、マクファーレンはAcuñaへのピッチロケーションを嘆く",
+      "title_ja": "McFarlane laments pitch location to Acuña as Phils mull bullpen options in stretch run",
       "url": "https://www.mlb.com/phillies/news/aaron-nola-goes-7-innings-vs-braves-but-phillies-bullpen-falters",
       "source": "MLB.com",
       "published_at": "2026-09-06T22:11:00+00:00"
@@ -60,7 +60,7 @@
     {
       "id": "87c30d445ea26287",
       "title_en": "Watch slugger Condon plus Gillen vs. Hartman and Nimmala vs. Duno for FREE this week",
-      "title_ja": "今週はSlugger CondonとGillen vs. Hartman、Nimmala vs. Dunoを無料で視聴しよう",
+      "title_ja": "Watch slugger Condon plus Gillen vs. Hartman and Nimmala vs. Duno for FREE this week",
       "url": "https://www.mlb.com/phillies/news/watch-minor-league-baseball-games-for-free-2026",
       "source": "MLB.com",
       "published_at": "2026-09-08T03:49:00+00:00"
@@ -84,7 +84,7 @@
     {
       "id": "098649f0e784fdfc",
       "title_en": "Phillies, Nemours Children’s Health honor young cancer warriors for Childhood Cancer Awareness Day",
-      "title_ja": "Phillies、Nemours Children's Healthは、小児がん啓発デーのために若いがん戦士を称えます",
+      "title_ja": "Phillies, Nemours Children’s Health honor young cancer warriors for Childhood Cancer Awareness Day",
       "url": "https://www.mlb.com/phillies/news/phillies-honor-young-cancer-warriors-for-childhood-cancer-awareness-day-on-september-6-2026",
       "source": "MLB.com",
       "published_at": "2026-09-06T08:02:53.388000+00:00"
@@ -100,7 +100,7 @@
     {
       "id": "4de3a63b2aecd96d",
       "title_en": "Phils lose ground in NL East race, fall behind Cubs in Wild Card standings",
-      "title_ja": "フィリップスはNLイーストレースで優位を失い、ワイルドカード順位でカブスに後れを取る",
+      "title_ja": "Phils lose ground in NL East race, fall behind Cubs in Wild Card standings",
       "url": "https://www.mlb.com/phillies/news/cristopher-sanchez-strikes-out-five-in-loss-to-braves",
       "source": "MLB.com",
       "published_at": "2026-09-05T03:25:00+00:00"
@@ -108,7 +108,7 @@
     {
       "id": "79380db6efd1135f",
       "title_en": "Phillies 2026 first-rounder Spangler swats first pro homer at Single-A",
-      "title_ja": "Phillies 2026 first-rounder Spangler swats first pro homer at Single-A",
+      "title_ja": "Phillies 2026初出場のSpanglerがSingle - Aで初のプロホーマーを披露",
       "url": "https://www.mlb.com/phillies/news/phillies-tyler-spangler-first-pro-home-run-single-a",
       "source": "MLB.com",
       "published_at": "2026-09-05T22:01:00+00:00"
@@ -116,7 +116,7 @@
     {
       "id": "5e8ec951581db0d2",
       "title_en": "These are the MLB monthly award winners for August",
-      "title_ja": "These are the MLB monthly award winners for August",
+      "title_ja": "8月のMLB月間賞の受賞者は次のとおりです",
       "url": "https://www.mlb.com/phillies/news/mlb-monthly-awards-for-august-2026",
       "source": "MLB.com",
       "published_at": "2026-09-03T15:16:34.113000+00:00"
@@ -140,7 +140,7 @@
     {
       "id": "1e28543ec16f7191",
       "title_en": "McFarlane's big strikeout has Phillies' clubhouse talking",
-      "title_ja": "McFarlane's big strikeout has Phillies' clubhouse talking",
+      "title_ja": "マクファーレンの大三振でフィリーズのクラブハウスがおしゃべり",
       "url": "https://www.mlb.com/phillies/news/rookie-alex-mcfarlane-pitching-key-innings-for-phillies-down-stretch",
       "source": "MLB.com",
       "published_at": "2026-09-03T11:36:46.095000+00:00"
@@ -148,7 +148,7 @@
     {
       "id": "7c5c514602bd91a1",
       "title_en": "They still got it! These big leaguers-turned-coaches show their teams how it's done",
-      "title_ja": "彼らはまだそれを持っています！これらのビッグリーガーから転向したコーチは、チームにそれがどのように行われているかを示しています",
+      "title_ja": "They still got it! These big leaguers-turned-coaches show their teams how it's done",
       "url": "https://www.mlb.com/phillies/news/don-mattingly-mitch-stetter-make-barehanded-plays",
       "source": "MLB.com",
       "published_at": "2026-09-03T18:08:06.839000+00:00"
@@ -164,7 +164,7 @@
     {
       "id": "81afa9424e730ca9",
       "title_en": "Yordan's Hitter Power Rankings reign has ended. Who took him down?",
-      "title_ja": "Yordan's Hitter Power Rankings reign has ended. Who took him down?",
+      "title_ja": "ヨーダンのヒッターパワーランキングの統治は終了しました。誰が彼を倒したのですか？",
       "url": "https://www.mlb.com/phillies/news/mlb-hitter-power-rankings-for-september-3-2026",
       "source": "MLB.com",
       "published_at": "2026-09-03T03:44:56.612000+00:00"
@@ -172,7 +172,7 @@
     {
       "id": "42fc2d002003ddb2",
       "title_en": "Each team's hottest pitching prospect right now",
-      "title_ja": "現在、各チームで最も注目されている売り込みの見込み客",
+      "title_ja": "Each team's hottest pitching prospect right now",
       "url": "https://www.mlb.com/phillies/news/each-club-s-hottest-pitching-prospect-august-2026",
       "source": "MLB.com",
       "published_at": "2026-09-02T22:45:00+00:00"
@@ -180,7 +180,7 @@
     {
       "id": "6e200ce5d7860223",
       "title_en": "Luzardo's gem propels Phils to 6th straight win, sole possession of top NL Wild Card spot",
-      "title_ja": "ルサルドのジェムは、フィルを6連勝へと推し進め、NLワイルドカードのトップスポットを独占します",
+      "title_ja": "Luzardo's gem propels Phils to 6th straight win, sole possession of top NL Wild Card spot",
       "url": "https://www.mlb.com/phillies/news/jesus-luzardo-continues-hot-stretch-with-win-over-d-backs",
       "source": "MLB.com",
       "published_at": "2026-09-02T06:18:00+00:00"
