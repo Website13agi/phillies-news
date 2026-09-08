@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-09-08T07:17:56.571171+00:00",
+  "updated_at": "2026-09-08T07:43:14.989739+00:00",
   "articles": [
     {
       "id": "f176402e869190c9",
       "title_en": "Phillies Press Releases",
-      "title_ja": "Phillies Press Releases",
+      "title_ja": "フィリーズ・プレスリリース",
       "url": "https://www.mlb.com/phillies/news/topic/phillies-press-releases",
       "source": "MLB.com",
       "published_at": "2026-09-07T00:00:00+00:00"
@@ -20,7 +20,7 @@
     {
       "id": "872bf5359c768da8",
       "title_en": "Phillies All-Time Lists & Trivia",
-      "title_ja": "Phillies All-Time Lists & Trivia",
+      "title_ja": "フィリーズのオールタイムリストとトリビア",
       "url": "https://www.mlb.com/phillies/news/topic/phillies-history-trivia",
       "source": "MLB.com",
       "published_at": "2026-03-10T00:00:00+00:00"
@@ -68,7 +68,7 @@
     {
       "id": "3f91d4c204f9aeb6",
       "title_en": "Latest Phillies injuries & transactions",
-      "title_ja": "Latest Phillies injuries & transactions",
+      "title_ja": "最新のフィリーズの怪我と取引",
       "url": "https://www.mlb.com/phillies/news/phillies-injuries-and-roster-moves",
       "source": "MLB.com",
       "published_at": "2026-09-07T16:16:00+00:00"
@@ -108,7 +108,7 @@
     {
       "id": "79380db6efd1135f",
       "title_en": "Phillies 2026 first-rounder Spangler swats first pro homer at Single-A",
-      "title_ja": "Phillies 2026 first-rounder Spangler swats first pro homer at Single-A",
+      "title_ja": "Phillies 2026初出場のSpanglerがSingle - Aで初のプロホーマーを披露",
       "url": "https://www.mlb.com/phillies/news/phillies-tyler-spangler-first-pro-home-run-single-a",
       "source": "MLB.com",
       "published_at": "2026-09-05T22:01:00+00:00"
