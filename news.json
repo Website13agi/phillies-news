@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-09T13:06:42.560379+00:00",
+  "updated_at": "2026-09-09T17:13:53.322340+00:00",
   "articles": [
     {
       "id": "f176402e869190c9",
@@ -26,20 +26,20 @@
       "published_at": "2026-03-10T00:00:00+00:00"
     },
     {
-      "id": "67f6d33488bac4f5",
-      "title_en": "'It can cost you': Phils must focus on fundamentals ahead of postseason",
-      "title_ja": "「コストがかかる可能性があります」： Philsは、ポストシーズンに先立って基本に焦点を当てる必要があります",
-      "url": "https://www.mlb.com/phillies/news/trea-turner-brandon-marsh-deliver-big-hits-for-phillies",
-      "source": "MLB.com",
-      "published_at": "2026-09-09T03:46:00+00:00"
-    },
-    {
       "id": "b98fa34fbc88d129",
       "title_en": "Cy Young may elude Sánchez, but this impressive feat is still possible",
       "title_ja": "サイ・ヤングはサンチェスから逃れるかもしれませんが、この印象的な偉業はまだ可能です",
       "url": "https://www.mlb.com/phillies/news/cristopher-sanchez-faces-astros-at-citizens-bank-park",
       "source": "MLB.com",
       "published_at": "2026-09-08T22:37:22.203000+00:00"
+    },
+    {
+      "id": "67f6d33488bac4f5",
+      "title_en": "'It can cost you': Phils must focus on fundamentals ahead of postseason",
+      "title_ja": "「コストがかかる可能性があります」： Philsは、ポストシーズンに先立って基本に焦点を当てる必要があります",
+      "url": "https://www.mlb.com/phillies/news/trea-turner-brandon-marsh-deliver-big-hits-for-phillies",
+      "source": "MLB.com",
+      "published_at": "2026-09-09T03:46:00+00:00"
     },
     {
       "id": "8176b8558347633c",
