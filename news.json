@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-08T23:32:53.885328+00:00",
+  "updated_at": "2026-09-09T03:23:16.987726+00:00",
   "articles": [
     {
       "id": "f176402e869190c9",
@@ -26,12 +26,12 @@
       "published_at": "2026-03-10T00:00:00+00:00"
     },
     {
-      "id": "57fe9d612c7ebfbf",
-      "title_en": "'Pen roles shifting for Phils as Kerkering struggles, McFarlane soars",
-      "title_ja": "「ペンの役割はフィルのためにシフトし、ケルカーリングは苦労し、マクファーレンは舞い上がる",
-      "url": "https://www.mlb.com/phillies/news/alex-mcfarlane-orion-kerkering-phillies-bullpen",
+      "id": "67f6d33488bac4f5",
+      "title_en": "Turner, Marsh show signs of life offensively while Painter falters",
+      "title_ja": "ターナー、マーシュはペインターが動揺している間、攻撃的に生命の兆候を見せる",
+      "url": "https://www.mlb.com/phillies/news/trea-turner-brandon-marsh-deliver-big-hits-for-phillies",
       "source": "MLB.com",
-      "published_at": "2026-09-08T13:09:15.733000+00:00"
+      "published_at": "2026-09-09T02:09:42.598000+00:00"
     },
     {
       "id": "b98fa34fbc88d129",
@@ -50,6 +50,14 @@
       "published_at": "2026-09-01T13:00:00+00:00"
     },
     {
+      "id": "57fe9d612c7ebfbf",
+      "title_en": "'Pen roles shifting for Phils as Kerkering struggles, McFarlane soars",
+      "title_ja": "「ペンの役割はフィルのためにシフトし、ケルカーリングは苦労し、マクファーレンは舞い上がる",
+      "url": "https://www.mlb.com/phillies/news/alex-mcfarlane-orion-kerkering-phillies-bullpen",
+      "source": "MLB.com",
+      "published_at": "2026-09-08T13:09:15.733000+00:00"
+    },
+    {
       "id": "bbb869932e3ac11b",
       "title_en": "Luzardo's shutout, Schwarber's moonshot earn Phils crucial split with Braves",
       "title_ja": "ルザルドのシャットアウト、シュワーバーのムーンショットは、ブレーブスとのフィルの重要な分裂を獲得します",
@@ -66,14 +74,6 @@
       "published_at": "2026-09-06T22:11:00+00:00"
     },
     {
-      "id": "b274804ce35c29e5",
-      "title_en": "Wheeler takes jab at Acuña after his 9-K gem bolsters Phils in NL East race",
-      "title_ja": "9 - KジェムがNLイーストレースでPhilsを強化した後、WheelerがAcuñaでジャブを打つ",
-      "url": "https://www.mlb.com/phillies/news/zack-wheeler-strikes-out-nine-in-phillies-win-over-braves",
-      "source": "MLB.com",
-      "published_at": "2026-09-06T02:16:00+00:00"
-    },
-    {
       "id": "3f91d4c204f9aeb6",
       "title_en": "Latest Phillies injuries & transactions",
       "title_ja": "最新のフィリーズの怪我と取引",
@@ -82,12 +82,20 @@
       "published_at": "2026-09-07T16:16:00+00:00"
     },
     {
+      "id": "b274804ce35c29e5",
+      "title_en": "Wheeler takes jab at Acuña after his 9-K gem bolsters Phils in NL East race",
+      "title_ja": "9 - KジェムがNLイーストレースでPhilsを強化した後、WheelerがAcuñaでジャブを打つ",
+      "url": "https://www.mlb.com/phillies/news/zack-wheeler-strikes-out-nine-in-phillies-win-over-braves",
+      "source": "MLB.com",
+      "published_at": "2026-09-06T02:16:00+00:00"
+    },
+    {
       "id": "87c30d445ea26287",
-      "title_en": "Watch LIVE: Doughty (CLE) takes the mound against slugger Gray (PIT) in Double-A action",
-      "title_ja": "ライブ視聴：ダウティー（ CLE ）がダブルAアクションでスラッガー・グレイ（ PIT ）とマウンドを戦う",
+      "title_en": "Watch Zyhir Hope (DET) stand in against Gage Wood (PHI) at Double-A for FREE on Wed.",
+      "title_ja": "Zyhir Hope （ DET ）がDouble - AでGage Wood （ PHI ）に無料で立ち向かうのを見てください。",
       "url": "https://www.mlb.com/phillies/news/watch-minor-league-baseball-games-for-free-2026",
       "source": "MLB.com",
-      "published_at": "2026-09-08T21:55:00+00:00"
+      "published_at": "2026-09-09T00:22:00+00:00"
     },
     {
       "id": "6a3b81e9fce1d140",
@@ -184,14 +192,6 @@
       "url": "https://www.mlb.com/phillies/news/mlb-hitter-power-rankings-for-september-3-2026",
       "source": "MLB.com",
       "published_at": "2026-09-03T03:44:56.612000+00:00"
-    },
-    {
-      "id": "42fc2d002003ddb2",
-      "title_en": "Each team's hottest pitching prospect right now",
-      "title_ja": "現在、各チームで最も注目されている売り込みの見込み客",
-      "url": "https://www.mlb.com/phillies/news/each-club-s-hottest-pitching-prospect-august-2026",
-      "source": "MLB.com",
-      "published_at": "2026-09-02T22:45:00+00:00"
     }
   ]
 }
