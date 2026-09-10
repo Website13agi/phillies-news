@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-10T17:47:36.098786+00:00",
+  "updated_at": "2026-09-10T20:29:18.699725+00:00",
   "articles": [
     {
       "id": "f176402e869190c9",
@@ -26,20 +26,20 @@
       "published_at": "2026-03-10T00:00:00+00:00"
     },
     {
+      "id": "b49ead77bb84788b",
+      "title_en": "Phillies' penultimate homestand snowballs with crushing 9th-inning blast",
+      "title_ja": "フィリーズの最後から2番目のホームスタンドスノーボールと9イニングのクラッシングブラスト",
+      "url": "https://www.mlb.com/phillies/news/phillies-lose-ground-in-nl-east-race-after-late-homer",
+      "source": "MLB.com",
+      "published_at": "2026-09-10T19:54:48.844000+00:00"
+    },
+    {
       "id": "b8ba36a468a09f64",
       "title_en": "Phillies focusing on baserunning fundamentals as playoffs near",
       "title_ja": "プレーオフが近づくにつれてベースランニングの基礎に焦点を当てたフィリーズ",
       "url": "https://www.mlb.com/phillies/news/phillies-focusing-on-baserunning-fundamentals-as-playoffs-near",
       "source": "MLB.com",
       "published_at": "2026-09-10T15:40:13.837000+00:00"
-    },
-    {
-      "id": "f3ba9356dc5b3f85",
-      "title_en": "Phils gain ground in NL East after Schwarber's slam caps come-from-behind win",
-      "title_ja": "シュワーバーのスラムキャップが勝利した後、フィリップスはNLイーストで優位に立つ",
-      "url": "https://www.mlb.com/phillies/news/kyle-schwarber-hits-grand-slam-in-phillies-win-over-astros",
-      "source": "MLB.com",
-      "published_at": "2026-09-10T03:27:00+00:00"
     },
     {
       "id": "8176b8558347633c",
@@ -50,6 +50,14 @@
       "published_at": "2026-09-01T13:00:00+00:00"
     },
     {
+      "id": "f3ba9356dc5b3f85",
+      "title_en": "Phils gain ground in NL East after Schwarber's slam caps come-from-behind win",
+      "title_ja": "シュワーバーのスラムキャップが勝利した後、フィリップスはNLイーストで優位に立つ",
+      "url": "https://www.mlb.com/phillies/news/kyle-schwarber-hits-grand-slam-in-phillies-win-over-astros",
+      "source": "MLB.com",
+      "published_at": "2026-09-10T03:27:00+00:00"
+    },
+    {
       "id": "eb39c8791bc8a820",
       "title_en": "Miz's challengers fighting for No. 2 in Starting Pitcher Power Rankings",
       "title_ja": "先発ピッチャーパワーランキングで2位を目指して戦うミズの挑戦者たち",
@@ -58,20 +66,20 @@
       "published_at": "2026-09-10T15:00:00+00:00"
     },
     {
+      "id": "3f91d4c204f9aeb6",
+      "title_en": "Latest Phillies injuries & transactions",
+      "title_ja": "最新のフィリーズの怪我と取引",
+      "url": "https://www.mlb.com/phillies/news/phillies-injuries-and-roster-moves",
+      "source": "MLB.com",
+      "published_at": "2026-09-10T20:06:00+00:00"
+    },
+    {
       "id": "8c9d04913816f032",
       "title_en": "Predicting each organization's top prospect in 2028",
       "title_ja": "2028年の各組織のトップの見通しを予測する",
       "url": "https://www.mlb.com/phillies/news/predicting-each-team-s-top-prospect-in-2028",
       "source": "MLB.com",
       "published_at": "2026-09-09T23:00:00+00:00"
-    },
-    {
-      "id": "3f91d4c204f9aeb6",
-      "title_en": "Latest Phillies injuries & transactions",
-      "title_ja": "最新のフィリーズの怪我と取引",
-      "url": "https://www.mlb.com/phillies/news/phillies-injuries-and-roster-moves",
-      "source": "MLB.com",
-      "published_at": "2026-09-07T16:16:00+00:00"
     },
     {
       "id": "67f6d33488bac4f5",
@@ -176,14 +184,6 @@
       "url": "https://www.mlb.com/phillies/news/phillies-prospect-gage-wood-career-high-10-strikeouts",
       "source": "MLB.com",
       "published_at": "2026-09-04T02:23:00+00:00"
-    },
-    {
-      "id": "1e28543ec16f7191",
-      "title_en": "McFarlane's big strikeout has Phillies' clubhouse talking",
-      "title_ja": "マクファーレンの大三振でフィリーズのクラブハウスが話題に",
-      "url": "https://www.mlb.com/phillies/news/rookie-alex-mcfarlane-pitching-key-innings-for-phillies-down-stretch",
-      "source": "MLB.com",
-      "published_at": "2026-09-03T11:36:46.095000+00:00"
     }
   ]
 }
