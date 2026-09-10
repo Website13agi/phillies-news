@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-09T22:23:37.360688+00:00",
+  "updated_at": "2026-09-10T00:26:20.735413+00:00",
   "articles": [
     {
       "id": "f176402e869190c9",
@@ -50,20 +50,20 @@
       "published_at": "2026-09-01T13:00:00+00:00"
     },
     {
+      "id": "87c30d445ea26287",
+      "title_en": "Watch LIVE as Zyhir Hope (DET) stands in against Gage Wood (PHI) at Double-A",
+      "title_ja": "Zyhir Hope （ DET ）がDouble - AでGage Wood （ PHI ）に立ち向かうのをライブで見る",
+      "url": "https://www.mlb.com/phillies/news/watch-minor-league-baseball-games-for-free-2026",
+      "source": "MLB.com",
+      "published_at": "2026-09-09T22:36:00+00:00"
+    },
+    {
       "id": "57fe9d612c7ebfbf",
       "title_en": "'Pen roles shifting for Phils as Kerkering struggles, McFarlane soars",
       "title_ja": "「ペンの役割はフィルのためにシフトし、ケルカーリングは苦労し、マクファーレンは舞い上がる",
       "url": "https://www.mlb.com/phillies/news/alex-mcfarlane-orion-kerkering-phillies-bullpen",
       "source": "MLB.com",
       "published_at": "2026-09-08T13:09:15.733000+00:00"
-    },
-    {
-      "id": "87c30d445ea26287",
-      "title_en": "Watch Zyhir Hope (DET) stand in against Gage Wood (PHI) at Double-A for FREE tonight",
-      "title_ja": "今夜、Double - AでZyhir Hope （ DET ）がGage Wood （ PHI ）と対戦するのを無料で見る",
-      "url": "https://www.mlb.com/phillies/news/watch-minor-league-baseball-games-for-free-2026",
-      "source": "MLB.com",
-      "published_at": "2026-09-09T05:24:00+00:00"
     },
     {
       "id": "bbb869932e3ac11b",
