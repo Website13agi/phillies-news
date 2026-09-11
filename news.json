@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-11T14:51:28.482439+00:00",
+  "updated_at": "2026-09-11T18:12:09.699398+00:00",
   "articles": [
     {
       "id": "f176402e869190c9",
@@ -34,12 +34,12 @@
       "published_at": "2026-09-11T13:45:35.984000+00:00"
     },
     {
-      "id": "b8ba36a468a09f64",
-      "title_en": "Phillies focusing on baserunning fundamentals as playoffs near",
-      "title_ja": "プレーオフが近づくにつれてベースランニングの基礎に焦点を当てたフィリーズ",
-      "url": "https://www.mlb.com/phillies/news/phillies-focusing-on-baserunning-fundamentals-as-playoffs-near",
+      "id": "f4528ca1eea18367",
+      "title_en": "Miller has 1st Double-A hits, RBIs of season as Reading clinches postseason berth",
+      "title_ja": "ミラーは初のダブルAヒットを記録し、リーディングがポストシーズンバースを獲得したことでシーズンのRBIを獲得しました",
+      "url": "https://www.mlb.com/phillies/news/aidan-miller-posts-1st-double-a-hits-rbis-after-return-from-injury",
       "source": "MLB.com",
-      "published_at": "2026-09-10T15:40:13.837000+00:00"
+      "published_at": "2026-09-11T16:09:14.481000+00:00"
     },
     {
       "id": "8176b8558347633c",
@@ -48,6 +48,14 @@
       "url": "https://www.mlb.com/phillies/news/phillies-tv-stream-2026",
       "source": "MLB.com",
       "published_at": "2026-09-01T13:00:00+00:00"
+    },
+    {
+      "id": "b8ba36a468a09f64",
+      "title_en": "Phillies focusing on baserunning fundamentals as playoffs near",
+      "title_ja": "プレーオフが近づくにつれてベースランニングの基礎に焦点を当てたフィリーズ",
+      "url": "https://www.mlb.com/phillies/news/phillies-focusing-on-baserunning-fundamentals-as-playoffs-near",
+      "source": "MLB.com",
+      "published_at": "2026-09-10T15:40:13.837000+00:00"
     },
     {
       "id": "b49ead77bb84788b",
@@ -176,14 +184,6 @@
       "url": "https://www.mlb.com/phillies/news/mlb-monthly-awards-for-august-2026",
       "source": "MLB.com",
       "published_at": "2026-09-03T15:16:34.113000+00:00"
-    },
-    {
-      "id": "82a69bedea00fd47",
-      "title_en": "All 30 teams set to open Spring Training 2027 on same day",
-      "title_ja": "全30チームが同日に2027年春季研修を開始",
-      "url": "https://www.mlb.com/phillies/news/mlb-spring-training-2026-schedule-released",
-      "source": "MLB.com",
-      "published_at": "2026-09-04T18:04:39.973000+00:00"
     }
   ]
 }
