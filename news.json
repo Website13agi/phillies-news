@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-12T01:28:22.036955+00:00",
+  "updated_at": "2026-09-12T06:22:12.266156+00:00",
   "articles": [
     {
       "id": "f176402e869190c9",
@@ -15,7 +15,7 @@
       "title_ja": "フィリーズパイプライン",
       "url": "https://www.mlb.com/phillies/news/topic/phillies-pipeline-coverage",
       "source": "MLB.com",
-      "published_at": "2026-09-05T00:00:00+00:00"
+      "published_at": "2026-09-11T00:00:00+00:00"
     },
     {
       "id": "872bf5359c768da8",
@@ -26,20 +26,20 @@
       "published_at": "2026-03-10T00:00:00+00:00"
     },
     {
-      "id": "b56efa269870cf6c",
-      "title_en": "Phillies, Braves set for key series that could determine the NL East",
-      "title_ja": "フィリーズ、ブレーブスは、NL東部を決定する可能性のあるキーシリーズに設定されています",
-      "url": "https://www.mlb.com/phillies/news/phillies-vs-braves-september-2026-series-preview",
+      "id": "4505cfa0ba0b0527",
+      "title_en": "Luzardo scratched from Saturday start with left shoulder stiffness",
+      "title_ja": "左肩のこわばりで土曜日のスタートから傷ついたルザルド",
+      "url": "https://www.mlb.com/phillies/news/jesus-luzardo-scratched-from-start-vs-braves",
       "source": "MLB.com",
-      "published_at": "2026-09-11T13:45:35.984000+00:00"
+      "published_at": "2026-09-12T04:18:14.127000+00:00"
     },
     {
-      "id": "f4528ca1eea18367",
-      "title_en": "Miller has 1st Double-A hits, RBIs of season as Reading clinches postseason berth",
-      "title_ja": "ミラーは初のダブルAヒットを記録し、リーディングがポストシーズンバースを獲得したことでシーズンのRBIを獲得しました",
-      "url": "https://www.mlb.com/phillies/news/aidan-miller-posts-1st-double-a-hits-rbis-after-return-from-injury",
+      "id": "7d8cdf7145002e61",
+      "title_en": "Familiar formula costs Phillies in extras as NL East hopes fading",
+      "title_ja": "おなじみのフォーミュラは、NLイーストが衰退を望んでいるため、フィリーズに追加の費用がかかります",
+      "url": "https://www.mlb.com/phillies/news/phillies-lose-to-braves-in-11-innings",
       "source": "MLB.com",
-      "published_at": "2026-09-11T16:09:14.481000+00:00"
+      "published_at": "2026-09-12T05:18:00+00:00"
     },
     {
       "id": "8176b8558347633c",
@@ -48,6 +48,14 @@
       "url": "https://www.mlb.com/phillies/news/phillies-tv-stream-2026",
       "source": "MLB.com",
       "published_at": "2026-09-01T13:00:00+00:00"
+    },
+    {
+      "id": "f4528ca1eea18367",
+      "title_en": "Miller has 1st Double-A hits, RBIs of season as Reading clinches postseason berth",
+      "title_ja": "ミラーは初のダブルAヒットを記録し、リーディングがポストシーズンバースを獲得したことでシーズンのRBIを獲得しました",
+      "url": "https://www.mlb.com/phillies/news/aidan-miller-posts-1st-double-a-hits-rbis-after-return-from-injury",
+      "source": "MLB.com",
+      "published_at": "2026-09-11T16:09:14.481000+00:00"
     },
     {
       "id": "b8ba36a468a09f64",
@@ -66,20 +74,28 @@
       "published_at": "2026-09-10T22:26:00+00:00"
     },
     {
+      "id": "3f91d4c204f9aeb6",
+      "title_en": "Latest Phillies injuries & transactions",
+      "title_ja": "最新のフィリーズの怪我と取引",
+      "url": "https://www.mlb.com/phillies/news/phillies-injuries-and-roster-moves",
+      "source": "MLB.com",
+      "published_at": "2026-09-12T05:39:00+00:00"
+    },
+    {
+      "id": "b56efa269870cf6c",
+      "title_en": "Phillies, Braves set for key series that could determine the NL East",
+      "title_ja": "フィリーズ、ブレーブスは、NL東部を決定する可能性のあるキーシリーズに設定されています",
+      "url": "https://www.mlb.com/phillies/news/phillies-vs-braves-september-2026-series-preview",
+      "source": "MLB.com",
+      "published_at": "2026-09-11T13:45:35.984000+00:00"
+    },
+    {
       "id": "f3ba9356dc5b3f85",
       "title_en": "Phils gain ground in NL East after Schwarber's slam caps come-from-behind win",
       "title_ja": "シュワーバーのスラムキャップが勝利した後、フィリップスはNLイーストで優位に立つ",
       "url": "https://www.mlb.com/phillies/news/kyle-schwarber-hits-grand-slam-in-phillies-win-over-astros",
       "source": "MLB.com",
       "published_at": "2026-09-10T03:27:00+00:00"
-    },
-    {
-      "id": "3f91d4c204f9aeb6",
-      "title_en": "Latest Phillies injuries & transactions",
-      "title_ja": "最新のフィリーズの怪我と取引",
-      "url": "https://www.mlb.com/phillies/news/phillies-injuries-and-roster-moves",
-      "source": "MLB.com",
-      "published_at": "2026-09-10T22:30:00+00:00"
     },
     {
       "id": "eb39c8791bc8a820",
@@ -168,22 +184,6 @@
       "url": "https://www.mlb.com/phillies/news/cristopher-sanchez-strikes-out-five-in-loss-to-braves",
       "source": "MLB.com",
       "published_at": "2026-09-05T03:25:00+00:00"
-    },
-    {
-      "id": "79380db6efd1135f",
-      "title_en": "Phillies 2026 first-rounder Spangler swats first pro homer at Single-A",
-      "title_ja": "Phillies 2026初出場のSpanglerがSingle - Aで初のプロホーマーを披露",
-      "url": "https://www.mlb.com/phillies/news/phillies-tyler-spangler-first-pro-home-run-single-a",
-      "source": "MLB.com",
-      "published_at": "2026-09-05T22:01:00+00:00"
-    },
-    {
-      "id": "5e8ec951581db0d2",
-      "title_en": "These are the MLB monthly award winners for August",
-      "title_ja": "8月のMLB月間賞の受賞者は次のとおりです",
-      "url": "https://www.mlb.com/phillies/news/mlb-monthly-awards-for-august-2026",
-      "source": "MLB.com",
-      "published_at": "2026-09-03T15:16:34.113000+00:00"
     }
   ]
 }
