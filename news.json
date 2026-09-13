@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-12T23:54:19.644798+00:00",
+  "updated_at": "2026-09-13T03:29:28.294141+00:00",
   "articles": [
     {
       "id": "f176402e869190c9",
@@ -26,6 +26,14 @@
       "published_at": "2026-03-10T00:00:00+00:00"
     },
     {
+      "id": "043f767039b1871a",
+      "title_en": "Harper savors early HR ... but Braves get last laugh as Phils fade in NL East",
+      "title_ja": "ハーパーは初期のHRを味わう...しかし、フィリップスがNLイーストでフェードするにつれて、ブレイブスは最後の笑いを得る",
+      "url": "https://www.mlb.com/phillies/news/bryce-harper-slow-home-run-trot-in-loss-vs-braves",
+      "source": "MLB.com",
+      "published_at": "2026-09-13T03:07:00+00:00"
+    },
+    {
       "id": "4505cfa0ba0b0527",
       "title_en": "Luzardo 'not concerned' after MRI on shoulder; next start TBD",
       "title_ja": "Luzardoは肩のMRI後に「心配していない」。次の開始は未定",
@@ -34,20 +42,20 @@
       "published_at": "2026-09-12T23:05:00+00:00"
     },
     {
-      "id": "7d8cdf7145002e61",
-      "title_en": "Familiar formula costs Phillies in extras as NL East hopes fading",
-      "title_ja": "おなじみのフォーミュラは、NLイーストが衰退を望んでいるため、フィリーズに追加の費用がかかります",
-      "url": "https://www.mlb.com/phillies/news/phillies-lose-to-braves-in-11-innings",
-      "source": "MLB.com",
-      "published_at": "2026-09-12T05:18:00+00:00"
-    },
-    {
       "id": "8176b8558347633c",
       "title_en": "Price drop! Stream games on PHILLIES.TV for $24.99",
       "title_ja": "値下げ！ PHILLIES.TVでゲームを$ 24.99でストリーミング",
       "url": "https://www.mlb.com/phillies/news/phillies-tv-stream-2026",
       "source": "MLB.com",
       "published_at": "2026-09-01T13:00:00+00:00"
+    },
+    {
+      "id": "7d8cdf7145002e61",
+      "title_en": "Familiar formula costs Phillies in extras as NL East hopes fading",
+      "title_ja": "おなじみのフォーミュラは、NLイーストが衰退を望んでいるため、フィリーズに追加の費用がかかります",
+      "url": "https://www.mlb.com/phillies/news/phillies-lose-to-braves-in-11-innings",
+      "source": "MLB.com",
+      "published_at": "2026-09-12T05:18:00+00:00"
     },
     {
       "id": "f4528ca1eea18367",
@@ -66,20 +74,20 @@
       "published_at": "2026-09-10T15:40:13.837000+00:00"
     },
     {
-      "id": "b49ead77bb84788b",
-      "title_en": "Offensive chase habits rear ugly head in Phils' untimely series loss",
-      "title_ja": "不快な追跡習慣がPhilsのタイムリーな連続敗北で醜い顔をしている",
-      "url": "https://www.mlb.com/phillies/news/phillies-lose-ground-in-nl-east-race-after-late-homer",
-      "source": "MLB.com",
-      "published_at": "2026-09-10T22:26:00+00:00"
-    },
-    {
       "id": "3f91d4c204f9aeb6",
       "title_en": "Latest Phillies injuries & transactions",
       "title_ja": "最新のフィリーズの怪我と取引",
       "url": "https://www.mlb.com/phillies/news/phillies-injuries-and-roster-moves",
       "source": "MLB.com",
       "published_at": "2026-09-12T05:39:00+00:00"
+    },
+    {
+      "id": "b49ead77bb84788b",
+      "title_en": "Offensive chase habits rear ugly head in Phils' untimely series loss",
+      "title_ja": "不快な追跡習慣がPhilsのタイムリーな連続敗北で醜い顔をしている",
+      "url": "https://www.mlb.com/phillies/news/phillies-lose-ground-in-nl-east-race-after-late-homer",
+      "source": "MLB.com",
+      "published_at": "2026-09-10T22:26:00+00:00"
     },
     {
       "id": "b56efa269870cf6c",
@@ -176,14 +184,6 @@
       "url": "https://www.mlb.com/phillies/news/bryson-stott-scratched-due-to-personal-matter",
       "source": "MLB.com",
       "published_at": "2026-09-05T20:21:00+00:00"
-    },
-    {
-      "id": "4de3a63b2aecd96d",
-      "title_en": "Phils lose ground in NL East race, fall behind Cubs in Wild Card standings",
-      "title_ja": "フィリップスはNLイーストレースで優位を失い、ワイルドカード順位でカブスに後れを取る",
-      "url": "https://www.mlb.com/phillies/news/cristopher-sanchez-strikes-out-five-in-loss-to-braves",
-      "source": "MLB.com",
-      "published_at": "2026-09-05T03:25:00+00:00"
     }
   ]
 }
