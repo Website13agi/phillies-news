@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-13T22:09:25.449369+00:00",
+  "updated_at": "2026-09-14T00:21:15.401355+00:00",
   "articles": [
     {
       "id": "f176402e869190c9",
@@ -27,11 +27,11 @@
     },
     {
       "id": "1245d9f07661b05a",
-      "title_en": "Painter continues to boost rotation in Phils' pursuit of top NL Wild Card",
-      "title_ja": "ペインターは、フィルがトップNLワイルドカードを追求する中で、ローテーションを強化し続けています",
+      "title_en": "Painter firmly in pitching plans as Phils pursue top NL Wild Card",
+      "title_ja": "PhilsがトップNLワイルドカードを追求するにつれて、ピッチング計画をしっかりと描く",
       "url": "https://www.mlb.com/phillies/news/andrew-painter-s-strong-start-helps-phillies-beat-braves",
       "source": "MLB.com",
-      "published_at": "2026-09-13T21:04:00+00:00"
+      "published_at": "2026-09-13T23:59:00+00:00"
     },
     {
       "id": "043f767039b1871a",
@@ -96,14 +96,6 @@
       "url": "https://www.mlb.com/phillies/news/phillies-lose-ground-in-nl-east-race-after-late-homer",
       "source": "MLB.com",
       "published_at": "2026-09-10T22:26:00+00:00"
-    },
-    {
-      "id": "b56efa269870cf6c",
-      "title_en": "Phillies, Braves set for key series that could determine the NL East",
-      "title_ja": "フィリーズ、ブレーブスは、NL東部を決定する可能性のあるキーシリーズに設定されています",
-      "url": "https://www.mlb.com/phillies/news/phillies-vs-braves-september-2026-series-preview",
-      "source": "MLB.com",
-      "published_at": "2026-09-11T13:45:35.984000+00:00"
     },
     {
       "id": "f3ba9356dc5b3f85",
@@ -184,6 +176,14 @@
       "url": "https://www.mlb.com/phillies/news/phillies-honor-young-cancer-warriors-for-childhood-cancer-awareness-day-on-september-6-2026",
       "source": "MLB.com",
       "published_at": "2026-09-06T08:02:53.388000+00:00"
+    },
+    {
+      "id": "a61da4191c56eb10",
+      "title_en": "Stott returns to lineup Saturday after birth of 3rd child",
+      "title_ja": "3人目の子供が生まれた後、ストットは土曜日にラインナップに戻ります",
+      "url": "https://www.mlb.com/phillies/news/bryson-stott-scratched-due-to-personal-matter",
+      "source": "MLB.com",
+      "published_at": "2026-09-05T20:21:00+00:00"
     }
   ]
 }
