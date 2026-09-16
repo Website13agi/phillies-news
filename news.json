@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-15T23:59:30.748149+00:00",
+  "updated_at": "2026-09-16T04:38:37.778089+00:00",
   "articles": [
     {
       "id": "f176402e869190c9",
@@ -26,6 +26,14 @@
       "published_at": "2026-03-10T00:00:00+00:00"
     },
     {
+      "id": "f9ed0ef68976b03e",
+      "title_en": "'Just have to keep going': Sánchez stumbles after Luzardo hits IL",
+      "title_ja": "「ただ続けなければならない」：サンチェスはルサルドがイリノイ州を襲った後でつまずく",
+      "url": "https://www.mlb.com/phillies/news/cristopher-sanchez-struggles-in-phillies-loss-vs-nationals",
+      "source": "MLB.com",
+      "published_at": "2026-09-16T03:08:00+00:00"
+    },
+    {
       "id": "ee9e2623185a7a37",
       "title_en": "Luzardo (shoulder) lands on IL in big blow for Phillies; postseason status TBD",
       "title_ja": "フィリーズにとって大きな打撃となったルザルド（肩）がイリノイ州に着陸。ポストシーズンのステータスは未定",
@@ -34,20 +42,20 @@
       "published_at": "2026-09-15T22:42:00+00:00"
     },
     {
-      "id": "5880e1f95864a317",
-      "title_en": "How is Philly's postseason outlook with 12 games to play?",
-      "title_ja": "12試合に出場するフィラデルフィアのポストシーズンの見通しはどうですか？",
-      "url": "https://www.mlb.com/phillies/news/bryce-harper-phillies-prepare-for-final-playoff-push",
-      "source": "MLB.com",
-      "published_at": "2026-09-14T13:48:31.318000+00:00"
-    },
-    {
       "id": "8176b8558347633c",
       "title_en": "Price drop! Stream games on PHILLIES.TV for $24.99",
       "title_ja": "値下げ！ PHILLIES.TVでゲームを$ 24.99でストリーミング",
       "url": "https://www.mlb.com/phillies/news/phillies-tv-stream-2026",
       "source": "MLB.com",
       "published_at": "2026-09-01T13:00:00+00:00"
+    },
+    {
+      "id": "5880e1f95864a317",
+      "title_en": "How is Philly's postseason outlook with 12 games to play?",
+      "title_ja": "12試合に出場するフィラデルフィアのポストシーズンの見通しはどうですか？",
+      "url": "https://www.mlb.com/phillies/news/bryce-harper-phillies-prepare-for-final-playoff-push",
+      "source": "MLB.com",
+      "published_at": "2026-09-14T13:48:31.318000+00:00"
     },
     {
       "id": "a6ba8b3e0050dd43",
@@ -66,20 +74,20 @@
       "published_at": "2026-09-15T15:38:00.376000+00:00"
     },
     {
-      "id": "4c078eec8d7b6269",
-      "title_en": "Schwarber named Phillies nominee for Roberto Clemente Award",
-      "title_ja": "シュワーバーがフィリーズをロベルト・クレメンテ賞にノミネート",
-      "url": "https://www.mlb.com/phillies/news/kyle-schwarber-named-phillies-nominee-for-2026-roberto-clemente-award",
-      "source": "MLB.com",
-      "published_at": "2026-09-14T16:40:00.566000+00:00"
-    },
-    {
       "id": "3f91d4c204f9aeb6",
       "title_en": "Latest Phillies injuries & transactions",
       "title_ja": "最新のフィリーズの怪我と取引",
       "url": "https://www.mlb.com/phillies/news/phillies-injuries-and-roster-moves",
       "source": "MLB.com",
       "published_at": "2026-09-15T22:53:00+00:00"
+    },
+    {
+      "id": "4c078eec8d7b6269",
+      "title_en": "Schwarber named Phillies nominee for Roberto Clemente Award",
+      "title_ja": "シュワーバーがフィリーズをロベルト・クレメンテ賞にノミネート",
+      "url": "https://www.mlb.com/phillies/news/kyle-schwarber-named-phillies-nominee-for-2026-roberto-clemente-award",
+      "source": "MLB.com",
+      "published_at": "2026-09-14T16:40:00.566000+00:00"
     },
     {
       "id": "1245d9f07661b05a",
@@ -184,14 +192,6 @@
       "url": "https://www.mlb.com/phillies/news/jesus-luzardo-throws-complete-game-shutout-vs-braves",
       "source": "MLB.com",
       "published_at": "2026-09-07T22:25:00+00:00"
-    },
-    {
-      "id": "f2e3008a82f2897b",
-      "title_en": "McFarlane laments pitch location to Acuña as Phils mull bullpen options in stretch run",
-      "title_ja": "フィリップスがストレッチランでブルペンのオプションを検討したため、マクファーレンはAcuñaへのピッチロケーションを嘆く",
-      "url": "https://www.mlb.com/phillies/news/aaron-nola-goes-7-innings-vs-braves-but-phillies-bullpen-falters",
-      "source": "MLB.com",
-      "published_at": "2026-09-06T22:11:00+00:00"
     }
   ]
 }
