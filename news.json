@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-16T04:38:37.778089+00:00",
+  "updated_at": "2026-09-16T09:42:37.246590+00:00",
   "articles": [
     {
       "id": "f176402e869190c9",
@@ -50,14 +50,6 @@
       "published_at": "2026-09-01T13:00:00+00:00"
     },
     {
-      "id": "5880e1f95864a317",
-      "title_en": "How is Philly's postseason outlook with 12 games to play?",
-      "title_ja": "12試合に出場するフィラデルフィアのポストシーズンの見通しはどうですか？",
-      "url": "https://www.mlb.com/phillies/news/bryce-harper-phillies-prepare-for-final-playoff-push",
-      "source": "MLB.com",
-      "published_at": "2026-09-14T13:48:31.318000+00:00"
-    },
-    {
       "id": "a6ba8b3e0050dd43",
       "title_en": "Will our final Cy Young poll foretell the winners?",
       "title_ja": "サイ・ヤングの最後の世論調査で勝者が予想されますか？",
@@ -74,6 +66,14 @@
       "published_at": "2026-09-15T15:38:00.376000+00:00"
     },
     {
+      "id": "4c078eec8d7b6269",
+      "title_en": "Schwarber named Phillies nominee for Roberto Clemente Award",
+      "title_ja": "シュワーバーがフィリーズをロベルト・クレメンテ賞にノミネート",
+      "url": "https://www.mlb.com/phillies/news/kyle-schwarber-named-phillies-nominee-for-2026-roberto-clemente-award",
+      "source": "MLB.com",
+      "published_at": "2026-09-14T16:40:00.566000+00:00"
+    },
+    {
       "id": "3f91d4c204f9aeb6",
       "title_en": "Latest Phillies injuries & transactions",
       "title_ja": "最新のフィリーズの怪我と取引",
@@ -82,12 +82,12 @@
       "published_at": "2026-09-15T22:53:00+00:00"
     },
     {
-      "id": "4c078eec8d7b6269",
-      "title_en": "Schwarber named Phillies nominee for Roberto Clemente Award",
-      "title_ja": "シュワーバーがフィリーズをロベルト・クレメンテ賞にノミネート",
-      "url": "https://www.mlb.com/phillies/news/kyle-schwarber-named-phillies-nominee-for-2026-roberto-clemente-award",
+      "id": "5880e1f95864a317",
+      "title_en": "How is Philly's postseason outlook with 12 games to play?",
+      "title_ja": "12試合に出場するフィラデルフィアのポストシーズンの見通しはどうですか？",
+      "url": "https://www.mlb.com/phillies/news/bryce-harper-phillies-prepare-for-final-playoff-push",
       "source": "MLB.com",
-      "published_at": "2026-09-14T16:40:00.566000+00:00"
+      "published_at": "2026-09-14T13:48:31.318000+00:00"
     },
     {
       "id": "1245d9f07661b05a",
@@ -98,6 +98,14 @@
       "published_at": "2026-09-13T23:59:00+00:00"
     },
     {
+      "id": "f4528ca1eea18367",
+      "title_en": "Miller has 1st Double-A hits, RBIs of season as Reading clinches postseason berth",
+      "title_ja": "ミラーは初のダブルAヒットを記録し、リーディングがポストシーズンバースを獲得したことでシーズンのRBIを獲得しました",
+      "url": "https://www.mlb.com/phillies/news/aidan-miller-posts-1st-double-a-hits-rbis-after-return-from-injury",
+      "source": "MLB.com",
+      "published_at": "2026-09-11T16:09:14.481000+00:00"
+    },
+    {
       "id": "043f767039b1871a",
       "title_en": "Harper savors early HR ... but Braves get last laugh as Phils fade in NL East",
       "title_ja": "ハーパーは初期のHRを味わう...しかし、フィリップスがNLイーストでフェードするにつれて、ブレイブスは最後の笑いを得る",
@@ -106,28 +114,12 @@
       "published_at": "2026-09-13T03:07:00+00:00"
     },
     {
-      "id": "4505cfa0ba0b0527",
-      "title_en": "Luzardo 'not concerned' after MRI on shoulder; next start TBD",
-      "title_ja": "Luzardoは肩のMRI後に「心配していない」。次の開始は未定",
-      "url": "https://www.mlb.com/phillies/news/jesus-luzardo-scratched-from-start-vs-braves",
-      "source": "MLB.com",
-      "published_at": "2026-09-12T23:05:00+00:00"
-    },
-    {
       "id": "7d8cdf7145002e61",
       "title_en": "Familiar formula costs Phillies in extras as NL East hopes fading",
       "title_ja": "おなじみのフォーミュラは、NLイーストが衰退を望んでいるため、フィリーズに追加の費用がかかります",
       "url": "https://www.mlb.com/phillies/news/phillies-lose-to-braves-in-11-innings",
       "source": "MLB.com",
       "published_at": "2026-09-12T05:18:00+00:00"
-    },
-    {
-      "id": "f4528ca1eea18367",
-      "title_en": "Miller has 1st Double-A hits, RBIs of season as Reading clinches postseason berth",
-      "title_ja": "ミラーは初のダブルAヒットを記録し、リーディングがポストシーズンバースを獲得したことでシーズンのRBIを獲得しました",
-      "url": "https://www.mlb.com/phillies/news/aidan-miller-posts-1st-double-a-hits-rbis-after-return-from-injury",
-      "source": "MLB.com",
-      "published_at": "2026-09-11T16:09:14.481000+00:00"
     },
     {
       "id": "b8ba36a468a09f64",
@@ -192,6 +184,14 @@
       "url": "https://www.mlb.com/phillies/news/jesus-luzardo-throws-complete-game-shutout-vs-braves",
       "source": "MLB.com",
       "published_at": "2026-09-07T22:25:00+00:00"
+    },
+    {
+      "id": "f2e3008a82f2897b",
+      "title_en": "McFarlane laments pitch location to Acuña as Phils mull bullpen options in stretch run",
+      "title_ja": "フィリップスがストレッチランでブルペンのオプションを検討したため、マクファーレンはAcuñaへのピッチロケーションを嘆く",
+      "url": "https://www.mlb.com/phillies/news/aaron-nola-goes-7-innings-vs-braves-but-phillies-bullpen-falters",
+      "source": "MLB.com",
+      "published_at": "2026-09-06T22:11:00+00:00"
     }
   ]
 }
