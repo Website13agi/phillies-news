@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-18T00:38:26.658509+00:00",
+  "updated_at": "2026-09-18T05:35:23.654579+00:00",
   "articles": [
     {
       "id": "f176402e869190c9",
@@ -15,7 +15,7 @@
       "title_ja": "フィリーズパイプライン",
       "url": "https://www.mlb.com/phillies/news/topic/phillies-pipeline-coverage",
       "source": "MLB.com",
-      "published_at": "2026-09-16T00:00:00+00:00"
+      "published_at": "2026-09-17T00:00:00+00:00"
     },
     {
       "id": "872bf5359c768da8",
@@ -24,6 +24,30 @@
       "url": "https://www.mlb.com/phillies/news/topic/phillies-history-trivia",
       "source": "MLB.com",
       "published_at": "2026-03-10T00:00:00+00:00"
+    },
+    {
+      "id": "e3c65db17e080661",
+      "title_en": "'It's vintage Aaron Nola': Righty continues best stretch since 2018 with gem vs. Mets",
+      "title_ja": "「ヴィンテージのアーロン・ノーラ」： RightyはGEM vs. Metsで2018年以来最高のストレッチを続けています",
+      "url": "https://www.mlb.com/phillies/news/aaron-nola-tosses-seven-scoreless-innings-in-win-vs-mets",
+      "source": "MLB.com",
+      "published_at": "2026-09-18T03:37:00+00:00"
+    },
+    {
+      "id": "d5cf1a020cbbff63",
+      "title_en": "Bowlan exits with groin injury in latest blow to Phillies' 'pen",
+      "title_ja": "フィリーズのペンへの最新の打撃で、股関節の怪我でボウランが退場する",
+      "url": "https://www.mlb.com/phillies/news/jonathan-bowlan-exits-with-right-groin-injury",
+      "source": "MLB.com",
+      "published_at": "2026-09-18T04:02:21.142000+00:00"
+    },
+    {
+      "id": "8176b8558347633c",
+      "title_en": "Price drop! Stream games on PHILLIES.TV for $24.99",
+      "title_ja": "値下げ！ PHILLIES.TVでゲームを$ 24.99でストリーミング",
+      "url": "https://www.mlb.com/phillies/news/phillies-tv-stream-2026",
+      "source": "MLB.com",
+      "published_at": "2026-09-01T13:00:00+00:00"
     },
     {
       "id": "f2bfef120a66926f",
@@ -42,20 +66,20 @@
       "published_at": "2026-09-17T15:23:18.138000+00:00"
     },
     {
-      "id": "8176b8558347633c",
-      "title_en": "Price drop! Stream games on PHILLIES.TV for $24.99",
-      "title_ja": "値下げ！ PHILLIES.TVでゲームを$ 24.99でストリーミング",
-      "url": "https://www.mlb.com/phillies/news/phillies-tv-stream-2026",
-      "source": "MLB.com",
-      "published_at": "2026-09-01T13:00:00+00:00"
-    },
-    {
       "id": "90fc1e5aeb60557f",
       "title_en": "Wheeler carves up Nats as Phillies get needed rotation boost",
       "title_ja": "フィリーズが必要なローテーションブーストを得るにつれて、ウィーラーはナッツを切り分けます",
       "url": "https://www.mlb.com/phillies/news/zack-wheeler-throws-7-scoreless-innings-in-phillies-shutout-of-nationals",
       "source": "MLB.com",
       "published_at": "2026-09-17T03:54:00+00:00"
+    },
+    {
+      "id": "3f91d4c204f9aeb6",
+      "title_en": "Latest Phillies injuries & transactions",
+      "title_ja": "最新のフィリーズの怪我と取引",
+      "url": "https://www.mlb.com/phillies/news/phillies-injuries-and-roster-moves",
+      "source": "MLB.com",
+      "published_at": "2026-09-17T22:21:00+00:00"
     },
     {
       "id": "dfb94dc9774ac964",
@@ -72,14 +96,6 @@
       "url": "https://www.mlb.com/phillies/news/one-breakout-prospect-from-each-mlb-club-2026",
       "source": "MLB.com",
       "published_at": "2026-09-17T17:25:00+00:00"
-    },
-    {
-      "id": "3f91d4c204f9aeb6",
-      "title_en": "Latest Phillies injuries & transactions",
-      "title_ja": "最新のフィリーズの怪我と取引",
-      "url": "https://www.mlb.com/phillies/news/phillies-injuries-and-roster-moves",
-      "source": "MLB.com",
-      "published_at": "2026-09-17T22:21:00+00:00"
     },
     {
       "id": "f9ed0ef68976b03e",
@@ -184,14 +200,6 @@
       "url": "https://www.mlb.com/phillies/news/phillies-lose-ground-in-nl-east-race-after-late-homer",
       "source": "MLB.com",
       "published_at": "2026-09-10T22:26:00+00:00"
-    },
-    {
-      "id": "f3ba9356dc5b3f85",
-      "title_en": "Phils gain ground in NL East after Schwarber's slam caps come-from-behind win",
-      "title_ja": "シュワーバーのスラムキャップが勝利した後、フィリップスはNLイーストで優位に立つ",
-      "url": "https://www.mlb.com/phillies/news/kyle-schwarber-hits-grand-slam-in-phillies-win-over-astros",
-      "source": "MLB.com",
-      "published_at": "2026-09-10T03:27:00+00:00"
     }
   ]
 }
