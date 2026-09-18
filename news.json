@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-18T21:07:49.907505+00:00",
+  "updated_at": "2026-09-18T23:29:52.752951+00:00",
   "articles": [
     {
       "id": "f176402e869190c9",
@@ -26,20 +26,20 @@
       "published_at": "2026-03-10T00:00:00+00:00"
     },
     {
+      "id": "d2e95b98782e6e19",
+      "title_en": "Bowlan to avoid IL in order to boast Phils' bullpen in October",
+      "title_ja": "10月にPhilsのブルペンを自慢するためにILを避けるBowlan",
+      "url": "https://www.mlb.com/phillies/news/jonathan-bowlan-has-mild-right-groin-strain",
+      "source": "MLB.com",
+      "published_at": "2026-09-18T23:05:41.304000+00:00"
+    },
+    {
       "id": "e3c65db17e080661",
       "title_en": "'It's vintage Aaron Nola': Righty continues best stretch since 2018 with gem vs. Mets",
       "title_ja": "「ヴィンテージのアーロン・ノーラ」： RightyはGEM vs. Metsで2018年以来最高のストレッチを続けています",
       "url": "https://www.mlb.com/phillies/news/aaron-nola-tosses-seven-scoreless-innings-in-win-vs-mets",
       "source": "MLB.com",
       "published_at": "2026-09-18T03:37:00+00:00"
-    },
-    {
-      "id": "c719759e7f035764",
-      "title_en": "Top 100 prospects Rincon, Miller power Double-A Reading to Eastern League Championship Series",
-      "title_ja": "TOP 100見込み客RINCON、MILLER POWERダブルAリーディングからイースタンリーグチャンピオンシップシリーズ",
-      "url": "https://www.mlb.com/phillies/news/bryan-rincon-aidan-miller-power-reading-to-eastern-league-championship-series",
-      "source": "MLB.com",
-      "published_at": "2026-09-18T14:18:53.620000+00:00"
     },
     {
       "id": "8176b8558347633c",
@@ -50,12 +50,12 @@
       "published_at": "2026-09-01T13:00:00+00:00"
     },
     {
-      "id": "d5cf1a020cbbff63",
-      "title_en": "Bowlan exits with groin injury in latest blow to Phillies' 'pen",
-      "title_ja": "フィリーズのペンへの最新の打撃で、股関節の怪我でボウランが退場する",
-      "url": "https://www.mlb.com/phillies/news/jonathan-bowlan-exits-with-right-groin-injury",
+      "id": "c719759e7f035764",
+      "title_en": "Top 100 prospects Rincon, Miller power Double-A Reading to Eastern League Championship Series",
+      "title_ja": "TOP 100見込み客RINCON、MILLER POWERダブルAリーディングからイースタンリーグチャンピオンシップシリーズ",
+      "url": "https://www.mlb.com/phillies/news/bryan-rincon-aidan-miller-power-reading-to-eastern-league-championship-series",
       "source": "MLB.com",
-      "published_at": "2026-09-18T04:02:21.142000+00:00"
+      "published_at": "2026-09-18T14:18:53.620000+00:00"
     },
     {
       "id": "f2bfef120a66926f",
