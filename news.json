@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-19T22:42:33.256711+00:00",
+  "updated_at": "2026-09-20T00:43:04.389844+00:00",
   "articles": [
     {
       "id": "f176402e869190c9",
@@ -26,6 +26,14 @@
       "published_at": "2026-03-10T00:00:00+00:00"
     },
     {
+      "id": "69bb07d1e2adc09f",
+      "title_en": "1 crucial pitch turns the tide as Phillies slip in NL Wild Card race",
+      "title_ja": "1つの重要なピッチは、フィリーズがNLワイルドカードレースで滑るにつれて潮流を変えます",
+      "url": "https://www.mlb.com/phillies/news/andrew-painter-phillies-bullpen-falter-late-in-loss-to-mets",
+      "source": "MLB.com",
+      "published_at": "2026-09-19T23:47:36.387000+00:00"
+    },
+    {
       "id": "8faefba8beee1e26",
       "title_en": "Kerkering's struggles atop Phils' bullpen concerns in final postseason push",
       "title_ja": "最後のポストシーズンプッシュでのフィリップスのブルペンの懸念の上でのケルカーリングの苦労",
@@ -34,20 +42,20 @@
       "published_at": "2026-09-19T04:26:00+00:00"
     },
     {
-      "id": "d2e95b98782e6e19",
-      "title_en": "Bowlan to avoid IL in order to boost Phils' bullpen in October",
-      "title_ja": "10月にPhilsのブルペンを強化するためにILを避けるBowlan",
-      "url": "https://www.mlb.com/phillies/news/jonathan-bowlan-has-mild-right-groin-strain",
-      "source": "MLB.com",
-      "published_at": "2026-09-18T23:05:41.304000+00:00"
-    },
-    {
       "id": "8176b8558347633c",
       "title_en": "Price drop! Stream games on PHILLIES.TV for $24.99",
       "title_ja": "値下げ！ PHILLIES.TVでゲームを$ 24.99でストリーミング",
       "url": "https://www.mlb.com/phillies/news/phillies-tv-stream-2026",
       "source": "MLB.com",
       "published_at": "2026-09-01T13:00:00+00:00"
+    },
+    {
+      "id": "d2e95b98782e6e19",
+      "title_en": "Bowlan to avoid IL in order to boost Phils' bullpen in October",
+      "title_ja": "10月にPhilsのブルペンを強化するためにILを避けるBowlan",
+      "url": "https://www.mlb.com/phillies/news/jonathan-bowlan-has-mild-right-groin-strain",
+      "source": "MLB.com",
+      "published_at": "2026-09-18T23:05:41.304000+00:00"
     },
     {
       "id": "e3c65db17e080661",
@@ -66,20 +74,20 @@
       "published_at": "2026-09-18T14:18:53.620000+00:00"
     },
     {
-      "id": "87c30d445ea26287",
-      "title_en": "Watch FREE as slugging Ingle (CLE) digs in at Triple-A vs. Twins prospects",
-      "title_ja": "Triple - A vs. Twinsの見込み客でSlugging Ingle （ CLE ）を無料で視聴",
-      "url": "https://www.mlb.com/phillies/news/watch-minor-league-baseball-games-for-free-2026",
-      "source": "MLB.com",
-      "published_at": "2026-09-19T22:26:00+00:00"
-    },
-    {
       "id": "3f91d4c204f9aeb6",
       "title_en": "Latest Phillies injuries & transactions",
       "title_ja": "最新のフィリーズの怪我と取引",
       "url": "https://www.mlb.com/phillies/news/phillies-injuries-and-roster-moves",
       "source": "MLB.com",
       "published_at": "2026-09-17T22:21:00+00:00"
+    },
+    {
+      "id": "87c30d445ea26287",
+      "title_en": "Watch LIVE: Guardians top prospect Velazquez digs in at Triple-A vs. Twins talent",
+      "title_ja": "ライブ視聴：ガーディアンズのトップ見込み客ベラスケスがトリプルA対ツインズのスキルを掘り下げる",
+      "url": "https://www.mlb.com/phillies/news/watch-minor-league-baseball-games-for-free-2026",
+      "source": "MLB.com",
+      "published_at": "2026-09-19T22:55:00+00:00"
     },
     {
       "id": "f2bfef120a66926f",
@@ -192,14 +200,6 @@
       "url": "https://www.mlb.com/phillies/news/aidan-miller-posts-1st-double-a-hits-rbis-after-return-from-injury",
       "source": "MLB.com",
       "published_at": "2026-09-11T16:09:14.481000+00:00"
-    },
-    {
-      "id": "043f767039b1871a",
-      "title_en": "Harper savors early HR ... but Braves get last laugh as Phils fade in NL East",
-      "title_ja": "ハーパーは初期のHRを味わう...しかし、フィリップスがNLイーストでフェードするにつれて、ブレイブスは最後の笑いを得る",
-      "url": "https://www.mlb.com/phillies/news/bryce-harper-slow-home-run-trot-in-loss-vs-braves",
-      "source": "MLB.com",
-      "published_at": "2026-09-13T03:07:00+00:00"
     }
   ]
 }
