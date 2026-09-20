@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-20T20:44:03.769602+00:00",
+  "updated_at": "2026-09-20T23:01:59.972231+00:00",
   "articles": [
     {
       "id": "f176402e869190c9",
@@ -31,7 +31,7 @@
       "title_ja": "プレーオフ前のブルペンパズルに関するフィリーズの「プレーアウト」",
       "url": "https://www.mlb.com/phillies/news/dave-dombrowski-on-phillies-bullpen-jesus-luzardo",
       "source": "MLB.com",
-      "published_at": "2026-09-20T20:34:00+00:00"
+      "published_at": "2026-09-20T21:40:00+00:00"
     },
     {
       "id": "69bb07d1e2adc09f",
@@ -50,12 +50,36 @@
       "published_at": "2026-09-01T13:00:00+00:00"
     },
     {
+      "id": "87c30d445ea26287",
+      "title_en": "LIVE: Top 100 prospects Miller (PHI), Hope (DET) clash in Double-A playoffs",
+      "title_ja": "ライブ：見込み客トップ100ミラー（ PHI ）、ホープ（ DET ）がダブルAプレーオフで衝突",
+      "url": "https://www.mlb.com/phillies/news/watch-minor-league-baseball-games-for-free-2026",
+      "source": "MLB.com",
+      "published_at": "2026-09-20T20:45:00+00:00"
+    },
+    {
+      "id": "c719759e7f035764",
+      "title_en": "Top 100 prospects Rincon, Miller power Double-A Reading to Eastern League Championship Series",
+      "title_ja": "TOP 100見込み客RINCON、MILLER POWERダブルAリーディングからイースタンリーグチャンピオンシップシリーズ",
+      "url": "https://www.mlb.com/phillies/news/bryan-rincon-aidan-miller-power-reading-to-eastern-league-championship-series",
+      "source": "MLB.com",
+      "published_at": "2026-09-18T14:18:53.620000+00:00"
+    },
+    {
       "id": "8faefba8beee1e26",
       "title_en": "Kerkering's struggles atop Phils' bullpen concerns in final postseason push",
       "title_ja": "最後のポストシーズンプッシュでのフィリップスのブルペンの懸念の上でのケルカーリングの苦労",
       "url": "https://www.mlb.com/phillies/news/orion-kerkering-struggles-continue-in-phillies-loss",
       "source": "MLB.com",
       "published_at": "2026-09-19T04:26:00+00:00"
+    },
+    {
+      "id": "3f91d4c204f9aeb6",
+      "title_en": "Latest Phillies injuries & transactions",
+      "title_ja": "最新のフィリーズの怪我と取引",
+      "url": "https://www.mlb.com/phillies/news/phillies-injuries-and-roster-moves",
+      "source": "MLB.com",
+      "published_at": "2026-09-20T19:11:00+00:00"
     },
     {
       "id": "d2e95b98782e6e19",
@@ -72,30 +96,6 @@
       "url": "https://www.mlb.com/phillies/news/aaron-nola-tosses-seven-scoreless-innings-in-win-vs-mets",
       "source": "MLB.com",
       "published_at": "2026-09-18T03:37:00+00:00"
-    },
-    {
-      "id": "3f91d4c204f9aeb6",
-      "title_en": "Latest Phillies injuries & transactions",
-      "title_ja": "最新のフィリーズの怪我と取引",
-      "url": "https://www.mlb.com/phillies/news/phillies-injuries-and-roster-moves",
-      "source": "MLB.com",
-      "published_at": "2026-09-20T19:11:00+00:00"
-    },
-    {
-      "id": "87c30d445ea26287",
-      "title_en": "Watch FREE as Top 100 prospects Miller (PHI), Hope (DET) headline Double-A playoffs tonight",
-      "title_ja": "今夜、見込み客トップ100ミラー（ PHI ）、ホープ（ DET ）の見出しダブルAプレーオフを無料で視聴",
-      "url": "https://www.mlb.com/phillies/news/watch-minor-league-baseball-games-for-free-2026",
-      "source": "MLB.com",
-      "published_at": "2026-09-20T19:11:00+00:00"
-    },
-    {
-      "id": "c719759e7f035764",
-      "title_en": "Top 100 prospects Rincon, Miller power Double-A Reading to Eastern League Championship Series",
-      "title_ja": "TOP 100見込み客RINCON、MILLER POWERダブルAリーディングからイースタンリーグチャンピオンシップシリーズ",
-      "url": "https://www.mlb.com/phillies/news/bryan-rincon-aidan-miller-power-reading-to-eastern-league-championship-series",
-      "source": "MLB.com",
-      "published_at": "2026-09-18T14:18:53.620000+00:00"
     },
     {
       "id": "f2bfef120a66926f",
