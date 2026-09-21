@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-21T01:22:57.033892+00:00",
+  "updated_at": "2026-09-21T06:48:53.635969+00:00",
   "articles": [
     {
       "id": "f176402e869190c9",
@@ -34,12 +34,12 @@
       "published_at": "2026-09-20T21:40:00+00:00"
     },
     {
-      "id": "69bb07d1e2adc09f",
-      "title_en": "Kerkering optioned by Phillies after recent woes in bullpen",
-      "title_ja": "最近のブルペンでの苦境の後、フィリーズによって選択されたカーケリング",
-      "url": "https://www.mlb.com/phillies/news/andrew-painter-phillies-bullpen-falter-late-in-loss-to-mets",
+      "id": "da9bd447e1ecb891",
+      "title_en": "1 player to watch on each team during final week of season",
+      "title_ja": "シーズンの最終週に各チームで1人のプレイヤーを観戦",
+      "url": "https://www.mlb.com/phillies/news/players-to-watch-during-final-week-of-2026-mlb-season",
       "source": "MLB.com",
-      "published_at": "2026-09-20T14:21:00+00:00"
+      "published_at": "2026-09-21T02:10:43.740000+00:00"
     },
     {
       "id": "8176b8558347633c",
@@ -48,6 +48,14 @@
       "url": "https://www.mlb.com/phillies/news/phillies-tv-stream-2026",
       "source": "MLB.com",
       "published_at": "2026-09-01T13:00:00+00:00"
+    },
+    {
+      "id": "69bb07d1e2adc09f",
+      "title_en": "Kerkering optioned by Phillies after recent woes in bullpen",
+      "title_ja": "最近のブルペンでの苦境の後、フィリーズによって選択されたカーケリング",
+      "url": "https://www.mlb.com/phillies/news/andrew-painter-phillies-bullpen-falter-late-in-loss-to-mets",
+      "source": "MLB.com",
+      "published_at": "2026-09-20T14:21:00+00:00"
     },
     {
       "id": "c719759e7f035764",
@@ -66,20 +74,20 @@
       "published_at": "2026-09-19T04:26:00+00:00"
     },
     {
-      "id": "d2e95b98782e6e19",
-      "title_en": "Bowlan to avoid IL in order to boost Phils' bullpen in October",
-      "title_ja": "10月にPhilsのブルペンを強化するためにILを避けるBowlan",
-      "url": "https://www.mlb.com/phillies/news/jonathan-bowlan-has-mild-right-groin-strain",
-      "source": "MLB.com",
-      "published_at": "2026-09-18T23:05:41.304000+00:00"
-    },
-    {
       "id": "3f91d4c204f9aeb6",
       "title_en": "Latest Phillies injuries & transactions",
       "title_ja": "最新のフィリーズの怪我と取引",
       "url": "https://www.mlb.com/phillies/news/phillies-injuries-and-roster-moves",
       "source": "MLB.com",
       "published_at": "2026-09-20T19:11:00+00:00"
+    },
+    {
+      "id": "d2e95b98782e6e19",
+      "title_en": "Bowlan to avoid IL in order to boost Phils' bullpen in October",
+      "title_ja": "10月にPhilsのブルペンを強化するためにILを避けるBowlan",
+      "url": "https://www.mlb.com/phillies/news/jonathan-bowlan-has-mild-right-groin-strain",
+      "source": "MLB.com",
+      "published_at": "2026-09-18T23:05:41.304000+00:00"
     },
     {
       "id": "e3c65db17e080661",
@@ -192,14 +200,6 @@
       "url": "https://www.mlb.com/phillies/news/andrew-painter-s-strong-start-helps-phillies-beat-braves",
       "source": "MLB.com",
       "published_at": "2026-09-13T23:59:00+00:00"
-    },
-    {
-      "id": "f4528ca1eea18367",
-      "title_en": "Miller has 1st Double-A hits, RBIs of season as Reading clinches postseason berth",
-      "title_ja": "ミラーは初のダブルAヒットを記録し、リーディングがポストシーズンバースを獲得したことでシーズンのRBIを獲得しました",
-      "url": "https://www.mlb.com/phillies/news/aidan-miller-posts-1st-double-a-hits-rbis-after-return-from-injury",
-      "source": "MLB.com",
-      "published_at": "2026-09-11T16:09:14.481000+00:00"
     }
   ]
 }
