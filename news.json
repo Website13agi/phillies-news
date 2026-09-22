@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-22T12:23:58.090679+00:00",
+  "updated_at": "2026-09-22T17:09:57.273992+00:00",
   "articles": [
     {
       "id": "f176402e869190c9",
@@ -26,6 +26,14 @@
       "published_at": "2026-03-10T00:00:00+00:00"
     },
     {
+      "id": "518f5ded7a5c8605",
+      "title_en": "Schwarber's Neighborhood Heroes reflects family roots",
+      "title_ja": "シュワーバーの近所のヒーローは家族のルーツを反映しています",
+      "url": "https://www.mlb.com/phillies/news/kyle-schwarber-gives-back-to-first-responders-with-neighborhood-heroes",
+      "source": "MLB.com",
+      "published_at": "2026-09-22T12:46:00+00:00"
+    },
+    {
       "id": "315ad7d298953d37",
       "title_en": "Phillies 'letting it play out' regarding bullpen puzzle before playoffs",
       "title_ja": "プレーオフ前のブルペンパズルに関するフィリーズの「プレーアウト」",
@@ -34,20 +42,20 @@
       "published_at": "2026-09-20T21:40:00+00:00"
     },
     {
-      "id": "61fc951b8994b710",
-      "title_en": "A 3-way tie for NL Wild Card is in play. Here's how it would shake out",
-      "title_ja": "NLワイルドカードの3ウェイタイがプレイ中です。それがどのように揺れ動くかは次のとおりです",
-      "url": "https://www.mlb.com/phillies/news/who-would-win-a-3-way-tie-in-the-nl-wild-card",
-      "source": "MLB.com",
-      "published_at": "2026-09-21T19:23:44.706000+00:00"
-    },
-    {
       "id": "8176b8558347633c",
       "title_en": "Price drop! Stream games on PHILLIES.TV for $24.99",
       "title_ja": "値下げ！ PHILLIES.TVでゲームを$ 24.99でストリーミング",
       "url": "https://www.mlb.com/phillies/news/phillies-tv-stream-2026",
       "source": "MLB.com",
       "published_at": "2026-09-01T13:00:00+00:00"
+    },
+    {
+      "id": "61fc951b8994b710",
+      "title_en": "A 3-way tie for NL Wild Card is in play. Here's how it would shake out",
+      "title_ja": "NLワイルドカードの3ウェイタイがプレイ中です。それがどのように揺れ動くかは次のとおりです",
+      "url": "https://www.mlb.com/phillies/news/who-would-win-a-3-way-tie-in-the-nl-wild-card",
+      "source": "MLB.com",
+      "published_at": "2026-09-22T16:25:00+00:00"
     },
     {
       "id": "da9bd447e1ecb891",
@@ -66,20 +74,20 @@
       "published_at": "2026-09-20T14:21:00+00:00"
     },
     {
-      "id": "c719759e7f035764",
-      "title_en": "Top 100 prospects Rincon, Miller power Double-A Reading to Eastern League Championship Series",
-      "title_ja": "TOP 100見込み客RINCON、MILLER POWERダブルAリーディングからイースタンリーグチャンピオンシップシリーズ",
-      "url": "https://www.mlb.com/phillies/news/bryan-rincon-aidan-miller-power-reading-to-eastern-league-championship-series",
-      "source": "MLB.com",
-      "published_at": "2026-09-18T14:18:53.620000+00:00"
-    },
-    {
       "id": "3f91d4c204f9aeb6",
       "title_en": "Latest Phillies injuries & transactions",
       "title_ja": "最新のフィリーズの怪我と取引",
       "url": "https://www.mlb.com/phillies/news/phillies-injuries-and-roster-moves",
       "source": "MLB.com",
       "published_at": "2026-09-20T19:11:00+00:00"
+    },
+    {
+      "id": "c719759e7f035764",
+      "title_en": "Top 100 prospects Rincon, Miller power Double-A Reading to Eastern League Championship Series",
+      "title_ja": "TOP 100見込み客RINCON、MILLER POWERダブルAリーディングからイースタンリーグチャンピオンシップシリーズ",
+      "url": "https://www.mlb.com/phillies/news/bryan-rincon-aidan-miller-power-reading-to-eastern-league-championship-series",
+      "source": "MLB.com",
+      "published_at": "2026-09-18T14:18:53.620000+00:00"
     },
     {
       "id": "8faefba8beee1e26",
@@ -138,6 +146,14 @@
       "published_at": "2026-09-17T15:20:00+00:00"
     },
     {
+      "id": "4c078eec8d7b6269",
+      "title_en": "Schwarber named Phillies nominee for Roberto Clemente Award",
+      "title_ja": "シュワーバーがフィリーズをロベルト・クレメンテ賞にノミネート",
+      "url": "https://www.mlb.com/phillies/news/kyle-schwarber-named-phillies-nominee-for-2026-roberto-clemente-award",
+      "source": "MLB.com",
+      "published_at": "2026-09-14T16:40:00.566000+00:00"
+    },
+    {
       "id": "d6e0970be9d190c7",
       "title_en": "Here are the breakout prospects of the year -- one for each team",
       "title_ja": "今年のブレイクアウトの見通しは次のとおりです。各チームに1つずつ",
@@ -184,22 +200,6 @@
       "url": "https://www.mlb.com/phillies/news/2026-arizona-fall-league-rosters",
       "source": "MLB.com",
       "published_at": "2026-09-15T15:38:00.376000+00:00"
-    },
-    {
-      "id": "4c078eec8d7b6269",
-      "title_en": "Schwarber named Phillies nominee for Roberto Clemente Award",
-      "title_ja": "シュワーバーがフィリーズをロベルト・クレメンテ賞にノミネート",
-      "url": "https://www.mlb.com/phillies/news/kyle-schwarber-named-phillies-nominee-for-2026-roberto-clemente-award",
-      "source": "MLB.com",
-      "published_at": "2026-09-14T16:40:00.566000+00:00"
-    },
-    {
-      "id": "5880e1f95864a317",
-      "title_en": "How is Philly's postseason outlook with 12 games to play?",
-      "title_ja": "12試合に出場するフィラデルフィアのポストシーズンの見通しはどうですか？",
-      "url": "https://www.mlb.com/phillies/news/bryce-harper-phillies-prepare-for-final-playoff-push",
-      "source": "MLB.com",
-      "published_at": "2026-09-14T13:48:31.318000+00:00"
     }
   ]
 }
