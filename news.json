@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-22T23:09:35.595577+00:00",
+  "updated_at": "2026-09-23T01:39:41.444707+00:00",
   "articles": [
     {
       "id": "f176402e869190c9",
@@ -26,6 +26,14 @@
       "published_at": "2026-03-10T00:00:00+00:00"
     },
     {
+      "id": "6746e53598228ba4",
+      "title_en": "Wheeler achieves career, franchise milestones to help Phils close in on Wild Card",
+      "title_ja": "ウィーラーはキャリア、フランチャイズマイルストーンを達成し、フィルがワイルドカードに近づくのを助けます",
+      "url": "https://www.mlb.com/phillies/news/zack-wheeler-reaches-2-000-career-strikeouts",
+      "source": "MLB.com",
+      "published_at": "2026-09-23T01:24:00+00:00"
+    },
+    {
       "id": "74a4af21875725e7",
       "title_en": "Luzardo (shoulder) plays catch; return to mound TBD",
       "title_ja": "Luzardo （肩）がキャッチを果たします。マウンドに戻ります未定",
@@ -34,20 +42,20 @@
       "published_at": "2026-09-22T22:18:07.851000+00:00"
     },
     {
-      "id": "518f5ded7a5c8605",
-      "title_en": "Schwarber's Neighborhood Heroes reflects family roots",
-      "title_ja": "シュワーバーの近所のヒーローは家族のルーツを反映しています",
-      "url": "https://www.mlb.com/phillies/news/kyle-schwarber-gives-back-to-first-responders-with-neighborhood-heroes",
-      "source": "MLB.com",
-      "published_at": "2026-09-22T12:46:00+00:00"
-    },
-    {
       "id": "8176b8558347633c",
       "title_en": "Price drop! Stream games on PHILLIES.TV for $24.99",
       "title_ja": "値下げ！ PHILLIES.TVでゲームを$ 24.99でストリーミング",
       "url": "https://www.mlb.com/phillies/news/phillies-tv-stream-2026",
       "source": "MLB.com",
       "published_at": "2026-09-01T13:00:00+00:00"
+    },
+    {
+      "id": "518f5ded7a5c8605",
+      "title_en": "Schwarber's Neighborhood Heroes reflects family roots",
+      "title_ja": "シュワーバーの近所のヒーローは家族のルーツを反映しています",
+      "url": "https://www.mlb.com/phillies/news/kyle-schwarber-gives-back-to-first-responders-with-neighborhood-heroes",
+      "source": "MLB.com",
+      "published_at": "2026-09-22T12:46:00+00:00"
     },
     {
       "id": "315ad7d298953d37",
@@ -66,20 +74,20 @@
       "published_at": "2026-09-22T16:25:00+00:00"
     },
     {
-      "id": "da9bd447e1ecb891",
-      "title_en": "1 player to watch on each team during final week of season",
-      "title_ja": "シーズンの最終週に各チームで1人のプレイヤーを観戦",
-      "url": "https://www.mlb.com/phillies/news/players-to-watch-during-final-week-of-2026-mlb-season",
-      "source": "MLB.com",
-      "published_at": "2026-09-21T02:10:43.740000+00:00"
-    },
-    {
       "id": "3f91d4c204f9aeb6",
       "title_en": "Latest Phillies injuries & transactions",
       "title_ja": "最新のフィリーズの怪我と取引",
       "url": "https://www.mlb.com/phillies/news/phillies-injuries-and-roster-moves",
       "source": "MLB.com",
       "published_at": "2026-09-22T22:50:00+00:00"
+    },
+    {
+      "id": "da9bd447e1ecb891",
+      "title_en": "1 player to watch on each team during final week of season",
+      "title_ja": "シーズンの最終週に各チームで1人のプレイヤーを観戦",
+      "url": "https://www.mlb.com/phillies/news/players-to-watch-during-final-week-of-2026-mlb-season",
+      "source": "MLB.com",
+      "published_at": "2026-09-21T02:10:43.740000+00:00"
     },
     {
       "id": "69bb07d1e2adc09f",
@@ -192,14 +200,6 @@
       "url": "https://www.mlb.com/phillies/news/phillies-jesus-luzardo-placed-on-injured-list",
       "source": "MLB.com",
       "published_at": "2026-09-15T22:42:00+00:00"
-    },
-    {
-      "id": "a6ba8b3e0050dd43",
-      "title_en": "Will our final Cy Young poll foretell the winners?",
-      "title_ja": "サイ・ヤングの最後の世論調査で勝者が予想されますか？",
-      "url": "https://www.mlb.com/phillies/news/cam-schlittler-and-jacob-misiorowski-lead-final-2026-cy-young-poll",
-      "source": "MLB.com",
-      "published_at": "2026-09-15T04:01:38.369000+00:00"
     }
   ]
 }
