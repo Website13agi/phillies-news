@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-23T21:10:20.172242+00:00",
+  "updated_at": "2026-09-23T23:52:28.270856+00:00",
   "articles": [
     {
       "id": "f176402e869190c9",
@@ -26,6 +26,14 @@
       "published_at": "2026-03-10T00:00:00+00:00"
     },
     {
+      "id": "15755990f55d5556",
+      "title_en": "Here is each club's top Arizona Fall League prospect",
+      "title_ja": "ここでは、各クラブのアリゾナ・フォールリーグのトップ候補をご紹介します",
+      "url": "https://www.mlb.com/phillies/news/top-arizona-fall-league-prospect-for-each-club-2026",
+      "source": "MLB.com",
+      "published_at": "2026-09-23T22:30:00+00:00"
+    },
+    {
       "id": "6746e53598228ba4",
       "title_en": "Wheeler achieves career, franchise milestones as Phils close in on Wild Card",
       "title_ja": "フィルがワイルドカードに近づくにつれて、ウィーラーはキャリア、フランチャイズマイルストーンを達成",
@@ -34,20 +42,20 @@
       "published_at": "2026-09-23T04:28:00+00:00"
     },
     {
-      "id": "c364cd2a12f793f2",
-      "title_en": "Marsh breaks out of 2nd-half slide with 2 key hits in Phils' win",
-      "title_ja": "マーシュは、Philsの勝利で2つの重要なヒットで下半期のスライドを突破しました",
-      "url": "https://www.mlb.com/phillies/news/brandon-marsh-homers-for-first-time-in-over-a-month",
-      "source": "MLB.com",
-      "published_at": "2026-09-23T03:53:55.538000+00:00"
-    },
-    {
       "id": "8176b8558347633c",
       "title_en": "Price drop! Stream games on PHILLIES.TV for $24.99",
       "title_ja": "値下げ！ PHILLIES.TVでゲームを$ 24.99でストリーミング",
       "url": "https://www.mlb.com/phillies/news/phillies-tv-stream-2026",
       "source": "MLB.com",
       "published_at": "2026-09-01T13:00:00+00:00"
+    },
+    {
+      "id": "c364cd2a12f793f2",
+      "title_en": "Marsh breaks out of 2nd-half slide with 2 key hits in Phils' win",
+      "title_ja": "マーシュは、Philsの勝利で2つの重要なヒットで下半期のスライドを突破しました",
+      "url": "https://www.mlb.com/phillies/news/brandon-marsh-homers-for-first-time-in-over-a-month",
+      "source": "MLB.com",
+      "published_at": "2026-09-23T03:53:55.538000+00:00"
     },
     {
       "id": "74a4af21875725e7",
@@ -66,20 +74,20 @@
       "published_at": "2026-09-23T04:52:00+00:00"
     },
     {
+      "id": "3f91d4c204f9aeb6",
+      "title_en": "Latest Phillies injuries & transactions",
+      "title_ja": "最新のフィリーズの怪我と取引",
+      "url": "https://www.mlb.com/phillies/news/phillies-injuries-and-roster-moves",
+      "source": "MLB.com",
+      "published_at": "2026-09-23T22:45:00+00:00"
+    },
+    {
       "id": "e2dc9735144f2ad6",
       "title_en": "Relentless offense, improved pitching from key prospects spur Phils' Double-A squad to title",
       "title_ja": "容赦ない攻撃、主要な見込み客からの改善されたピッチングがPhilsのダブルAチームをタイトルに駆り立てる",
       "url": "https://www.mlb.com/phillies/news/phillies-double-a-affiliate-reading-wins-2026-eastern-league-title",
       "source": "MLB.com",
       "published_at": "2026-09-23T03:06:28.336000+00:00"
-    },
-    {
-      "id": "3f91d4c204f9aeb6",
-      "title_en": "Latest Phillies injuries & transactions",
-      "title_ja": "最新のフィリーズの怪我と取引",
-      "url": "https://www.mlb.com/phillies/news/phillies-injuries-and-roster-moves",
-      "source": "MLB.com",
-      "published_at": "2026-09-22T22:50:00+00:00"
     },
     {
       "id": "518f5ded7a5c8605",
@@ -192,14 +200,6 @@
       "url": "https://www.mlb.com/phillies/news/kyle-schwarber-named-phillies-nominee-for-2026-roberto-clemente-award",
       "source": "MLB.com",
       "published_at": "2026-09-14T16:40:00.566000+00:00"
-    },
-    {
-      "id": "d6e0970be9d190c7",
-      "title_en": "Here are the breakout prospects of the year -- one for each team",
-      "title_ja": "今年のブレイクアウトの見通しは次のとおりです。各チームに1つずつ",
-      "url": "https://www.mlb.com/phillies/news/one-breakout-prospect-from-each-mlb-club-2026",
-      "source": "MLB.com",
-      "published_at": "2026-09-17T17:25:00+00:00"
     }
   ]
 }
