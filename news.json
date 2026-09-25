@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-25T19:51:55.043399+00:00",
+  "updated_at": "2026-09-25T23:07:17.540434+00:00",
   "articles": [
     {
       "id": "f176402e869190c9",
@@ -26,6 +26,14 @@
       "published_at": "2026-03-10T00:00:00+00:00"
     },
     {
+      "id": "01fee164bd7c081c",
+      "title_en": "'Not a great one': Arraez, Phils get tough news with left ankle sprain",
+      "title_ja": "「あまり良いものではありません」： Arraez、Philsは左足首の捻挫で厳しいニュースを受け取ります",
+      "url": "https://www.mlb.com/phillies/news/luis-arraez-could-miss-rest-of-regular-season-with-left-ankle-sprain",
+      "source": "MLB.com",
+      "published_at": "2026-09-25T22:31:29.688000+00:00"
+    },
+    {
       "id": "403c4e02e7656b7f",
       "title_en": "Harper emphasizes that Phils control their own destiny in playoff chase",
       "title_ja": "ハーパーは、フィリップスがプレーオフで自分の運命をコントロールしていることを強調しています",
@@ -34,20 +42,20 @@
       "published_at": "2026-09-25T05:04:00+00:00"
     },
     {
-      "id": "5aa329222baa4931",
-      "title_en": "Arraez exits with ankle injury; Phillies hopeful after X-rays",
-      "title_ja": "Arraezは足首を負傷して退場します。フィリーズはX線後に希望を抱いています",
-      "url": "https://www.mlb.com/phillies/news/luis-arraez-exits-game-vs-brewers-with-injury",
-      "source": "MLB.com",
-      "published_at": "2026-09-25T02:06:00+00:00"
-    },
-    {
       "id": "8176b8558347633c",
       "title_en": "Price drop! Stream games on PHILLIES.TV for $24.99",
       "title_ja": "値下げ！ PHILLIES.TVでゲームを$ 24.99でストリーミング",
       "url": "https://www.mlb.com/phillies/news/phillies-tv-stream-2026",
       "source": "MLB.com",
       "published_at": "2026-09-01T13:00:00+00:00"
+    },
+    {
+      "id": "5aa329222baa4931",
+      "title_en": "Arraez exits with ankle injury; Phillies hopeful after X-rays",
+      "title_ja": "Arraezは足首を負傷して退場します。フィリーズはX線後に希望を抱いています",
+      "url": "https://www.mlb.com/phillies/news/luis-arraez-exits-game-vs-brewers-with-injury",
+      "source": "MLB.com",
+      "published_at": "2026-09-25T02:06:00+00:00"
     },
     {
       "id": "c53a585127531e8f",
@@ -66,20 +74,20 @@
       "published_at": "2026-09-24T21:50:29.623000+00:00"
     },
     {
+      "id": "3f91d4c204f9aeb6",
+      "title_en": "Latest Phillies injuries & transactions",
+      "title_ja": "最新のフィリーズの怪我と取引",
+      "url": "https://www.mlb.com/phillies/news/phillies-injuries-and-roster-moves",
+      "source": "MLB.com",
+      "published_at": "2026-09-25T22:44:00+00:00"
+    },
+    {
       "id": "25b99ef29c00ea20",
       "title_en": "Oh, baby! Fan catches ball while holding infant ... without even standing up",
       "title_ja": "ああ、ベイビー！ファンは乳児を抱きしめながらボールをキャッチします...立ってもいません",
       "url": "https://www.mlb.com/phillies/news/fan-catches-ball-while-holding-baby-at-phillies-game",
       "source": "MLB.com",
       "published_at": "2026-09-25T01:17:02.698000+00:00"
-    },
-    {
-      "id": "3f91d4c204f9aeb6",
-      "title_en": "Latest Phillies injuries & transactions",
-      "title_ja": "最新のフィリーズの怪我と取引",
-      "url": "https://www.mlb.com/phillies/news/phillies-injuries-and-roster-moves",
-      "source": "MLB.com",
-      "published_at": "2026-09-25T03:07:00+00:00"
     },
     {
       "id": "dac2b3548daa80c8",
@@ -192,14 +200,6 @@
       "url": "https://www.mlb.com/phillies/news/bryan-rincon-aidan-miller-power-reading-to-eastern-league-championship-series",
       "source": "MLB.com",
       "published_at": "2026-09-18T14:18:53.620000+00:00"
-    },
-    {
-      "id": "8faefba8beee1e26",
-      "title_en": "Kerkering's struggles atop Phils' bullpen concerns in final postseason push",
-      "title_ja": "最後のポストシーズンプッシュでのフィリップスのブルペンの懸念の上でのケルカーリングの苦労",
-      "url": "https://www.mlb.com/phillies/news/orion-kerkering-struggles-continue-in-phillies-loss",
-      "source": "MLB.com",
-      "published_at": "2026-09-19T04:26:00+00:00"
     }
   ]
 }
