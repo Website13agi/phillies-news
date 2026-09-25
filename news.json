@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-24T22:01:03.123474+00:00",
+  "updated_at": "2026-09-25T00:41:07.801922+00:00",
   "articles": [
     {
       "id": "f176402e869190c9",
@@ -26,6 +26,14 @@
       "published_at": "2026-03-10T00:00:00+00:00"
     },
     {
+      "id": "5aa329222baa4931",
+      "title_en": "Arraez exits with ankle injury in Philadelphia",
+      "title_ja": "フィラデルフィアで足首を負傷したArraezさんが退場",
+      "url": "https://www.mlb.com/phillies/news/luis-arraez-exits-game-vs-brewers-with-injury",
+      "source": "MLB.com",
+      "published_at": "2026-09-25T00:34:41.646000+00:00"
+    },
+    {
       "id": "54346a4194cc92fc",
       "title_en": "Luzardo throws bullpen in massive step toward return to Phillies rotation",
       "title_ja": "ルザルドは、フィリーズのローテーションに戻るための大きなステップでブルペンを投げる",
@@ -34,20 +42,20 @@
       "published_at": "2026-09-24T21:50:29.623000+00:00"
     },
     {
-      "id": "dac2b3548daa80c8",
-      "title_en": "5 keys to the Phillies' possible postseason run",
-      "title_ja": "フィリーズの可能なポストシーズンランニングの5つの鍵",
-      "url": "https://www.mlb.com/phillies/news/phillies-rotation-bullpen-key-in-chance-for-a-playoff-push",
-      "source": "MLB.com",
-      "published_at": "2026-09-24T14:58:58.247000+00:00"
-    },
-    {
       "id": "8176b8558347633c",
       "title_en": "Price drop! Stream games on PHILLIES.TV for $24.99",
       "title_ja": "値下げ！ PHILLIES.TVでゲームを$ 24.99でストリーミング",
       "url": "https://www.mlb.com/phillies/news/phillies-tv-stream-2026",
       "source": "MLB.com",
       "published_at": "2026-09-01T13:00:00+00:00"
+    },
+    {
+      "id": "dac2b3548daa80c8",
+      "title_en": "5 keys to the Phillies' possible postseason run",
+      "title_ja": "フィリーズの可能なポストシーズンランニングの5つの鍵",
+      "url": "https://www.mlb.com/phillies/news/phillies-rotation-bullpen-key-in-chance-for-a-playoff-push",
+      "source": "MLB.com",
+      "published_at": "2026-09-24T14:58:58.247000+00:00"
     },
     {
       "id": "1fde0f92870dc080",
@@ -66,20 +74,20 @@
       "published_at": "2026-09-23T22:30:00+00:00"
     },
     {
-      "id": "6746e53598228ba4",
-      "title_en": "Wheeler achieves career, franchise milestones as Phils close in on Wild Card",
-      "title_ja": "フィルがワイルドカードに近づくにつれて、ウィーラーはキャリア、フランチャイズマイルストーンを達成",
-      "url": "https://www.mlb.com/phillies/news/zack-wheeler-reaches-2-000-career-strikeouts",
-      "source": "MLB.com",
-      "published_at": "2026-09-23T04:28:00+00:00"
-    },
-    {
       "id": "3f91d4c204f9aeb6",
       "title_en": "Latest Phillies injuries & transactions",
       "title_ja": "最新のフィリーズの怪我と取引",
       "url": "https://www.mlb.com/phillies/news/phillies-injuries-and-roster-moves",
       "source": "MLB.com",
       "published_at": "2026-09-24T21:52:00+00:00"
+    },
+    {
+      "id": "6746e53598228ba4",
+      "title_en": "Wheeler achieves career, franchise milestones as Phils close in on Wild Card",
+      "title_ja": "フィルがワイルドカードに近づくにつれて、ウィーラーはキャリア、フランチャイズマイルストーンを達成",
+      "url": "https://www.mlb.com/phillies/news/zack-wheeler-reaches-2-000-career-strikeouts",
+      "source": "MLB.com",
+      "published_at": "2026-09-23T04:28:00+00:00"
     },
     {
       "id": "c364cd2a12f793f2",
@@ -135,7 +143,7 @@
       "title_ja": "NLワイルドカードの3ウェイタイがプレイ中です。それがどのように揺れ動くかは次のとおりです",
       "url": "https://www.mlb.com/phillies/news/who-would-win-a-3-way-tie-in-the-nl-wild-card",
       "source": "MLB.com",
-      "published_at": "2026-09-24T05:43:00+00:00"
+      "published_at": "2026-09-24T22:10:00+00:00"
     },
     {
       "id": "da9bd447e1ecb891",
@@ -192,14 +200,6 @@
       "url": "https://www.mlb.com/phillies/news/jose-urquidy-claimed-by-phillies",
       "source": "MLB.com",
       "published_at": "2026-09-17T19:51:49.493000+00:00"
-    },
-    {
-      "id": "9d80d0fee1375314",
-      "title_en": "What will Phils' postseason rotation look like after Luzardo's injury?",
-      "title_ja": "ルザルドが負傷した後、フィリップスのポストシーズンのローテーションはどのようになりますか？",
-      "url": "https://www.mlb.com/phillies/news/jesus-luzardo-injury-raises-questions-for-phillies-rotation",
-      "source": "MLB.com",
-      "published_at": "2026-09-17T15:23:18.138000+00:00"
     }
   ]
 }
