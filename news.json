@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-25T23:07:17.540434+00:00",
+  "updated_at": "2026-09-26T01:48:58.777753+00:00",
   "articles": [
     {
       "id": "f176402e869190c9",
@@ -26,20 +26,20 @@
       "published_at": "2026-03-10T00:00:00+00:00"
     },
     {
+      "id": "8383f46de520dbab",
+      "title_en": "Phils' bats blanked again as NL Wild Card race tightens",
+      "title_ja": "NLワイルドカードレースが厳しくなるにつれて、Philsのコウモリは再び消えました",
+      "url": "https://www.mlb.com/phillies/news/phillies-shut-out-for-12th-time-still-trying-to-clinch-postseason-spot",
+      "source": "MLB.com",
+      "published_at": "2026-09-26T01:27:56.457000+00:00"
+    },
+    {
       "id": "01fee164bd7c081c",
       "title_en": "'Not a great one': Arraez, Phils get tough news with left ankle sprain",
       "title_ja": "「あまり良いものではありません」： Arraez、Philsは左足首の捻挫で厳しいニュースを受け取ります",
       "url": "https://www.mlb.com/phillies/news/luis-arraez-could-miss-rest-of-regular-season-with-left-ankle-sprain",
       "source": "MLB.com",
       "published_at": "2026-09-25T22:31:29.688000+00:00"
-    },
-    {
-      "id": "403c4e02e7656b7f",
-      "title_en": "Harper emphasizes that Phils control their own destiny in playoff chase",
-      "title_ja": "ハーパーは、フィリップスがプレーオフで自分の運命をコントロールしていることを強調しています",
-      "url": "https://www.mlb.com/phillies/news/bryce-harper-phillies-still-seek-playoffs-clinch-after-loss-to-brewers",
-      "source": "MLB.com",
-      "published_at": "2026-09-25T05:04:00+00:00"
     },
     {
       "id": "8176b8558347633c",
@@ -50,12 +50,36 @@
       "published_at": "2026-09-01T13:00:00+00:00"
     },
     {
+      "id": "403c4e02e7656b7f",
+      "title_en": "Harper emphasizes that Phils control their own destiny in playoff chase",
+      "title_ja": "ハーパーは、フィリップスがプレーオフで自分の運命をコントロールしていることを強調しています",
+      "url": "https://www.mlb.com/phillies/news/bryce-harper-phillies-still-seek-playoffs-clinch-after-loss-to-brewers",
+      "source": "MLB.com",
+      "published_at": "2026-09-25T05:04:00+00:00"
+    },
+    {
+      "id": "c4941eeed2387f3f",
+      "title_en": "Bill Giles, architect of Phillies championship teams (and Phillie Phanatic), dies at 92",
+      "title_ja": "フィリーズ選手権チーム（およびフィリー・ファナティック）のアーキテクトであるビル・ジャイルズが92歳で死去",
+      "url": "https://www.mlb.com/phillies/news/bill-giles-phillies-president-chairman-part-owner-dies",
+      "source": "MLB.com",
+      "published_at": "2026-09-25T23:07:28.596000+00:00"
+    },
+    {
       "id": "5aa329222baa4931",
       "title_en": "Arraez exits with ankle injury; Phillies hopeful after X-rays",
       "title_ja": "Arraezは足首を負傷して退場します。フィリーズはX線後に希望を抱いています",
       "url": "https://www.mlb.com/phillies/news/luis-arraez-exits-game-vs-brewers-with-injury",
       "source": "MLB.com",
       "published_at": "2026-09-25T02:06:00+00:00"
+    },
+    {
+      "id": "3f91d4c204f9aeb6",
+      "title_en": "Latest Phillies injuries & transactions",
+      "title_ja": "最新のフィリーズの怪我と取引",
+      "url": "https://www.mlb.com/phillies/news/phillies-injuries-and-roster-moves",
+      "source": "MLB.com",
+      "published_at": "2026-09-25T22:44:00+00:00"
     },
     {
       "id": "c53a585127531e8f",
@@ -72,14 +96,6 @@
       "url": "https://www.mlb.com/phillies/news/jesus-luzardo-throws-bullpen-ahead-of-brewers-phillies-finale",
       "source": "MLB.com",
       "published_at": "2026-09-24T21:50:29.623000+00:00"
-    },
-    {
-      "id": "3f91d4c204f9aeb6",
-      "title_en": "Latest Phillies injuries & transactions",
-      "title_ja": "最新のフィリーズの怪我と取引",
-      "url": "https://www.mlb.com/phillies/news/phillies-injuries-and-roster-moves",
-      "source": "MLB.com",
-      "published_at": "2026-09-25T22:44:00+00:00"
     },
     {
       "id": "25b99ef29c00ea20",
@@ -184,22 +200,6 @@
       "url": "https://www.mlb.com/phillies/news/players-to-watch-during-final-week-of-2026-mlb-season",
       "source": "MLB.com",
       "published_at": "2026-09-21T02:10:43.740000+00:00"
-    },
-    {
-      "id": "69bb07d1e2adc09f",
-      "title_en": "Kerkering optioned by Phillies after recent woes in bullpen",
-      "title_ja": "最近のブルペンでの苦境の後、フィリーズによって選択されたカーケリング",
-      "url": "https://www.mlb.com/phillies/news/andrew-painter-phillies-bullpen-falter-late-in-loss-to-mets",
-      "source": "MLB.com",
-      "published_at": "2026-09-20T14:21:00+00:00"
-    },
-    {
-      "id": "c719759e7f035764",
-      "title_en": "Top 100 prospects Rincon, Miller power Double-A Reading to Eastern League Championship Series",
-      "title_ja": "TOP 100見込み客RINCON、MILLER POWERダブルAリーディングからイースタンリーグチャンピオンシップシリーズ",
-      "url": "https://www.mlb.com/phillies/news/bryan-rincon-aidan-miller-power-reading-to-eastern-league-championship-series",
-      "source": "MLB.com",
-      "published_at": "2026-09-18T14:18:53.620000+00:00"
     }
   ]
 }
