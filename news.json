@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-27T17:09:53.421815+00:00",
+  "updated_at": "2026-09-27T20:18:55.261065+00:00",
   "articles": [
     {
       "id": "f176402e869190c9",
@@ -26,28 +26,12 @@
       "published_at": "2026-03-10T00:00:00+00:00"
     },
     {
-      "id": "829d737699f12968",
-      "title_en": "Rays-Phillies finale start time moved to 2:30 p.m. ET",
-      "title_ja": "RAYS - PHILLIES FINALE START TIME MOVED TO 2:30 P.M. ET",
-      "url": "https://www.mlb.com/phillies/news/rays-phillies-sept-27-2026-game-time-update",
-      "source": "MLB.com",
-      "published_at": "2026-09-27T15:42:57.729000+00:00"
-    },
-    {
       "id": "1e90d634564e9184",
-      "title_en": "Luzardo activated off IL for Game 162; Urquidy DFA'd",
-      "title_ja": "Luzardoはゲーム162のILからアクティブ化されました。Urquidy DFA 'd",
+      "title_en": "Luzardo activated off IL for Game 162, though Phils not sure how (or if) he'll be used",
+      "title_ja": "ルザルドはゲーム162でILをオフにしましたが、Philsは彼がどのように使用されるか（または使用されるか）わかりません",
       "url": "https://www.mlb.com/phillies/news/jesus-luzardo-activated-from-injured-list",
       "source": "MLB.com",
-      "published_at": "2026-09-27T16:21:23.378000+00:00"
-    },
-    {
-      "id": "8176b8558347633c",
-      "title_en": "Price drop! Stream games on PHILLIES.TV for $24.99",
-      "title_ja": "値下げ！ PHILLIES.TVでゲームを$ 24.99でストリーミング",
-      "url": "https://www.mlb.com/phillies/news/phillies-tv-stream-2026",
-      "source": "MLB.com",
-      "published_at": "2026-09-01T13:00:00+00:00"
+      "published_at": "2026-09-27T18:06:00+00:00"
     },
     {
       "id": "f5af776be881abc0",
@@ -74,14 +58,6 @@
       "published_at": "2026-09-26T05:03:00+00:00"
     },
     {
-      "id": "3f91d4c204f9aeb6",
-      "title_en": "Latest Phillies injuries & transactions",
-      "title_ja": "最新のフィリーズの怪我と取引",
-      "url": "https://www.mlb.com/phillies/news/phillies-injuries-and-roster-moves",
-      "source": "MLB.com",
-      "published_at": "2026-09-27T00:13:00+00:00"
-    },
-    {
       "id": "01fee164bd7c081c",
       "title_en": "'Not a great one': Arraez, Phils get tough news with left ankle sprain",
       "title_ja": "「あまり良いものではありません」： Arraez、Philsは左足首の捻挫で厳しいニュースを受け取ります",
@@ -96,6 +72,14 @@
       "url": "https://www.mlb.com/phillies/news/bill-giles-phillies-legacy",
       "source": "MLB.com",
       "published_at": "2026-09-26T02:18:10.669000+00:00"
+    },
+    {
+      "id": "3f91d4c204f9aeb6",
+      "title_en": "Latest Phillies injuries & transactions",
+      "title_ja": "最新のフィリーズの怪我と取引",
+      "url": "https://www.mlb.com/phillies/news/phillies-injuries-and-roster-moves",
+      "source": "MLB.com",
+      "published_at": "2026-09-27T18:02:00+00:00"
     },
     {
       "id": "403c4e02e7656b7f",
@@ -200,6 +184,22 @@
       "url": "https://www.mlb.com/phillies/news/players-who-could-make-an-impact-in-their-first-postseason-2026",
       "source": "MLB.com",
       "published_at": "2026-09-23T04:52:00+00:00"
+    },
+    {
+      "id": "e2dc9735144f2ad6",
+      "title_en": "Relentless offense, improved pitching from key prospects spur Phils' Double-A squad to title",
+      "title_ja": "容赦ない攻撃、主要な見込み客からの改善されたピッチングがPhilsのダブルAチームをタイトルに駆り立てる",
+      "url": "https://www.mlb.com/phillies/news/phillies-double-a-affiliate-reading-wins-2026-eastern-league-title",
+      "source": "MLB.com",
+      "published_at": "2026-09-23T03:06:28.336000+00:00"
+    },
+    {
+      "id": "518f5ded7a5c8605",
+      "title_en": "Schwarber's Neighborhood Heroes reflects family roots",
+      "title_ja": "シュワーバーの近所のヒーローは家族のルーツを反映しています",
+      "url": "https://www.mlb.com/phillies/news/kyle-schwarber-gives-back-to-first-responders-with-neighborhood-heroes",
+      "source": "MLB.com",
+      "published_at": "2026-09-22T12:46:00+00:00"
     }
   ]
 }
