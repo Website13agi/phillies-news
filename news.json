@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-28T01:52:42.504548+00:00",
+  "updated_at": "2026-09-28T08:18:08.375827+00:00",
   "articles": [
     {
       "id": "f176402e869190c9",
@@ -23,7 +23,7 @@
       "title_ja": "フィリーズのオールタイムリストとトリビア",
       "url": "https://www.mlb.com/phillies/news/topic/phillies-history-trivia",
       "source": "MLB.com",
-      "published_at": "2026-03-10T00:00:00+00:00"
+      "published_at": "2026-09-27T00:00:00+00:00"
     },
     {
       "id": "ebb842883fbf6497",
@@ -58,6 +58,14 @@
       "published_at": "2026-09-28T00:02:19.217000+00:00"
     },
     {
+      "id": "3f91d4c204f9aeb6",
+      "title_en": "Latest Phillies injuries & transactions",
+      "title_ja": "最新のフィリーズの怪我と取引",
+      "url": "https://www.mlb.com/phillies/news/phillies-injuries-and-roster-moves",
+      "source": "MLB.com",
+      "published_at": "2026-09-27T18:02:00+00:00"
+    },
+    {
       "id": "bd44cd20d76f49b4",
       "title_en": "Phillies-Braves position-by-position breakdown",
       "title_ja": "Phillies - Bravesのポジション別内訳",
@@ -66,20 +74,20 @@
       "published_at": "2026-09-27T23:31:00+00:00"
     },
     {
+      "id": "5f9f88a2d02d4dce",
+      "title_en": "Power Rankings: Who starts playoffs on top?",
+      "title_ja": "パワーランキング：誰がトップからプレーオフを開始しますか？",
+      "url": "https://www.mlb.com/phillies/news/mlb-postseason-power-rankings-for-2026-wild-card-series",
+      "source": "MLB.com",
+      "published_at": "2026-09-28T04:00:00+00:00"
+    },
+    {
       "id": "f6e2427a605b132f",
       "title_en": "What you need to know about the Wild Card Series matchups",
       "title_ja": "ワイルドカードシリーズの対戦について知っておくべきこと",
       "url": "https://www.mlb.com/phillies/news/mlb-2026-wild-card-series-matchups",
       "source": "MLB.com",
       "published_at": "2026-09-27T21:51:00+00:00"
-    },
-    {
-      "id": "3f91d4c204f9aeb6",
-      "title_en": "Latest Phillies injuries & transactions",
-      "title_ja": "最新のフィリーズの怪我と取引",
-      "url": "https://www.mlb.com/phillies/news/phillies-injuries-and-roster-moves",
-      "source": "MLB.com",
-      "published_at": "2026-09-27T18:02:00+00:00"
     },
     {
       "id": "f5af776be881abc0",
@@ -176,30 +184,6 @@
       "url": "https://www.mlb.com/phillies/news/top-arizona-fall-league-prospect-for-each-club-2026",
       "source": "MLB.com",
       "published_at": "2026-09-23T22:30:00+00:00"
-    },
-    {
-      "id": "6746e53598228ba4",
-      "title_en": "Wheeler achieves career, franchise milestones as Phils close in on Wild Card",
-      "title_ja": "フィルがワイルドカードに近づくにつれて、ウィーラーはキャリア、フランチャイズマイルストーンを達成",
-      "url": "https://www.mlb.com/phillies/news/zack-wheeler-reaches-2-000-career-strikeouts",
-      "source": "MLB.com",
-      "published_at": "2026-09-23T04:28:00+00:00"
-    },
-    {
-      "id": "c364cd2a12f793f2",
-      "title_en": "Marsh breaks out of 2nd-half slide with 2 key hits in Phils' win",
-      "title_ja": "マーシュは、Philsの勝利で2つの重要なヒットで下半期のスライドを突破しました",
-      "url": "https://www.mlb.com/phillies/news/brandon-marsh-homers-for-first-time-in-over-a-month",
-      "source": "MLB.com",
-      "published_at": "2026-09-23T03:53:55.538000+00:00"
-    },
-    {
-      "id": "11c3b4b5e6e5ff85",
-      "title_en": "Players who could make an impact in their first postseason",
-      "title_ja": "最初のポストシーズンでインパクトを与えることができた選手",
-      "url": "https://www.mlb.com/phillies/news/players-who-could-make-an-impact-in-their-first-postseason-2026",
-      "source": "MLB.com",
-      "published_at": "2026-09-23T04:52:00+00:00"
     }
   ]
 }
