@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-28T08:18:08.375827+00:00",
+  "updated_at": "2026-09-28T16:54:41.414286+00:00",
   "articles": [
     {
       "id": "f176402e869190c9",
@@ -34,14 +34,6 @@
       "published_at": "2026-09-28T00:20:00+00:00"
     },
     {
-      "id": "1e90d634564e9184",
-      "title_en": "Luzardo throws 4-pitch eighth in return, ready for 'whatever Phillies need'",
-      "title_ja": "ルザルドは見返りに4ピッチを8番目に投げ、「フィリーズが必要とするものは何でも」準備ができています",
-      "url": "https://www.mlb.com/phillies/news/jesus-luzardo-activated-from-injured-list",
-      "source": "MLB.com",
-      "published_at": "2026-09-28T00:42:00+00:00"
-    },
-    {
       "id": "0125cc6013c2c048",
       "title_en": "Postseason FAQ: What's next for the Phillies?",
       "title_ja": "ポストシーズンのよくある質問：フィリーズの次のステップは？",
@@ -58,6 +50,14 @@
       "published_at": "2026-09-28T00:02:19.217000+00:00"
     },
     {
+      "id": "43e38091df4c8b91",
+      "title_en": "Rally for Red October Bus Tour returns Tuesday",
+      "title_ja": "「ラリー・フォー・レッド」10月バスツアーが火曜日に帰ってきた",
+      "url": "https://www.mlb.com/phillies/news/phillies-rally-for-red-october-bus-tour-returns-for-2026-postseason",
+      "source": "MLB.com",
+      "published_at": "2026-09-28T12:39:32.661000+00:00"
+    },
+    {
       "id": "3f91d4c204f9aeb6",
       "title_en": "Latest Phillies injuries & transactions",
       "title_ja": "最新のフィリーズの怪我と取引",
@@ -72,6 +72,14 @@
       "url": "https://www.mlb.com/phillies/news/braves-phillies-2026-nlwc-position-by-position-breakdown",
       "source": "MLB.com",
       "published_at": "2026-09-27T23:31:00+00:00"
+    },
+    {
+      "id": "1e90d634564e9184",
+      "title_en": "Luzardo throws 4-pitch eighth in return, ready for 'whatever Phillies need'",
+      "title_ja": "ルザルドは見返りに4ピッチを8番目に投げ、「フィリーズが必要とするものは何でも」準備ができています",
+      "url": "https://www.mlb.com/phillies/news/jesus-luzardo-activated-from-injured-list",
+      "source": "MLB.com",
+      "published_at": "2026-09-28T00:42:00+00:00"
     },
     {
       "id": "5f9f88a2d02d4dce",
@@ -176,14 +184,6 @@
       "url": "https://www.mlb.com/phillies/news/aaron-nola-strikes-out-eight-in-phillies-loss-to-brewers",
       "source": "MLB.com",
       "published_at": "2026-09-24T05:49:00+00:00"
-    },
-    {
-      "id": "15755990f55d5556",
-      "title_en": "Here is each club's top Arizona Fall League prospect",
-      "title_ja": "ここでは、各クラブのアリゾナ・フォールリーグのトップ候補をご紹介します",
-      "url": "https://www.mlb.com/phillies/news/top-arizona-fall-league-prospect-for-each-club-2026",
-      "source": "MLB.com",
-      "published_at": "2026-09-23T22:30:00+00:00"
     }
   ]
 }
