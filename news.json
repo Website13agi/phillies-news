@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-28T16:54:41.414286+00:00",
+  "updated_at": "2026-09-28T22:25:44.013665+00:00",
   "articles": [
     {
       "id": "f176402e869190c9",
@@ -26,12 +26,20 @@
       "published_at": "2026-09-27T00:00:00+00:00"
     },
     {
-      "id": "ebb842883fbf6497",
-      "title_en": "Phillies put tumultuous week behind them to punch playoff ticket",
-      "title_ja": "フィリーズは、プレイオフチケットをパンチするために、混乱した週を後にしました",
-      "url": "https://www.mlb.com/phillies/news/phillies-clinch-2026-postseason-berth",
+      "id": "3a7183eaf76b3406",
+      "title_en": "Phillies-Braves NL Wild Card Series Game 1 FAQ (Tues., 2 ET, NBC/Peacock)",
+      "title_ja": "Phillies - Braves NLワイルドカードシリーズゲーム1よくある質問（火曜日、2 ET、NBC/ピーコック）",
+      "url": "https://www.mlb.com/phillies/news/phillies-vs-braves-nl-wild-card-series-game-1-starting-lineups-and-pitching-matchup",
       "source": "MLB.com",
-      "published_at": "2026-09-28T00:20:00+00:00"
+      "published_at": "2026-09-28T19:05:00+00:00"
+    },
+    {
+      "id": "99f7db0f1ba3622f",
+      "title_en": "Luzardo to open WC Series for Phillies; Sánchez gets Game 2 start",
+      "title_ja": "ルサルドがフィリーズのためにWCシリーズを開く。サンチェスが第2戦開始",
+      "url": "https://www.mlb.com/phillies/news/phillies-rotation-nl-wild-card-series-2026",
+      "source": "MLB.com",
+      "published_at": "2026-09-28T20:44:15.791000+00:00"
     },
     {
       "id": "0125cc6013c2c048",
@@ -42,20 +50,20 @@
       "published_at": "2026-09-27T22:26:03.481000+00:00"
     },
     {
-      "id": "3a7183eaf76b3406",
-      "title_en": "Phillies-Braves NL Wild Card Series Game 1 FAQ (Tues., 2 ET, NBC/Peacock)",
-      "title_ja": "Phillies - Braves NLワイルドカードシリーズゲーム1よくある質問（火曜日、2 ET、NBC/ピーコック）",
-      "url": "https://www.mlb.com/phillies/news/phillies-vs-braves-nl-wild-card-series-game-1-starting-lineups-and-pitching-matchup",
+      "id": "a563a2655ba9a3fb",
+      "title_en": "Hampered by ankle injury, Arraez won't be on NL Wild Card Series roster",
+      "title_ja": "足首の怪我に悩まされ、アレーズはNLワイルドカードシリーズのロスターには入らない",
+      "url": "https://www.mlb.com/phillies/news/luis-arraez-2026-nl-wild-card-series-roster",
       "source": "MLB.com",
-      "published_at": "2026-09-28T00:02:19.217000+00:00"
+      "published_at": "2026-09-28T19:02:00+00:00"
     },
     {
-      "id": "43e38091df4c8b91",
-      "title_en": "Rally for Red October Bus Tour returns Tuesday",
-      "title_ja": "「ラリー・フォー・レッド」10月バスツアーが火曜日に帰ってきた",
-      "url": "https://www.mlb.com/phillies/news/phillies-rally-for-red-october-bus-tour-returns-for-2026-postseason",
+      "id": "bd44cd20d76f49b4",
+      "title_en": "Phillies-Braves position-by-position breakdown",
+      "title_ja": "Phillies - Bravesのポジション別内訳",
+      "url": "https://www.mlb.com/phillies/news/braves-phillies-2026-nlwc-position-by-position-breakdown",
       "source": "MLB.com",
-      "published_at": "2026-09-28T12:39:32.661000+00:00"
+      "published_at": "2026-09-27T23:31:00+00:00"
     },
     {
       "id": "3f91d4c204f9aeb6",
@@ -66,12 +74,28 @@
       "published_at": "2026-09-27T18:02:00+00:00"
     },
     {
-      "id": "bd44cd20d76f49b4",
-      "title_en": "Phillies-Braves position-by-position breakdown",
-      "title_ja": "Phillies - Bravesのポジション別内訳",
-      "url": "https://www.mlb.com/phillies/news/braves-phillies-2026-nlwc-position-by-position-breakdown",
+      "id": "43e38091df4c8b91",
+      "title_en": "Rally for Red October Bus Tour returns Tuesday",
+      "title_ja": "「ラリー・フォー・レッド」10月バスツアーが火曜日に帰ってきた",
+      "url": "https://www.mlb.com/phillies/news/phillies-rally-for-red-october-bus-tour-returns-for-2026-postseason",
       "source": "MLB.com",
-      "published_at": "2026-09-27T23:31:00+00:00"
+      "published_at": "2026-09-28T12:39:32.661000+00:00"
+    },
+    {
+      "id": "858cb46b85c59806",
+      "title_en": "Make your picks for 2026 All-MLB Team",
+      "title_ja": "2026年オールMLBチームを選ぼう",
+      "url": "https://www.mlb.com/phillies/news/all-mlb-team-nominees-2026",
+      "source": "MLB.com",
+      "published_at": "2026-09-28T17:34:27.264000+00:00"
+    },
+    {
+      "id": "ebb842883fbf6497",
+      "title_en": "Phillies put tumultuous week behind them to punch playoff ticket",
+      "title_ja": "フィリーズは、プレイオフチケットをパンチするために、混乱した週を後にしました",
+      "url": "https://www.mlb.com/phillies/news/phillies-clinch-2026-postseason-berth",
+      "source": "MLB.com",
+      "published_at": "2026-09-28T00:20:00+00:00"
     },
     {
       "id": "1e90d634564e9184",
@@ -160,30 +184,6 @@
       "url": "https://www.mlb.com/phillies/news/most-popular-mlb-players-jerseys-for-2026-season",
       "source": "MLB.com",
       "published_at": "2026-09-25T16:57:18.065000+00:00"
-    },
-    {
-      "id": "25b99ef29c00ea20",
-      "title_en": "Oh, baby! Fan catches ball while holding infant ... without even standing up",
-      "title_ja": "ああ、ベイビー！ファンは乳児を抱きしめながらボールをキャッチします...立ってもいません",
-      "url": "https://www.mlb.com/phillies/news/fan-catches-ball-while-holding-baby-at-phillies-game",
-      "source": "MLB.com",
-      "published_at": "2026-09-25T01:17:02.698000+00:00"
-    },
-    {
-      "id": "dac2b3548daa80c8",
-      "title_en": "5 keys to the Phillies' possible postseason run",
-      "title_ja": "フィリーズの可能なポストシーズンランニングの5つの鍵",
-      "url": "https://www.mlb.com/phillies/news/phillies-rotation-bullpen-key-in-chance-for-a-playoff-push",
-      "source": "MLB.com",
-      "published_at": "2026-09-24T14:58:58.247000+00:00"
-    },
-    {
-      "id": "1fde0f92870dc080",
-      "title_en": "Nola hits speed bump, Phils' offense quiet as clincher must wait another day",
-      "title_ja": "ノーラはスピードバンプを打ち、クリンチャーは別の日を待たなければならないため、フィルの攻撃は静かです",
-      "url": "https://www.mlb.com/phillies/news/aaron-nola-strikes-out-eight-in-phillies-loss-to-brewers",
-      "source": "MLB.com",
-      "published_at": "2026-09-24T05:49:00+00:00"
     }
   ]
 }
