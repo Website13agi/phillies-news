@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-29T02:11:23.679798+00:00",
+  "updated_at": "2026-09-29T08:53:24.108011+00:00",
   "articles": [
     {
       "id": "f176402e869190c9",
@@ -42,20 +42,20 @@
       "published_at": "2026-09-29T00:25:34.136000+00:00"
     },
     {
-      "id": "0125cc6013c2c048",
-      "title_en": "Postseason FAQ: What's next for the Phillies?",
-      "title_ja": "ポストシーズンのよくある質問：フィリーズの次のステップは？",
-      "url": "https://www.mlb.com/phillies/news/phillies-2026-postseason-faq",
-      "source": "MLB.com",
-      "published_at": "2026-09-27T22:26:03.481000+00:00"
-    },
-    {
       "id": "3a7183eaf76b3406",
-      "title_en": "Phillies-Braves NL Wild Card Series Game 1 FAQ (Tues., 2 ET, NBC/Peacock)",
-      "title_ja": "Phillies - Braves NLワイルドカードシリーズゲーム1よくある質問（火曜日、2 ET、NBC/ピーコック）",
+      "title_en": "Phillies-Braves NL Wild Card Series Game 1 FAQ (2 ET, NBC/Peacock)",
+      "title_ja": "Phillies - Braves NLワイルドカードシリーズゲーム1よくある質問（ 2 ET、NBC/Peacock ）",
       "url": "https://www.mlb.com/phillies/news/phillies-vs-braves-nl-wild-card-series-game-1-starting-lineups-and-pitching-matchup",
       "source": "MLB.com",
       "published_at": "2026-09-28T19:05:00+00:00"
+    },
+    {
+      "id": "2cf04bf6dde53f86",
+      "title_en": "Here's how the 2026 postseason teams were built",
+      "title_ja": "2026年のポストシーズンチームの作り方をご紹介します",
+      "url": "https://www.mlb.com/phillies/news/how-the-2026-mlb-playoff-teams-were-built",
+      "source": "MLB.com",
+      "published_at": "2026-09-29T02:27:00+00:00"
     },
     {
       "id": "e11f6494557168f1",
@@ -72,6 +72,14 @@
       "url": "https://www.mlb.com/phillies/news/phillies-injuries-and-roster-moves",
       "source": "MLB.com",
       "published_at": "2026-09-27T18:02:00+00:00"
+    },
+    {
+      "id": "0125cc6013c2c048",
+      "title_en": "Postseason FAQ: What's next for the Phillies?",
+      "title_ja": "ポストシーズンのよくある質問：フィリーズの次のステップは？",
+      "url": "https://www.mlb.com/phillies/news/phillies-2026-postseason-faq",
+      "source": "MLB.com",
+      "published_at": "2026-09-27T22:26:03.481000+00:00"
     },
     {
       "id": "a563a2655ba9a3fb",
@@ -168,14 +176,6 @@
       "url": "https://www.mlb.com/phillies/news/aaron-nola-moved-up-to-start-saturday-for-phillies",
       "source": "MLB.com",
       "published_at": "2026-09-27T03:24:00+00:00"
-    },
-    {
-      "id": "8383f46de520dbab",
-      "title_en": "'Have to find a way': Urgency setting in after Phils' 12th shutout loss of year",
-      "title_ja": "「方法を見つけなければならない」： Philsの12回目のシャットアウトロス後の緊急設定",
-      "url": "https://www.mlb.com/phillies/news/phillies-shut-out-for-12th-time-still-trying-to-clinch-postseason-spot",
-      "source": "MLB.com",
-      "published_at": "2026-09-26T05:03:00+00:00"
     }
   ]
 }
