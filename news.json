@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-30T16:41:20.565344+00:00",
+  "updated_at": "2026-09-30T21:14:26.577524+00:00",
   "articles": [
     {
       "id": "f176402e869190c9",
@@ -26,20 +26,12 @@
       "published_at": "2026-09-27T00:00:00+00:00"
     },
     {
-      "id": "e3c4378ae69e1c62",
-      "title_en": "Phillies need a Game 2 stopper -- and rock-solid Sánchez is just the guy for the job",
-      "title_ja": "フィリーズは第2試合のストッパーを必要としています-そして堅実なサンチェスはその仕事にぴったりの人です",
-      "url": "https://www.mlb.com/phillies/news/cristopher-sanchez-phillies-starter-2026-nl-wild-card-series",
+      "id": "ceb50adde233c09b",
+      "title_en": "Harper allows run with RF misplay ... and then totally redeems himself!",
+      "title_ja": "ハーパーはRFミスプレイで走ることを許し...そして自分自身を完全に償還します！",
+      "url": "https://www.mlb.com/phillies/news/bryce-harper-hits-homer-after-run-scoring-misplay-in-nl-wild-card-game-2",
       "source": "MLB.com",
-      "published_at": "2026-09-30T00:45:00+00:00"
-    },
-    {
-      "id": "75b72f5fb33e46e0",
-      "title_en": "Phillies-Braves NL Wild Card Series Game 2 FAQ, lineups (2 ET, NBC/Peacock)",
-      "title_ja": "Phillies - Braves NLワイルドカードシリーズゲーム2よくある質問、ラインナップ（ 2 ET、NBC/Peacock ）",
-      "url": "https://www.mlb.com/phillies/news/phillies-vs-braves-nl-wild-card-series-game-2-starting-lineups-and-pitching-matchup",
-      "source": "MLB.com",
-      "published_at": "2026-09-30T15:37:00+00:00"
+      "published_at": "2026-09-30T20:52:26.606000+00:00"
     },
     {
       "id": "036353643768c65d",
@@ -82,20 +74,20 @@
       "published_at": "2026-09-29T15:40:00+00:00"
     },
     {
-      "id": "3f91d4c204f9aeb6",
-      "title_en": "Latest Phillies injuries & transactions",
-      "title_ja": "最新のフィリーズの怪我と取引",
-      "url": "https://www.mlb.com/phillies/news/phillies-injuries-and-roster-moves",
-      "source": "MLB.com",
-      "published_at": "2026-09-29T17:46:00+00:00"
-    },
-    {
       "id": "2cf04bf6dde53f86",
       "title_en": "Here's how the 2026 postseason teams were built",
       "title_ja": "2026年のポストシーズンチームの作り方をご紹介します",
       "url": "https://www.mlb.com/phillies/news/how-the-2026-mlb-playoff-teams-were-built",
       "source": "MLB.com",
       "published_at": "2026-09-29T20:29:00+00:00"
+    },
+    {
+      "id": "3f91d4c204f9aeb6",
+      "title_en": "Latest Phillies injuries & transactions",
+      "title_ja": "最新のフィリーズの怪我と取引",
+      "url": "https://www.mlb.com/phillies/news/phillies-injuries-and-roster-moves",
+      "source": "MLB.com",
+      "published_at": "2026-09-29T17:46:00+00:00"
     },
     {
       "id": "bd44cd20d76f49b4",
@@ -184,6 +176,14 @@
       "url": "https://www.mlb.com/phillies/news/mlb-2026-wild-card-series-matchups",
       "source": "MLB.com",
       "published_at": "2026-09-27T21:51:00+00:00"
+    },
+    {
+      "id": "f5af776be881abc0",
+      "title_en": "Reeling Phillies have one more game to save their season",
+      "title_ja": "Reeling Philliesには、シーズンを保存するためのもう1つのゲームがあります",
+      "url": "https://www.mlb.com/phillies/news/phillies-lose-to-rays-unable-to-clinch-playoff-spot-again",
+      "source": "MLB.com",
+      "published_at": "2026-09-27T04:50:00+00:00"
     }
   ]
 }
