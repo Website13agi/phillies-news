@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-29T23:53:39.717123+00:00",
+  "updated_at": "2026-09-30T04:16:25.093332+00:00",
   "articles": [
     {
       "id": "f176402e869190c9",
@@ -27,19 +27,11 @@
     },
     {
       "id": "036353643768c65d",
-      "title_en": "Phils' postseason 'pen woes resurface in Wild Card Series opener",
-      "title_ja": "Phils 'postseason' pen woesがワイルドカードシリーズオープナーで再登場",
+      "title_en": "Even with 'our best guy out there,' Phils' postseason 'pen woes resurface in Game 1",
+      "title_ja": "「私たちの最高の男」がいても、「Phils 'postseason' pen woes」はゲーム1で再浮上します",
       "url": "https://www.mlb.com/phillies/news/jhoan-duran-allows-go-ahead-home-run-in-nl-wild-card-series-game-1",
       "source": "MLB.com",
-      "published_at": "2026-09-29T21:04:42.064000+00:00"
-    },
-    {
-      "id": "e3c4378ae69e1c62",
-      "title_en": "Phillies need a Game 2 stopper -- and rock-solid Sánchez is just the guy for the job",
-      "title_ja": "フィリーズは第2試合のストッパーを必要としています-そして堅実なサンチェスはその仕事にぴったりの人です",
-      "url": "https://www.mlb.com/phillies/news/cristopher-sanchez-phillies-starter-2026-nl-wild-card-series",
-      "source": "MLB.com",
-      "published_at": "2026-09-29T23:10:54.062000+00:00"
+      "published_at": "2026-09-30T00:44:00+00:00"
     },
     {
       "id": "d0c60043cbd12833",
@@ -51,11 +43,27 @@
     },
     {
       "id": "f0d2420cfff8dfdb",
-      "title_en": "Luzardo blows past opener label with 5 strong frames in Game 1",
-      "title_ja": "ルサルドは、ゲーム1で5つの強力なフレームでオープニングラベルを吹き飛ばします",
+      "title_en": "Luzardo blows past opener label in first start since injury",
+      "title_ja": "Luzardoが怪我をしてから最初のスタートでオープナーのラベルを吹き飛ばす",
       "url": "https://www.mlb.com/phillies/news/jesus-luzardo-starts-for-phillies-in-wild-card-series-game-1",
       "source": "MLB.com",
-      "published_at": "2026-09-29T21:21:00+00:00"
+      "published_at": "2026-09-30T00:29:00+00:00"
+    },
+    {
+      "id": "e3c4378ae69e1c62",
+      "title_en": "Phillies need a Game 2 stopper -- and rock-solid Sánchez is just the guy for the job",
+      "title_ja": "フィリーズは第2試合のストッパーを必要としています-そして堅実なサンチェスはその仕事にぴったりの人です",
+      "url": "https://www.mlb.com/phillies/news/cristopher-sanchez-phillies-starter-2026-nl-wild-card-series",
+      "source": "MLB.com",
+      "published_at": "2026-09-30T00:45:00+00:00"
+    },
+    {
+      "id": "75b72f5fb33e46e0",
+      "title_en": "Phillies-Braves NL Wild Card Series Game 2 FAQ (Wed., 2 ET, NBC/Peacock)",
+      "title_ja": "Phillies - Braves NLワイルドカードシリーズゲーム2よくある質問（水、2 ET、NBC/Peacock ）",
+      "url": "https://www.mlb.com/phillies/news/phillies-vs-braves-nl-wild-card-series-game-2-starting-lineups-and-pitching-matchup",
+      "source": "MLB.com",
+      "published_at": "2026-09-30T00:38:25.048000+00:00"
     },
     {
       "id": "7a08b1e784bfefb2",
@@ -74,28 +82,12 @@
       "published_at": "2026-09-29T20:29:00+00:00"
     },
     {
-      "id": "fca7835816830ca0",
-      "title_en": "Here is why each playoff team could win the World Series",
-      "title_ja": "各プレーオフチームがワールドシリーズで優勝できる理由は次のとおりです",
-      "url": "https://www.mlb.com/phillies/news/how-each-mlb-playoff-team-could-win-the-world-series",
-      "source": "MLB.com",
-      "published_at": "2026-09-29T15:00:00+00:00"
-    },
-    {
       "id": "3f91d4c204f9aeb6",
       "title_en": "Latest Phillies injuries & transactions",
       "title_ja": "最新のフィリーズの怪我と取引",
       "url": "https://www.mlb.com/phillies/news/phillies-injuries-and-roster-moves",
       "source": "MLB.com",
       "published_at": "2026-09-29T17:46:00+00:00"
-    },
-    {
-      "id": "99f7db0f1ba3622f",
-      "title_en": "Luzardo opens WC Series for Phillies; Sánchez gets Game 2 start",
-      "title_ja": "ルサルドがフィリーズのためにWCシリーズを開き、サンチェスが第2試合開始",
-      "url": "https://www.mlb.com/phillies/news/phillies-rotation-nl-wild-card-series-2026",
-      "source": "MLB.com",
-      "published_at": "2026-09-28T20:44:15.791000+00:00"
     },
     {
       "id": "bd44cd20d76f49b4",
@@ -106,6 +98,14 @@
       "published_at": "2026-09-29T14:05:00+00:00"
     },
     {
+      "id": "fca7835816830ca0",
+      "title_en": "Here is why each playoff team could win the World Series",
+      "title_ja": "各プレーオフチームがワールドシリーズで優勝できる理由は次のとおりです",
+      "url": "https://www.mlb.com/phillies/news/how-each-mlb-playoff-team-could-win-the-world-series",
+      "source": "MLB.com",
+      "published_at": "2026-09-29T15:00:00+00:00"
+    },
+    {
       "id": "e11f6494557168f1",
       "title_en": "Top storyline for each Wild Card Series Game 1",
       "title_ja": "各ワイルドカードシリーズゲーム1のトップストーリー",
@@ -114,20 +114,20 @@
       "published_at": "2026-09-29T16:15:00+00:00"
     },
     {
+      "id": "99f7db0f1ba3622f",
+      "title_en": "Luzardo opens WC Series for Phillies; Sánchez gets Game 2 start",
+      "title_ja": "ルサルドがフィリーズのためにWCシリーズを開き、サンチェスが第2試合開始",
+      "url": "https://www.mlb.com/phillies/news/phillies-rotation-nl-wild-card-series-2026",
+      "source": "MLB.com",
+      "published_at": "2026-09-28T20:44:15.791000+00:00"
+    },
+    {
       "id": "0125cc6013c2c048",
       "title_en": "Postseason FAQ: What's next for the Phillies?",
       "title_ja": "ポストシーズンのよくある質問：フィリーズの次のステップは？",
       "url": "https://www.mlb.com/phillies/news/phillies-2026-postseason-faq",
       "source": "MLB.com",
       "published_at": "2026-09-29T15:44:00+00:00"
-    },
-    {
-      "id": "57b4180bc0eb845a",
-      "title_en": "Phillies look to finagle game plan vs. Sale in Game 1",
-      "title_ja": "フィリーズはゲームプランをフィナグルにするか、ゲーム1でセールにするか",
-      "url": "https://www.mlb.com/phillies/news/phillies-have-test-vs-chris-sale-in-wild-card-series-game-1",
-      "source": "MLB.com",
-      "published_at": "2026-09-29T00:25:34.136000+00:00"
     },
     {
       "id": "fbcb14a8553a305f",
