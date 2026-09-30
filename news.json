@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-30T10:39:38.601107+00:00",
+  "updated_at": "2026-09-30T16:41:20.565344+00:00",
   "articles": [
     {
       "id": "f176402e869190c9",
@@ -26,6 +26,22 @@
       "published_at": "2026-09-27T00:00:00+00:00"
     },
     {
+      "id": "e3c4378ae69e1c62",
+      "title_en": "Phillies need a Game 2 stopper -- and rock-solid Sánchez is just the guy for the job",
+      "title_ja": "フィリーズは第2試合のストッパーを必要としています-そして堅実なサンチェスはその仕事にぴったりの人です",
+      "url": "https://www.mlb.com/phillies/news/cristopher-sanchez-phillies-starter-2026-nl-wild-card-series",
+      "source": "MLB.com",
+      "published_at": "2026-09-30T00:45:00+00:00"
+    },
+    {
+      "id": "75b72f5fb33e46e0",
+      "title_en": "Phillies-Braves NL Wild Card Series Game 2 FAQ, lineups (2 ET, NBC/Peacock)",
+      "title_ja": "Phillies - Braves NLワイルドカードシリーズゲーム2よくある質問、ラインナップ（ 2 ET、NBC/Peacock ）",
+      "url": "https://www.mlb.com/phillies/news/phillies-vs-braves-nl-wild-card-series-game-2-starting-lineups-and-pitching-matchup",
+      "source": "MLB.com",
+      "published_at": "2026-09-30T15:37:00+00:00"
+    },
+    {
       "id": "036353643768c65d",
       "title_en": "Even with 'our best guy out there,' Phils' postseason 'pen woes resurface in Game 1",
       "title_ja": "「私たちの最高の男」がいても、「Phils 'postseason' pen woes」はゲーム1で再浮上します",
@@ -47,7 +63,7 @@
       "title_ja": "第1戦で負けた4チームのランキングカムバックチャンス",
       "url": "https://www.mlb.com/phillies/news/which-wild-card-game-1-losing-team-has-best-chance-of-comeback",
       "source": "MLB.com",
-      "published_at": "2026-09-30T05:31:21.523000+00:00"
+      "published_at": "2026-09-30T15:55:00+00:00"
     },
     {
       "id": "f0d2420cfff8dfdb",
@@ -56,22 +72,6 @@
       "url": "https://www.mlb.com/phillies/news/jesus-luzardo-starts-for-phillies-in-wild-card-series-game-1",
       "source": "MLB.com",
       "published_at": "2026-09-30T00:29:00+00:00"
-    },
-    {
-      "id": "e3c4378ae69e1c62",
-      "title_en": "Phillies need a Game 2 stopper -- and rock-solid Sánchez is just the guy for the job",
-      "title_ja": "フィリーズは第2試合のストッパーを必要としています-そして堅実なサンチェスはその仕事にぴったりの人です",
-      "url": "https://www.mlb.com/phillies/news/cristopher-sanchez-phillies-starter-2026-nl-wild-card-series",
-      "source": "MLB.com",
-      "published_at": "2026-09-30T00:45:00+00:00"
-    },
-    {
-      "id": "75b72f5fb33e46e0",
-      "title_en": "Phillies-Braves NL Wild Card Series Game 2 FAQ (2 ET, NBC/Peacock)",
-      "title_ja": "Phillies - Braves NLワイルドカードシリーズゲーム2よくある質問（ 2 ET、NBC/Peacock ）",
-      "url": "https://www.mlb.com/phillies/news/phillies-vs-braves-nl-wild-card-series-game-2-starting-lineups-and-pitching-matchup",
-      "source": "MLB.com",
-      "published_at": "2026-09-30T00:38:25.048000+00:00"
     },
     {
       "id": "7a08b1e784bfefb2",
