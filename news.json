@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-01T14:15:13.479520+00:00",
+  "updated_at": "2026-10-01T19:42:32.203967+00:00",
   "articles": [
     {
       "id": "f176402e869190c9",
@@ -26,6 +26,22 @@
       "published_at": "2026-09-27T00:00:00+00:00"
     },
     {
+      "id": "4688386470cfc08d",
+      "title_en": "Nola to start for Phils in 'all hands on deck' Game 3 (source)",
+      "title_ja": "ノーラが「オールハンズオンデッキ」ゲーム3でフィルのためにスタート（出典）",
+      "url": "https://www.mlb.com/phillies/news/phillies-discuss-pitching-plans-for-game-3-of-nl-wild-card-series",
+      "source": "MLB.com",
+      "published_at": "2026-10-01T14:29:00+00:00"
+    },
+    {
+      "id": "9802d2dd35e13e66",
+      "title_en": "Phillies vs. Braves NL Wild Card Series Game 3 FAQ (8 ET, NBC/Peacock)",
+      "title_ja": "Phillies vs. Braves NLワイルドカードシリーズゲーム3よくある質問（ 8 ET、NBC/Peacock ）",
+      "url": "https://www.mlb.com/phillies/news/phillies-vs-braves-nl-wild-card-series-game-3-starting-lineups-and-pitching-matchup",
+      "source": "MLB.com",
+      "published_at": "2026-10-01T15:55:00+00:00"
+    },
+    {
       "id": "113fb21ded7ef595",
       "title_en": "'Never a doubt': Resilient Phils force Game 3 on three dramatic swings",
       "title_ja": "「疑いの余地はない」：回復力のあるPhilsは、3つの劇的なスイングでゲーム3を強制します",
@@ -42,14 +58,6 @@
       "published_at": "2026-09-30T23:56:00.339000+00:00"
     },
     {
-      "id": "4688386470cfc08d",
-      "title_en": "Phils have 'all hands on deck' for Game 3 pitching plans",
-      "title_ja": "Philsは、ゲーム3のピッチングプランのために「すべての手を持っています」",
-      "url": "https://www.mlb.com/phillies/news/phillies-discuss-pitching-plans-for-game-3-of-nl-wild-card-series",
-      "source": "MLB.com",
-      "published_at": "2026-10-01T00:52:23.026000+00:00"
-    },
-    {
       "id": "c01acbd145de58cd",
       "title_en": "4 big takeaways after Phillies even thrilling NL Wild Card Series",
       "title_ja": "フィリーズの後、スリリングなNLワイルドカードシリーズでも4つの大きなポイント",
@@ -64,14 +72,6 @@
       "url": "https://www.mlb.com/phillies/news/edmundo-sosa-exits-nl-wild-card-series-game-2-with-injury",
       "source": "MLB.com",
       "published_at": "2026-09-30T23:44:00+00:00"
-    },
-    {
-      "id": "9802d2dd35e13e66",
-      "title_en": "Phillies vs. Braves NL Wild Card Series Game 3 FAQ (8 ET, NBC/Peacock)",
-      "title_ja": "Phillies vs. Braves NLワイルドカードシリーズゲーム3よくある質問（ 8 ET、NBC/Peacock ）",
-      "url": "https://www.mlb.com/phillies/news/phillies-vs-braves-nl-wild-card-series-game-3-starting-lineups-and-pitching-matchup",
-      "source": "MLB.com",
-      "published_at": "2026-10-01T05:28:00+00:00"
     },
     {
       "id": "45e5fa0687514475",
