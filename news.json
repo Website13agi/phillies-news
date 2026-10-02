@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-01T23:43:01.192660+00:00",
+  "updated_at": "2026-10-02T04:21:16.366639+00:00",
   "articles": [
     {
       "id": "f176402e869190c9",
@@ -26,20 +26,20 @@
       "published_at": "2026-09-27T00:00:00+00:00"
     },
     {
-      "id": "9802d2dd35e13e66",
-      "title_en": "Phillies vs. Braves NL Wild Card Series Game 3 FAQ, lineups (8 ET, NBC/Peacock)",
-      "title_ja": "Phillies vs. Braves NLワイルドカードシリーズゲーム3よくある質問、ラインナップ（ 8 ET、NBC/Peacock ）",
-      "url": "https://www.mlb.com/phillies/news/phillies-vs-braves-nl-wild-card-series-game-3-starting-lineups-and-pitching-matchup",
+      "id": "c9bd6b0e2c96fe1e",
+      "title_en": "After squeaking into playoffs, Phils bounced by rivals in Wild Card round",
+      "title_ja": "プレーオフに突入した後、Philsはワイルドカードラウンドでライバルに跳ね返りました",
+      "url": "https://www.mlb.com/phillies/news/phillies-lose-to-braves-in-2026-nl-wild-card-series",
       "source": "MLB.com",
-      "published_at": "2026-10-01T21:05:00+00:00"
+      "published_at": "2026-10-02T03:13:57.571000+00:00"
     },
     {
       "id": "4688386470cfc08d",
-      "title_en": "Nola to start for Phils in 'all hands on deck' Game 3",
-      "title_ja": "ノーラが「オールハンズオンデッキ」ゲーム3でフィルズのためにスタート",
+      "title_en": "Nola's command issues lead to short start in Game 3",
+      "title_ja": "ノラの指揮系統の問題は、ゲーム3でのショートスタートにつながる",
       "url": "https://www.mlb.com/phillies/news/phillies-discuss-pitching-plans-for-game-3-of-nl-wild-card-series",
       "source": "MLB.com",
-      "published_at": "2026-10-01T20:34:00+00:00"
+      "published_at": "2026-10-02T03:27:00+00:00"
     },
     {
       "id": "113fb21ded7ef595",
@@ -58,28 +58,12 @@
       "published_at": "2026-09-30T23:56:00.339000+00:00"
     },
     {
-      "id": "c01acbd145de58cd",
-      "title_en": "4 big takeaways after Phillies even thrilling NL Wild Card Series",
-      "title_ja": "フィリーズの後、スリリングなNLワイルドカードシリーズでも4つの大きなポイント",
-      "url": "https://www.mlb.com/phillies/news/key-takeaways-from-phillies-extra-innings-win-over-braves-in-game-2-of-nl-wild-card-series",
-      "source": "MLB.com",
-      "published_at": "2026-10-01T01:10:04.019000+00:00"
-    },
-    {
       "id": "45e5fa0687514475",
       "title_en": "Realmuto makes postseason history with 1st game-ending ABS challenge",
       "title_ja": "Realmutoは、最初のゲーム終了ABSチャレンジでポストシーズンの歴史を作ります",
       "url": "https://www.mlb.com/phillies/news/j-t-realmuto-initiates-first-game-ending-abs-challenge-in-postseason-history",
       "source": "MLB.com",
       "published_at": "2026-09-30T22:06:57.469000+00:00"
-    },
-    {
-      "id": "3f91d4c204f9aeb6",
-      "title_en": "Latest Phillies injuries & transactions",
-      "title_ja": "最新のフィリーズの怪我と取引",
-      "url": "https://www.mlb.com/phillies/news/phillies-injuries-and-roster-moves",
-      "source": "MLB.com",
-      "published_at": "2026-10-01T00:32:00+00:00"
     },
     {
       "id": "ceb50adde233c09b",
@@ -96,6 +80,22 @@
       "url": "https://www.mlb.com/phillies/news/jhoan-duran-allows-go-ahead-home-run-in-nl-wild-card-series-game-1",
       "source": "MLB.com",
       "published_at": "2026-09-30T00:44:00+00:00"
+    },
+    {
+      "id": "3f91d4c204f9aeb6",
+      "title_en": "Latest Phillies injuries & transactions",
+      "title_ja": "最新のフィリーズの怪我と取引",
+      "url": "https://www.mlb.com/phillies/news/phillies-injuries-and-roster-moves",
+      "source": "MLB.com",
+      "published_at": "2026-10-01T00:32:00+00:00"
+    },
+    {
+      "id": "c01acbd145de58cd",
+      "title_en": "4 big takeaways after Phillies even thrilling NL Wild Card Series",
+      "title_ja": "フィリーズの後、スリリングなNLワイルドカードシリーズでも4つの大きなポイント",
+      "url": "https://www.mlb.com/phillies/news/key-takeaways-from-phillies-extra-innings-win-over-braves-in-game-2-of-nl-wild-card-series",
+      "source": "MLB.com",
+      "published_at": "2026-10-01T01:10:04.019000+00:00"
     },
     {
       "id": "d0c60043cbd12833",
