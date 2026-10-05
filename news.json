@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-05T00:04:45.929660+00:00",
+  "updated_at": "2026-10-05T06:03:22.107715+00:00",
   "articles": [
     {
       "id": "f176402e869190c9",
@@ -50,6 +50,14 @@
       "published_at": "2026-10-02T06:56:00+00:00"
     },
     {
+      "id": "99e5cc5a598f858d",
+      "title_en": "Watch early Fall League standouts Bonemer (CWS) and Flewelling (TB) on Monday night",
+      "title_ja": "月曜日の夜、秋のリーグの早い段階で注目を集めるBonemer （ CWS ）とFlewelling （ TB ）をご覧ください",
+      "url": "https://www.mlb.com/phillies/news/watch-top-prospects-in-arizona-fall-league-winter-ball-2026",
+      "source": "MLB.com",
+      "published_at": "2026-10-05T04:43:00+00:00"
+    },
+    {
       "id": "de8734bc24f7f275",
       "title_en": "The final Top 100 Prospects list of the year has a new look",
       "title_ja": "今年の最終的なトップ100見込み客リストに新しい外観が加わりました",
@@ -66,20 +74,20 @@
       "published_at": "2026-10-01T00:09:00+00:00"
     },
     {
-      "id": "aacfc86091761bf8",
-      "title_en": "1st playoff win? In postseason debut? From the 'pen? Painter's day proves pivotal for Phils",
-      "title_ja": "1度目のプレーオフ優勝？ポストシーズンデビュー？ペンから？絵画の日はPhilsにとって重要であることが証明されています",
-      "url": "https://www.mlb.com/phillies/news/andrew-painter-first-career-postseason-win-phillies-nl-wild-card-game-2",
-      "source": "MLB.com",
-      "published_at": "2026-09-30T23:56:00.339000+00:00"
-    },
-    {
       "id": "3f91d4c204f9aeb6",
       "title_en": "Latest Phillies injuries & transactions",
       "title_ja": "最新のフィリーズの怪我と取引",
       "url": "https://www.mlb.com/phillies/news/phillies-injuries-and-roster-moves",
       "source": "MLB.com",
       "published_at": "2026-10-02T06:41:00+00:00"
+    },
+    {
+      "id": "aacfc86091761bf8",
+      "title_en": "1st playoff win? In postseason debut? From the 'pen? Painter's day proves pivotal for Phils",
+      "title_ja": "1度目のプレーオフ優勝？ポストシーズンデビュー？ペンから？絵画の日はPhilsにとって重要であることが証明されています",
+      "url": "https://www.mlb.com/phillies/news/andrew-painter-first-career-postseason-win-phillies-nl-wild-card-game-2",
+      "source": "MLB.com",
+      "published_at": "2026-09-30T23:56:00.339000+00:00"
     },
     {
       "id": "45e5fa0687514475",
@@ -184,14 +192,6 @@
       "url": "https://www.mlb.com/phillies/news/phillies-rotation-nl-wild-card-series-2026",
       "source": "MLB.com",
       "published_at": "2026-09-28T20:44:15.791000+00:00"
-    },
-    {
-      "id": "0125cc6013c2c048",
-      "title_en": "Postseason FAQ: What's next for the Phillies?",
-      "title_ja": "ポストシーズンのよくある質問：フィリーズの次のステップは？",
-      "url": "https://www.mlb.com/phillies/news/phillies-2026-postseason-faq",
-      "source": "MLB.com",
-      "published_at": "2026-09-29T15:44:00+00:00"
     }
   ]
 }
