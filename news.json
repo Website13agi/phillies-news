@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-05T15:07:56.601310+00:00",
+  "updated_at": "2026-10-05T22:07:45.990979+00:00",
   "articles": [
     {
       "id": "f176402e869190c9",
@@ -24,6 +24,14 @@
       "url": "https://www.mlb.com/phillies/news/topic/phillies-history-trivia",
       "source": "MLB.com",
       "published_at": "2026-10-02T00:00:00+00:00"
+    },
+    {
+      "id": "b6c8dcc88dcea1e6",
+      "title_en": "VOTE NOW: MLB announces 2026 Finalists for Hank Aaron Award",
+      "title_ja": "今すぐ投票： MLBがハンク・アーロン賞の2026年ファイナリストを発表",
+      "url": "https://www.mlb.com/phillies/news/hank-aaron-award-finalists-for-2026",
+      "source": "MLB.com",
+      "published_at": "2026-10-05T16:14:53.263000+00:00"
     },
     {
       "id": "c9bd6b0e2c96fe1e",
@@ -51,11 +59,11 @@
     },
     {
       "id": "99e5cc5a598f858d",
-      "title_en": "Watch early Fall League standouts Bonemer (CWS) and Flewelling (TB) on Monday night",
-      "title_ja": "月曜日の夜、秋のリーグの早い段階で注目を集めるBonemer （ CWS ）とFlewelling （ TB ）をご覧ください",
+      "title_en": "Watch LIVE: Top 100 prospects Irish (O's), Crisantes (D-backs) meet in Arizona Fall League action",
+      "title_ja": "ライブ視聴：アリゾナ・フォールリーグのアクションで会うアイルランド（ O's ）、Crisantes （ D - backs ）のトップ100の見込み客",
       "url": "https://www.mlb.com/phillies/news/watch-top-prospects-in-arizona-fall-league-winter-ball-2026",
       "source": "MLB.com",
-      "published_at": "2026-10-05T04:43:00+00:00"
+      "published_at": "2026-10-05T20:24:00+00:00"
     },
     {
       "id": "de8734bc24f7f275",
@@ -66,20 +74,20 @@
       "published_at": "2026-10-02T13:51:44.535000+00:00"
     },
     {
-      "id": "113fb21ded7ef595",
-      "title_en": "'Never a doubt': Resilient Phils force Game 3 on three dramatic swings",
-      "title_ja": "「疑いの余地はない」：回復力のあるPhilsは、3つの劇的なスイングでゲーム3を強制します",
-      "url": "https://www.mlb.com/phillies/news/phillies-win-nl-wild-card-game-2-2026",
-      "source": "MLB.com",
-      "published_at": "2026-10-01T00:09:00+00:00"
-    },
-    {
       "id": "3f91d4c204f9aeb6",
       "title_en": "Latest Phillies injuries & transactions",
       "title_ja": "最新のフィリーズの怪我と取引",
       "url": "https://www.mlb.com/phillies/news/phillies-injuries-and-roster-moves",
       "source": "MLB.com",
       "published_at": "2026-10-02T06:41:00+00:00"
+    },
+    {
+      "id": "113fb21ded7ef595",
+      "title_en": "'Never a doubt': Resilient Phils force Game 3 on three dramatic swings",
+      "title_ja": "「疑いの余地はない」：回復力のあるPhilsは、3つの劇的なスイングでゲーム3を強制します",
+      "url": "https://www.mlb.com/phillies/news/phillies-win-nl-wild-card-game-2-2026",
+      "source": "MLB.com",
+      "published_at": "2026-10-01T00:09:00+00:00"
     },
     {
       "id": "aacfc86091761bf8",
@@ -184,14 +192,6 @@
       "url": "https://www.mlb.com/phillies/news/top-storyline-for-each-mlb-wild-card-series-game-1-2026",
       "source": "MLB.com",
       "published_at": "2026-09-29T16:15:00+00:00"
-    },
-    {
-      "id": "99f7db0f1ba3622f",
-      "title_en": "Luzardo opens WC Series for Phillies; Sánchez gets Game 2 start",
-      "title_ja": "ルサルドがフィリーズのためにWCシリーズを開き、サンチェスが第2試合開始",
-      "url": "https://www.mlb.com/phillies/news/phillies-rotation-nl-wild-card-series-2026",
-      "source": "MLB.com",
-      "published_at": "2026-09-28T20:44:15.791000+00:00"
     }
   ]
 }
