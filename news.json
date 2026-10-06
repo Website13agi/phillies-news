@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-06T09:14:51.484327+00:00",
+  "updated_at": "2026-10-06T16:08:18.325040+00:00",
   "articles": [
     {
       "id": "f176402e869190c9",
@@ -23,7 +23,15 @@
       "title_ja": "フィリーズのオールタイムリストとトリビア",
       "url": "https://www.mlb.com/phillies/news/topic/phillies-history-trivia",
       "source": "MLB.com",
-      "published_at": "2026-10-02T00:00:00+00:00"
+      "published_at": "2026-10-07T00:00:00+00:00"
+    },
+    {
+      "id": "a378951ef2914bfa",
+      "title_en": "Diving into Phillies' need to address offense after postseason exit",
+      "title_ja": "ポストシーズン終了後の違反に対処するフィリーズのニーズに飛び込む",
+      "url": "https://www.mlb.com/phillies/news/breaking-down-phillies-need-to-address-offensive-issues-in-2026-27-offseeason",
+      "source": "MLB.com",
+      "published_at": "2026-10-06T14:40:51.062000+00:00"
     },
     {
       "id": "b6c8dcc88dcea1e6",
@@ -66,20 +74,20 @@
       "published_at": "2026-10-02T06:56:00+00:00"
     },
     {
-      "id": "de8734bc24f7f275",
-      "title_en": "The final Top 100 Prospects list of the year has a new look",
-      "title_ja": "今年の最終的なトップ100見込み客リストに新しい外観が加わりました",
-      "url": "https://www.mlb.com/phillies/news/updated-top-100-prospects-list-october-2026",
-      "source": "MLB.com",
-      "published_at": "2026-10-02T13:51:44.535000+00:00"
-    },
-    {
       "id": "3f91d4c204f9aeb6",
       "title_en": "Latest Phillies injuries & transactions",
       "title_ja": "最新のフィリーズの怪我と取引",
       "url": "https://www.mlb.com/phillies/news/phillies-injuries-and-roster-moves",
       "source": "MLB.com",
       "published_at": "2026-10-02T06:41:00+00:00"
+    },
+    {
+      "id": "de8734bc24f7f275",
+      "title_en": "The final Top 100 Prospects list of the year has a new look",
+      "title_ja": "今年の最終的なトップ100見込み客リストに新しい外観が加わりました",
+      "url": "https://www.mlb.com/phillies/news/updated-top-100-prospects-list-october-2026",
+      "source": "MLB.com",
+      "published_at": "2026-10-02T13:51:44.535000+00:00"
     },
     {
       "id": "113fb21ded7ef595",
@@ -184,14 +192,6 @@
       "url": "https://www.mlb.com/phillies/news/how-each-mlb-playoff-team-could-win-the-world-series",
       "source": "MLB.com",
       "published_at": "2026-09-29T15:00:00+00:00"
-    },
-    {
-      "id": "e11f6494557168f1",
-      "title_en": "Top storyline for each Wild Card Series Game 1",
-      "title_ja": "各ワイルドカードシリーズゲーム1のトップストーリー",
-      "url": "https://www.mlb.com/phillies/news/top-storyline-for-each-mlb-wild-card-series-game-1-2026",
-      "source": "MLB.com",
-      "published_at": "2026-09-29T16:15:00+00:00"
     }
   ]
 }
