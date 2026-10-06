@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-05T22:07:45.990979+00:00",
+  "updated_at": "2026-10-06T02:24:35.161527+00:00",
   "articles": [
     {
       "id": "f176402e869190c9",
@@ -27,11 +27,19 @@
     },
     {
       "id": "b6c8dcc88dcea1e6",
-      "title_en": "VOTE NOW: MLB announces 2026 Finalists for Hank Aaron Award",
-      "title_ja": "今すぐ投票： MLBがハンク・アーロン賞の2026年ファイナリストを発表",
+      "title_en": "VOTE NOW: MLB announces finalists for Hank Aaron Award",
+      "title_ja": "今すぐ投票： MLBがハンク・アーロン賞のファイナリストを発表",
       "url": "https://www.mlb.com/phillies/news/hank-aaron-award-finalists-for-2026",
       "source": "MLB.com",
       "published_at": "2026-10-05T16:14:53.263000+00:00"
+    },
+    {
+      "id": "99e5cc5a598f858d",
+      "title_en": "LIVE: Watch Top 100 prospects Quintero and Davalan (LAD), Miller (PHI), Rainer (DET) and Nimmala (LAA) in the Fall League",
+      "title_ja": "ライブ：秋のリーグでトップ100の見込み客QuinteroとDavalan （ LAD ）、Miller （ PHI ）、Rainer （ DET ）、Nimmala （ LAA ）を見る",
+      "url": "https://www.mlb.com/phillies/news/watch-top-prospects-in-arizona-fall-league-winter-ball-2026",
+      "source": "MLB.com",
+      "published_at": "2026-10-06T01:25:00+00:00"
     },
     {
       "id": "c9bd6b0e2c96fe1e",
@@ -56,14 +64,6 @@
       "url": "https://www.mlb.com/phillies/news/phillies-discuss-pitching-plans-for-game-3-of-nl-wild-card-series",
       "source": "MLB.com",
       "published_at": "2026-10-02T06:56:00+00:00"
-    },
-    {
-      "id": "99e5cc5a598f858d",
-      "title_en": "Watch LIVE: Top 100 prospects Irish (O's), Crisantes (D-backs) meet in Arizona Fall League action",
-      "title_ja": "ライブ視聴：アリゾナ・フォールリーグのアクションで会うアイルランド（ O's ）、Crisantes （ D - backs ）のトップ100の見込み客",
-      "url": "https://www.mlb.com/phillies/news/watch-top-prospects-in-arizona-fall-league-winter-ball-2026",
-      "source": "MLB.com",
-      "published_at": "2026-10-05T20:24:00+00:00"
     },
     {
       "id": "de8734bc24f7f275",
