@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-08T00:19:39.882433+00:00",
+  "updated_at": "2026-10-08T06:29:03.982095+00:00",
   "articles": [
     {
       "id": "f176402e869190c9",
@@ -23,7 +23,7 @@
       "title_ja": "フィリーズのオールタイムリストとトリビア",
       "url": "https://www.mlb.com/phillies/news/topic/phillies-history-trivia",
       "source": "MLB.com",
-      "published_at": "2026-10-02T00:00:00+00:00"
+      "published_at": "2026-10-07T00:00:00+00:00"
     },
     {
       "id": "355cfae1c91a591a",
@@ -32,6 +32,14 @@
       "url": "https://www.mlb.com/phillies/news/alex-cora-rejects-phillies-manager-offer",
       "source": "MLB.com",
       "published_at": "2026-10-07T17:26:00+00:00"
+    },
+    {
+      "id": "99d5e8493baee38f",
+      "title_en": "Here are each organization's Prospects of the Year",
+      "title_ja": "各組織の今年の見通しは次のとおりです",
+      "url": "https://www.mlb.com/phillies/news/each-team-s-prospects-of-the-year-2026",
+      "source": "MLB.com",
+      "published_at": "2026-10-08T02:21:00+00:00"
     },
     {
       "id": "a378951ef2914bfa",
@@ -66,20 +74,20 @@
       "published_at": "2026-10-02T05:18:38.397000+00:00"
     },
     {
-      "id": "99e5cc5a598f858d",
-      "title_en": "Watch top prospects in the Arizona Fall League tonight",
-      "title_ja": "今夜のアリゾナ・フォールリーグでトップの見込み客を見る",
-      "url": "https://www.mlb.com/phillies/news/watch-top-prospects-in-arizona-fall-league-winter-ball-2026",
-      "source": "MLB.com",
-      "published_at": "2026-10-07T04:29:00+00:00"
-    },
-    {
       "id": "3f91d4c204f9aeb6",
       "title_en": "Latest Phillies injuries & transactions",
       "title_ja": "最新のフィリーズの怪我と取引",
       "url": "https://www.mlb.com/phillies/news/phillies-injuries-and-roster-moves",
       "source": "MLB.com",
       "published_at": "2026-10-02T06:41:00+00:00"
+    },
+    {
+      "id": "99e5cc5a598f858d",
+      "title_en": "Watch top prospects in the Arizona Fall League tonight",
+      "title_ja": "今夜のアリゾナ・フォールリーグでトップの見込み客を見る",
+      "url": "https://www.mlb.com/phillies/news/watch-top-prospects-in-arizona-fall-league-winter-ball-2026",
+      "source": "MLB.com",
+      "published_at": "2026-10-08T03:59:00+00:00"
     },
     {
       "id": "4688386470cfc08d",
@@ -184,14 +192,6 @@
       "url": "https://www.mlb.com/phillies/news/how-the-2026-mlb-playoff-teams-were-built",
       "source": "MLB.com",
       "published_at": "2026-09-29T20:29:00+00:00"
-    },
-    {
-      "id": "bd44cd20d76f49b4",
-      "title_en": "Phillies-Braves position-by-position breakdown",
-      "title_ja": "Phillies - Bravesのポジション別内訳",
-      "url": "https://www.mlb.com/phillies/news/braves-phillies-2026-nlwc-position-by-position-breakdown",
-      "source": "MLB.com",
-      "published_at": "2026-09-29T14:05:00+00:00"
     }
   ]
 }
