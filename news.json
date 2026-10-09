@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-08T19:41:22.101220+00:00",
+  "updated_at": "2026-10-09T00:09:49.495139+00:00",
   "articles": [
     {
       "id": "f176402e869190c9",
@@ -58,20 +58,20 @@
       "published_at": "2026-10-05T16:14:53.263000+00:00"
     },
     {
+      "id": "99e5cc5a598f858d",
+      "title_en": "Watch top prospects in Arizona Fall League action",
+      "title_ja": "アリゾナ・フォールリーグのアクションでトップの見込み客を見る",
+      "url": "https://www.mlb.com/phillies/news/watch-top-prospects-in-arizona-fall-league-winter-ball-2026",
+      "source": "MLB.com",
+      "published_at": "2026-10-08T23:18:00+00:00"
+    },
+    {
       "id": "c9bd6b0e2c96fe1e",
       "title_en": "Phillies' latest early playoff exit puts veteran core at crossroads",
       "title_ja": "フィリーズの最新の早いプレーオフ終了は、ベテランのコアを岐路に立たせます",
       "url": "https://www.mlb.com/phillies/news/phillies-lose-to-braves-in-2026-nl-wild-card-series",
       "source": "MLB.com",
       "published_at": "2026-10-02T06:12:00+00:00"
-    },
-    {
-      "id": "2b7130e116b4f7ec",
-      "title_en": "Mattingly not ready to talk managing in '27, but Phillies' stars back skipper",
-      "title_ja": "マッティングは27年の管理について話す準備ができていませんが、フィリーズのスターバックスキッパーです",
-      "url": "https://www.mlb.com/phillies/news/don-mattingly-potential-future-phillies-2027-manager",
-      "source": "MLB.com",
-      "published_at": "2026-10-02T05:18:38.397000+00:00"
     },
     {
       "id": "3f91d4c204f9aeb6",
@@ -82,12 +82,12 @@
       "published_at": "2026-10-02T06:41:00+00:00"
     },
     {
-      "id": "99e5cc5a598f858d",
-      "title_en": "Watch top prospects in the Arizona Fall League tonight",
-      "title_ja": "今夜のアリゾナ・フォールリーグでトップの見込み客を見る",
-      "url": "https://www.mlb.com/phillies/news/watch-top-prospects-in-arizona-fall-league-winter-ball-2026",
+      "id": "2b7130e116b4f7ec",
+      "title_en": "Mattingly not ready to talk managing in '27, but Phillies' stars back skipper",
+      "title_ja": "マッティングは27年の管理について話す準備ができていませんが、フィリーズのスターバックスキッパーです",
+      "url": "https://www.mlb.com/phillies/news/don-mattingly-potential-future-phillies-2027-manager",
       "source": "MLB.com",
-      "published_at": "2026-10-08T03:59:00+00:00"
+      "published_at": "2026-10-02T05:18:38.397000+00:00"
     },
     {
       "id": "4688386470cfc08d",
