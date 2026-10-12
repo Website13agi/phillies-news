@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-12T10:19:13.331889+00:00",
+  "updated_at": "2026-10-12T19:57:36.011665+00:00",
   "articles": [
     {
       "id": "f176402e869190c9",
@@ -42,12 +42,12 @@
       "published_at": "2026-10-07T17:26:00+00:00"
     },
     {
-      "id": "1a06ed1bd62604ae",
-      "title_en": "Susana's high-octane velocity headlines Fall League's Week 1 top performers",
-      "title_ja": "Susana's high - octane velocity headlines Fall League's Week 1 top performers",
-      "url": "https://www.mlb.com/phillies/news/arizona-fall-league-top-performers-week-1-2026",
+      "id": "846ae59b51930e2f",
+      "title_en": "'I feel great now': Healthy Miller headlines Phillies contingent in Fall League",
+      "title_ja": "「今は最高の気分」： Healthy Millerが秋のリーグでフィリーズのヘッドラインを飾る",
+      "url": "https://www.mlb.com/phillies/news/phillies-arizona-fall-league-overview-2026",
       "source": "MLB.com",
-      "published_at": "2026-10-12T03:03:00+00:00"
+      "published_at": "2026-10-12T13:34:57.143000+00:00"
     },
     {
       "id": "82a427569f0a0866",
@@ -58,20 +58,20 @@
       "published_at": "2026-10-09T16:02:13.573000+00:00"
     },
     {
+      "id": "1a06ed1bd62604ae",
+      "title_en": "Susana's high-octane velocity headlines Fall League's Week 1 top performers",
+      "title_ja": "Susana's high - octane velocity headlines Fall League's Week 1 top performers",
+      "url": "https://www.mlb.com/phillies/news/arizona-fall-league-top-performers-week-1-2026",
+      "source": "MLB.com",
+      "published_at": "2026-10-12T03:03:00+00:00"
+    },
+    {
       "id": "99e5cc5a598f858d",
       "title_en": "Watch top prospects in Arizona Fall League action",
       "title_ja": "アリゾナ・フォールリーグのアクションでトップの見込み客を見る",
       "url": "https://www.mlb.com/phillies/news/watch-top-prospects-in-arizona-fall-league-winter-ball-2026",
       "source": "MLB.com",
       "published_at": "2026-10-12T02:54:00+00:00"
-    },
-    {
-      "id": "99d5e8493baee38f",
-      "title_en": "Here are each organization's Prospects of the Year",
-      "title_ja": "各組織の今年の見通しは次のとおりです",
-      "url": "https://www.mlb.com/phillies/news/each-team-s-prospects-of-the-year-2026",
-      "source": "MLB.com",
-      "published_at": "2026-10-08T02:21:00+00:00"
     },
     {
       "id": "3f91d4c204f9aeb6",
@@ -82,20 +82,20 @@
       "published_at": "2026-10-02T06:41:00+00:00"
     },
     {
+      "id": "99d5e8493baee38f",
+      "title_en": "Here are each organization's Prospects of the Year",
+      "title_ja": "各組織の今年の見通しは次のとおりです",
+      "url": "https://www.mlb.com/phillies/news/each-team-s-prospects-of-the-year-2026",
+      "source": "MLB.com",
+      "published_at": "2026-10-08T02:21:00+00:00"
+    },
+    {
       "id": "a378951ef2914bfa",
       "title_en": "Diving into Phillies' need to address offense after postseason exit",
       "title_ja": "ポストシーズン終了後の違反に対処するフィリーズのニーズに飛び込む",
       "url": "https://www.mlb.com/phillies/news/breaking-down-phillies-need-to-address-offensive-issues-in-2026-27-offseeason",
       "source": "MLB.com",
       "published_at": "2026-10-06T14:40:51.062000+00:00"
-    },
-    {
-      "id": "b6c8dcc88dcea1e6",
-      "title_en": "VOTE NOW: MLB announces finalists for Hank Aaron Award",
-      "title_ja": "今すぐ投票： MLBがハンク・アーロン賞のファイナリストを発表",
-      "url": "https://www.mlb.com/phillies/news/hank-aaron-award-finalists-for-2026",
-      "source": "MLB.com",
-      "published_at": "2026-10-05T16:14:53.263000+00:00"
     },
     {
       "id": "b3fe7fc96d4ac887",
