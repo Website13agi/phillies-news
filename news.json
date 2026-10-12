@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-11T23:30:41.466267+00:00",
+  "updated_at": "2026-10-12T02:37:32.839326+00:00",
   "articles": [
     {
       "id": "f176402e869190c9",
@@ -42,6 +42,14 @@
       "published_at": "2026-10-07T17:26:00+00:00"
     },
     {
+      "id": "1a06ed1bd62604ae",
+      "title_en": "Susana's high-octane velocity headlines Fall League's Week 1 top performers",
+      "title_ja": "Susana's high - octane velocity headlines Fall League's Week 1 top performers",
+      "url": "https://www.mlb.com/phillies/news/arizona-fall-league-top-performers-week-1-2026",
+      "source": "MLB.com",
+      "published_at": "2026-10-11T22:50:00+00:00"
+    },
+    {
       "id": "82a427569f0a0866",
       "title_en": "Where could Bohm land in free agency?",
       "title_ja": "ボームはフリーエージェンシーでどこに入ることができますか？",
@@ -50,12 +58,28 @@
       "published_at": "2026-10-09T16:02:13.573000+00:00"
     },
     {
+      "id": "99e5cc5a598f858d",
+      "title_en": "LIVE: Watch top prospects in Arizona Fall League action",
+      "title_ja": "ライブ：アリゾナ・フォールリーグのアクションでトップの見込み客を見る",
+      "url": "https://www.mlb.com/phillies/news/watch-top-prospects-in-arizona-fall-league-winter-ball-2026",
+      "source": "MLB.com",
+      "published_at": "2026-10-12T01:38:00+00:00"
+    },
+    {
       "id": "99d5e8493baee38f",
       "title_en": "Here are each organization's Prospects of the Year",
       "title_ja": "各組織の今年の見通しは次のとおりです",
       "url": "https://www.mlb.com/phillies/news/each-team-s-prospects-of-the-year-2026",
       "source": "MLB.com",
       "published_at": "2026-10-08T02:21:00+00:00"
+    },
+    {
+      "id": "3f91d4c204f9aeb6",
+      "title_en": "Latest Phillies injuries & transactions",
+      "title_ja": "最新のフィリーズの怪我と取引",
+      "url": "https://www.mlb.com/phillies/news/phillies-injuries-and-roster-moves",
+      "source": "MLB.com",
+      "published_at": "2026-10-02T06:41:00+00:00"
     },
     {
       "id": "a378951ef2914bfa",
@@ -74,28 +98,12 @@
       "published_at": "2026-10-05T16:14:53.263000+00:00"
     },
     {
-      "id": "3f91d4c204f9aeb6",
-      "title_en": "Latest Phillies injuries & transactions",
-      "title_ja": "最新のフィリーズの怪我と取引",
-      "url": "https://www.mlb.com/phillies/news/phillies-injuries-and-roster-moves",
-      "source": "MLB.com",
-      "published_at": "2026-10-02T06:41:00+00:00"
-    },
-    {
       "id": "b3fe7fc96d4ac887",
       "title_en": "Take two: Dante Nori hopes this Fall League stint leads him toward Philly",
       "title_ja": "2つ目：ダンテ・ノリは、この秋のリーグのスティントが彼をフィラデルフィアに導くことを願っています",
       "url": "https://www.mlb.com/phillies/news/healthy-phillies-prospect-dante-nori-in-2026-arizona-fall-league",
       "source": "MLB.com",
       "published_at": "2026-10-09T04:08:46.931000+00:00"
-    },
-    {
-      "id": "99e5cc5a598f858d",
-      "title_en": "Watch top prospects in Arizona Fall League action",
-      "title_ja": "アリゾナ・フォールリーグのアクションでトップの見込み客を見る",
-      "url": "https://www.mlb.com/phillies/news/watch-top-prospects-in-arizona-fall-league-winter-ball-2026",
-      "source": "MLB.com",
-      "published_at": "2026-10-11T21:38:00+00:00"
     },
     {
       "id": "c9bd6b0e2c96fe1e",
@@ -184,14 +192,6 @@
       "url": "https://www.mlb.com/phillies/news/key-takeaways-from-braves-win-over-phillies-in-game-1-of-nl-wild-card-series",
       "source": "MLB.com",
       "published_at": "2026-09-29T23:17:00+00:00"
-    },
-    {
-      "id": "f74e062e18d45825",
-      "title_en": "Here is each club's Arizona Fall League sleeper prospect",
-      "title_ja": "これは、各クラブのアリゾナ・フォールリーグの寝台車の見込み客です",
-      "url": "https://www.mlb.com/phillies/news/each-team-s-arizona-fall-league-sleeper-prospect-2026",
-      "source": "MLB.com",
-      "published_at": "2026-10-05T14:17:00+00:00"
     }
   ]
 }
