@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-14T00:56:10.477845+00:00",
+  "updated_at": "2026-10-14T05:53:56.557250+00:00",
   "articles": [
     {
       "id": "f176402e869190c9",
@@ -15,7 +15,7 @@
       "title_ja": "フィリーズパイプライン",
       "url": "https://www.mlb.com/phillies/news/topic/phillies-pipeline-coverage",
       "source": "MLB.com",
-      "published_at": "2026-10-12T00:00:00+00:00"
+      "published_at": "2026-10-13T00:00:00+00:00"
     },
     {
       "id": "872bf5359c768da8",
@@ -50,6 +50,14 @@
       "published_at": "2026-10-07T17:26:00+00:00"
     },
     {
+      "id": "e966fccb5242fda2",
+      "title_en": "These Fall League prospects could earn 40-man roster spots",
+      "title_ja": "これらの秋のリーグの見込み客は、40人の選手名簿スポットを獲得することができます",
+      "url": "https://www.mlb.com/phillies/news/arizona-fall-league-prospects-who-could-be-added-to-40-man-rosters",
+      "source": "MLB.com",
+      "published_at": "2026-10-14T00:26:00+00:00"
+    },
+    {
       "id": "846ae59b51930e2f",
       "title_en": "'I feel great now': Healthy Miller headlines Phillies contingent in Fall League",
       "title_ja": "「今は最高の気分」： Healthy Millerが秋のリーグでフィリーズのヘッドラインを飾る",
@@ -66,14 +74,6 @@
       "published_at": "2026-10-09T16:02:13.573000+00:00"
     },
     {
-      "id": "1a06ed1bd62604ae",
-      "title_en": "Susana's high-octane velocity headlines Fall League's Week 1 top performers",
-      "title_ja": "Susana's high - octane velocity headlines Fall League's Week 1 top performers",
-      "url": "https://www.mlb.com/phillies/news/arizona-fall-league-top-performers-week-1-2026",
-      "source": "MLB.com",
-      "published_at": "2026-10-12T03:03:00+00:00"
-    },
-    {
       "id": "3f91d4c204f9aeb6",
       "title_en": "Latest Phillies injuries & transactions",
       "title_ja": "最新のフィリーズの怪我と取引",
@@ -82,12 +82,20 @@
       "published_at": "2026-10-02T06:41:00+00:00"
     },
     {
+      "id": "1a06ed1bd62604ae",
+      "title_en": "Susana's high-octane velocity headlines Fall League's Week 1 top performers",
+      "title_ja": "Susana's high - octane velocity headlines Fall League's Week 1 top performers",
+      "url": "https://www.mlb.com/phillies/news/arizona-fall-league-top-performers-week-1-2026",
+      "source": "MLB.com",
+      "published_at": "2026-10-12T03:03:00+00:00"
+    },
+    {
       "id": "99e5cc5a598f858d",
       "title_en": "Watch top prospects in Arizona Fall League action",
       "title_ja": "アリゾナ・フォールリーグのアクションでトップの見込み客を見る",
       "url": "https://www.mlb.com/phillies/news/watch-top-prospects-in-arizona-fall-league-winter-ball-2026",
       "source": "MLB.com",
-      "published_at": "2026-10-13T23:16:00+00:00"
+      "published_at": "2026-10-14T04:34:00+00:00"
     },
     {
       "id": "99d5e8493baee38f",
