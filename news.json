@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-14T23:22:01.953338+00:00",
+  "updated_at": "2026-10-15T01:41:09.002756+00:00",
   "articles": [
     {
       "id": "f176402e869190c9",
@@ -42,6 +42,14 @@
       "published_at": "2026-10-13T15:22:11.877000+00:00"
     },
     {
+      "id": "6fc4a07f894fb9cc",
+      "title_en": "Here's one stat from each farm system that caught our eye in 2026",
+      "title_ja": "2026年に注目を集めた各農場システムの統計を1つご紹介します",
+      "url": "https://www.mlb.com/phillies/news/best-prospect-stat-from-each-mlb-farm-system-2026",
+      "source": "MLB.com",
+      "published_at": "2026-10-14T23:00:00+00:00"
+    },
+    {
       "id": "177b9654e71c1f8f",
       "title_en": "Five pressing questions facing Phillies during critical offseason",
       "title_ja": "重要なオフシーズン中にフィリーズが直面する5つの差し迫った質問",
@@ -66,20 +74,20 @@
       "published_at": "2026-10-14T00:26:00+00:00"
     },
     {
-      "id": "99e5cc5a598f858d",
-      "title_en": "Watch LIVE: Top prospects in Arizona Fall League action",
-      "title_ja": "ライブ視聴：アリゾナ・フォールリーグの見込み客トップアクション",
-      "url": "https://www.mlb.com/phillies/news/watch-top-prospects-in-arizona-fall-league-winter-ball-2026",
-      "source": "MLB.com",
-      "published_at": "2026-10-14T20:27:00+00:00"
-    },
-    {
       "id": "3f91d4c204f9aeb6",
       "title_en": "Latest Phillies injuries & transactions",
       "title_ja": "最新のフィリーズの怪我と取引",
       "url": "https://www.mlb.com/phillies/news/phillies-injuries-and-roster-moves",
       "source": "MLB.com",
       "published_at": "2026-10-02T06:41:00+00:00"
+    },
+    {
+      "id": "99e5cc5a598f858d",
+      "title_en": "Watch LIVE: Top prospects in Arizona Fall League action",
+      "title_ja": "ライブ視聴：アリゾナ・フォールリーグの見込み客トップアクション",
+      "url": "https://www.mlb.com/phillies/news/watch-top-prospects-in-arizona-fall-league-winter-ball-2026",
+      "source": "MLB.com",
+      "published_at": "2026-10-14T23:48:00+00:00"
     },
     {
       "id": "846ae59b51930e2f",
@@ -192,14 +200,6 @@
       "url": "https://www.mlb.com/phillies/news/bryce-harper-hits-homer-after-run-scoring-misplay-in-nl-wild-card-game-2",
       "source": "MLB.com",
       "published_at": "2026-09-30T21:45:00+00:00"
-    },
-    {
-      "id": "036353643768c65d",
-      "title_en": "Even with 'our best guy out there,' Phils' postseason 'pen woes resurface in Game 1",
-      "title_ja": "「私たちの最高の男」がいても、「Phils 'postseason' pen woes」はゲーム1で再浮上します",
-      "url": "https://www.mlb.com/phillies/news/jhoan-duran-allows-go-ahead-home-run-in-nl-wild-card-series-game-1",
-      "source": "MLB.com",
-      "published_at": "2026-09-30T00:44:00+00:00"
     }
   ]
 }
