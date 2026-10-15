@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-15T17:38:24.554384+00:00",
+  "updated_at": "2026-10-15T20:59:39.497424+00:00",
   "articles": [
     {
       "id": "f176402e869190c9",
@@ -24,6 +24,22 @@
       "url": "https://www.mlb.com/phillies/news/topic/phillies-history-trivia",
       "source": "MLB.com",
       "published_at": "2026-10-07T00:00:00+00:00"
+    },
+    {
+      "id": "eb21873d69911844",
+      "title_en": "Dombrowski offers insights into the Phillies' offseason agenda",
+      "title_ja": "ドンブロウスキーは、フィリーズのオフシーズンのアジェンダについての洞察を提供します",
+      "url": "https://www.mlb.com/phillies/news/dave-dombrowski-plans-2026-27-phillies-offseason",
+      "source": "MLB.com",
+      "published_at": "2026-10-15T20:31:09.841000+00:00"
+    },
+    {
+      "id": "e7077acd7c272ac9",
+      "title_en": "Turner must play better shortstop in '27 or change positions, Dombrowski says",
+      "title_ja": "Dombrowski氏によると、ターナーは27年にもっと良いショートストップでプレーするか、ポジションを変える必要があるという。",
+      "url": "https://www.mlb.com/phillies/news/dave-dombrowski-trea-turner-status-shortstop-entering-2027-phillies",
+      "source": "MLB.com",
+      "published_at": "2026-10-15T19:09:47.716000+00:00"
     },
     {
       "id": "101216e6736aa859",
@@ -58,6 +74,22 @@
       "published_at": "2026-10-14T23:00:00+00:00"
     },
     {
+      "id": "3f91d4c204f9aeb6",
+      "title_en": "Latest Phillies injuries & transactions",
+      "title_ja": "最新のフィリーズの怪我と取引",
+      "url": "https://www.mlb.com/phillies/news/phillies-injuries-and-roster-moves",
+      "source": "MLB.com",
+      "published_at": "2026-10-02T06:41:00+00:00"
+    },
+    {
+      "id": "99e5cc5a598f858d",
+      "title_en": "Watch LIVE: Top prospects in Arizona Fall League action",
+      "title_ja": "ライブ視聴：アリゾナ・フォールリーグの見込み客トップアクション",
+      "url": "https://www.mlb.com/phillies/news/watch-top-prospects-in-arizona-fall-league-winter-ball-2026",
+      "source": "MLB.com",
+      "published_at": "2026-10-15T20:07:00+00:00"
+    },
+    {
       "id": "177b9654e71c1f8f",
       "title_en": "Five pressing questions facing Phillies during critical offseason",
       "title_ja": "重要なオフシーズン中にフィリーズが直面する5つの差し迫った質問",
@@ -74,28 +106,12 @@
       "published_at": "2026-10-07T17:26:00+00:00"
     },
     {
-      "id": "3f91d4c204f9aeb6",
-      "title_en": "Latest Phillies injuries & transactions",
-      "title_ja": "最新のフィリーズの怪我と取引",
-      "url": "https://www.mlb.com/phillies/news/phillies-injuries-and-roster-moves",
-      "source": "MLB.com",
-      "published_at": "2026-10-02T06:41:00+00:00"
-    },
-    {
       "id": "e966fccb5242fda2",
       "title_en": "These 12 prospects are in the Arizona Fall League vying for 40-man roster spots",
       "title_ja": "これらの12人の見込み客は、40人のロスタースポットを争うアリゾナ・フォールリーグにいます",
       "url": "https://www.mlb.com/phillies/news/arizona-fall-league-prospects-who-could-be-added-to-40-man-rosters",
       "source": "MLB.com",
       "published_at": "2026-10-14T00:26:00+00:00"
-    },
-    {
-      "id": "99e5cc5a598f858d",
-      "title_en": "Watch top prospects in Arizona Fall League action",
-      "title_ja": "アリゾナ・フォールリーグのアクションでトップの見込み客を見る",
-      "url": "https://www.mlb.com/phillies/news/watch-top-prospects-in-arizona-fall-league-winter-ball-2026",
-      "source": "MLB.com",
-      "published_at": "2026-10-14T23:48:00+00:00"
     },
     {
       "id": "846ae59b51930e2f",
@@ -184,22 +200,6 @@
       "url": "https://www.mlb.com/phillies/news/phillies-win-nl-wild-card-game-2-2026",
       "source": "MLB.com",
       "published_at": "2026-10-01T00:09:00+00:00"
-    },
-    {
-      "id": "aacfc86091761bf8",
-      "title_en": "1st playoff win? In postseason debut? From the 'pen? Painter's day proves pivotal for Phils",
-      "title_ja": "1度目のプレーオフ優勝？ポストシーズンデビュー？ペンから？絵画の日はPhilsにとって重要であることが証明されています",
-      "url": "https://www.mlb.com/phillies/news/andrew-painter-first-career-postseason-win-phillies-nl-wild-card-game-2",
-      "source": "MLB.com",
-      "published_at": "2026-09-30T23:56:00.339000+00:00"
-    },
-    {
-      "id": "45e5fa0687514475",
-      "title_en": "Realmuto makes postseason history with 1st game-ending ABS challenge",
-      "title_ja": "Realmutoは、最初のゲーム終了ABSチャレンジでポストシーズンの歴史を作ります",
-      "url": "https://www.mlb.com/phillies/news/j-t-realmuto-initiates-first-game-ending-abs-challenge-in-postseason-history",
-      "source": "MLB.com",
-      "published_at": "2026-09-30T22:06:57.469000+00:00"
     }
   ]
 }
