@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-16T20:34:57.256778+00:00",
+  "updated_at": "2026-10-16T23:17:25.641258+00:00",
   "articles": [
     {
       "id": "f176402e869190c9",
@@ -58,12 +58,12 @@
       "published_at": "2026-10-16T14:27:00+00:00"
     },
     {
-      "id": "101216e6736aa859",
-      "title_en": "Phillies bring back Mattingly as manager on 2-year deal",
-      "title_ja": "フィリーズが2年契約でマッティングリーをマネージャーに復帰",
-      "url": "https://www.mlb.com/phillies/news/don-mattingly-phillies-manager-return-2027",
+      "id": "99e5cc5a598f858d",
+      "title_en": "Watch LIVE: Top prospects in Arizona Fall League action",
+      "title_ja": "ライブ視聴：アリゾナ・フォールリーグの見込み客トップアクション",
+      "url": "https://www.mlb.com/phillies/news/watch-top-prospects-in-arizona-fall-league-winter-ball-2026",
       "source": "MLB.com",
-      "published_at": "2026-10-14T14:25:00+00:00"
+      "published_at": "2026-10-16T22:59:00+00:00"
     },
     {
       "id": "6878ad8dc7b72590",
@@ -82,20 +82,20 @@
       "published_at": "2026-10-02T06:41:00+00:00"
     },
     {
+      "id": "101216e6736aa859",
+      "title_en": "Phillies bring back Mattingly as manager on 2-year deal",
+      "title_ja": "フィリーズが2年契約でマッティングリーをマネージャーに復帰",
+      "url": "https://www.mlb.com/phillies/news/don-mattingly-phillies-manager-return-2027",
+      "source": "MLB.com",
+      "published_at": "2026-10-14T14:25:00+00:00"
+    },
+    {
       "id": "7c5b7e165f0069dd",
       "title_en": "Long, Dickerson will not return to Phillies staff in '27",
       "title_ja": "長い間、ディッカーソンは27年にフィリーズのスタッフに戻ることはありません",
       "url": "https://www.mlb.com/phillies/news/phillies-part-ways-with-kevin-long-bobby-dickerson",
       "source": "MLB.com",
       "published_at": "2026-10-16T19:12:00+00:00"
-    },
-    {
-      "id": "99e5cc5a598f858d",
-      "title_en": "Watch LIVE: Top prospects in Arizona Fall League action",
-      "title_ja": "ライブ視聴：アリゾナ・フォールリーグの見込み客トップアクション",
-      "url": "https://www.mlb.com/phillies/news/watch-top-prospects-in-arizona-fall-league-winter-ball-2026",
-      "source": "MLB.com",
-      "published_at": "2026-10-16T20:02:00+00:00"
     },
     {
       "id": "4773b3507d26d19a",
