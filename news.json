@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-20T19:51:20.026415+00:00",
+  "updated_at": "2026-10-20T22:57:08.765706+00:00",
   "articles": [
     {
       "id": "f176402e869190c9",
@@ -58,20 +58,20 @@
       "published_at": "2026-10-15T22:10:52.721000+00:00"
     },
     {
+      "id": "99e5cc5a598f858d",
+      "title_en": "Watch LIVE: Top prospects in Arizona Fall League action",
+      "title_ja": "ライブ視聴：アリゾナ・フォールリーグの見込み客トップアクション",
+      "url": "https://www.mlb.com/phillies/news/watch-top-prospects-in-arizona-fall-league-winter-ball-2026",
+      "source": "MLB.com",
+      "published_at": "2026-10-20T20:26:00+00:00"
+    },
+    {
       "id": "133a2a5d96dc301d",
       "title_en": "Phillies bring back Mayza on 1-year deal",
       "title_ja": "フィリーズが1年契約でメイザを復活させる",
       "url": "https://www.mlb.com/phillies/news/tim-mayza-re-signed-by-phillies",
       "source": "MLB.com",
       "published_at": "2026-10-16T14:27:00+00:00"
-    },
-    {
-      "id": "99e5cc5a598f858d",
-      "title_en": "Watch top prospects in Arizona Fall League action",
-      "title_ja": "アリゾナ・フォールリーグのアクションでトップの見込み客を見る",
-      "url": "https://www.mlb.com/phillies/news/watch-top-prospects-in-arizona-fall-league-winter-ball-2026",
-      "source": "MLB.com",
-      "published_at": "2026-10-20T04:11:00+00:00"
     },
     {
       "id": "3f91d4c204f9aeb6",
