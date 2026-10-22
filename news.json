@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-22T00:06:41.580576+00:00",
+  "updated_at": "2026-10-22T05:12:19.512186+00:00",
   "articles": [
     {
       "id": "f176402e869190c9",
@@ -26,6 +26,14 @@
       "published_at": "2026-10-07T00:00:00+00:00"
     },
     {
+      "id": "c903c82a1cec9969",
+      "title_en": "Each team's top performer from the 2026 Draft",
+      "title_ja": "2026年ドラフトの各チームのトップパフォーマー",
+      "url": "https://www.mlb.com/phillies/news/2026-draft-top-performer-for-each-team",
+      "source": "MLB.com",
+      "published_at": "2026-10-22T00:00:00+00:00"
+    },
+    {
       "id": "fe137709e10275ee",
       "title_en": "Dombrowski eyes ways to keep Phillies' veterans fresh, bolster outfield",
       "title_ja": "ドンブロウスキーは、フィリーズのベテランを新鮮に保ち、外野を強化する方法を見ています",
@@ -50,12 +58,28 @@
       "published_at": "2026-10-21T17:36:51.501000+00:00"
     },
     {
+      "id": "99e5cc5a598f858d",
+      "title_en": "Watch top prospects in Arizona Fall League action",
+      "title_ja": "アリゾナ・フォールリーグのアクションでトップの見込み客を見る",
+      "url": "https://www.mlb.com/phillies/news/watch-top-prospects-in-arizona-fall-league-winter-ball-2026",
+      "source": "MLB.com",
+      "published_at": "2026-10-22T04:26:00+00:00"
+    },
+    {
       "id": "e7077acd7c272ac9",
       "title_en": "Turner must play better shortstop in '27 or change positions, Dombrowski says",
       "title_ja": "Dombrowski氏によると、ターナーは27年にもっと良いショートストップでプレーするか、ポジションを変える必要があるという。",
       "url": "https://www.mlb.com/phillies/news/dave-dombrowski-trea-turner-status-shortstop-entering-2027-phillies",
       "source": "MLB.com",
       "published_at": "2026-10-15T19:09:47.716000+00:00"
+    },
+    {
+      "id": "3f91d4c204f9aeb6",
+      "title_en": "Latest Phillies injuries & transactions",
+      "title_ja": "最新のフィリーズの怪我と取引",
+      "url": "https://www.mlb.com/phillies/news/phillies-injuries-and-roster-moves",
+      "source": "MLB.com",
+      "published_at": "2026-10-02T06:41:00+00:00"
     },
     {
       "id": "67925308391ca77e",
@@ -72,22 +96,6 @@
       "url": "https://www.mlb.com/phillies/news/fan-turned-prospect-ryan-dromboski-hopes-arizona-fall-league-leads-him-to-phillies",
       "source": "MLB.com",
       "published_at": "2026-10-21T03:05:05.978000+00:00"
-    },
-    {
-      "id": "3f91d4c204f9aeb6",
-      "title_en": "Latest Phillies injuries & transactions",
-      "title_ja": "最新のフィリーズの怪我と取引",
-      "url": "https://www.mlb.com/phillies/news/phillies-injuries-and-roster-moves",
-      "source": "MLB.com",
-      "published_at": "2026-10-02T06:41:00+00:00"
-    },
-    {
-      "id": "99e5cc5a598f858d",
-      "title_en": "Watch LIVE: Top prospects in Arizona Fall League action",
-      "title_ja": "ライブ視聴：アリゾナ・フォールリーグの見込み客トップアクション",
-      "url": "https://www.mlb.com/phillies/news/watch-top-prospects-in-arizona-fall-league-winter-ball-2026",
-      "source": "MLB.com",
-      "published_at": "2026-10-21T22:23:00+00:00"
     },
     {
       "id": "133a2a5d96dc301d",
@@ -192,14 +200,6 @@
       "url": "https://www.mlb.com/phillies/news/each-team-s-prospects-of-the-year-2026",
       "source": "MLB.com",
       "published_at": "2026-10-08T02:21:00+00:00"
-    },
-    {
-      "id": "a378951ef2914bfa",
-      "title_en": "Diving into Phillies' need to address offense after postseason exit",
-      "title_ja": "ポストシーズン終了後の違反に対処するフィリーズのニーズに飛び込む",
-      "url": "https://www.mlb.com/phillies/news/breaking-down-phillies-need-to-address-offensive-issues-in-2026-27-offseeason",
-      "source": "MLB.com",
-      "published_at": "2026-10-06T14:40:51.062000+00:00"
     }
   ]
 }
