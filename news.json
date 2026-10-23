@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-23T11:56:26.983341+00:00",
+  "updated_at": "2026-10-23T16:39:15.122956+00:00",
   "articles": [
     {
       "id": "f176402e869190c9",
@@ -24,6 +24,14 @@
       "url": "https://www.mlb.com/phillies/news/topic/phillies-history-trivia",
       "source": "MLB.com",
       "published_at": "2026-10-07T00:00:00+00:00"
+    },
+    {
+      "id": "705e65bb99144ecf",
+      "title_en": "Could No. 2 prospect Miller be key piece to Phillies' 2027 roster?",
+      "title_ja": "2番目のプロスペクトミラーは、フィリーズの2027年の選手名簿の鍵となるでしょうか？",
+      "url": "https://www.mlb.com/phillies/news/aidan-miller-a-potential-option-for-phillies-2027-roster",
+      "source": "MLB.com",
+      "published_at": "2026-10-23T12:48:06.281000+00:00"
     },
     {
       "id": "c903c82a1cec9969",
@@ -66,20 +74,20 @@
       "published_at": "2026-10-23T03:59:00+00:00"
     },
     {
-      "id": "e7077acd7c272ac9",
-      "title_en": "Turner must play better shortstop in '27 or change positions, Dombrowski says",
-      "title_ja": "Dombrowski氏によると、ターナーは27年にもっと良いショートストップでプレーするか、ポジションを変える必要があるという。",
-      "url": "https://www.mlb.com/phillies/news/dave-dombrowski-trea-turner-status-shortstop-entering-2027-phillies",
-      "source": "MLB.com",
-      "published_at": "2026-10-15T19:09:47.716000+00:00"
-    },
-    {
       "id": "3f91d4c204f9aeb6",
       "title_en": "Latest Phillies injuries & transactions",
       "title_ja": "最新のフィリーズの怪我と取引",
       "url": "https://www.mlb.com/phillies/news/phillies-injuries-and-roster-moves",
       "source": "MLB.com",
       "published_at": "2026-10-02T06:41:00+00:00"
+    },
+    {
+      "id": "e7077acd7c272ac9",
+      "title_en": "Turner must play better shortstop in '27 or change positions, Dombrowski says",
+      "title_ja": "Dombrowski氏によると、ターナーは27年にもっと良いショートストップでプレーするか、ポジションを変える必要があるという。",
+      "url": "https://www.mlb.com/phillies/news/dave-dombrowski-trea-turner-status-shortstop-entering-2027-phillies",
+      "source": "MLB.com",
+      "published_at": "2026-10-15T19:09:47.716000+00:00"
     },
     {
       "id": "67925308391ca77e",
@@ -192,14 +200,6 @@
       "url": "https://www.mlb.com/phillies/news/arizona-fall-league-top-performers-week-1-2026",
       "source": "MLB.com",
       "published_at": "2026-10-12T03:03:00+00:00"
-    },
-    {
-      "id": "99d5e8493baee38f",
-      "title_en": "Here are each organization's Prospects of the Year",
-      "title_ja": "各組織の今年の見通しは次のとおりです",
-      "url": "https://www.mlb.com/phillies/news/each-team-s-prospects-of-the-year-2026",
-      "source": "MLB.com",
-      "published_at": "2026-10-08T02:21:00+00:00"
     }
   ]
 }
