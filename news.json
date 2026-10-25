@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-24T23:32:50.435838+00:00",
+  "updated_at": "2026-10-25T03:27:58.901728+00:00",
   "articles": [
     {
       "id": "f176402e869190c9",
@@ -34,14 +34,6 @@
       "published_at": "2026-10-23T12:48:06.281000+00:00"
     },
     {
-      "id": "99e5cc5a598f858d",
-      "title_en": "LIVE: Watch 4 Top 100 prospects compete in Arizona Fall League action",
-      "title_ja": "ライブ： 4人のトップ100の見込み客がアリゾナ・フォールリーグのアクションで競うのを見る",
-      "url": "https://www.mlb.com/phillies/news/watch-top-prospects-in-arizona-fall-league-winter-ball-2026",
-      "source": "MLB.com",
-      "published_at": "2026-10-24T22:39:00+00:00"
-    },
-    {
       "id": "c903c82a1cec9969",
       "title_en": "Each team's top performer from the 2026 Draft",
       "title_ja": "2026年ドラフトの各チームのトップパフォーマー",
@@ -64,6 +56,14 @@
       "url": "https://www.mlb.com/phillies/news/dave-dombrowski-plans-2026-27-phillies-offseason",
       "source": "MLB.com",
       "published_at": "2026-10-15T20:31:09.841000+00:00"
+    },
+    {
+      "id": "99e5cc5a598f858d",
+      "title_en": "Watch LIVE: 5 Top 100 prospects compete in Arizona Fall League action",
+      "title_ja": "ライブ視聴：トップ100の見込み客5人がアリゾナ・フォールリーグのアクションで競い合う",
+      "url": "https://www.mlb.com/phillies/news/watch-top-prospects-in-arizona-fall-league-winter-ball-2026",
+      "source": "MLB.com",
+      "published_at": "2026-10-25T01:44:00+00:00"
     },
     {
       "id": "ee9f2b957c98f661",
