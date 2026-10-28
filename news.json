@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-27T23:32:02.245656+00:00",
+  "updated_at": "2026-10-28T04:18:42.412253+00:00",
   "articles": [
     {
       "id": "f176402e869190c9",
@@ -58,20 +58,20 @@
       "published_at": "2026-10-22T00:00:00+00:00"
     },
     {
+      "id": "99e5cc5a598f858d",
+      "title_en": "Watch top prospects compete in Arizona Fall League action",
+      "title_ja": "トップの見込み客がアリゾナ・フォールリーグのアクションで競うのを見る",
+      "url": "https://www.mlb.com/phillies/news/watch-top-prospects-in-arizona-fall-league-winter-ball-2026",
+      "source": "MLB.com",
+      "published_at": "2026-10-28T02:56:00+00:00"
+    },
+    {
       "id": "fe137709e10275ee",
       "title_en": "Dombrowski eyes ways to keep Phillies' veterans fresh, bolster outfield",
       "title_ja": "ドンブロウスキーは、フィリーズのベテランを新鮮に保ち、外野を強化する方法を見ています",
       "url": "https://www.mlb.com/phillies/news/dave-dombrowski-discusses-phillies-2027-roster-plans",
       "source": "MLB.com",
       "published_at": "2026-10-20T14:18:24.128000+00:00"
-    },
-    {
-      "id": "eb21873d69911844",
-      "title_en": "Dombrowski offers insights into the Phillies' offseason agenda",
-      "title_ja": "ドンブロウスキーは、フィリーズのオフシーズンのアジェンダについての洞察を提供します",
-      "url": "https://www.mlb.com/phillies/news/dave-dombrowski-plans-2026-27-phillies-offseason",
-      "source": "MLB.com",
-      "published_at": "2026-10-15T20:31:09.841000+00:00"
     },
     {
       "id": "3f91d4c204f9aeb6",
@@ -82,12 +82,12 @@
       "published_at": "2026-10-02T06:41:00+00:00"
     },
     {
-      "id": "99e5cc5a598f858d",
-      "title_en": "Watch top prospects compete in Arizona Fall League action",
-      "title_ja": "トップの見込み客がアリゾナ・フォールリーグのアクションで競うのを見る",
-      "url": "https://www.mlb.com/phillies/news/watch-top-prospects-in-arizona-fall-league-winter-ball-2026",
+      "id": "eb21873d69911844",
+      "title_en": "Dombrowski offers insights into the Phillies' offseason agenda",
+      "title_ja": "ドンブロウスキーは、フィリーズのオフシーズンのアジェンダについての洞察を提供します",
+      "url": "https://www.mlb.com/phillies/news/dave-dombrowski-plans-2026-27-phillies-offseason",
       "source": "MLB.com",
-      "published_at": "2026-10-27T23:20:00+00:00"
+      "published_at": "2026-10-15T20:31:09.841000+00:00"
     },
     {
       "id": "ee9f2b957c98f661",
