@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-30T13:20:30.171902+00:00",
+  "updated_at": "2026-10-30T18:44:52.980019+00:00",
   "articles": [
     {
       "id": "f176402e869190c9",
@@ -26,20 +26,20 @@
       "published_at": "2026-10-07T00:00:00+00:00"
     },
     {
+      "id": "752879126ad6dc43",
+      "title_en": "New hitting coach looks to bring 'grind-you-down' approach to Phillies' lineup",
+      "title_ja": "新しいヒットコーチは、フィリーズのラインナップに「グラインド・ユー・ダウン」のアプローチを取り入れようとしています",
+      "url": "https://www.mlb.com/phillies/news/peter-fatse-phillies-hitting-coach-strategy",
+      "source": "MLB.com",
+      "published_at": "2026-10-30T18:42:07.807000+00:00"
+    },
+    {
       "id": "d163d891e517c326",
       "title_en": "Important Phillies offseason dates for awards, Hot Stove season",
       "title_ja": "賞の重要なフィリーズオフシーズンの日付、ホットストーブの季節",
       "url": "https://www.mlb.com/phillies/news/phillies-key-offseason-dates-2026-2027",
       "source": "MLB.com",
       "published_at": "2026-10-27T14:10:14.611000+00:00"
-    },
-    {
-      "id": "8f3a863504c46786",
-      "title_en": "Phillies hire Fatse as new hitting coach",
-      "title_ja": "フィリーズは新しいヒットコーチとしてファッツを雇う",
-      "url": "https://www.mlb.com/phillies/news/phillies-hire-peter-fatse-as-new-hitting-coach",
-      "source": "MLB.com",
-      "published_at": "2026-10-27T15:25:00+00:00"
     },
     {
       "id": "705e65bb99144ecf",
@@ -80,6 +80,14 @@
       "url": "https://www.mlb.com/phillies/news/phillies-injuries-and-roster-moves",
       "source": "MLB.com",
       "published_at": "2026-10-02T06:41:00+00:00"
+    },
+    {
+      "id": "8f3a863504c46786",
+      "title_en": "Phillies hire Fatse as new hitting coach",
+      "title_ja": "フィリーズは新しいヒットコーチとしてファッツを雇う",
+      "url": "https://www.mlb.com/phillies/news/phillies-hire-peter-fatse-as-new-hitting-coach",
+      "source": "MLB.com",
+      "published_at": "2026-10-27T15:25:00+00:00"
     },
     {
       "id": "eb21873d69911844",
@@ -192,14 +200,6 @@
       "url": "https://www.mlb.com/phillies/news/arizona-fall-league-prospects-who-could-be-added-to-40-man-rosters",
       "source": "MLB.com",
       "published_at": "2026-10-14T00:26:00+00:00"
-    },
-    {
-      "id": "846ae59b51930e2f",
-      "title_en": "'I feel great now': Healthy Miller headlines Phillies contingent in Fall League",
-      "title_ja": "「今は最高の気分」： Healthy Millerが秋のリーグでフィリーズのヘッドラインを飾る",
-      "url": "https://www.mlb.com/phillies/news/phillies-arizona-fall-league-overview-2026",
-      "source": "MLB.com",
-      "published_at": "2026-10-12T13:34:57.143000+00:00"
     }
   ]
 }
