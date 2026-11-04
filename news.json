@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-03T19:08:54.401899+00:00",
+  "updated_at": "2026-11-04T00:06:39.971253+00:00",
   "articles": [
     {
       "id": "f176402e869190c9",
@@ -50,6 +50,14 @@
       "published_at": "2026-10-30T18:42:07.807000+00:00"
     },
     {
+      "id": "03d6d69be496ce0c",
+      "title_en": "Top prospect duo of Walcott-Miller following in Harper-Trout footsteps in Arizona Fall League",
+      "title_ja": "アリゾナ・フォールリーグでハーパートラウトの足跡をたどるウォルコット・ミラーのトッププロスペクトデュオ",
+      "url": "https://www.mlb.com/phillies/news/sebastian-walcott-and-aidan-miller-standing-out-in-the-arizona-fall-league",
+      "source": "MLB.com",
+      "published_at": "2026-11-03T21:55:42.812000+00:00"
+    },
+    {
       "id": "d163d891e517c326",
       "title_en": "Important Phillies offseason dates for awards, Hot Stove season",
       "title_ja": "賞の重要なフィリーズオフシーズンの日付、ホットストーブの季節",
@@ -66,20 +74,20 @@
       "published_at": "2026-10-23T12:48:06.281000+00:00"
     },
     {
-      "id": "b9364bdebc44f6e3",
-      "title_en": "Checking in on top prospects in winter ball",
-      "title_ja": "ウィンターボールでトップの見込み客をチェックする",
-      "url": "https://www.mlb.com/phillies/news/top-prospects-in-winter-ball-2026",
-      "source": "MLB.com",
-      "published_at": "2026-11-03T00:41:00+00:00"
-    },
-    {
       "id": "3f91d4c204f9aeb6",
       "title_en": "Latest Phillies injuries & transactions",
       "title_ja": "最新のフィリーズの怪我と取引",
       "url": "https://www.mlb.com/phillies/news/phillies-injuries-and-roster-moves",
       "source": "MLB.com",
       "published_at": "2026-10-02T06:41:00+00:00"
+    },
+    {
+      "id": "b9364bdebc44f6e3",
+      "title_en": "Checking in on top prospects in winter ball",
+      "title_ja": "ウィンターボールでトップの見込み客をチェックする",
+      "url": "https://www.mlb.com/phillies/news/top-prospects-in-winter-ball-2026",
+      "source": "MLB.com",
+      "published_at": "2026-11-03T00:41:00+00:00"
     },
     {
       "id": "c903c82a1cec9969",
@@ -91,11 +99,11 @@
     },
     {
       "id": "99e5cc5a598f858d",
-      "title_en": "Here's live baseball to watch now that the World Series is over",
-      "title_ja": "ワールドシリーズが終了した今、注目すべきライブ野球はこちら",
+      "title_en": "Watch top prospects in Arizona Fall League action",
+      "title_ja": "アリゾナ・フォールリーグのアクションでトップの見込み客を見る",
       "url": "https://www.mlb.com/phillies/news/watch-top-prospects-in-arizona-fall-league-winter-ball-2026",
       "source": "MLB.com",
-      "published_at": "2026-11-03T06:04:00+00:00"
+      "published_at": "2026-11-03T23:47:00+00:00"
     },
     {
       "id": "fe137709e10275ee",
@@ -192,14 +200,6 @@
       "url": "https://www.mlb.com/phillies/news/best-prospect-stat-from-each-mlb-farm-system-2026",
       "source": "MLB.com",
       "published_at": "2026-10-14T23:00:00+00:00"
-    },
-    {
-      "id": "177b9654e71c1f8f",
-      "title_en": "Five pressing questions facing Phillies during critical offseason",
-      "title_ja": "重要なオフシーズン中にフィリーズが直面する5つの差し迫った質問",
-      "url": "https://www.mlb.com/phillies/news/questions-facing-phillies-in-2026-offseason",
-      "source": "MLB.com",
-      "published_at": "2026-10-09T19:45:44.417000+00:00"
     }
   ]
 }
