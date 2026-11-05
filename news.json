@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-05T09:02:55.953392+00:00",
+  "updated_at": "2026-11-05T17:33:11.121986+00:00",
   "articles": [
     {
       "id": "f176402e869190c9",
@@ -24,6 +24,14 @@
       "url": "https://www.mlb.com/phillies/news/topic/phillies-history-trivia",
       "source": "MLB.com",
       "published_at": "2026-10-07T00:00:00+00:00"
+    },
+    {
+      "id": "9fb61916bc204423",
+      "title_en": "Here are the 2026 Silver Slugger Award finalists",
+      "title_ja": "2026年シルバースラッガー賞のファイナリストはこちら",
+      "url": "https://www.mlb.com/phillies/news/2026-silver-slugger-award-finalists",
+      "source": "MLB.com",
+      "published_at": "2026-11-05T16:13:03.725000+00:00"
     },
     {
       "id": "da65ff528c513b15",
@@ -66,20 +74,20 @@
       "published_at": "2026-11-04T16:01:59.595000+00:00"
     },
     {
-      "id": "752879126ad6dc43",
-      "title_en": "New hitting coach looks to bring 'grind-you-down' approach to Phillies' lineup",
-      "title_ja": "新しいヒットコーチは、フィリーズのラインナップに「グラインド・ユー・ダウン」のアプローチを取り入れようとしています",
-      "url": "https://www.mlb.com/phillies/news/peter-fatse-phillies-hitting-coach-strategy",
-      "source": "MLB.com",
-      "published_at": "2026-10-30T18:42:07.807000+00:00"
-    },
-    {
       "id": "3f91d4c204f9aeb6",
       "title_en": "Latest Phillies injuries & transactions",
       "title_ja": "最新のフィリーズの怪我と取引",
       "url": "https://www.mlb.com/phillies/news/phillies-injuries-and-roster-moves",
       "source": "MLB.com",
       "published_at": "2026-11-04T20:14:00+00:00"
+    },
+    {
+      "id": "752879126ad6dc43",
+      "title_en": "New hitting coach looks to bring 'grind-you-down' approach to Phillies' lineup",
+      "title_ja": "新しいヒットコーチは、フィリーズのラインナップに「グラインド・ユー・ダウン」のアプローチを取り入れようとしています",
+      "url": "https://www.mlb.com/phillies/news/peter-fatse-phillies-hitting-coach-strategy",
+      "source": "MLB.com",
+      "published_at": "2026-10-30T18:42:07.807000+00:00"
     },
     {
       "id": "99e5cc5a598f858d",
@@ -192,14 +200,6 @@
       "url": "https://www.mlb.com/phillies/news/phillies-prospect-aidan-miller-in-arizona-fall-league",
       "source": "MLB.com",
       "published_at": "2026-10-16T20:12:17.057000+00:00"
-    },
-    {
-      "id": "101216e6736aa859",
-      "title_en": "Phillies bring back Mattingly as manager on 2-year deal",
-      "title_ja": "フィリーズが2年契約でマッティングリーをマネージャーに復帰",
-      "url": "https://www.mlb.com/phillies/news/don-mattingly-phillies-manager-return-2027",
-      "source": "MLB.com",
-      "published_at": "2026-10-14T14:25:00+00:00"
     }
   ]
 }
