@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-06T23:41:20.944998+00:00",
+  "updated_at": "2026-11-07T04:53:08.645898+00:00",
   "articles": [
     {
       "id": "f176402e869190c9",
@@ -50,12 +50,12 @@
       "published_at": "2026-11-04T21:08:52.206000+00:00"
     },
     {
-      "id": "da4c98747a17b5ac",
-      "title_en": "Sánchez, Duran, Mattingly named finalists for BBWAA Awards",
-      "title_ja": "サンチェス、デュラン、マッティングリーがBBWAAアワードのファイナリストに選出",
-      "url": "https://www.mlb.com/phillies/news/cristopher-sanchez-jhoan-duran-don-mattingly-2026-bbwaa-award-finalists",
+      "id": "99e5cc5a598f858d",
+      "title_en": "Watch top prospects in Arizona Fall League and winter league action",
+      "title_ja": "アリゾナ・フォールリーグとウィンターリーグアクションでトップの見込み客を見る",
+      "url": "https://www.mlb.com/phillies/news/watch-top-prospects-in-arizona-fall-league-winter-ball-2026",
       "source": "MLB.com",
-      "published_at": "2026-11-03T01:21:12.421000+00:00"
+      "published_at": "2026-11-07T04:37:00+00:00"
     },
     {
       "id": "4585bf9e25e30204",
@@ -74,6 +74,14 @@
       "published_at": "2026-11-04T20:14:00+00:00"
     },
     {
+      "id": "da4c98747a17b5ac",
+      "title_en": "Sánchez, Duran, Mattingly named finalists for BBWAA Awards",
+      "title_ja": "サンチェス、デュラン、マッティングリーがBBWAAアワードのファイナリストに選出",
+      "url": "https://www.mlb.com/phillies/news/cristopher-sanchez-jhoan-duran-don-mattingly-2026-bbwaa-award-finalists",
+      "source": "MLB.com",
+      "published_at": "2026-11-03T01:21:12.421000+00:00"
+    },
+    {
       "id": "273343dd70cc1f57",
       "title_en": "With Bohm now a free agent, who will play 3B for Phils?",
       "title_ja": "Bohmがフリーエージェントになった今、Philsのために3 Bをプレイするのは誰ですか？",
@@ -82,20 +90,12 @@
       "published_at": "2026-11-03T15:30:00+00:00"
     },
     {
-      "id": "99e5cc5a598f858d",
-      "title_en": "Watch top prospects in Arizona Fall League and winter ball action",
-      "title_ja": "アリゾナ・フォールリーグのトッププロスペクトとウィンターボールアクションを見る",
-      "url": "https://www.mlb.com/phillies/news/watch-top-prospects-in-arizona-fall-league-winter-ball-2026",
-      "source": "MLB.com",
-      "published_at": "2026-11-06T23:32:00+00:00"
-    },
-    {
       "id": "17cc44237bf32490",
       "title_en": "Here are the rosters for Sunday's AFL Fall Stars Game",
       "title_ja": "日曜日のAFLフォールスターズゲームのロスターはこちら",
       "url": "https://www.mlb.com/phillies/news/2026-arizona-fall-league-fall-stars-game-rosters",
       "source": "MLB.com",
-      "published_at": "2026-11-04T16:01:59.595000+00:00"
+      "published_at": "2026-11-07T02:09:00+00:00"
     },
     {
       "id": "752879126ad6dc43",
