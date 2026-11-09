@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-09T02:24:45.304219+00:00",
+  "updated_at": "2026-11-09T10:06:34.826064+00:00",
   "articles": [
     {
       "id": "f176402e869190c9",
@@ -34,20 +34,20 @@
       "published_at": "2026-11-08T23:45:30.431000+00:00"
     },
     {
-      "id": "cd181c4348c056d8",
-      "title_en": "Watch LIVE: '26 AFL Fall Stars Game",
-      "title_ja": "ライブ視聴：' 26 AFLフォールスターズゲーム",
-      "url": "https://www.mlb.com/phillies/news/arizona-fall-league-fall-stars-game-2026-watch-live",
-      "source": "MLB.com",
-      "published_at": "2026-11-09T00:57:00+00:00"
-    },
-    {
       "id": "e650d1cc5ed4afc1",
       "title_en": "How good can the Phillies' rotation be in '27? Or ... what could go wrong?",
       "title_ja": "27年のフィリーズのローテーションはどの程度うまくいくでしょうか？それとも...何がうまくいかないのでしょうか？",
       "url": "https://www.mlb.com/phillies/news/evaluating-the-phillies-starting-rotation-for-2027-season",
       "source": "MLB.com",
       "published_at": "2026-11-06T17:07:33.850000+00:00"
+    },
+    {
+      "id": "8c33683da264884e",
+      "title_en": "Here's how every prospect fared in the AFL Fall Stars Game",
+      "title_ja": "AFLフォールスターズゲームでのすべての見込み客の成功事例をご紹介します",
+      "url": "https://www.mlb.com/phillies/news/2026-arizona-fall-league-fall-stars-game",
+      "source": "MLB.com",
+      "published_at": "2026-11-09T06:59:00+00:00"
     },
     {
       "id": "9fb61916bc204423",
