@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-09T20:57:50.406825+00:00",
+  "updated_at": "2026-11-10T03:19:55.653668+00:00",
   "articles": [
     {
       "id": "f176402e869190c9",
@@ -42,6 +42,14 @@
       "published_at": "2026-11-06T17:07:33.850000+00:00"
     },
     {
+      "id": "88d27570cf493309",
+      "title_en": "'27 Rookie of the Year candidates -- one from each team",
+      "title_ja": "'27ルーキー・オブ・ザ・イヤーの候補者-各チームから1人",
+      "url": "https://www.mlb.com/phillies/news/each-team-2027-rookie-of-the-year-candidate",
+      "source": "MLB.com",
+      "published_at": "2026-11-10T01:15:00+00:00"
+    },
+    {
       "id": "8c33683da264884e",
       "title_en": "Here's how every prospect fared in the AFL Fall Stars Game",
       "title_ja": "AFLフォールスターズゲームでのすべての見込み客の成功事例をご紹介します",
@@ -58,20 +66,20 @@
       "published_at": "2026-11-05T16:13:03.725000+00:00"
     },
     {
-      "id": "5cb81121bc9e6e0f",
-      "title_en": "Here are the top performers from Week 5 of AFL action",
-      "title_ja": "AFLアクションの5週目のトップパフォーマーは次のとおりです",
-      "url": "https://www.mlb.com/phillies/news/arizona-fall-league-top-performers-week-5-2026",
-      "source": "MLB.com",
-      "published_at": "2026-11-07T20:45:06.293000+00:00"
-    },
-    {
       "id": "3f91d4c204f9aeb6",
       "title_en": "Latest Phillies injuries & transactions",
       "title_ja": "最新のフィリーズの怪我と取引",
       "url": "https://www.mlb.com/phillies/news/phillies-injuries-and-roster-moves",
       "source": "MLB.com",
       "published_at": "2026-11-04T20:14:00+00:00"
+    },
+    {
+      "id": "5cb81121bc9e6e0f",
+      "title_en": "Here are the top performers from Week 5 of AFL action",
+      "title_ja": "AFLアクションの5週目のトップパフォーマーは次のとおりです",
+      "url": "https://www.mlb.com/phillies/news/arizona-fall-league-top-performers-week-5-2026",
+      "source": "MLB.com",
+      "published_at": "2026-11-07T20:45:06.293000+00:00"
     },
     {
       "id": "da65ff528c513b15",
@@ -87,7 +95,7 @@
       "title_ja": "アリゾナ・フォールリーグとウィンターリーグアクションでトップの見込み客を見る",
       "url": "https://www.mlb.com/phillies/news/watch-top-prospects-in-arizona-fall-league-winter-ball-2026",
       "source": "MLB.com",
-      "published_at": "2026-11-08T23:59:00+00:00"
+      "published_at": "2026-11-10T02:49:00+00:00"
     },
     {
       "id": "4585bf9e25e30204",
@@ -184,14 +192,6 @@
       "url": "https://www.mlb.com/phillies/news/these-are-the-best-17-year-old-mlb-prospects",
       "source": "MLB.com",
       "published_at": "2026-10-21T17:36:51.501000+00:00"
-    },
-    {
-      "id": "eb21873d69911844",
-      "title_en": "Dombrowski offers insights into the Phillies' offseason agenda",
-      "title_ja": "ドンブロウスキーは、フィリーズのオフシーズンのアジェンダについての洞察を提供します",
-      "url": "https://www.mlb.com/phillies/news/dave-dombrowski-plans-2026-27-phillies-offseason",
-      "source": "MLB.com",
-      "published_at": "2026-10-15T20:31:09.841000+00:00"
     }
   ]
 }
