@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-11-11T14:58:30.104319+00:00",
+  "updated_at": "2026-11-11T21:50:36.244122+00:00",
   "articles": [
     {
       "id": "f176402e869190c9",
       "title_en": "Phillies Press Releases",
-      "title_ja": "フィリーズ・プレスリリース",
+      "title_ja": "フィリーズのプレスリリース",
       "url": "https://www.mlb.com/phillies/news/topic/phillies-press-releases",
       "source": "MLB.com",
       "published_at": "2026-11-04T00:00:00+00:00"
@@ -12,7 +12,7 @@
     {
       "id": "e584e060479f6bf8",
       "title_en": "Phillies Pipeline",
-      "title_ja": "フィリーズパイプライン",
+      "title_ja": "フィリーズのパイプライン",
       "url": "https://www.mlb.com/phillies/news/topic/phillies-pipeline-coverage",
       "source": "MLB.com",
       "published_at": "2026-10-23T00:00:00+00:00"
@@ -20,7 +20,7 @@
     {
       "id": "872bf5359c768da8",
       "title_en": "Phillies All-Time Lists & Trivia",
-      "title_ja": "フィリーズのオールタイムリストとトリビア",
+      "title_ja": "フィリーズの歴代ランキング＆トリビア",
       "url": "https://www.mlb.com/phillies/news/topic/phillies-history-trivia",
       "source": "MLB.com",
       "published_at": "2026-11-10T00:00:00+00:00"
@@ -28,23 +28,23 @@
     {
       "id": "75985c3f980e34fe",
       "title_en": "Dombrowski weighs in on Phillies' needs at GM Meetings",
-      "title_ja": "ドンブロフスキーがGMミーティングでフィリーズのニーズを重視",
+      "title_ja": "ドムブロウスキ氏、GM会議でフィリーズのニーズについて見解を述べる",
       "url": "https://www.mlb.com/phillies/news/dave-dombrowski-phillies-needs-2027-at-gm-meetings",
       "source": "MLB.com",
       "published_at": "2026-11-11T04:23:24.215000+00:00"
     },
     {
       "id": "396117f496fc1bc3",
-      "title_en": "Here's the case for each Cy Young Award finalist",
-      "title_ja": "サイヤング賞の各ファイナリストのケースは次のとおりです",
+      "title_en": "Here's the case for each Cy Young Award finalist (MLB Network, 7 p.m. ET)",
+      "title_ja": "サイ・ヤング賞の各候補者の状況は次のとおりです（MLBネットワーク、東部標準時午後7時）",
       "url": "https://www.mlb.com/phillies/news/making-a-case-for-each-2026-mlb-cy-young-award-finalist",
       "source": "MLB.com",
-      "published_at": "2026-11-11T05:00:00+00:00"
+      "published_at": "2026-11-11T18:30:00+00:00"
     },
     {
       "id": "8340e52fbbf3850d",
       "title_en": "Mattingly finishes in 3rd place for NL Manager of the Year Award",
-      "title_ja": "MattinglyがNLマネージャー・オブ・ザ・イヤー賞で3位を獲得",
+      "title_ja": "マッティングリー監督、ナショナルリーグ年間最優秀監督賞で3位に",
       "url": "https://www.mlb.com/phillies/news/don-mattingly-finishes-third-nl-manager-of-the-year-award",
       "source": "MLB.com",
       "published_at": "2026-11-11T01:19:57.743000+00:00"
@@ -52,10 +52,18 @@
     {
       "id": "d23904afe23a34af",
       "title_en": "Bob Boone, champ with 1980 Phils and father of Aaron and Bret, dies at 78",
-      "title_ja": "1980年にフィリップスとチャンピオンを獲得し、アーロンとブレットの父親となったボブ・ブーンが78歳で死去",
+      "title_ja": "1980年フィリーズの優勝メンバーであり、アーロンとブレットの父であるボブ・ブーンが78歳で死去",
       "url": "https://www.mlb.com/phillies/news/bob-boone-dies",
       "source": "MLB.com",
       "published_at": "2026-11-10T16:09:00+00:00"
+    },
+    {
+      "id": "99e5cc5a598f858d",
+      "title_en": "Watch LIVE: Top prospects in Arizona Fall League action",
+      "title_ja": "ライブ観戦：アリゾナ・フォールリーグのトッププロスペクトの活躍",
+      "url": "https://www.mlb.com/phillies/news/watch-top-prospects-in-arizona-fall-league-winter-ball-2026",
+      "source": "MLB.com",
+      "published_at": "2026-11-11T20:02:00+00:00"
     },
     {
       "id": "584f639dd3692495",
@@ -66,41 +74,33 @@
       "published_at": "2026-11-08T23:45:30.431000+00:00"
     },
     {
-      "id": "e650d1cc5ed4afc1",
-      "title_en": "How good can the Phillies' rotation be in '27? Or ... what could go wrong?",
-      "title_ja": "27年のフィリーズのローテーションはどの程度うまくいくでしょうか？それとも...何がうまくいかないのでしょうか？",
-      "url": "https://www.mlb.com/phillies/news/evaluating-the-phillies-starting-rotation-for-2027-season",
-      "source": "MLB.com",
-      "published_at": "2026-11-06T17:07:33.850000+00:00"
-    },
-    {
       "id": "3f91d4c204f9aeb6",
       "title_en": "Latest Phillies injuries & transactions",
-      "title_ja": "最新のフィリーズの怪我と取引",
+      "title_ja": "フィリーズの最新の負傷者情報と選手の移籍情報",
       "url": "https://www.mlb.com/phillies/news/phillies-injuries-and-roster-moves",
       "source": "MLB.com",
       "published_at": "2026-11-04T20:14:00+00:00"
     },
     {
+      "id": "e650d1cc5ed4afc1",
+      "title_en": "How good can the Phillies' rotation be in '27? Or ... what could go wrong?",
+      "title_ja": "フィリーズのローテーションは2027年にどれほど良くなるでしょうか？あるいは...何がうまくいかないのでしょうか？",
+      "url": "https://www.mlb.com/phillies/news/evaluating-the-phillies-starting-rotation-for-2027-season",
+      "source": "MLB.com",
+      "published_at": "2026-11-06T17:07:33.850000+00:00"
+    },
+    {
       "id": "88d27570cf493309",
       "title_en": "'27 Rookie of the Year candidates -- one from each team",
-      "title_ja": "'27ルーキー・オブ・ザ・イヤーの候補者-各チームから1人",
+      "title_ja": "27人の新人王候補者 -- 各チームから1人",
       "url": "https://www.mlb.com/phillies/news/each-team-2027-rookie-of-the-year-candidate",
       "source": "MLB.com",
       "published_at": "2026-11-10T16:00:00+00:00"
     },
     {
-      "id": "99e5cc5a598f858d",
-      "title_en": "Watch top prospects in Arizona Fall League and winter league action",
-      "title_ja": "アリゾナ・フォールリーグとウィンターリーグアクションでトップの見込み客を見る",
-      "url": "https://www.mlb.com/phillies/news/watch-top-prospects-in-arizona-fall-league-winter-ball-2026",
-      "source": "MLB.com",
-      "published_at": "2026-11-11T04:20:00+00:00"
-    },
-    {
       "id": "650263cf28b37181",
       "title_en": "Here’s what Phillies could address at GM Meetings",
-      "title_ja": "フィリーズがGMミーティングで対処できることは次のとおりです",
+      "title_ja": "フィリーズがGM会議で取り上げる可能性のある議題",
       "url": "https://www.mlb.com/phillies/news/phillies-2026-offseason-priorities-gm-meetings",
       "source": "MLB.com",
       "published_at": "2026-11-10T13:37:12.435000+00:00"
@@ -108,7 +108,7 @@
     {
       "id": "8c33683da264884e",
       "title_en": "Here's how every prospect fared in the AFL Fall Stars Game",
-      "title_ja": "AFLフォールスターズゲームでのすべての見込み客の成功事例をご紹介します",
+      "title_ja": "AFLフォールスターズゲームにおける各有望選手の成績",
       "url": "https://www.mlb.com/phillies/news/2026-arizona-fall-league-fall-stars-game",
       "source": "MLB.com",
       "published_at": "2026-11-09T06:59:00+00:00"
@@ -116,7 +116,7 @@
     {
       "id": "9fb61916bc204423",
       "title_en": "Finalists for Silver Sluggers announced",
-      "title_ja": "シルバー・スラッガーのファイナリスト発表",
+      "title_ja": "シルバー・スラッガーズのファイナリストが発表されました",
       "url": "https://www.mlb.com/phillies/news/2026-silver-slugger-award-finalists",
       "source": "MLB.com",
       "published_at": "2026-11-05T16:13:03.725000+00:00"
@@ -124,7 +124,7 @@
     {
       "id": "5cb81121bc9e6e0f",
       "title_en": "Here are the top performers from Week 5 of AFL action",
-      "title_ja": "AFLアクションの5週目のトップパフォーマーは次のとおりです",
+      "title_ja": "AFL第5週の活躍選手トップをご紹介します",
       "url": "https://www.mlb.com/phillies/news/arizona-fall-league-top-performers-week-5-2026",
       "source": "MLB.com",
       "published_at": "2026-11-07T20:45:06.293000+00:00"
@@ -132,7 +132,7 @@
     {
       "id": "da65ff528c513b15",
       "title_en": "How can Sánchez overcome 2026 struggles with sinker?",
-      "title_ja": "サンチェスはどのようにして2026年のシンカーとの闘いを乗り越えることができるのでしょうか？",
+      "title_ja": "サンチェス選手は、2026年のシンカーの課題をどのように克服できるでしょうか？",
       "url": "https://www.mlb.com/phillies/news/cristopher-sanchez-struggles-sinker-phillies-2026",
       "source": "MLB.com",
       "published_at": "2026-11-04T21:08:52.206000+00:00"
@@ -140,7 +140,7 @@
     {
       "id": "4585bf9e25e30204",
       "title_en": "Breaking down the Fall Stars Game participants by organization",
-      "title_ja": "フォールスターズゲームの参加者を組織別に分類する",
+      "title_ja": "フォールスターズゲームの参加者を組織別に分類",
       "url": "https://www.mlb.com/phillies/news/2026-arizona-fall-league-fall-stars-by-organization",
       "source": "MLB.com",
       "published_at": "2026-11-08T05:14:00+00:00"
@@ -148,7 +148,7 @@
     {
       "id": "da4c98747a17b5ac",
       "title_en": "Sánchez, Duran, Mattingly named finalists for BBWAA Awards",
-      "title_ja": "サンチェス、デュラン、マッティングリーがBBWAAアワードのファイナリストに選出",
+      "title_ja": "サンチェス、デュラン、マッティングリーがBBWAA賞の最終候補に選出",
       "url": "https://www.mlb.com/phillies/news/cristopher-sanchez-jhoan-duran-don-mattingly-2026-bbwaa-award-finalists",
       "source": "MLB.com",
       "published_at": "2026-11-03T01:21:12.421000+00:00"
@@ -156,7 +156,7 @@
     {
       "id": "273343dd70cc1f57",
       "title_en": "With Bohm now a free agent, who will play 3B for Phils?",
-      "title_ja": "Bohmがフリーエージェントになった今、Philsのために3 Bをプレイするのは誰ですか？",
+      "title_ja": "ボーム選手がフリーエージェントになった今、フィリーズの三塁手を務めるのは誰でしょうか？",
       "url": "https://www.mlb.com/phillies/news/phillies-future-third-base-alec-bohm-free-agency",
       "source": "MLB.com",
       "published_at": "2026-11-03T15:30:00+00:00"
@@ -164,7 +164,7 @@
     {
       "id": "17cc44237bf32490",
       "title_en": "Here are the rosters for Sunday's AFL Fall Stars Game",
-      "title_ja": "日曜日のAFLフォールスターズゲームのロスターはこちら",
+      "title_ja": "日曜日のAFLフォールスターズゲームの出場選手名簿はこちらです",
       "url": "https://www.mlb.com/phillies/news/2026-arizona-fall-league-fall-stars-game-rosters",
       "source": "MLB.com",
       "published_at": "2026-11-08T05:14:00+00:00"
@@ -172,7 +172,7 @@
     {
       "id": "752879126ad6dc43",
       "title_en": "New hitting coach looks to bring 'grind-you-down' approach to Phillies' lineup",
-      "title_ja": "新しいヒットコーチは、フィリーズのラインナップに「グラインド・ユー・ダウン」のアプローチを取り入れようとしています",
+      "title_ja": "フィリーズの新打撃コーチは「相手を圧倒する」アプローチをチームのラインナップにもたらそうとしている",
       "url": "https://www.mlb.com/phillies/news/peter-fatse-phillies-hitting-coach-strategy",
       "source": "MLB.com",
       "published_at": "2026-10-30T18:42:07.807000+00:00"
@@ -180,7 +180,7 @@
     {
       "id": "03d6d69be496ce0c",
       "title_en": "Top prospect duo of Miller-Walcott following in Harper-Trout footsteps in Arizona Fall League",
-      "title_ja": "アリゾナ・フォールリーグでハーパートラウトの足跡をたどるミラー・ウォルコットのトッププロスペクトデュオ",
+      "title_ja": "ミラーとウォルコットの有望選手コンビが、アリゾナ・フォールリーグでハーパーとトラウトの足跡をたどる",
       "url": "https://www.mlb.com/phillies/news/sebastian-walcott-and-aidan-miller-standing-out-in-the-arizona-fall-league",
       "source": "MLB.com",
       "published_at": "2026-11-03T21:55:42.812000+00:00"
@@ -188,7 +188,7 @@
     {
       "id": "d163d891e517c326",
       "title_en": "Important Phillies offseason dates for awards, Hot Stove season",
-      "title_ja": "賞の重要なフィリーズオフシーズンの日付、ホットストーブの季節",
+      "title_ja": "フィリーズのオフシーズンの重要な日程：表彰、ホットストーブシーズン",
       "url": "https://www.mlb.com/phillies/news/phillies-key-offseason-dates-2026-2027",
       "source": "MLB.com",
       "published_at": "2026-10-27T14:10:14.611000+00:00"
