@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T19:24:03.101545+00:00",
+  "updated_at": "2026-11-11T00:11:32.293219+00:00",
   "articles": [
     {
       "id": "f176402e869190c9",
@@ -26,6 +26,14 @@
       "published_at": "2026-11-09T00:00:00+00:00"
     },
     {
+      "id": "4a54449efff4ec86",
+      "title_en": "This year's Manager of the Year winners are ... (Watch on MLB Network, MLB+)",
+      "title_ja": "今年のマネージャー・オブ・ザ・イヤーの受賞者は... （ MLBネットワーク、MLB +で視聴）",
+      "url": "https://www.mlb.com/phillies/news/2026-mlb-manager-of-the-year-award-winners",
+      "source": "MLB.com",
+      "published_at": "2026-11-10T23:54:00+00:00"
+    },
+    {
       "id": "d23904afe23a34af",
       "title_en": "Bob Boone, champ with 1980 Phils and father of Aaron and Bret, dies at 78",
       "title_ja": "1980年にフィリップスとチャンピオンを獲得し、アーロンとブレットの父親となったボブ・ブーンが78歳で死去",
@@ -40,14 +48,6 @@
       "url": "https://www.mlb.com/phillies/news/phillies-2026-offseason-priorities-gm-meetings",
       "source": "MLB.com",
       "published_at": "2026-11-10T13:37:12.435000+00:00"
-    },
-    {
-      "id": "7eb633f1c7386087",
-      "title_en": "The case for each 2026 Manager of the Year finalist",
-      "title_ja": "2026年マネージャー・オブ・ザ・イヤーの各ファイナリストのケース",
-      "url": "https://www.mlb.com/phillies/news/mlb-manager-of-the-year-candidates-2026",
-      "source": "MLB.com",
-      "published_at": "2026-11-10T16:53:00+00:00"
     },
     {
       "id": "584f639dd3692495",
@@ -82,6 +82,14 @@
       "published_at": "2026-11-04T20:14:00+00:00"
     },
     {
+      "id": "99e5cc5a598f858d",
+      "title_en": "Watch top prospects in Arizona Fall League and winter league action",
+      "title_ja": "アリゾナ・フォールリーグとウィンターリーグアクションでトップの見込み客を見る",
+      "url": "https://www.mlb.com/phillies/news/watch-top-prospects-in-arizona-fall-league-winter-ball-2026",
+      "source": "MLB.com",
+      "published_at": "2026-11-10T22:35:00+00:00"
+    },
+    {
       "id": "8c33683da264884e",
       "title_en": "Here's how every prospect fared in the AFL Fall Stars Game",
       "title_ja": "AFLフォールスターズゲームでのすべての見込み客の成功事例をご紹介します",
@@ -112,14 +120,6 @@
       "url": "https://www.mlb.com/phillies/news/cristopher-sanchez-struggles-sinker-phillies-2026",
       "source": "MLB.com",
       "published_at": "2026-11-04T21:08:52.206000+00:00"
-    },
-    {
-      "id": "99e5cc5a598f858d",
-      "title_en": "Watch top prospects in Arizona Fall League and winter league action",
-      "title_ja": "アリゾナ・フォールリーグとウィンターリーグアクションでトップの見込み客を見る",
-      "url": "https://www.mlb.com/phillies/news/watch-top-prospects-in-arizona-fall-league-winter-ball-2026",
-      "source": "MLB.com",
-      "published_at": "2026-11-10T06:07:00+00:00"
     },
     {
       "id": "4585bf9e25e30204",
