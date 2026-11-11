@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T00:11:32.293219+00:00",
+  "updated_at": "2026-11-11T06:56:46.250982+00:00",
   "articles": [
     {
       "id": "f176402e869190c9",
@@ -23,15 +23,31 @@
       "title_ja": "フィリーズのオールタイムリストとトリビア",
       "url": "https://www.mlb.com/phillies/news/topic/phillies-history-trivia",
       "source": "MLB.com",
-      "published_at": "2026-11-09T00:00:00+00:00"
+      "published_at": "2026-11-10T00:00:00+00:00"
     },
     {
-      "id": "4a54449efff4ec86",
-      "title_en": "This year's Manager of the Year winners are ... (Watch on MLB Network, MLB+)",
-      "title_ja": "今年のマネージャー・オブ・ザ・イヤーの受賞者は... （ MLBネットワーク、MLB +で視聴）",
-      "url": "https://www.mlb.com/phillies/news/2026-mlb-manager-of-the-year-award-winners",
+      "id": "75985c3f980e34fe",
+      "title_en": "Dombrowski weighs in on Phillies' needs at GM Meetings",
+      "title_ja": "ドンブロフスキーがGMミーティングでフィリーズのニーズを重視",
+      "url": "https://www.mlb.com/phillies/news/dave-dombrowski-phillies-needs-2027-at-gm-meetings",
       "source": "MLB.com",
-      "published_at": "2026-11-10T23:54:00+00:00"
+      "published_at": "2026-11-11T04:23:24.215000+00:00"
+    },
+    {
+      "id": "396117f496fc1bc3",
+      "title_en": "Here's the case for each Cy Young Award finalist",
+      "title_ja": "サイヤング賞の各ファイナリストのケースは次のとおりです",
+      "url": "https://www.mlb.com/phillies/news/making-a-case-for-each-2026-mlb-cy-young-award-finalist",
+      "source": "MLB.com",
+      "published_at": "2026-11-11T05:00:00+00:00"
+    },
+    {
+      "id": "8340e52fbbf3850d",
+      "title_en": "Mattingly finishes in 3rd place for NL Manager of the Year Award",
+      "title_ja": "MattinglyがNLマネージャー・オブ・ザ・イヤー賞で3位を獲得",
+      "url": "https://www.mlb.com/phillies/news/don-mattingly-finishes-third-nl-manager-of-the-year-award",
+      "source": "MLB.com",
+      "published_at": "2026-11-11T01:19:57.743000+00:00"
     },
     {
       "id": "d23904afe23a34af",
@@ -40,14 +56,6 @@
       "url": "https://www.mlb.com/phillies/news/bob-boone-dies",
       "source": "MLB.com",
       "published_at": "2026-11-10T16:09:00+00:00"
-    },
-    {
-      "id": "650263cf28b37181",
-      "title_en": "Here’s what Phillies could address at GM Meetings",
-      "title_ja": "フィリーズがGMミーティングで対処できることは次のとおりです",
-      "url": "https://www.mlb.com/phillies/news/phillies-2026-offseason-priorities-gm-meetings",
-      "source": "MLB.com",
-      "published_at": "2026-11-10T13:37:12.435000+00:00"
     },
     {
       "id": "584f639dd3692495",
@@ -66,14 +74,6 @@
       "published_at": "2026-11-06T17:07:33.850000+00:00"
     },
     {
-      "id": "88d27570cf493309",
-      "title_en": "'27 Rookie of the Year candidates -- one from each team",
-      "title_ja": "'27ルーキー・オブ・ザ・イヤーの候補者-各チームから1人",
-      "url": "https://www.mlb.com/phillies/news/each-team-2027-rookie-of-the-year-candidate",
-      "source": "MLB.com",
-      "published_at": "2026-11-10T16:00:00+00:00"
-    },
-    {
       "id": "3f91d4c204f9aeb6",
       "title_en": "Latest Phillies injuries & transactions",
       "title_ja": "最新のフィリーズの怪我と取引",
@@ -82,12 +82,28 @@
       "published_at": "2026-11-04T20:14:00+00:00"
     },
     {
+      "id": "88d27570cf493309",
+      "title_en": "'27 Rookie of the Year candidates -- one from each team",
+      "title_ja": "'27ルーキー・オブ・ザ・イヤーの候補者-各チームから1人",
+      "url": "https://www.mlb.com/phillies/news/each-team-2027-rookie-of-the-year-candidate",
+      "source": "MLB.com",
+      "published_at": "2026-11-10T16:00:00+00:00"
+    },
+    {
       "id": "99e5cc5a598f858d",
       "title_en": "Watch top prospects in Arizona Fall League and winter league action",
       "title_ja": "アリゾナ・フォールリーグとウィンターリーグアクションでトップの見込み客を見る",
       "url": "https://www.mlb.com/phillies/news/watch-top-prospects-in-arizona-fall-league-winter-ball-2026",
       "source": "MLB.com",
-      "published_at": "2026-11-10T22:35:00+00:00"
+      "published_at": "2026-11-11T04:20:00+00:00"
+    },
+    {
+      "id": "650263cf28b37181",
+      "title_en": "Here’s what Phillies could address at GM Meetings",
+      "title_ja": "フィリーズがGMミーティングで対処できることは次のとおりです",
+      "url": "https://www.mlb.com/phillies/news/phillies-2026-offseason-priorities-gm-meetings",
+      "source": "MLB.com",
+      "published_at": "2026-11-10T13:37:12.435000+00:00"
     },
     {
       "id": "8c33683da264884e",
@@ -176,22 +192,6 @@
       "url": "https://www.mlb.com/phillies/news/phillies-key-offseason-dates-2026-2027",
       "source": "MLB.com",
       "published_at": "2026-10-27T14:10:14.611000+00:00"
-    },
-    {
-      "id": "705e65bb99144ecf",
-      "title_en": "Could No. 2 prospect Miller be key piece to Phillies' 2027 roster?",
-      "title_ja": "2番目のプロスペクトミラーは、フィリーズの2027年の選手名簿の鍵となるでしょうか？",
-      "url": "https://www.mlb.com/phillies/news/aidan-miller-a-potential-option-for-phillies-2027-roster",
-      "source": "MLB.com",
-      "published_at": "2026-10-23T12:48:06.281000+00:00"
-    },
-    {
-      "id": "b9364bdebc44f6e3",
-      "title_en": "Checking in on top prospects in winter ball",
-      "title_ja": "ウィンターボールでトップの見込み客をチェックする",
-      "url": "https://www.mlb.com/phillies/news/top-prospects-in-winter-ball-2026",
-      "source": "MLB.com",
-      "published_at": "2026-11-03T00:41:00+00:00"
     }
   ]
 }
