@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-12T18:43:20.441135+00:00",
+  "updated_at": "2026-11-12T23:59:11.980109+00:00",
   "articles": [
     {
       "id": "f176402e869190c9",
@@ -52,7 +52,7 @@
     {
       "id": "bccf69a56ae7c1bf",
       "title_en": "Sánchez finishes as NL Cy Young runner-up for 2nd straight year",
-      "title_ja": "サンチェス選手、2年連続でナショナルリーグのサイ・ヤング賞2位に",
+      "title_ja": "サンチェス投手、2年連続でナショナルリーグのサイ・ヤング賞2位に",
       "url": "https://www.mlb.com/phillies/news/cristopher-sanchez-2026-nl-cy-young-runner-up",
       "source": "MLB.com",
       "published_at": "2026-11-12T01:08:59.944000+00:00"
@@ -68,7 +68,7 @@
     {
       "id": "75985c3f980e34fe",
       "title_en": "Dombrowski weighs in on Phillies' needs at GM Meetings",
-      "title_ja": "ドムブロウスキ氏、GM会議でフィリーズのニーズについて意見を述べる",
+      "title_ja": "ドムブロウスキ氏、GM会議でフィリーズのニーズについて見解を述べる",
       "url": "https://www.mlb.com/phillies/news/dave-dombrowski-phillies-needs-2027-at-gm-meetings",
       "source": "MLB.com",
       "published_at": "2026-11-11T04:23:24.215000+00:00"
@@ -91,11 +91,11 @@
     },
     {
       "id": "c1540706f177cda2",
-      "title_en": "Here's what you need to know about the Fall League playoffs",
-      "title_ja": "秋季リーグのプレイオフについて知っておくべきことをご紹介します",
+      "title_en": "Watch LIVE: Top prospects in Arizona Fall League playoff action",
+      "title_ja": "ライブ観戦：アリゾナ・フォールリーグのプレーオフで活躍するトップ級の有望選手たち",
       "url": "https://www.mlb.com/phillies/news/watch-arizona-fall-league-playoffs-2026",
       "source": "MLB.com",
-      "published_at": "2026-11-12T00:40:00+00:00"
+      "published_at": "2026-11-12T20:26:00+00:00"
     },
     {
       "id": "d23904afe23a34af",
@@ -116,7 +116,7 @@
     {
       "id": "e650d1cc5ed4afc1",
       "title_en": "How good can the Phillies' rotation be in '27? Or ... what could go wrong?",
-      "title_ja": "2027年のフィリーズのローテーションはどれほど良くなるでしょうか？あるいは...何がうまくいかない可能性があるでしょうか？",
+      "title_ja": "フィリーズのローテーションは2027年にどれほど良くなるでしょうか？あるいは...何がうまくいかない可能性があるでしょうか？",
       "url": "https://www.mlb.com/phillies/news/evaluating-the-phillies-starting-rotation-for-2027-season",
       "source": "MLB.com",
       "published_at": "2026-11-06T17:07:33.850000+00:00"
@@ -124,7 +124,7 @@
     {
       "id": "88d27570cf493309",
       "title_en": "'27 Rookie of the Year candidates -- one from each team",
-      "title_ja": "27人の新人王候補者 -- 各チームから1人",
+      "title_ja": "27人の新人王候補 -- 各チームから1人",
       "url": "https://www.mlb.com/phillies/news/each-team-2027-rookie-of-the-year-candidate",
       "source": "MLB.com",
       "published_at": "2026-11-10T16:00:00+00:00"
@@ -132,7 +132,7 @@
     {
       "id": "650263cf28b37181",
       "title_en": "Here’s what Phillies could address at GM Meetings",
-      "title_ja": "フィリーズがGM会議で取り上げる可能性のある事項",
+      "title_ja": "フィリーズがGM会議で取り上げる可能性のある議題",
       "url": "https://www.mlb.com/phillies/news/phillies-2026-offseason-priorities-gm-meetings",
       "source": "MLB.com",
       "published_at": "2026-11-10T13:37:12.435000+00:00"
@@ -156,7 +156,7 @@
     {
       "id": "5cb81121bc9e6e0f",
       "title_en": "Here are the top performers from Week 5 of AFL action",
-      "title_ja": "AFL第5週の活躍選手はこちらです",
+      "title_ja": "AFL第5週の活躍選手トップをご紹介します",
       "url": "https://www.mlb.com/phillies/news/arizona-fall-league-top-performers-week-5-2026",
       "source": "MLB.com",
       "published_at": "2026-11-07T20:45:06.293000+00:00"
@@ -188,7 +188,7 @@
     {
       "id": "273343dd70cc1f57",
       "title_en": "With Bohm now a free agent, who will play 3B for Phils?",
-      "title_ja": "ボーム選手がフリーエージェントとなった今、フィリーズのサードを守るのは誰でしょうか？",
+      "title_ja": "ボーム選手がフリーエージェントになった今、フィリーズの三塁手は誰になるのでしょうか？",
       "url": "https://www.mlb.com/phillies/news/phillies-future-third-base-alec-bohm-free-agency",
       "source": "MLB.com",
       "published_at": "2026-11-03T15:30:00+00:00"
