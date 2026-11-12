@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-12T02:43:27.704776+00:00",
+  "updated_at": "2026-11-12T10:42:17.529339+00:00",
   "articles": [
     {
       "id": "f176402e869190c9",
@@ -26,20 +26,28 @@
       "published_at": "2026-11-10T00:00:00+00:00"
     },
     {
+      "id": "6e49eddb7aacac90",
+      "title_en": "Sánchez (First Team), Luzardo (Second) named to All-MLB squad",
+      "title_ja": "サンチェス（ファーストチーム）、ルサルド（セカンドチーム）がオールMLBチームに選出",
+      "url": "https://www.mlb.com/phillies/news/cristopher-sanchez-jesus-luzardo-2026-all-mlb",
+      "source": "MLB.com",
+      "published_at": "2026-11-12T04:04:42.960000+00:00"
+    },
+    {
+      "id": "1776f15c6f397b8d",
+      "title_en": "Yordan, Wheeler named Comeback Players of the Year",
+      "title_ja": "ヨルダン選手、ウィーラー選手がカムバック・プレイヤー・オブ・ザ・イヤーに選出",
+      "url": "https://www.mlb.com/phillies/news/2026-mlb-comeback-player-of-the-year-winners",
+      "source": "MLB.com",
+      "published_at": "2026-11-12T02:58:40.311000+00:00"
+    },
+    {
       "id": "bccf69a56ae7c1bf",
       "title_en": "Sánchez finishes as NL Cy Young runner-up for 2nd straight year",
-      "title_ja": "サンチェス選手、2年連続でナショナルリーグのサイ・ヤング賞2位に",
+      "title_ja": "サンチェス投手、2年連続でナショナルリーグのサイ・ヤング賞2位に",
       "url": "https://www.mlb.com/phillies/news/cristopher-sanchez-2026-nl-cy-young-runner-up",
       "source": "MLB.com",
       "published_at": "2026-11-12T01:08:59.944000+00:00"
-    },
-    {
-      "id": "9e5ad7ca4b4c733a",
-      "title_en": "WATCH live: The 2026 MLB Awards show in Las Vegas (MLB Network/MLB.com)",
-      "title_ja": "ライブ視聴：ラスベガスで開催される2026年MLBアワードショー（MLBネットワーク/MLB.com）",
-      "url": "https://www.mlb.com/phillies/news/when-is-the-mlb-awards-show-date-time-channel",
-      "source": "MLB.com",
-      "published_at": "2026-11-12T01:54:00+00:00"
     },
     {
       "id": "75985c3f980e34fe",
@@ -58,6 +66,22 @@
       "published_at": "2026-11-11T01:19:57.743000+00:00"
     },
     {
+      "id": "c1540706f177cda2",
+      "title_en": "Here's what you need to know about the Fall League playoffs",
+      "title_ja": "秋季リーグのプレイオフについて知っておくべきことをご紹介します",
+      "url": "https://www.mlb.com/phillies/news/watch-arizona-fall-league-playoffs-2026",
+      "source": "MLB.com",
+      "published_at": "2026-11-12T00:40:00+00:00"
+    },
+    {
+      "id": "3f91d4c204f9aeb6",
+      "title_en": "Latest Phillies injuries & transactions",
+      "title_ja": "フィリーズの最新の負傷者情報と選手の移籍情報",
+      "url": "https://www.mlb.com/phillies/news/phillies-injuries-and-roster-moves",
+      "source": "MLB.com",
+      "published_at": "2026-11-04T20:14:00+00:00"
+    },
+    {
       "id": "d23904afe23a34af",
       "title_en": "Bob Boone, champ with 1980 Phils and father of Aaron and Bret, dies at 78",
       "title_ja": "1980年フィリーズの優勝メンバーであり、アーロンとブレットの父であるボブ・ブーンが78歳で死去",
@@ -72,22 +96,6 @@
       "url": "https://www.mlb.com/phillies/news/new-changeup-key-for-phillies-andrew-painter",
       "source": "MLB.com",
       "published_at": "2026-11-08T23:45:30.431000+00:00"
-    },
-    {
-      "id": "3f91d4c204f9aeb6",
-      "title_en": "Latest Phillies injuries & transactions",
-      "title_ja": "フィリーズの最新の負傷者情報と選手の移籍情報",
-      "url": "https://www.mlb.com/phillies/news/phillies-injuries-and-roster-moves",
-      "source": "MLB.com",
-      "published_at": "2026-11-04T20:14:00+00:00"
-    },
-    {
-      "id": "c1540706f177cda2",
-      "title_en": "Here's what you need to know about the Fall League playoffs",
-      "title_ja": "秋季リーグのプレイオフについて知っておくべきことをご紹介します",
-      "url": "https://www.mlb.com/phillies/news/watch-arizona-fall-league-playoffs-2026",
-      "source": "MLB.com",
-      "published_at": "2026-11-12T00:40:00+00:00"
     },
     {
       "id": "e650d1cc5ed4afc1",
@@ -108,7 +116,7 @@
     {
       "id": "650263cf28b37181",
       "title_en": "Here’s what Phillies could address at GM Meetings",
-      "title_ja": "フィリーズがGM会議で取り上げる可能性のある議題",
+      "title_ja": "フィリーズがGM会議で取り上げる可能性のある事項",
       "url": "https://www.mlb.com/phillies/news/phillies-2026-offseason-priorities-gm-meetings",
       "source": "MLB.com",
       "published_at": "2026-11-10T13:37:12.435000+00:00"
@@ -116,7 +124,7 @@
     {
       "id": "8c33683da264884e",
       "title_en": "Here's how every prospect fared in the AFL Fall Stars Game",
-      "title_ja": "AFLフォールスターズゲームでの各有望選手の成績は次のとおりです",
+      "title_ja": "AFLフォールスターズゲームでの各有望選手の成績はこちら",
       "url": "https://www.mlb.com/phillies/news/2026-arizona-fall-league-fall-stars-game",
       "source": "MLB.com",
       "published_at": "2026-11-09T06:59:00+00:00"
@@ -124,7 +132,7 @@
     {
       "id": "9fb61916bc204423",
       "title_en": "Finalists for Silver Sluggers announced",
-      "title_ja": "シルバー・スラッガーズの最終候補者が発表されました",
+      "title_ja": "シルバー・スラッガーズのファイナリストが発表されました",
       "url": "https://www.mlb.com/phillies/news/2026-silver-slugger-award-finalists",
       "source": "MLB.com",
       "published_at": "2026-11-05T16:13:03.725000+00:00"
@@ -164,7 +172,7 @@
     {
       "id": "273343dd70cc1f57",
       "title_en": "With Bohm now a free agent, who will play 3B for Phils?",
-      "title_ja": "ボーム選手がフリーエージェントとなった今、フィリーズの三塁手を務めるのは誰でしょうか？",
+      "title_ja": "ボーム選手がフリーエージェントになった今、フィリーズの三塁手は誰になるのでしょうか？",
       "url": "https://www.mlb.com/phillies/news/phillies-future-third-base-alec-bohm-free-agency",
       "source": "MLB.com",
       "published_at": "2026-11-03T15:30:00+00:00"
@@ -180,18 +188,10 @@
     {
       "id": "752879126ad6dc43",
       "title_en": "New hitting coach looks to bring 'grind-you-down' approach to Phillies' lineup",
-      "title_ja": "フィリーズの打撃コーチが新しくなり、「相手を圧倒する」アプローチをチームのラインナップにもたらそうとしている",
+      "title_ja": "フィリーズの打撃コーチ新任が「相手を圧倒する」アプローチをチームのラインナップにもたらそうとしている",
       "url": "https://www.mlb.com/phillies/news/peter-fatse-phillies-hitting-coach-strategy",
       "source": "MLB.com",
       "published_at": "2026-10-30T18:42:07.807000+00:00"
-    },
-    {
-      "id": "03d6d69be496ce0c",
-      "title_en": "Top prospect duo of Miller-Walcott following in Harper-Trout footsteps in Arizona Fall League",
-      "title_ja": "ミラーとウォルコットの有望選手コンビが、アリゾナ・フォールリーグでハーパーとトラウトの足跡をたどる",
-      "url": "https://www.mlb.com/phillies/news/sebastian-walcott-and-aidan-miller-standing-out-in-the-arizona-fall-league",
-      "source": "MLB.com",
-      "published_at": "2026-11-03T21:55:42.812000+00:00"
     }
   ]
 }
