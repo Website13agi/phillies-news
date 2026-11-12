@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T21:50:36.244122+00:00",
+  "updated_at": "2026-11-12T02:43:27.704776+00:00",
   "articles": [
     {
       "id": "f176402e869190c9",
@@ -26,20 +26,28 @@
       "published_at": "2026-11-10T00:00:00+00:00"
     },
     {
+      "id": "bccf69a56ae7c1bf",
+      "title_en": "Sánchez finishes as NL Cy Young runner-up for 2nd straight year",
+      "title_ja": "サンチェス選手、2年連続でナショナルリーグのサイ・ヤング賞2位に",
+      "url": "https://www.mlb.com/phillies/news/cristopher-sanchez-2026-nl-cy-young-runner-up",
+      "source": "MLB.com",
+      "published_at": "2026-11-12T01:08:59.944000+00:00"
+    },
+    {
+      "id": "9e5ad7ca4b4c733a",
+      "title_en": "WATCH live: The 2026 MLB Awards show in Las Vegas (MLB Network/MLB.com)",
+      "title_ja": "ライブ視聴：ラスベガスで開催される2026年MLBアワードショー（MLBネットワーク/MLB.com）",
+      "url": "https://www.mlb.com/phillies/news/when-is-the-mlb-awards-show-date-time-channel",
+      "source": "MLB.com",
+      "published_at": "2026-11-12T01:54:00+00:00"
+    },
+    {
       "id": "75985c3f980e34fe",
       "title_en": "Dombrowski weighs in on Phillies' needs at GM Meetings",
-      "title_ja": "ドムブロウスキ氏、GM会議でフィリーズのニーズについて見解を述べる",
+      "title_ja": "ドムブロウスキ氏、GM会議でフィリーズのニーズについて意見を述べる",
       "url": "https://www.mlb.com/phillies/news/dave-dombrowski-phillies-needs-2027-at-gm-meetings",
       "source": "MLB.com",
       "published_at": "2026-11-11T04:23:24.215000+00:00"
-    },
-    {
-      "id": "396117f496fc1bc3",
-      "title_en": "Here's the case for each Cy Young Award finalist (MLB Network, 7 p.m. ET)",
-      "title_ja": "サイ・ヤング賞の各候補者の状況は次のとおりです（MLBネットワーク、東部標準時午後7時）",
-      "url": "https://www.mlb.com/phillies/news/making-a-case-for-each-2026-mlb-cy-young-award-finalist",
-      "source": "MLB.com",
-      "published_at": "2026-11-11T18:30:00+00:00"
     },
     {
       "id": "8340e52fbbf3850d",
@@ -58,14 +66,6 @@
       "published_at": "2026-11-10T16:09:00+00:00"
     },
     {
-      "id": "99e5cc5a598f858d",
-      "title_en": "Watch LIVE: Top prospects in Arizona Fall League action",
-      "title_ja": "ライブ観戦：アリゾナ・フォールリーグのトッププロスペクトの活躍",
-      "url": "https://www.mlb.com/phillies/news/watch-top-prospects-in-arizona-fall-league-winter-ball-2026",
-      "source": "MLB.com",
-      "published_at": "2026-11-11T20:02:00+00:00"
-    },
-    {
       "id": "584f639dd3692495",
       "title_en": "Why a new changeup is key for Andrew Painter",
       "title_ja": "アンドリュー・ペインターにとって新しいチェンジアップが重要な理由",
@@ -82,9 +82,17 @@
       "published_at": "2026-11-04T20:14:00+00:00"
     },
     {
+      "id": "c1540706f177cda2",
+      "title_en": "Here's what you need to know about the Fall League playoffs",
+      "title_ja": "秋季リーグのプレイオフについて知っておくべきことをご紹介します",
+      "url": "https://www.mlb.com/phillies/news/watch-arizona-fall-league-playoffs-2026",
+      "source": "MLB.com",
+      "published_at": "2026-11-12T00:40:00+00:00"
+    },
+    {
       "id": "e650d1cc5ed4afc1",
       "title_en": "How good can the Phillies' rotation be in '27? Or ... what could go wrong?",
-      "title_ja": "フィリーズのローテーションは2027年にどれほど良くなるでしょうか？あるいは...何がうまくいかないのでしょうか？",
+      "title_ja": "フィリーズのローテーションは2027年にどれほど良くなるでしょうか？あるいは...何がうまくいかない可能性があるでしょうか？",
       "url": "https://www.mlb.com/phillies/news/evaluating-the-phillies-starting-rotation-for-2027-season",
       "source": "MLB.com",
       "published_at": "2026-11-06T17:07:33.850000+00:00"
@@ -108,7 +116,7 @@
     {
       "id": "8c33683da264884e",
       "title_en": "Here's how every prospect fared in the AFL Fall Stars Game",
-      "title_ja": "AFLフォールスターズゲームにおける各有望選手の成績",
+      "title_ja": "AFLフォールスターズゲームでの各有望選手の成績は次のとおりです",
       "url": "https://www.mlb.com/phillies/news/2026-arizona-fall-league-fall-stars-game",
       "source": "MLB.com",
       "published_at": "2026-11-09T06:59:00+00:00"
@@ -116,7 +124,7 @@
     {
       "id": "9fb61916bc204423",
       "title_en": "Finalists for Silver Sluggers announced",
-      "title_ja": "シルバー・スラッガーズのファイナリストが発表されました",
+      "title_ja": "シルバー・スラッガーズの最終候補者が発表されました",
       "url": "https://www.mlb.com/phillies/news/2026-silver-slugger-award-finalists",
       "source": "MLB.com",
       "published_at": "2026-11-05T16:13:03.725000+00:00"
@@ -156,7 +164,7 @@
     {
       "id": "273343dd70cc1f57",
       "title_en": "With Bohm now a free agent, who will play 3B for Phils?",
-      "title_ja": "ボーム選手がフリーエージェントになった今、フィリーズの三塁手を務めるのは誰でしょうか？",
+      "title_ja": "ボーム選手がフリーエージェントとなった今、フィリーズの三塁手を務めるのは誰でしょうか？",
       "url": "https://www.mlb.com/phillies/news/phillies-future-third-base-alec-bohm-free-agency",
       "source": "MLB.com",
       "published_at": "2026-11-03T15:30:00+00:00"
@@ -172,7 +180,7 @@
     {
       "id": "752879126ad6dc43",
       "title_en": "New hitting coach looks to bring 'grind-you-down' approach to Phillies' lineup",
-      "title_ja": "フィリーズの新打撃コーチは「相手を圧倒する」アプローチをチームのラインナップにもたらそうとしている",
+      "title_ja": "フィリーズの打撃コーチが新しくなり、「相手を圧倒する」アプローチをチームのラインナップにもたらそうとしている",
       "url": "https://www.mlb.com/phillies/news/peter-fatse-phillies-hitting-coach-strategy",
       "source": "MLB.com",
       "published_at": "2026-10-30T18:42:07.807000+00:00"
@@ -184,14 +192,6 @@
       "url": "https://www.mlb.com/phillies/news/sebastian-walcott-and-aidan-miller-standing-out-in-the-arizona-fall-league",
       "source": "MLB.com",
       "published_at": "2026-11-03T21:55:42.812000+00:00"
-    },
-    {
-      "id": "d163d891e517c326",
-      "title_en": "Important Phillies offseason dates for awards, Hot Stove season",
-      "title_ja": "フィリーズのオフシーズンの重要な日程：表彰、ホットストーブシーズン",
-      "url": "https://www.mlb.com/phillies/news/phillies-key-offseason-dates-2026-2027",
-      "source": "MLB.com",
-      "published_at": "2026-10-27T14:10:14.611000+00:00"
     }
   ]
 }
