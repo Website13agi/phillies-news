@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-14T01:36:10.336950+00:00",
+  "updated_at": "2026-11-14T08:40:10.058318+00:00",
   "articles": [
     {
       "id": "f176402e869190c9",
@@ -15,7 +15,7 @@
       "title_ja": "フィリーズのパイプライン",
       "url": "https://www.mlb.com/phillies/news/topic/phillies-pipeline-coverage",
       "source": "MLB.com",
-      "published_at": "2026-10-23T00:00:00+00:00"
+      "published_at": "2026-11-13T00:00:00+00:00"
     },
     {
       "id": "872bf5359c768da8",
@@ -23,7 +23,7 @@
       "title_ja": "フィリーズの歴代ランキング＆トリビア",
       "url": "https://www.mlb.com/phillies/news/topic/phillies-history-trivia",
       "source": "MLB.com",
-      "published_at": "2026-11-12T00:00:00+00:00"
+      "published_at": "2026-11-13T00:00:00+00:00"
     },
     {
       "id": "e04cefff2d86cb15",
@@ -34,9 +34,17 @@
       "published_at": "2026-11-14T01:08:45.483000+00:00"
     },
     {
+      "id": "4d3db0a9df76138f",
+      "title_en": "Top first-time candidates to win MVP, Cy Young in 2027",
+      "title_ja": "2027年にMVP、サイ・ヤング賞を初受賞する可能性のある有力候補",
+      "url": "https://www.mlb.com/phillies/news/mlb-candidates-to-win-first-mvp-cy-young-2027",
+      "source": "MLB.com",
+      "published_at": "2026-11-14T03:00:09.552000+00:00"
+    },
+    {
       "id": "e34421ae03f8fd03",
       "title_en": "Who are the Phillies' top candidates to win awards in '27?",
-      "title_ja": "27年の賞受賞候補としてフィリーズの筆頭は誰でしょうか？",
+      "title_ja": "27年の賞受賞候補としてフィリーズの有力候補は誰ですか？",
       "url": "https://www.mlb.com/phillies/news/phillies-awards-candidates-2027-season",
       "source": "MLB.com",
       "published_at": "2026-11-13T17:23:50.385000+00:00"
@@ -52,7 +60,7 @@
     {
       "id": "23b66985f68cb1ac",
       "title_en": "Did you know this prospect’s dad is the head coach of the Portland Trail Blazers?",
-      "title_ja": "この見込み客のお父様がポートランド・トレイルブレイザーズのヘッドコーチであることをご存知でしたか？",
+      "title_ja": "この見込み客のお父様が、ポートランド・トレイルブレイザーズのヘッドコーチであることをご存知でしたか？",
       "url": "https://www.mlb.com/phillies/news/trail-blazers-coach-micah-nori-s-son-dante-a-top-prospect-for-phillies",
       "source": "MLB.com",
       "published_at": "2026-11-13T20:23:35.322000+00:00"
@@ -66,14 +74,6 @@
       "published_at": "2026-11-12T04:04:42.960000+00:00"
     },
     {
-      "id": "1776f15c6f397b8d",
-      "title_en": "Yordan, Wheeler named Comeback Players of the Year",
-      "title_ja": "ヨルダン選手、ウィーラー選手がカムバック・プレイヤー・オブ・ザ・イヤーに選出",
-      "url": "https://www.mlb.com/phillies/news/2026-mlb-comeback-player-of-the-year-winners",
-      "source": "MLB.com",
-      "published_at": "2026-11-12T02:58:40.311000+00:00"
-    },
-    {
       "id": "3f91d4c204f9aeb6",
       "title_en": "Latest Phillies injuries & transactions",
       "title_ja": "フィリーズの最新の負傷者情報と選手の移籍情報",
@@ -82,12 +82,20 @@
       "published_at": "2026-11-04T20:14:00+00:00"
     },
     {
+      "id": "1776f15c6f397b8d",
+      "title_en": "Yordan, Wheeler named Comeback Players of the Year",
+      "title_ja": "ヨルダン選手、ウィーラー選手がカムバックプレイヤー・オブ・ザ・イヤーに選出",
+      "url": "https://www.mlb.com/phillies/news/2026-mlb-comeback-player-of-the-year-winners",
+      "source": "MLB.com",
+      "published_at": "2026-11-12T02:58:40.311000+00:00"
+    },
+    {
       "id": "c1540706f177cda2",
-      "title_en": "Watch LIVE: Top prospects in Arizona Fall League semifinals",
-      "title_ja": "ライブ観戦：アリゾナ・フォールリーグ準決勝のトッププロスペクト",
+      "title_en": "Watch top prospects in Arizona Fall League playoffs",
+      "title_ja": "アリゾナ・フォールリーグのプレーオフで有望選手たちを観戦",
       "url": "https://www.mlb.com/phillies/news/watch-arizona-fall-league-playoffs-2026",
       "source": "MLB.com",
-      "published_at": "2026-11-13T19:55:00+00:00"
+      "published_at": "2026-11-14T05:54:00+00:00"
     },
     {
       "id": "4332cbe0248ff1c9",
@@ -132,7 +140,7 @@
     {
       "id": "d23904afe23a34af",
       "title_en": "Bob Boone, champ with 1980 Phils and father of Aaron and Bret, dies at 78",
-      "title_ja": "1980年フィリーズの優勝メンバーであり、アーロンとブレットの父であるボブ・ブーンが78歳で死去",
+      "title_ja": "1980年フィリーズの優勝メンバーで、アーロンとブレットの父であるボブ・ブーンが78歳で死去",
       "url": "https://www.mlb.com/phillies/news/bob-boone-dies",
       "source": "MLB.com",
       "published_at": "2026-11-10T16:09:00+00:00"
@@ -156,7 +164,7 @@
     {
       "id": "88d27570cf493309",
       "title_en": "'27 Rookie of the Year candidates -- one from each team",
-      "title_ja": "27人の新人王候補者 -- 各チームから1人",
+      "title_ja": "27人の新人王候補 -- 各チームから1人",
       "url": "https://www.mlb.com/phillies/news/each-team-2027-rookie-of-the-year-candidate",
       "source": "MLB.com",
       "published_at": "2026-11-10T16:00:00+00:00"
@@ -172,7 +180,7 @@
     {
       "id": "8c33683da264884e",
       "title_en": "Here's how every prospect fared in the AFL Fall Stars Game",
-      "title_ja": "AFLフォールスターズゲームでの各有望選手の成績はこちら",
+      "title_ja": "AFLフォールスターズゲームにおける各有望選手の成績は次のとおりです。",
       "url": "https://www.mlb.com/phillies/news/2026-arizona-fall-league-fall-stars-game",
       "source": "MLB.com",
       "published_at": "2026-11-09T06:59:00+00:00"
@@ -184,14 +192,6 @@
       "url": "https://www.mlb.com/phillies/news/2026-silver-slugger-award-finalists",
       "source": "MLB.com",
       "published_at": "2026-11-05T16:13:03.725000+00:00"
-    },
-    {
-      "id": "5cb81121bc9e6e0f",
-      "title_en": "Here are the top performers from Week 5 of AFL action",
-      "title_ja": "AFL第5週の活躍選手トップをご紹介します",
-      "url": "https://www.mlb.com/phillies/news/arizona-fall-league-top-performers-week-5-2026",
-      "source": "MLB.com",
-      "published_at": "2026-11-07T20:45:06.293000+00:00"
     }
   ]
 }
