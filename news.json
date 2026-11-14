@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T21:13:21.946878+00:00",
+  "updated_at": "2026-11-14T01:36:10.336950+00:00",
   "articles": [
     {
       "id": "f176402e869190c9",
@@ -26,9 +26,17 @@
       "published_at": "2026-11-12T00:00:00+00:00"
     },
     {
+      "id": "e04cefff2d86cb15",
+      "title_en": "Marsh to resume baseball activities after October wrist surgery",
+      "title_ja": "マーシュ選手、10月の手首手術後に野球活動を再開へ",
+      "url": "https://www.mlb.com/phillies/news/brandon-marsh-had-minor-wrist-surgery-after-season",
+      "source": "MLB.com",
+      "published_at": "2026-11-14T01:08:45.483000+00:00"
+    },
+    {
       "id": "e34421ae03f8fd03",
       "title_en": "Who are the Phillies' top candidates to win awards in '27?",
-      "title_ja": "27年の賞受賞候補としてフィリーズのトップ候補は誰ですか？",
+      "title_ja": "27年の賞受賞候補としてフィリーズの筆頭は誰でしょうか？",
       "url": "https://www.mlb.com/phillies/news/phillies-awards-candidates-2027-season",
       "source": "MLB.com",
       "published_at": "2026-11-13T17:23:50.385000+00:00"
@@ -36,7 +44,7 @@
     {
       "id": "6e9ad258a05c2c3b",
       "title_en": "Phils have interest in Sato in search for outfielder (sources)",
-      "title_ja": "フィリーズが外野手を求めて佐藤選手に関心（関係者情報）",
+      "title_ja": "フィリーズ、外野手を求めて佐藤選手に関心（関係者情報）",
       "url": "https://www.mlb.com/phillies/news/phillies-interest-teruaki-sato-free-agent-outfielder",
       "source": "MLB.com",
       "published_at": "2026-11-12T15:48:58.027000+00:00"
@@ -44,7 +52,7 @@
     {
       "id": "23b66985f68cb1ac",
       "title_en": "Did you know this prospect’s dad is the head coach of the Portland Trail Blazers?",
-      "title_ja": "この見込み客のお父様が、ポートランド・トレイルブレイザーズのヘッドコーチであることをご存知でしたか？",
+      "title_ja": "この見込み客のお父様がポートランド・トレイルブレイザーズのヘッドコーチであることをご存知でしたか？",
       "url": "https://www.mlb.com/phillies/news/trail-blazers-coach-micah-nori-s-son-dante-a-top-prospect-for-phillies",
       "source": "MLB.com",
       "published_at": "2026-11-13T20:23:35.322000+00:00"
@@ -66,14 +74,6 @@
       "published_at": "2026-11-12T02:58:40.311000+00:00"
     },
     {
-      "id": "c1540706f177cda2",
-      "title_en": "Watch top prospects in Arizona Fall League semifinals",
-      "title_ja": "アリゾナ・フォールリーグ準決勝で注目の有望選手を観戦",
-      "url": "https://www.mlb.com/phillies/news/watch-arizona-fall-league-playoffs-2026",
-      "source": "MLB.com",
-      "published_at": "2026-11-13T19:55:00+00:00"
-    },
-    {
       "id": "3f91d4c204f9aeb6",
       "title_en": "Latest Phillies injuries & transactions",
       "title_ja": "フィリーズの最新の負傷者情報と選手の移籍情報",
@@ -82,9 +82,17 @@
       "published_at": "2026-11-04T20:14:00+00:00"
     },
     {
+      "id": "c1540706f177cda2",
+      "title_en": "Watch LIVE: Top prospects in Arizona Fall League semifinals",
+      "title_ja": "ライブ観戦：アリゾナ・フォールリーグ準決勝のトッププロスペクト",
+      "url": "https://www.mlb.com/phillies/news/watch-arizona-fall-league-playoffs-2026",
+      "source": "MLB.com",
+      "published_at": "2026-11-13T19:55:00+00:00"
+    },
+    {
       "id": "4332cbe0248ff1c9",
       "title_en": "Here’s every ranked prospect that needs to be protected ahead of Tuesday’s 40-man deadline",
-      "title_ja": "火曜日の40人枠の締め切り前に保護する必要がある、ランク入りしたすべての有望選手はこちらです。",
+      "title_ja": "火曜日の40人枠の期限前に保護する必要がある、ランク入りしたすべての有望選手はこちらです。",
       "url": "https://www.mlb.com/phillies/news/rule-5-draft-prospects-protected-on-40-man-roster-2026",
       "source": "MLB.com",
       "published_at": "2026-11-13T01:47:50.345000+00:00"
@@ -92,7 +100,7 @@
     {
       "id": "bccf69a56ae7c1bf",
       "title_en": "Sánchez finishes as NL Cy Young runner-up for 2nd straight year",
-      "title_ja": "サンチェス選手、2年連続でナショナルリーグのサイ・ヤング賞2位に",
+      "title_ja": "サンチェス投手、2年連続でナショナルリーグのサイ・ヤング賞2位に",
       "url": "https://www.mlb.com/phillies/news/cristopher-sanchez-2026-nl-cy-young-runner-up",
       "source": "MLB.com",
       "published_at": "2026-11-12T01:08:59.944000+00:00"
@@ -140,7 +148,7 @@
     {
       "id": "e650d1cc5ed4afc1",
       "title_en": "How good can the Phillies' rotation be in '27? Or ... what could go wrong?",
-      "title_ja": "フィリーズのローテーションは2027年にどれほど良くなるでしょうか？あるいは...何がうまくいかないのでしょうか？",
+      "title_ja": "フィリーズのローテーションは2027年にどれほど良くなるでしょうか？あるいは...何がうまくいかない可能性があるでしょうか？",
       "url": "https://www.mlb.com/phillies/news/evaluating-the-phillies-starting-rotation-for-2027-season",
       "source": "MLB.com",
       "published_at": "2026-11-06T17:07:33.850000+00:00"
@@ -164,7 +172,7 @@
     {
       "id": "8c33683da264884e",
       "title_en": "Here's how every prospect fared in the AFL Fall Stars Game",
-      "title_ja": "AFLフォールスターズゲームにおける各有望選手の成績",
+      "title_ja": "AFLフォールスターズゲームでの各有望選手の成績はこちら",
       "url": "https://www.mlb.com/phillies/news/2026-arizona-fall-league-fall-stars-game",
       "source": "MLB.com",
       "published_at": "2026-11-09T06:59:00+00:00"
@@ -180,18 +188,10 @@
     {
       "id": "5cb81121bc9e6e0f",
       "title_en": "Here are the top performers from Week 5 of AFL action",
-      "title_ja": "AFL第5週の活躍選手はこちらです",
+      "title_ja": "AFL第5週の活躍選手トップをご紹介します",
       "url": "https://www.mlb.com/phillies/news/arizona-fall-league-top-performers-week-5-2026",
       "source": "MLB.com",
       "published_at": "2026-11-07T20:45:06.293000+00:00"
-    },
-    {
-      "id": "da65ff528c513b15",
-      "title_en": "How can Sánchez overcome 2026 struggles with sinker?",
-      "title_ja": "サンチェス選手は2026年のシンカーの課題をどのように克服できるでしょうか？",
-      "url": "https://www.mlb.com/phillies/news/cristopher-sanchez-struggles-sinker-phillies-2026",
-      "source": "MLB.com",
-      "published_at": "2026-11-04T21:08:52.206000+00:00"
     }
   ]
 }
