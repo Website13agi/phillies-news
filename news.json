@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-16T07:04:05.907624+00:00",
+  "updated_at": "2026-11-16T17:18:17.786110+00:00",
   "articles": [
     {
       "id": "f176402e869190c9",
@@ -26,9 +26,17 @@
       "published_at": "2026-11-13T00:00:00+00:00"
     },
     {
+      "id": "fd1fa7f5282d0601",
+      "title_en": "Here are all the players on the 2027 Hall of Fame ballot",
+      "title_ja": "2027年殿堂入り候補者の全選手はこちら",
+      "url": "https://www.mlb.com/phillies/news/baseball-hall-of-fame-ballot-2027",
+      "source": "MLB.com",
+      "published_at": "2026-11-16T17:04:53.491000+00:00"
+    },
+    {
       "id": "2476671706ed0666",
       "title_en": "Can McFarlane establish himself as long-term setup option?",
-      "title_ja": "マクファーレンは長期的なスターターとして確立できるか？",
+      "title_ja": "マクファーレン選手は長期的なスターターとして定着できるか？",
       "url": "https://www.mlb.com/phillies/news/alex-mcfarlane-outlook-for-phillies-2027",
       "source": "MLB.com",
       "published_at": "2026-11-15T13:29:56.044000+00:00"
@@ -44,7 +52,7 @@
     {
       "id": "4d3db0a9df76138f",
       "title_en": "Top first-time candidates to win MVP, Cy Young in 2027",
-      "title_ja": "2027年にMVP、サイ・ヤング賞を初受賞する可能性の高い候補者",
+      "title_ja": "2027年にMVP、サイ・ヤング賞を初めて受賞する可能性のある有力候補",
       "url": "https://www.mlb.com/phillies/news/mlb-candidates-to-win-first-mvp-cy-young-2027",
       "source": "MLB.com",
       "published_at": "2026-11-14T17:15:00+00:00"
@@ -52,7 +60,7 @@
     {
       "id": "e34421ae03f8fd03",
       "title_en": "Who are the Phillies' top candidates to win awards in '27?",
-      "title_ja": "27年の賞受賞候補としてフィリーズの有力候補は誰ですか？",
+      "title_ja": "27年の賞受賞候補としてフィリーズのトップに挙げられるのは誰でしょうか？",
       "url": "https://www.mlb.com/phillies/news/phillies-awards-candidates-2027-season",
       "source": "MLB.com",
       "published_at": "2026-11-13T17:23:50.385000+00:00"
@@ -66,14 +74,6 @@
       "published_at": "2026-11-16T00:54:00+00:00"
     },
     {
-      "id": "6e9ad258a05c2c3b",
-      "title_en": "Phils have interest in Sato in search for outfielder (sources)",
-      "title_ja": "フィリーズ、外野手を求めて佐藤選手に関心（関係者情報）",
-      "url": "https://www.mlb.com/phillies/news/phillies-interest-teruaki-sato-free-agent-outfielder",
-      "source": "MLB.com",
-      "published_at": "2026-11-12T15:48:58.027000+00:00"
-    },
-    {
       "id": "3f91d4c204f9aeb6",
       "title_en": "Latest Phillies injuries & transactions",
       "title_ja": "フィリーズの最新の負傷者情報と選手の移籍情報",
@@ -82,9 +82,17 @@
       "published_at": "2026-11-04T20:14:00+00:00"
     },
     {
+      "id": "6e9ad258a05c2c3b",
+      "title_en": "Phils have interest in Sato in search for outfielder (sources)",
+      "title_ja": "フィリーズが外野手を求めて佐藤選手に関心（関係者情報）",
+      "url": "https://www.mlb.com/phillies/news/phillies-interest-teruaki-sato-free-agent-outfielder",
+      "source": "MLB.com",
+      "published_at": "2026-11-12T15:48:58.027000+00:00"
+    },
+    {
       "id": "23b66985f68cb1ac",
       "title_en": "Did you know this prospect’s dad is the head coach of the Portland Trail Blazers?",
-      "title_ja": "この見込み客のお父様が、ポートランド・トレイルブレイザーズのヘッドコーチであることをご存知でしたか？",
+      "title_ja": "この見込み客のお父様がポートランド・トレイルブレイザーズのヘッドコーチであることをご存知でしたか？",
       "url": "https://www.mlb.com/phillies/news/trail-blazers-coach-micah-nori-s-son-dante-a-top-prospect-for-phillies",
       "source": "MLB.com",
       "published_at": "2026-11-13T20:23:35.322000+00:00"
@@ -108,7 +116,7 @@
     {
       "id": "4332cbe0248ff1c9",
       "title_en": "Here’s every ranked prospect that needs to be protected ahead of Tuesday’s 40-man deadline",
-      "title_ja": "火曜日の40人枠の締め切り前にプロテクトする必要がある、ランク入りしたすべての有望選手はこちらです。",
+      "title_ja": "火曜日の40人枠の期限前に保護する必要がある、ランク入りしたすべての有望選手はこちらです。",
       "url": "https://www.mlb.com/phillies/news/rule-5-draft-prospects-protected-on-40-man-roster-2026",
       "source": "MLB.com",
       "published_at": "2026-11-13T01:47:50.345000+00:00"
@@ -116,7 +124,7 @@
     {
       "id": "bccf69a56ae7c1bf",
       "title_en": "Sánchez finishes as NL Cy Young runner-up for 2nd straight year",
-      "title_ja": "サンチェス選手、2年連続でナショナルリーグのサイ・ヤング賞2位に",
+      "title_ja": "サンチェス投手、2年連続でナショナルリーグのサイ・ヤング賞2位に",
       "url": "https://www.mlb.com/phillies/news/cristopher-sanchez-2026-nl-cy-young-runner-up",
       "source": "MLB.com",
       "published_at": "2026-11-12T01:08:59.944000+00:00"
@@ -164,7 +172,7 @@
     {
       "id": "e650d1cc5ed4afc1",
       "title_en": "How good can the Phillies' rotation be in '27? Or ... what could go wrong?",
-      "title_ja": "2027年のフィリーズのローテーションはどれほど良くなるでしょうか？あるいは...何がうまくいかない可能性があるでしょうか？",
+      "title_ja": "フィリーズのローテーションは2027年にどれほど良くなるでしょうか？あるいは...何がうまくいかない可能性があるでしょうか？",
       "url": "https://www.mlb.com/phillies/news/evaluating-the-phillies-starting-rotation-for-2027-season",
       "source": "MLB.com",
       "published_at": "2026-11-06T17:07:33.850000+00:00"
@@ -172,7 +180,7 @@
     {
       "id": "88d27570cf493309",
       "title_en": "'27 Rookie of the Year candidates -- one from each team",
-      "title_ja": "27人の新人王候補者 -- 各チームから1人",
+      "title_ja": "27人の新人王候補 -- 各チームから1人",
       "url": "https://www.mlb.com/phillies/news/each-team-2027-rookie-of-the-year-candidate",
       "source": "MLB.com",
       "published_at": "2026-11-10T16:00:00+00:00"
@@ -180,7 +188,7 @@
     {
       "id": "650263cf28b37181",
       "title_en": "Here’s what Phillies could address at GM Meetings",
-      "title_ja": "フィリーズがGM会議で取り上げる可能性のある議題",
+      "title_ja": "フィリーズがGM会議で取り上げる可能性のある事項",
       "url": "https://www.mlb.com/phillies/news/phillies-2026-offseason-priorities-gm-meetings",
       "source": "MLB.com",
       "published_at": "2026-11-10T13:37:12.435000+00:00"
@@ -188,18 +196,10 @@
     {
       "id": "8c33683da264884e",
       "title_en": "Here's how every prospect fared in the AFL Fall Stars Game",
-      "title_ja": "AFLフォールスターズゲームにおける各有望選手の成績は次のとおりです。",
+      "title_ja": "AFLフォールスターズゲームにおける各有望選手の成績",
       "url": "https://www.mlb.com/phillies/news/2026-arizona-fall-league-fall-stars-game",
       "source": "MLB.com",
       "published_at": "2026-11-09T06:59:00+00:00"
-    },
-    {
-      "id": "9fb61916bc204423",
-      "title_en": "Finalists for Silver Sluggers announced",
-      "title_ja": "シルバー・スラッガーズのファイナリストが発表されました",
-      "url": "https://www.mlb.com/phillies/news/2026-silver-slugger-award-finalists",
-      "source": "MLB.com",
-      "published_at": "2026-11-05T16:13:03.725000+00:00"
     }
   ]
 }
