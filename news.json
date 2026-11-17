@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-17T08:56:49.981864+00:00",
+  "updated_at": "2026-11-17T18:17:01.582195+00:00",
   "articles": [
     {
       "id": "f176402e869190c9",
@@ -20,10 +20,18 @@
     {
       "id": "872bf5359c768da8",
       "title_en": "Phillies All-Time Lists & Trivia",
-      "title_ja": "フィリーズの歴代リスト＆トリビア",
+      "title_ja": "フィリーズの歴代ランキング＆トリビア",
       "url": "https://www.mlb.com/phillies/news/topic/phillies-history-trivia",
       "source": "MLB.com",
       "published_at": "2026-11-13T00:00:00+00:00"
+    },
+    {
+      "id": "dac470d1d8e427ea",
+      "title_en": "Outfielder, lefty reliever on Phillies' shopping list this offseason",
+      "title_ja": "フィリーズのオフシーズンの補強リストには外野手と左投げのセットアッパーが",
+      "url": "https://www.mlb.com/phillies/news/phillies-to-shop-for-outfielder-lefty-reliever-in-2026-offseason",
+      "source": "MLB.com",
+      "published_at": "2026-11-17T14:45:00+00:00"
     },
     {
       "id": "fd1fa7f5282d0601",
@@ -36,7 +44,7 @@
     {
       "id": "0726912b8b84e484",
       "title_en": "Prospects on the 40-man bubble -- 1 from each team",
-      "title_ja": "40人枠の可能性 -- 各チームから1人",
+      "title_ja": "40人枠のボーダーラインにいる有望選手 -- 各チームから1人",
       "url": "https://www.mlb.com/phillies/news/prospects-on-40-man-roster-bubble-2026",
       "source": "MLB.com",
       "published_at": "2026-11-17T00:30:00+00:00"
@@ -60,18 +68,10 @@
     {
       "id": "4d3db0a9df76138f",
       "title_en": "Top first-time candidates to win MVP, Cy Young in 2027",
-      "title_ja": "2027年にMVP、サイ・ヤング賞を初めて受賞する可能性の高い候補者",
+      "title_ja": "2027年にMVP、サイ・ヤング賞を初めて受賞する可能性のある有力候補",
       "url": "https://www.mlb.com/phillies/news/mlb-candidates-to-win-first-mvp-cy-young-2027",
       "source": "MLB.com",
       "published_at": "2026-11-14T17:15:00+00:00"
-    },
-    {
-      "id": "e34421ae03f8fd03",
-      "title_en": "Who are the Phillies' top candidates to win awards in '27?",
-      "title_ja": "27年の賞受賞候補としてフィリーズのトップ候補は誰ですか？",
-      "url": "https://www.mlb.com/phillies/news/phillies-awards-candidates-2027-season",
-      "source": "MLB.com",
-      "published_at": "2026-11-13T17:23:50.385000+00:00"
     },
     {
       "id": "3f91d4c204f9aeb6",
@@ -80,6 +80,14 @@
       "url": "https://www.mlb.com/phillies/news/phillies-injuries-and-roster-moves",
       "source": "MLB.com",
       "published_at": "2026-11-04T20:14:00+00:00"
+    },
+    {
+      "id": "e34421ae03f8fd03",
+      "title_en": "Who are the Phillies' top candidates to win awards in '27?",
+      "title_ja": "27年の賞受賞候補としてフィリーズの筆頭候補は誰ですか？",
+      "url": "https://www.mlb.com/phillies/news/phillies-awards-candidates-2027-season",
+      "source": "MLB.com",
+      "published_at": "2026-11-13T17:23:50.385000+00:00"
     },
     {
       "id": "eaa726620e564504",
@@ -92,7 +100,7 @@
     {
       "id": "6e9ad258a05c2c3b",
       "title_en": "Phils have interest in Sato in search for outfielder (sources)",
-      "title_ja": "フィリーズ、外野手を求めて佐藤選手に関心（関係者情報）",
+      "title_ja": "フィリーズが外野手を求めて佐藤選手に関心（関係者情報）",
       "url": "https://www.mlb.com/phillies/news/phillies-interest-teruaki-sato-free-agent-outfielder",
       "source": "MLB.com",
       "published_at": "2026-11-12T15:48:58.027000+00:00"
@@ -124,7 +132,7 @@
     {
       "id": "4332cbe0248ff1c9",
       "title_en": "Here’s every ranked prospect that needs to be protected ahead of Tuesday’s 40-man deadline",
-      "title_ja": "火曜日の40人枠の締め切り前に保護する必要がある、ランク入りしたすべての有望選手はこちらです。",
+      "title_ja": "火曜日の40人枠期限までに保護する必要がある、ランク入りしたすべての有望選手はこちらです。",
       "url": "https://www.mlb.com/phillies/news/rule-5-draft-prospects-protected-on-40-man-roster-2026",
       "source": "MLB.com",
       "published_at": "2026-11-17T02:42:00+00:00"
@@ -132,7 +140,7 @@
     {
       "id": "bccf69a56ae7c1bf",
       "title_en": "Sánchez finishes as NL Cy Young runner-up for 2nd straight year",
-      "title_ja": "サンチェス選手、2年連続でナショナルリーグのサイ・ヤング賞2位に",
+      "title_ja": "サンチェス投手、2年連続でナショナルリーグのサイ・ヤング賞2位に",
       "url": "https://www.mlb.com/phillies/news/cristopher-sanchez-2026-nl-cy-young-runner-up",
       "source": "MLB.com",
       "published_at": "2026-11-12T01:08:59.944000+00:00"
@@ -180,7 +188,7 @@
     {
       "id": "e650d1cc5ed4afc1",
       "title_en": "How good can the Phillies' rotation be in '27? Or ... what could go wrong?",
-      "title_ja": "フィリーズのローテーションは2027年にどれほど良くなるでしょうか？あるいは...何がうまくいかない可能性があるでしょうか？",
+      "title_ja": "2027年のフィリーズのローテーションはどれほど良くなるでしょうか？あるいは...何がうまくいかない可能性があるでしょうか？",
       "url": "https://www.mlb.com/phillies/news/evaluating-the-phillies-starting-rotation-for-2027-season",
       "source": "MLB.com",
       "published_at": "2026-11-06T17:07:33.850000+00:00"
@@ -192,14 +200,6 @@
       "url": "https://www.mlb.com/phillies/news/each-team-2027-rookie-of-the-year-candidate",
       "source": "MLB.com",
       "published_at": "2026-11-10T16:00:00+00:00"
-    },
-    {
-      "id": "650263cf28b37181",
-      "title_en": "Here’s what Phillies could address at GM Meetings",
-      "title_ja": "フィリーズがGM会議で取り上げる可能性のある事項",
-      "url": "https://www.mlb.com/phillies/news/phillies-2026-offseason-priorities-gm-meetings",
-      "source": "MLB.com",
-      "published_at": "2026-11-10T13:37:12.435000+00:00"
     }
   ]
 }
