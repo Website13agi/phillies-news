@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-18T01:10:13.593800+00:00",
+  "updated_at": "2026-11-18T08:54:43.620617+00:00",
   "articles": [
     {
       "id": "f176402e869190c9",
@@ -15,7 +15,7 @@
       "title_ja": "フィリーズのパイプライン",
       "url": "https://www.mlb.com/phillies/news/topic/phillies-pipeline-coverage",
       "source": "MLB.com",
-      "published_at": "2026-11-13T00:00:00+00:00"
+      "published_at": "2026-11-17T00:00:00+00:00"
     },
     {
       "id": "872bf5359c768da8",
@@ -28,15 +28,15 @@
     {
       "id": "679904c4e8912ec3",
       "title_en": "Phillies protect rising prospect Rincon from Rule 5 Draft",
-      "title_ja": "フィリーズ、有望株のリンコン選手をルール5ドラフトから保護",
+      "title_ja": "フィリーズ、有望な若手選手リンコンをルール5ドラフトから保護",
       "url": "https://www.mlb.com/phillies/news/bryan-rincon-phillies-40-man-roster-rule-5-draft2026",
       "source": "MLB.com",
       "published_at": "2026-11-17T21:47:15.610000+00:00"
     },
     {
       "id": "d1315c58c194ee9e",
-      "title_en": "Here are the 2026 Silver Slugger winners, with first-timers at the forefront",
-      "title_ja": "2026年シルバー・スラッガー賞受賞者をご紹介します。初受賞者が多数を占めています。",
+      "title_en": "Silver Slugger Awards feature 13 first-time winners",
+      "title_ja": "シルバースラッガー賞に13人の初受賞者が登場",
       "url": "https://www.mlb.com/phillies/news/2026-silver-slugger-award-winners",
       "source": "MLB.com",
       "published_at": "2026-11-18T00:05:15.968000+00:00"
@@ -44,10 +44,18 @@
     {
       "id": "dac470d1d8e427ea",
       "title_en": "Outfielder, lefty reliever on Phillies' shopping list this offseason",
-      "title_ja": "フィリーズのオフシーズン補強リストには外野手と左投げのセットアッパー",
+      "title_ja": "フィリーズのオフシーズン補強リストには外野手と左投げの継投投手",
       "url": "https://www.mlb.com/phillies/news/phillies-to-shop-for-outfielder-lefty-reliever-in-2026-offseason",
       "source": "MLB.com",
       "published_at": "2026-11-17T14:45:00+00:00"
+    },
+    {
+      "id": "146e452b5e8d66f9",
+      "title_en": "Here's the 2026 All-Arizona Fall League Team",
+      "title_ja": "2026年アリゾナ・フォールリーグ選抜チームはこちら",
+      "url": "https://www.mlb.com/phillies/news/all-arizona-fall-league-team-2026",
+      "source": "MLB.com",
+      "published_at": "2026-11-18T03:00:00+00:00"
     },
     {
       "id": "fd1fa7f5282d0601",
@@ -66,14 +74,6 @@
       "published_at": "2026-11-15T13:29:56.044000+00:00"
     },
     {
-      "id": "e04cefff2d86cb15",
-      "title_en": "Marsh to resume baseball activities after October wrist surgery",
-      "title_ja": "マーシュ選手、10月の手首手術後に野球活動を再開へ",
-      "url": "https://www.mlb.com/phillies/news/brandon-marsh-had-minor-wrist-surgery-after-season",
-      "source": "MLB.com",
-      "published_at": "2026-11-14T01:08:45.483000+00:00"
-    },
-    {
       "id": "3f91d4c204f9aeb6",
       "title_en": "Latest Phillies injuries & transactions",
       "title_ja": "フィリーズの最新の負傷者情報と選手の移籍情報",
@@ -82,9 +82,17 @@
       "published_at": "2026-11-04T20:14:00+00:00"
     },
     {
+      "id": "e04cefff2d86cb15",
+      "title_en": "Marsh to resume baseball activities after October wrist surgery",
+      "title_ja": "マーシュ選手、10月の手首手術後に野球活動を再開",
+      "url": "https://www.mlb.com/phillies/news/brandon-marsh-had-minor-wrist-surgery-after-season",
+      "source": "MLB.com",
+      "published_at": "2026-11-14T01:08:45.483000+00:00"
+    },
+    {
       "id": "4d3db0a9df76138f",
       "title_en": "Top first-time candidates to win MVP, Cy Young in 2027",
-      "title_ja": "2027年にMVP、サイ・ヤング賞を初受賞する可能性のある有力候補",
+      "title_ja": "2027年にMVP、サイ・ヤング賞を初めて受賞する可能性のある有力候補",
       "url": "https://www.mlb.com/phillies/news/mlb-candidates-to-win-first-mvp-cy-young-2027",
       "source": "MLB.com",
       "published_at": "2026-11-14T17:15:00+00:00"
@@ -92,7 +100,7 @@
     {
       "id": "e34421ae03f8fd03",
       "title_en": "Who are the Phillies' top candidates to win awards in '27?",
-      "title_ja": "27年の賞受賞候補としてフィリーズのトップに挙げられるのは誰でしょうか？",
+      "title_ja": "27年の賞受賞候補としてフィリーズのトップに立つのは誰でしょうか？",
       "url": "https://www.mlb.com/phillies/news/phillies-awards-candidates-2027-season",
       "source": "MLB.com",
       "published_at": "2026-11-13T17:23:50.385000+00:00"
@@ -139,16 +147,16 @@
     },
     {
       "id": "4332cbe0248ff1c9",
-      "title_en": "Here's a look at which ranked prospects got 40-man roster spots",
-      "title_ja": "40人枠のロースター入りを果たしたランク入り有望選手をご紹介します",
+      "title_en": "These ranked prospects got 40-man roster spots",
+      "title_ja": "これらのランク入りしたプロスペクトは、40人名簿の枠を獲得しました",
       "url": "https://www.mlb.com/phillies/news/rule-5-draft-prospects-protected-on-40-man-roster-2026",
       "source": "MLB.com",
-      "published_at": "2026-11-18T00:54:00+00:00"
+      "published_at": "2026-11-18T02:15:00+00:00"
     },
     {
       "id": "bccf69a56ae7c1bf",
       "title_en": "Sánchez finishes as NL Cy Young runner-up for 2nd straight year",
-      "title_ja": "サンチェス投手、2年連続でナショナルリーグのサイ・ヤング賞2位に",
+      "title_ja": "サンチェス選手、2年連続でナショナルリーグのサイ・ヤング賞2位に",
       "url": "https://www.mlb.com/phillies/news/cristopher-sanchez-2026-nl-cy-young-runner-up",
       "source": "MLB.com",
       "published_at": "2026-11-12T01:08:59.944000+00:00"
@@ -192,14 +200,6 @@
       "url": "https://www.mlb.com/phillies/news/new-changeup-key-for-phillies-andrew-painter",
       "source": "MLB.com",
       "published_at": "2026-11-08T23:45:30.431000+00:00"
-    },
-    {
-      "id": "e650d1cc5ed4afc1",
-      "title_en": "How good can the Phillies' rotation be in '27? Or ... what could go wrong?",
-      "title_ja": "フィリーズのローテーションは2027年にどれほど良くなるでしょうか？あるいは...何がうまくいかない可能性があるでしょうか？",
-      "url": "https://www.mlb.com/phillies/news/evaluating-the-phillies-starting-rotation-for-2027-season",
-      "source": "MLB.com",
-      "published_at": "2026-11-06T17:07:33.850000+00:00"
     }
   ]
 }
