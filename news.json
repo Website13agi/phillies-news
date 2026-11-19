@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-11-18T23:56:42.701099+00:00",
+  "updated_at": "2026-11-19T06:27:52.288500+00:00",
   "articles": [
     {
       "id": "f176402e869190c9",
       "title_en": "Phillies Press Releases",
-      "title_ja": "Phillies Press Releases",
+      "title_ja": "フィリーズのプレスリリース",
       "url": "https://www.mlb.com/phillies/news/topic/phillies-press-releases",
       "source": "MLB.com",
       "published_at": "2026-11-16T00:00:00+00:00"
@@ -12,7 +12,7 @@
     {
       "id": "e584e060479f6bf8",
       "title_en": "Phillies Pipeline",
-      "title_ja": "Phillies Pipeline",
+      "title_ja": "フィリーズのパイプライン",
       "url": "https://www.mlb.com/phillies/news/topic/phillies-pipeline-coverage",
       "source": "MLB.com",
       "published_at": "2026-11-17T00:00:00+00:00"
@@ -20,15 +20,15 @@
     {
       "id": "872bf5359c768da8",
       "title_en": "Phillies All-Time Lists & Trivia",
-      "title_ja": "Phillies All-Time Lists & Trivia",
+      "title_ja": "フィリーズの歴代ランキング＆トリビア",
       "url": "https://www.mlb.com/phillies/news/topic/phillies-history-trivia",
       "source": "MLB.com",
-      "published_at": "2026-11-13T00:00:00+00:00"
+      "published_at": "2026-11-18T00:00:00+00:00"
     },
     {
       "id": "679904c4e8912ec3",
       "title_en": "Phillies protect rising prospect Rincon from Rule 5 Draft",
-      "title_ja": "Phillies protect rising prospect Rincon from Rule 5 Draft",
+      "title_ja": "フィリーズ、有望株リンコンをルール5ドラフトから保護",
       "url": "https://www.mlb.com/phillies/news/bryan-rincon-phillies-40-man-roster-rule-5-draft2026",
       "source": "MLB.com",
       "published_at": "2026-11-17T21:47:15.610000+00:00"
@@ -36,7 +36,7 @@
     {
       "id": "d1315c58c194ee9e",
       "title_en": "Silver Slugger Awards feature 13 first-time winners",
-      "title_ja": "Silver Slugger Awards feature 13 first-time winners",
+      "title_ja": "シルバースラッガー賞に13人の初受賞者が登場",
       "url": "https://www.mlb.com/phillies/news/2026-silver-slugger-award-winners",
       "source": "MLB.com",
       "published_at": "2026-11-18T00:05:15.968000+00:00"
@@ -44,7 +44,7 @@
     {
       "id": "dac470d1d8e427ea",
       "title_en": "Outfielder, lefty reliever on Phillies' shopping list this offseason",
-      "title_ja": "Outfielder, lefty reliever on Phillies' shopping list this offseason",
+      "title_ja": "フィリーズのオフシーズン補強リストには外野手と左投げのセットアッパー",
       "url": "https://www.mlb.com/phillies/news/phillies-to-shop-for-outfielder-lefty-reliever-in-2026-offseason",
       "source": "MLB.com",
       "published_at": "2026-11-17T14:45:00+00:00"
@@ -52,7 +52,7 @@
     {
       "id": "146e452b5e8d66f9",
       "title_en": "Here's the 2026 All-Arizona Fall League Team",
-      "title_ja": "Here's the 2026 All-Arizona Fall League Team",
+      "title_ja": "2026年アリゾナ・フォールリーグのオールスターチームはこちら",
       "url": "https://www.mlb.com/phillies/news/all-arizona-fall-league-team-2026",
       "source": "MLB.com",
       "published_at": "2026-11-18T03:00:00+00:00"
@@ -60,7 +60,7 @@
     {
       "id": "fd1fa7f5282d0601",
       "title_en": "Hall of Fame announces 2027 ballot",
-      "title_ja": "Hall of Fame announces 2027 ballot",
+      "title_ja": "殿堂入り候補者2027年投票を発表",
       "url": "https://www.mlb.com/phillies/news/baseball-hall-of-fame-ballot-2027",
       "source": "MLB.com",
       "published_at": "2026-11-16T17:04:53.491000+00:00"
@@ -68,7 +68,7 @@
     {
       "id": "2476671706ed0666",
       "title_en": "Can McFarlane establish himself as long-term setup option?",
-      "title_ja": "Can McFarlane establish himself as long-term setup option?",
+      "title_ja": "マクファーレンは長期的なスターターとして定着できるか？",
       "url": "https://www.mlb.com/phillies/news/alex-mcfarlane-outlook-for-phillies-2027",
       "source": "MLB.com",
       "published_at": "2026-11-15T13:29:56.044000+00:00"
@@ -76,7 +76,7 @@
     {
       "id": "3f91d4c204f9aeb6",
       "title_en": "Latest Phillies injuries & transactions",
-      "title_ja": "Latest Phillies injuries & transactions",
+      "title_ja": "フィリーズの最新の負傷者情報と選手の移籍情報",
       "url": "https://www.mlb.com/phillies/news/phillies-injuries-and-roster-moves",
       "source": "MLB.com",
       "published_at": "2026-11-04T20:14:00+00:00"
@@ -84,7 +84,7 @@
     {
       "id": "e04cefff2d86cb15",
       "title_en": "Marsh to resume baseball activities after October wrist surgery",
-      "title_ja": "Marsh to resume baseball activities after October wrist surgery",
+      "title_ja": "マーシュ選手、10月の手首手術後に野球活動を再開へ",
       "url": "https://www.mlb.com/phillies/news/brandon-marsh-had-minor-wrist-surgery-after-season",
       "source": "MLB.com",
       "published_at": "2026-11-14T01:08:45.483000+00:00"
@@ -92,7 +92,7 @@
     {
       "id": "4d3db0a9df76138f",
       "title_en": "Top first-time candidates to win MVP, Cy Young in 2027",
-      "title_ja": "Top first-time candidates to win MVP, Cy Young in 2027",
+      "title_ja": "2027年にMVP、サイ・ヤング賞を初めて受賞する可能性のある有力候補",
       "url": "https://www.mlb.com/phillies/news/mlb-candidates-to-win-first-mvp-cy-young-2027",
       "source": "MLB.com",
       "published_at": "2026-11-14T17:15:00+00:00"
@@ -100,7 +100,7 @@
     {
       "id": "e34421ae03f8fd03",
       "title_en": "Who are the Phillies' top candidates to win awards in '27?",
-      "title_ja": "Who are the Phillies' top candidates to win awards in '27?",
+      "title_ja": "27年の賞受賞候補としてフィリーズの有力候補は誰ですか？",
       "url": "https://www.mlb.com/phillies/news/phillies-awards-candidates-2027-season",
       "source": "MLB.com",
       "published_at": "2026-11-13T17:23:50.385000+00:00"
@@ -108,7 +108,7 @@
     {
       "id": "eaa726620e564504",
       "title_en": "Arizona Fall League Week 6 top performers",
-      "title_ja": "Arizona Fall League Week 6 top performers",
+      "title_ja": "アリゾナ・フォールリーグ第6週のトップパフォーマー",
       "url": "https://www.mlb.com/phillies/news/arizona-fall-league-top-performers-week-6-2026",
       "source": "MLB.com",
       "published_at": "2026-11-16T00:54:00+00:00"
@@ -116,7 +116,7 @@
     {
       "id": "6e9ad258a05c2c3b",
       "title_en": "Phils have interest in Sato in search for outfielder (sources)",
-      "title_ja": "Phils have interest in Sato in search for outfielder (sources)",
+      "title_ja": "フィリーズが外野手を求めて佐藤選手に関心（関係者情報）",
       "url": "https://www.mlb.com/phillies/news/phillies-interest-teruaki-sato-free-agent-outfielder",
       "source": "MLB.com",
       "published_at": "2026-11-12T15:48:58.027000+00:00"
@@ -124,7 +124,7 @@
     {
       "id": "23b66985f68cb1ac",
       "title_en": "Did you know this prospect’s dad is the head coach of the Portland Trail Blazers?",
-      "title_ja": "Did you know this prospect’s dad is the head coach of the Portland Trail Blazers?",
+      "title_ja": "この見込み客のお父さんがポートランド・トレイルブレイザーズのヘッドコーチであることをご存知でしたか？",
       "url": "https://www.mlb.com/phillies/news/trail-blazers-coach-micah-nori-s-son-dante-a-top-prospect-for-phillies",
       "source": "MLB.com",
       "published_at": "2026-11-13T20:23:35.322000+00:00"
@@ -132,7 +132,7 @@
     {
       "id": "6e49eddb7aacac90",
       "title_en": "Sánchez (First Team), Luzardo (Second) named to All-MLB squad",
-      "title_ja": "Sánchez (First Team), Luzardo (Second) named to All-MLB squad",
+      "title_ja": "サンチェス（ファーストチーム）、ルサルド（セカンドチーム）がオールMLBチームに選出",
       "url": "https://www.mlb.com/phillies/news/cristopher-sanchez-jesus-luzardo-2026-all-mlb",
       "source": "MLB.com",
       "published_at": "2026-11-12T04:04:42.960000+00:00"
@@ -140,7 +140,7 @@
     {
       "id": "1776f15c6f397b8d",
       "title_en": "Yordan, Wheeler named Comeback Players of the Year",
-      "title_ja": "Yordan, Wheeler named Comeback Players of the Year",
+      "title_ja": "ヨルダン選手、ウィーラー選手がカムバック・プレイヤー・オブ・ザ・イヤーに選出",
       "url": "https://www.mlb.com/phillies/news/2026-mlb-comeback-player-of-the-year-winners",
       "source": "MLB.com",
       "published_at": "2026-11-12T02:58:40.311000+00:00"
@@ -148,7 +148,7 @@
     {
       "id": "4332cbe0248ff1c9",
       "title_en": "These ranked prospects got 40-man roster spots",
-      "title_ja": "These ranked prospects got 40-man roster spots",
+      "title_ja": "これらのランク入りした有望選手は、40人枠のロースター入りを果たしました",
       "url": "https://www.mlb.com/phillies/news/rule-5-draft-prospects-protected-on-40-man-roster-2026",
       "source": "MLB.com",
       "published_at": "2026-11-18T02:15:00+00:00"
@@ -156,7 +156,7 @@
     {
       "id": "bccf69a56ae7c1bf",
       "title_en": "Sánchez finishes as NL Cy Young runner-up for 2nd straight year",
-      "title_ja": "Sánchez finishes as NL Cy Young runner-up for 2nd straight year",
+      "title_ja": "サンチェス選手、2年連続でナショナルリーグのサイ・ヤング賞2位に",
       "url": "https://www.mlb.com/phillies/news/cristopher-sanchez-2026-nl-cy-young-runner-up",
       "source": "MLB.com",
       "published_at": "2026-11-12T01:08:59.944000+00:00"
@@ -164,7 +164,7 @@
     {
       "id": "300c749f9c639f51",
       "title_en": "Cosmic Baseball coming to Citizens Bank Park in July 2027",
-      "title_ja": "Cosmic Baseball coming to Citizens Bank Park in July 2027",
+      "title_ja": "2027年7月、コズミックベースボールがシチズンズ・バンク・パークに登場",
       "url": "https://www.mlb.com/phillies/news/cosmic-baseball-to-play-at-citizens-bank-park",
       "source": "MLB.com",
       "published_at": "2026-11-12T15:46:44.136000+00:00"
@@ -172,7 +172,7 @@
     {
       "id": "75985c3f980e34fe",
       "title_en": "Dombrowski weighs in on Phillies' needs at GM Meetings",
-      "title_ja": "Dombrowski weighs in on Phillies' needs at GM Meetings",
+      "title_ja": "ドムブロウスキ氏、GM会議でフィリーズのニーズについて意見を述べる",
       "url": "https://www.mlb.com/phillies/news/dave-dombrowski-phillies-needs-2027-at-gm-meetings",
       "source": "MLB.com",
       "published_at": "2026-11-11T04:23:24.215000+00:00"
@@ -180,7 +180,7 @@
     {
       "id": "8340e52fbbf3850d",
       "title_en": "Mattingly finishes in 3rd place for NL Manager of the Year Award",
-      "title_ja": "Mattingly finishes in 3rd place for NL Manager of the Year Award",
+      "title_ja": "マッティングリー監督、ナショナルリーグ年間最優秀監督賞で3位に",
       "url": "https://www.mlb.com/phillies/news/don-mattingly-finishes-third-nl-manager-of-the-year-award",
       "source": "MLB.com",
       "published_at": "2026-11-11T01:19:57.743000+00:00"
@@ -188,7 +188,7 @@
     {
       "id": "d23904afe23a34af",
       "title_en": "Bob Boone, champ with 1980 Phils and father of Aaron and Bret, dies at 78",
-      "title_ja": "Bob Boone, champ with 1980 Phils and father of Aaron and Bret, dies at 78",
+      "title_ja": "1980年フィリーズの優勝メンバーであり、アーロンとブレットの父であるボブ・ブーンが78歳で死去",
       "url": "https://www.mlb.com/phillies/news/bob-boone-dies",
       "source": "MLB.com",
       "published_at": "2026-11-10T16:09:00+00:00"
@@ -196,7 +196,7 @@
     {
       "id": "584f639dd3692495",
       "title_en": "Why a new changeup is key for Andrew Painter",
-      "title_ja": "Why a new changeup is key for Andrew Painter",
+      "title_ja": "アンドリュー・ペインターにとって新しいチェンジアップが重要な理由",
       "url": "https://www.mlb.com/phillies/news/new-changeup-key-for-phillies-andrew-painter",
       "source": "MLB.com",
       "published_at": "2026-11-08T23:45:30.431000+00:00"
