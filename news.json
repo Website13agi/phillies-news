@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-21T10:03:57.982609+00:00",
+  "updated_at": "2026-11-21T17:43:47.161433+00:00",
   "articles": [
     {
       "id": "f176402e869190c9",
@@ -28,7 +28,7 @@
     {
       "id": "d13aea4fb1406b4a",
       "title_en": "De La Cruz among players non-tendered by Phillies",
-      "title_ja": "フィリーズが契約更新を提示しなかった選手の中にデ・ラ・クルス",
+      "title_ja": "フィリーズが契約更新を見送った選手の中にデ・ラ・クルス",
       "url": "https://www.mlb.com/phillies/news/bryan-de-la-cruz-among-players-non-tendered-by-phillies",
       "source": "MLB.com",
       "published_at": "2026-11-20T23:44:30.440000+00:00"
@@ -44,7 +44,7 @@
     {
       "id": "df5148dcd7b766e1",
       "title_en": "Ranking the Top 30 prospects from the '26 Fall League campaign",
-      "title_ja": "2026年秋季リーグ戦のトップ30プロスペクトランキング",
+      "title_ja": "2026年秋季リーグ戦のトップ30プロスペクトをランキング",
       "url": "https://www.mlb.com/phillies/news/top-30-arizona-fall-league-prospects-2026",
       "source": "MLB.com",
       "published_at": "2026-11-20T00:00:00+00:00"
@@ -52,7 +52,7 @@
     {
       "id": "679904c4e8912ec3",
       "title_en": "Phillies protect rising prospect Rincon from Rule 5 Draft",
-      "title_ja": "フィリーズ、有望株のリンコン選手をルール5ドラフトから保護",
+      "title_ja": "フィリーズ、有望株リンコン選手をルール5ドラフトから保護",
       "url": "https://www.mlb.com/phillies/news/bryan-rincon-phillies-40-man-roster-rule-5-draft2026",
       "source": "MLB.com",
       "published_at": "2026-11-17T21:47:15.610000+00:00"
@@ -92,7 +92,7 @@
     {
       "id": "146e452b5e8d66f9",
       "title_en": "Here's the 2026 All-Arizona Fall League Team",
-      "title_ja": "2026年アリゾナ・フォールリーグ選抜チームはこちら",
+      "title_ja": "2026年アリゾナ・フォールリーグのオールスターチームはこちらです",
       "url": "https://www.mlb.com/phillies/news/all-arizona-fall-league-team-2026",
       "source": "MLB.com",
       "published_at": "2026-11-18T03:00:00+00:00"
@@ -108,7 +108,7 @@
     {
       "id": "2476671706ed0666",
       "title_en": "Can McFarlane establish himself as long-term setup option?",
-      "title_ja": "マクファーレンは長期的なスターターとして確立できるか？",
+      "title_ja": "マクファーレン選手は長期的な先発投手候補として定着できるか？",
       "url": "https://www.mlb.com/phillies/news/alex-mcfarlane-outlook-for-phillies-2027",
       "source": "MLB.com",
       "published_at": "2026-11-15T13:29:56.044000+00:00"
@@ -124,7 +124,7 @@
     {
       "id": "4d3db0a9df76138f",
       "title_en": "Top first-time candidates to win MVP, Cy Young in 2027",
-      "title_ja": "2027年にMVP、サイ・ヤング賞を初めて受賞する可能性が高い候補者",
+      "title_ja": "2027年のMVP、サイ・ヤング賞を初めて受賞する可能性のある有力候補",
       "url": "https://www.mlb.com/phillies/news/mlb-candidates-to-win-first-mvp-cy-young-2027",
       "source": "MLB.com",
       "published_at": "2026-11-14T17:15:00+00:00"
@@ -132,7 +132,7 @@
     {
       "id": "e34421ae03f8fd03",
       "title_en": "Who are the Phillies' top candidates to win awards in '27?",
-      "title_ja": "27年の賞受賞候補としてフィリーズのトップ候補は誰ですか？",
+      "title_ja": "27年のフィリーズの受賞候補者は誰ですか？",
       "url": "https://www.mlb.com/phillies/news/phillies-awards-candidates-2027-season",
       "source": "MLB.com",
       "published_at": "2026-11-13T17:23:50.385000+00:00"
@@ -156,7 +156,7 @@
     {
       "id": "23b66985f68cb1ac",
       "title_en": "Did you know this prospect’s dad is the head coach of the Portland Trail Blazers?",
-      "title_ja": "この見込み客の父親がポートランド・トレイルブレイザーズのヘッドコーチであることをご存知でしたか？",
+      "title_ja": "この見込み客のお父様がポートランド・トレイルブレイザーズのヘッドコーチであることをご存知でしたか？",
       "url": "https://www.mlb.com/phillies/news/trail-blazers-coach-micah-nori-s-son-dante-a-top-prospect-for-phillies",
       "source": "MLB.com",
       "published_at": "2026-11-13T20:23:35.322000+00:00"
@@ -183,7 +183,7 @@
       "title_ja": "これらのランク入りした有望選手は、40人枠のロースター入りを果たしました",
       "url": "https://www.mlb.com/phillies/news/rule-5-draft-prospects-protected-on-40-man-roster-2026",
       "source": "MLB.com",
-      "published_at": "2026-11-19T19:02:00+00:00"
+      "published_at": "2026-11-21T17:15:00+00:00"
     },
     {
       "id": "bccf69a56ae7c1bf",
