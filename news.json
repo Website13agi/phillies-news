@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-20T20:56:52.894300+00:00",
+  "updated_at": "2026-11-21T02:01:08.606156+00:00",
   "articles": [
     {
       "id": "f176402e869190c9",
@@ -26,6 +26,14 @@
       "published_at": "2026-11-18T00:00:00+00:00"
     },
     {
+      "id": "d13aea4fb1406b4a",
+      "title_en": "De La Cruz among players non-tendered by Phillies",
+      "title_ja": "フィリーズが契約更改を提示しなかった選手の中にデ・ラ・クルス",
+      "url": "https://www.mlb.com/phillies/news/bryan-de-la-cruz-among-players-non-tendered-by-phillies",
+      "source": "MLB.com",
+      "published_at": "2026-11-20T23:44:30.440000+00:00"
+    },
+    {
       "id": "b7d65e75146bae78",
       "title_en": "The Phillies need a right-handed bat. This stat shows why",
       "title_ja": "フィリーズには右打者が必要です。この統計がその理由を示しています",
@@ -44,7 +52,7 @@
     {
       "id": "679904c4e8912ec3",
       "title_en": "Phillies protect rising prospect Rincon from Rule 5 Draft",
-      "title_ja": "フィリーズ、有望株リンコン選手をルール5ドラフトから保護",
+      "title_ja": "フィリーズ、有望株のリンコン選手をルール5ドラフトから保護",
       "url": "https://www.mlb.com/phillies/news/bryan-rincon-phillies-40-man-roster-rule-5-draft2026",
       "source": "MLB.com",
       "published_at": "2026-11-17T21:47:15.610000+00:00"
@@ -66,20 +74,20 @@
       "published_at": "2026-11-19T16:37:00.079000+00:00"
     },
     {
-      "id": "dac470d1d8e427ea",
-      "title_en": "Outfielder, lefty reliever on Phillies' shopping list this offseason",
-      "title_ja": "フィリーズのオフシーズンの補強リストには外野手と左投げのセットアッパー",
-      "url": "https://www.mlb.com/phillies/news/phillies-to-shop-for-outfielder-lefty-reliever-in-2026-offseason",
-      "source": "MLB.com",
-      "published_at": "2026-11-17T14:45:00+00:00"
-    },
-    {
       "id": "3f91d4c204f9aeb6",
       "title_en": "Latest Phillies injuries & transactions",
       "title_ja": "フィリーズの最新の負傷者情報と選手の移籍情報",
       "url": "https://www.mlb.com/phillies/news/phillies-injuries-and-roster-moves",
       "source": "MLB.com",
-      "published_at": "2026-11-04T20:14:00+00:00"
+      "published_at": "2026-11-20T23:49:00+00:00"
+    },
+    {
+      "id": "dac470d1d8e427ea",
+      "title_en": "Outfielder, lefty reliever on Phillies' shopping list this offseason",
+      "title_ja": "フィリーズのオフシーズン補強リストには外野手と左投げの継投投手",
+      "url": "https://www.mlb.com/phillies/news/phillies-to-shop-for-outfielder-lefty-reliever-in-2026-offseason",
+      "source": "MLB.com",
+      "published_at": "2026-11-17T14:45:00+00:00"
     },
     {
       "id": "146e452b5e8d66f9",
@@ -100,7 +108,7 @@
     {
       "id": "2476671706ed0666",
       "title_en": "Can McFarlane establish himself as long-term setup option?",
-      "title_ja": "マクファーレン選手は長期的なスターターとして定着できるか？",
+      "title_ja": "マクファーレンは長期的なスターターとして定着できるか？",
       "url": "https://www.mlb.com/phillies/news/alex-mcfarlane-outlook-for-phillies-2027",
       "source": "MLB.com",
       "published_at": "2026-11-15T13:29:56.044000+00:00"
@@ -124,7 +132,7 @@
     {
       "id": "e34421ae03f8fd03",
       "title_en": "Who are the Phillies' top candidates to win awards in '27?",
-      "title_ja": "27年の賞受賞候補としてフィリーズの有力候補は誰ですか？",
+      "title_ja": "27年の賞受賞候補としてフィリーズのトップに立つのは誰でしょうか？",
       "url": "https://www.mlb.com/phillies/news/phillies-awards-candidates-2027-season",
       "source": "MLB.com",
       "published_at": "2026-11-13T17:23:50.385000+00:00"
@@ -140,7 +148,7 @@
     {
       "id": "6e9ad258a05c2c3b",
       "title_en": "Phils have interest in Sato in search for outfielder (sources)",
-      "title_ja": "フィリーズが外野手を求めて佐藤選手に関心（関係者情報）",
+      "title_ja": "フィリーズ、外野手を求めて佐藤選手に関心（関係者情報）",
       "url": "https://www.mlb.com/phillies/news/phillies-interest-teruaki-sato-free-agent-outfielder",
       "source": "MLB.com",
       "published_at": "2026-11-12T15:48:58.027000+00:00"
@@ -172,7 +180,7 @@
     {
       "id": "4332cbe0248ff1c9",
       "title_en": "These ranked prospects got 40-man roster spots",
-      "title_ja": "これらのランク入りしたプロスペクトは、40人枠のロースター入りを果たしました",
+      "title_ja": "これらのランク入りした有望選手は、40人枠のロースター入りを果たしました",
       "url": "https://www.mlb.com/phillies/news/rule-5-draft-prospects-protected-on-40-man-roster-2026",
       "source": "MLB.com",
       "published_at": "2026-11-19T19:02:00+00:00"
@@ -192,14 +200,6 @@
       "url": "https://www.mlb.com/phillies/news/cosmic-baseball-to-play-at-citizens-bank-park",
       "source": "MLB.com",
       "published_at": "2026-11-12T15:46:44.136000+00:00"
-    },
-    {
-      "id": "75985c3f980e34fe",
-      "title_en": "Dombrowski weighs in on Phillies' needs at GM Meetings",
-      "title_ja": "ドムブロウスキ氏、GM会議でフィリーズのニーズについて意見を述べる",
-      "url": "https://www.mlb.com/phillies/news/dave-dombrowski-phillies-needs-2027-at-gm-meetings",
-      "source": "MLB.com",
-      "published_at": "2026-11-11T04:23:24.215000+00:00"
     }
   ]
 }
