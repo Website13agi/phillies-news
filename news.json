@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-22T10:47:25.881137+00:00",
+  "updated_at": "2026-11-22T18:15:42.868673+00:00",
   "articles": [
     {
       "id": "f176402e869190c9",
@@ -28,7 +28,7 @@
     {
       "id": "d13aea4fb1406b4a",
       "title_en": "De La Cruz among players non-tendered by Phillies",
-      "title_ja": "フィリーズが契約更改を提示しなかった選手の中にデ・ラ・クルス",
+      "title_ja": "フィリーズが契約更新を見送った選手の中にデ・ラ・クルス",
       "url": "https://www.mlb.com/phillies/news/bryan-de-la-cruz-among-players-non-tendered-by-phillies",
       "source": "MLB.com",
       "published_at": "2026-11-20T23:44:30.440000+00:00"
@@ -44,7 +44,7 @@
     {
       "id": "df5148dcd7b766e1",
       "title_en": "Ranking the Top 30 prospects from the '26 Fall League campaign",
-      "title_ja": "2026年秋季リーグ戦のトップ30プロスペクトのランキング",
+      "title_ja": "2026年秋季リーグ戦のトップ30プロスペクトをランキング",
       "url": "https://www.mlb.com/phillies/news/top-30-arizona-fall-league-prospects-2026",
       "source": "MLB.com",
       "published_at": "2026-11-20T00:00:00+00:00"
@@ -52,7 +52,7 @@
     {
       "id": "679904c4e8912ec3",
       "title_en": "Phillies protect rising prospect Rincon from Rule 5 Draft",
-      "title_ja": "フィリーズ、有望株リンコン選手をルール5ドラフトから保護",
+      "title_ja": "フィリーズ、有望な若手選手リンコンをルール5ドラフトから保護",
       "url": "https://www.mlb.com/phillies/news/bryan-rincon-phillies-40-man-roster-rule-5-draft2026",
       "source": "MLB.com",
       "published_at": "2026-11-17T21:47:15.610000+00:00"
@@ -60,7 +60,7 @@
     {
       "id": "d1315c58c194ee9e",
       "title_en": "Silver Slugger Awards feature 13 first-time winners",
-      "title_ja": "シルバースラッガー賞に初受賞者が13名",
+      "title_ja": "シルバースラッガー賞に13人の初受賞者が登場",
       "url": "https://www.mlb.com/phillies/news/2026-silver-slugger-award-winners",
       "source": "MLB.com",
       "published_at": "2026-11-18T00:05:15.968000+00:00"
@@ -84,7 +84,7 @@
     {
       "id": "dac470d1d8e427ea",
       "title_en": "Outfielder, lefty reliever on Phillies' shopping list this offseason",
-      "title_ja": "フィリーズのオフシーズンの補強リストには外野手と左投げのセットアッパーが",
+      "title_ja": "フィリーズのオフシーズン補強リストには外野手と左投げのセットアッパーが",
       "url": "https://www.mlb.com/phillies/news/phillies-to-shop-for-outfielder-lefty-reliever-in-2026-offseason",
       "source": "MLB.com",
       "published_at": "2026-11-17T14:45:00+00:00"
@@ -92,7 +92,7 @@
     {
       "id": "146e452b5e8d66f9",
       "title_en": "Here's the 2026 All-Arizona Fall League Team",
-      "title_ja": "2026年アリゾナ・フォールリーグのオールスターチームはこちらです",
+      "title_ja": "2026年アリゾナ・フォールリーグ選抜チームはこちら",
       "url": "https://www.mlb.com/phillies/news/all-arizona-fall-league-team-2026",
       "source": "MLB.com",
       "published_at": "2026-11-18T03:00:00+00:00"
@@ -108,7 +108,7 @@
     {
       "id": "2476671706ed0666",
       "title_en": "Can McFarlane establish himself as long-term setup option?",
-      "title_ja": "マクファーレンは長期的なスターターとして定着できるか？",
+      "title_ja": "マクファーレン選手は長期的なスターターとして定着できるか？",
       "url": "https://www.mlb.com/phillies/news/alex-mcfarlane-outlook-for-phillies-2027",
       "source": "MLB.com",
       "published_at": "2026-11-15T13:29:56.044000+00:00"
@@ -132,7 +132,7 @@
     {
       "id": "e34421ae03f8fd03",
       "title_en": "Who are the Phillies' top candidates to win awards in '27?",
-      "title_ja": "27年の賞受賞候補としてフィリーズの筆頭は誰でしょうか？",
+      "title_ja": "27年の賞受賞候補としてフィリーズのトップ候補は誰ですか？",
       "url": "https://www.mlb.com/phillies/news/phillies-awards-candidates-2027-season",
       "source": "MLB.com",
       "published_at": "2026-11-13T17:23:50.385000+00:00"
@@ -148,7 +148,7 @@
     {
       "id": "6e9ad258a05c2c3b",
       "title_en": "Phils have interest in Sato in search for outfielder (sources)",
-      "title_ja": "フィリーズが外野手を求めて佐藤選手に関心（関係者情報）",
+      "title_ja": "フィリーズ、外野手を求めて佐藤選手に関心（関係者情報）",
       "url": "https://www.mlb.com/phillies/news/phillies-interest-teruaki-sato-free-agent-outfielder",
       "source": "MLB.com",
       "published_at": "2026-11-12T15:48:58.027000+00:00"
@@ -156,7 +156,7 @@
     {
       "id": "23b66985f68cb1ac",
       "title_en": "Did you know this prospect’s dad is the head coach of the Portland Trail Blazers?",
-      "title_ja": "この見込み客のお父様がポートランド・トレイルブレイザーズのヘッドコーチであることをご存知でしたか？",
+      "title_ja": "この見込み客の父親がポートランド・トレイルブレイザーズのヘッドコーチであることをご存知でしたか？",
       "url": "https://www.mlb.com/phillies/news/trail-blazers-coach-micah-nori-s-son-dante-a-top-prospect-for-phillies",
       "source": "MLB.com",
       "published_at": "2026-11-13T20:23:35.322000+00:00"
@@ -180,7 +180,7 @@
     {
       "id": "4332cbe0248ff1c9",
       "title_en": "These ranked prospects got 40-man roster spots",
-      "title_ja": "これらのランク入りした有望選手は、40人枠のロースター入りを果たしました",
+      "title_ja": "これらのランク入りしたプロスペクトは、40人名簿の枠を獲得しました",
       "url": "https://www.mlb.com/phillies/news/rule-5-draft-prospects-protected-on-40-man-roster-2026",
       "source": "MLB.com",
       "published_at": "2026-11-21T17:15:00+00:00"
@@ -188,7 +188,7 @@
     {
       "id": "bccf69a56ae7c1bf",
       "title_en": "Sánchez finishes as NL Cy Young runner-up for 2nd straight year",
-      "title_ja": "サンチェス投手、2年連続でナショナルリーグのサイ・ヤング賞2位に",
+      "title_ja": "サンチェス選手、2年連続でナショナルリーグのサイ・ヤング賞2位に",
       "url": "https://www.mlb.com/phillies/news/cristopher-sanchez-2026-nl-cy-young-runner-up",
       "source": "MLB.com",
       "published_at": "2026-11-12T01:08:59.944000+00:00"
