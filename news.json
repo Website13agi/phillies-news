@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-22T18:15:42.868673+00:00",
+  "updated_at": "2026-11-22T23:44:34.718260+00:00",
   "articles": [
     {
       "id": "f176402e869190c9",
@@ -26,9 +26,17 @@
       "published_at": "2026-11-18T00:00:00+00:00"
     },
     {
+      "id": "614161eb0e2bd51f",
+      "title_en": "Why Schwarber's path to 500 home runs would be nearly unprecedented",
+      "title_ja": "シュワーバー選手が500本塁打を達成する道のりがほぼ前例のないものとなる理由",
+      "url": "https://www.mlb.com/phillies/news/kyle-schwarber-s-unusual-path-to-500-home-runs",
+      "source": "MLB.com",
+      "published_at": "2026-11-22T21:08:15.236000+00:00"
+    },
+    {
       "id": "d13aea4fb1406b4a",
       "title_en": "De La Cruz among players non-tendered by Phillies",
-      "title_ja": "フィリーズが契約更新を見送った選手の中にデ・ラ・クルス",
+      "title_ja": "フィリーズが契約更改を提示しなかった選手の中にデ・ラ・クルス",
       "url": "https://www.mlb.com/phillies/news/bryan-de-la-cruz-among-players-non-tendered-by-phillies",
       "source": "MLB.com",
       "published_at": "2026-11-20T23:44:30.440000+00:00"
@@ -52,7 +60,7 @@
     {
       "id": "679904c4e8912ec3",
       "title_en": "Phillies protect rising prospect Rincon from Rule 5 Draft",
-      "title_ja": "フィリーズ、有望な若手選手リンコンをルール5ドラフトから保護",
+      "title_ja": "フィリーズ、有望株リンコンをルール5ドラフトから保護",
       "url": "https://www.mlb.com/phillies/news/bryan-rincon-phillies-40-man-roster-rule-5-draft2026",
       "source": "MLB.com",
       "published_at": "2026-11-17T21:47:15.610000+00:00"
@@ -60,18 +68,10 @@
     {
       "id": "d1315c58c194ee9e",
       "title_en": "Silver Slugger Awards feature 13 first-time winners",
-      "title_ja": "シルバースラッガー賞に13人の初受賞者が登場",
+      "title_ja": "シルバースラッガー賞に初受賞者が13名",
       "url": "https://www.mlb.com/phillies/news/2026-silver-slugger-award-winners",
       "source": "MLB.com",
       "published_at": "2026-11-18T00:05:15.968000+00:00"
-    },
-    {
-      "id": "01854ad1e7bf9697",
-      "title_en": "Phillies home run record holders throughout history",
-      "title_ja": "フィリーズの歴代ホームラン記録保持者",
-      "url": "https://www.mlb.com/phillies/news/phillies-home-run-record-holders-throughout-history",
-      "source": "MLB.com",
-      "published_at": "2026-11-19T16:37:00.079000+00:00"
     },
     {
       "id": "3f91d4c204f9aeb6",
@@ -82,9 +82,17 @@
       "published_at": "2026-11-20T23:49:00+00:00"
     },
     {
+      "id": "01854ad1e7bf9697",
+      "title_en": "Phillies home run record holders throughout history",
+      "title_ja": "フィリーズの歴代ホームラン記録保持者",
+      "url": "https://www.mlb.com/phillies/news/phillies-home-run-record-holders-throughout-history",
+      "source": "MLB.com",
+      "published_at": "2026-11-19T16:37:00.079000+00:00"
+    },
+    {
       "id": "dac470d1d8e427ea",
       "title_en": "Outfielder, lefty reliever on Phillies' shopping list this offseason",
-      "title_ja": "フィリーズのオフシーズン補強リストには外野手と左投げのセットアッパーが",
+      "title_ja": "フィリーズのオフシーズン補強リストには外野手と左投げの中継ぎ投手",
       "url": "https://www.mlb.com/phillies/news/phillies-to-shop-for-outfielder-lefty-reliever-in-2026-offseason",
       "source": "MLB.com",
       "published_at": "2026-11-17T14:45:00+00:00"
@@ -92,7 +100,7 @@
     {
       "id": "146e452b5e8d66f9",
       "title_en": "Here's the 2026 All-Arizona Fall League Team",
-      "title_ja": "2026年アリゾナ・フォールリーグ選抜チームはこちら",
+      "title_ja": "2026年アリゾナ・フォールリーグのオールスターチームはこちら",
       "url": "https://www.mlb.com/phillies/news/all-arizona-fall-league-team-2026",
       "source": "MLB.com",
       "published_at": "2026-11-18T03:00:00+00:00"
@@ -156,7 +164,7 @@
     {
       "id": "23b66985f68cb1ac",
       "title_en": "Did you know this prospect’s dad is the head coach of the Portland Trail Blazers?",
-      "title_ja": "この見込み客の父親がポートランド・トレイルブレイザーズのヘッドコーチであることをご存知でしたか？",
+      "title_ja": "この見込み客のお父様がポートランド・トレイルブレイザーズのヘッドコーチであることをご存知でしたか？",
       "url": "https://www.mlb.com/phillies/news/trail-blazers-coach-micah-nori-s-son-dante-a-top-prospect-for-phillies",
       "source": "MLB.com",
       "published_at": "2026-11-13T20:23:35.322000+00:00"
@@ -180,7 +188,7 @@
     {
       "id": "4332cbe0248ff1c9",
       "title_en": "These ranked prospects got 40-man roster spots",
-      "title_ja": "これらのランク入りしたプロスペクトは、40人名簿の枠を獲得しました",
+      "title_ja": "これらのランク入りした有望選手は、40人枠のロースター入りを果たしました",
       "url": "https://www.mlb.com/phillies/news/rule-5-draft-prospects-protected-on-40-man-roster-2026",
       "source": "MLB.com",
       "published_at": "2026-11-21T17:15:00+00:00"
@@ -188,18 +196,10 @@
     {
       "id": "bccf69a56ae7c1bf",
       "title_en": "Sánchez finishes as NL Cy Young runner-up for 2nd straight year",
-      "title_ja": "サンチェス選手、2年連続でナショナルリーグのサイ・ヤング賞2位に",
+      "title_ja": "サンチェス投手、2年連続でナショナルリーグのサイ・ヤング賞2位に",
       "url": "https://www.mlb.com/phillies/news/cristopher-sanchez-2026-nl-cy-young-runner-up",
       "source": "MLB.com",
       "published_at": "2026-11-12T01:08:59.944000+00:00"
-    },
-    {
-      "id": "300c749f9c639f51",
-      "title_en": "Cosmic Baseball coming to Citizens Bank Park in July 2027",
-      "title_ja": "2027年7月、コズミックベースボールがシチズンズ・バンク・パークに登場",
-      "url": "https://www.mlb.com/phillies/news/cosmic-baseball-to-play-at-citizens-bank-park",
-      "source": "MLB.com",
-      "published_at": "2026-11-12T15:46:44.136000+00:00"
     }
   ]
 }
