@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-23T06:00:41.007919+00:00",
+  "updated_at": "2026-11-23T17:56:43.728177+00:00",
   "articles": [
     {
       "id": "f176402e869190c9",
@@ -26,6 +26,14 @@
       "published_at": "2026-11-18T00:00:00+00:00"
     },
     {
+      "id": "907680eb1187de15",
+      "title_en": "Phanta Claus Returns! Phillies announce Thanksgiving Weekend holiday shopping events, fan experiences & savings, Nov. 27-29",
+      "title_ja": "ファンタクロースが帰ってきます！フィリーズが11月27日～29日の感謝祭週末のホリデーショッピングイベント、ファン体験、お得情報を発表",
+      "url": "https://www.mlb.com/phillies/news/phillies-thanksgiving-weekend-holiday-shopping-events",
+      "source": "MLB.com",
+      "published_at": "2026-11-23T15:06:00+00:00"
+    },
+    {
       "id": "614161eb0e2bd51f",
       "title_en": "Why Schwarber's path to 500 home runs would be nearly unprecedented",
       "title_ja": "シュワーバー選手が500本塁打を達成する道のりがほぼ前例のないものとなる理由",
@@ -36,7 +44,7 @@
     {
       "id": "d13aea4fb1406b4a",
       "title_en": "De La Cruz among players non-tendered by Phillies",
-      "title_ja": "フィリーズが契約更改を提示しなかった選手の中にデ・ラ・クルス",
+      "title_ja": "フィリーズが契約更新を見送った選手の中にデ・ラ・クルス",
       "url": "https://www.mlb.com/phillies/news/bryan-de-la-cruz-among-players-non-tendered-by-phillies",
       "source": "MLB.com",
       "published_at": "2026-11-20T23:44:30.440000+00:00"
@@ -52,7 +60,7 @@
     {
       "id": "df5148dcd7b766e1",
       "title_en": "Ranking the Top 30 prospects from the '26 Fall League campaign",
-      "title_ja": "2026年秋季リーグ戦のトップ30プロスペクトのランキング",
+      "title_ja": "2026年秋季リーグ戦のトップ30プロスペクトをランキング",
       "url": "https://www.mlb.com/phillies/news/top-30-arizona-fall-league-prospects-2026",
       "source": "MLB.com",
       "published_at": "2026-11-20T00:00:00+00:00"
@@ -60,18 +68,10 @@
     {
       "id": "679904c4e8912ec3",
       "title_en": "Phillies protect rising prospect Rincon from Rule 5 Draft",
-      "title_ja": "フィリーズ、有望な若手選手リンコンをルール5ドラフトから保護",
+      "title_ja": "フィリーズ、有望株リンコンをルール5ドラフトから保護",
       "url": "https://www.mlb.com/phillies/news/bryan-rincon-phillies-40-man-roster-rule-5-draft2026",
       "source": "MLB.com",
       "published_at": "2026-11-17T21:47:15.610000+00:00"
-    },
-    {
-      "id": "d1315c58c194ee9e",
-      "title_en": "Silver Slugger Awards feature 13 first-time winners",
-      "title_ja": "シルバースラッガー賞に13人の初受賞者が登場",
-      "url": "https://www.mlb.com/phillies/news/2026-silver-slugger-award-winners",
-      "source": "MLB.com",
-      "published_at": "2026-11-18T00:05:15.968000+00:00"
     },
     {
       "id": "3f91d4c204f9aeb6",
@@ -80,6 +80,14 @@
       "url": "https://www.mlb.com/phillies/news/phillies-injuries-and-roster-moves",
       "source": "MLB.com",
       "published_at": "2026-11-20T23:49:00+00:00"
+    },
+    {
+      "id": "d1315c58c194ee9e",
+      "title_en": "Silver Slugger Awards feature 13 first-time winners",
+      "title_ja": "シルバースラッガー賞に13人の初受賞者が登場",
+      "url": "https://www.mlb.com/phillies/news/2026-silver-slugger-award-winners",
+      "source": "MLB.com",
+      "published_at": "2026-11-18T00:05:15.968000+00:00"
     },
     {
       "id": "01854ad1e7bf9697",
@@ -92,7 +100,7 @@
     {
       "id": "dac470d1d8e427ea",
       "title_en": "Outfielder, lefty reliever on Phillies' shopping list this offseason",
-      "title_ja": "フィリーズのオフシーズンの補強リストには外野手と左投げのセットアッパーが",
+      "title_ja": "フィリーズのオフシーズン補強リストには外野手と左投げのセットアッパー",
       "url": "https://www.mlb.com/phillies/news/phillies-to-shop-for-outfielder-lefty-reliever-in-2026-offseason",
       "source": "MLB.com",
       "published_at": "2026-11-17T14:45:00+00:00"
@@ -124,7 +132,7 @@
     {
       "id": "e04cefff2d86cb15",
       "title_en": "Marsh to resume baseball activities after October wrist surgery",
-      "title_ja": "マーシュ選手、10月の手首手術後に野球活動を再開",
+      "title_ja": "マーシュ選手、10月の手首手術後に野球活動を再開へ",
       "url": "https://www.mlb.com/phillies/news/brandon-marsh-had-minor-wrist-surgery-after-season",
       "source": "MLB.com",
       "published_at": "2026-11-14T01:08:45.483000+00:00"
@@ -140,7 +148,7 @@
     {
       "id": "e34421ae03f8fd03",
       "title_en": "Who are the Phillies' top candidates to win awards in '27?",
-      "title_ja": "27年の賞受賞候補としてフィリーズの筆頭候補は誰ですか？",
+      "title_ja": "27年の賞を獲得するフィリーズの有力候補は誰ですか？",
       "url": "https://www.mlb.com/phillies/news/phillies-awards-candidates-2027-season",
       "source": "MLB.com",
       "published_at": "2026-11-13T17:23:50.385000+00:00"
@@ -156,7 +164,7 @@
     {
       "id": "6e9ad258a05c2c3b",
       "title_en": "Phils have interest in Sato in search for outfielder (sources)",
-      "title_ja": "フィリーズが外野手を求めて佐藤選手に関心（関係者情報）",
+      "title_ja": "フィリーズ、外野手を求めて佐藤選手に関心（関係者情報）",
       "url": "https://www.mlb.com/phillies/news/phillies-interest-teruaki-sato-free-agent-outfielder",
       "source": "MLB.com",
       "published_at": "2026-11-12T15:48:58.027000+00:00"
@@ -172,7 +180,7 @@
     {
       "id": "6e49eddb7aacac90",
       "title_en": "Sánchez (First Team), Luzardo (Second) named to All-MLB squad",
-      "title_ja": "サンチェス（ファーストチーム）、ルサード（セカンドチーム）がオールMLBチームに選出",
+      "title_ja": "サンチェス（ファーストチーム）、ルサルド（セカンドチーム）がオールMLBチームに選出",
       "url": "https://www.mlb.com/phillies/news/cristopher-sanchez-jesus-luzardo-2026-all-mlb",
       "source": "MLB.com",
       "published_at": "2026-11-12T04:04:42.960000+00:00"
@@ -180,7 +188,7 @@
     {
       "id": "1776f15c6f397b8d",
       "title_en": "Yordan, Wheeler named Comeback Players of the Year",
-      "title_ja": "ヨルダン選手、ウィーラー選手がカムバックプレイヤー・オブ・ザ・イヤーに選出",
+      "title_ja": "ヨルダン選手、ウィーラー選手がカムバック・プレイヤー・オブ・ザ・イヤーに選出",
       "url": "https://www.mlb.com/phillies/news/2026-mlb-comeback-player-of-the-year-winners",
       "source": "MLB.com",
       "published_at": "2026-11-12T02:58:40.311000+00:00"
@@ -192,14 +200,6 @@
       "url": "https://www.mlb.com/phillies/news/rule-5-draft-prospects-protected-on-40-man-roster-2026",
       "source": "MLB.com",
       "published_at": "2026-11-21T17:15:00+00:00"
-    },
-    {
-      "id": "bccf69a56ae7c1bf",
-      "title_en": "Sánchez finishes as NL Cy Young runner-up for 2nd straight year",
-      "title_ja": "サンチェス投手、2年連続でナショナルリーグのサイ・ヤング賞2位に",
-      "url": "https://www.mlb.com/phillies/news/cristopher-sanchez-2026-nl-cy-young-runner-up",
-      "source": "MLB.com",
-      "published_at": "2026-11-12T01:08:59.944000+00:00"
     }
   ]
 }
