@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-24T14:36:30.318752+00:00",
+  "updated_at": "2026-11-24T23:47:06.996695+00:00",
   "articles": [
     {
       "id": "f176402e869190c9",
@@ -44,7 +44,7 @@
     {
       "id": "907680eb1187de15",
       "title_en": "Phanta Claus Returns! Phillies announce Thanksgiving Weekend holiday shopping events, fan experiences & savings, Nov. 27-29",
-      "title_ja": "ファンタクロースが帰ってきます！フィリーズが感謝祭の週末のホリデーショッピングイベント、ファン体験、お得な情報を発表。11月27日～29日",
+      "title_ja": "ファンタクロースが帰ってきます！フィリーズが11月27日～29日の感謝祭週末のホリデーショッピングイベント、ファン体験、お得情報を発表",
       "url": "https://www.mlb.com/phillies/news/phillies-thanksgiving-weekend-holiday-shopping-events",
       "source": "MLB.com",
       "published_at": "2026-11-23T15:06:00+00:00"
@@ -68,7 +68,7 @@
     {
       "id": "d13aea4fb1406b4a",
       "title_en": "De La Cruz among players non-tendered by Phillies",
-      "title_ja": "フィリーズが契約更新を見送った選手の中にデ・ラ・クルス",
+      "title_ja": "フィリーズが契約更改を提示しなかった選手の中にデ・ラ・クルス",
       "url": "https://www.mlb.com/phillies/news/bryan-de-la-cruz-among-players-non-tendered-by-phillies",
       "source": "MLB.com",
       "published_at": "2026-11-20T23:44:30.440000+00:00"
@@ -84,7 +84,7 @@
     {
       "id": "b7d65e75146bae78",
       "title_en": "The Phillies need a right-handed bat. This stat shows why",
-      "title_ja": "フィリーズには右打ちの打者が必要です。この統計がその理由を示しています",
+      "title_ja": "フィリーズには右打者が必要です。この統計がその理由を示しています",
       "url": "https://www.mlb.com/phillies/news/why-the-phillies-need-a-right-handed-hitter",
       "source": "MLB.com",
       "published_at": "2026-11-19T20:55:43.736000+00:00"
@@ -92,7 +92,7 @@
     {
       "id": "df5148dcd7b766e1",
       "title_en": "Ranking the Top 30 prospects from the '26 Fall League campaign",
-      "title_ja": "2026年秋季リーグ戦のトップ30プロスペクトをランキング",
+      "title_ja": "2026年秋季リーグ戦のトップ30プロスペクトランキング",
       "url": "https://www.mlb.com/phillies/news/top-30-arizona-fall-league-prospects-2026",
       "source": "MLB.com",
       "published_at": "2026-11-20T00:00:00+00:00"
@@ -100,7 +100,7 @@
     {
       "id": "679904c4e8912ec3",
       "title_en": "Phillies protect rising prospect Rincon from Rule 5 Draft",
-      "title_ja": "フィリーズ、有望な若手選手リンコンをルール5ドラフトから保護",
+      "title_ja": "フィリーズ、有望株リンコンをルール5ドラフトから保護",
       "url": "https://www.mlb.com/phillies/news/bryan-rincon-phillies-40-man-roster-rule-5-draft2026",
       "source": "MLB.com",
       "published_at": "2026-11-17T21:47:15.610000+00:00"
@@ -124,7 +124,7 @@
     {
       "id": "dac470d1d8e427ea",
       "title_en": "Outfielder, lefty reliever on Phillies' shopping list this offseason",
-      "title_ja": "フィリーズのオフシーズン補強リストには外野手と左投げの中継ぎ投手",
+      "title_ja": "フィリーズのオフシーズンの補強リストには外野手と左投げのセットアッパーが",
       "url": "https://www.mlb.com/phillies/news/phillies-to-shop-for-outfielder-lefty-reliever-in-2026-offseason",
       "source": "MLB.com",
       "published_at": "2026-11-17T14:45:00+00:00"
@@ -148,7 +148,7 @@
     {
       "id": "2476671706ed0666",
       "title_en": "Can McFarlane establish himself as long-term setup option?",
-      "title_ja": "マクファーレン選手は長期的なスターターとして確立できるか？",
+      "title_ja": "マクファーレンは長期的なスターターとして定着できるか？",
       "url": "https://www.mlb.com/phillies/news/alex-mcfarlane-outlook-for-phillies-2027",
       "source": "MLB.com",
       "published_at": "2026-11-15T13:29:56.044000+00:00"
@@ -196,7 +196,7 @@
     {
       "id": "23b66985f68cb1ac",
       "title_en": "Did you know this prospect’s dad is the head coach of the Portland Trail Blazers?",
-      "title_ja": "この見込み客のお父さんがポートランド・トレイルブレイザーズのヘッドコーチであることをご存知でしたか？",
+      "title_ja": "この見込み客のお父様が、ポートランド・トレイルブレイザーズのヘッドコーチであることをご存知でしたか？",
       "url": "https://www.mlb.com/phillies/news/trail-blazers-coach-micah-nori-s-son-dante-a-top-prospect-for-phillies",
       "source": "MLB.com",
       "published_at": "2026-11-13T20:23:35.322000+00:00"
