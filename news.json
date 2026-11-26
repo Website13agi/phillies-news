@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-25T18:06:49.984227+00:00",
+  "updated_at": "2026-11-26T01:54:44.908375+00:00",
   "articles": [
     {
       "id": "f176402e869190c9",
@@ -26,9 +26,17 @@
       "published_at": "2026-11-18T00:00:00+00:00"
     },
     {
+      "id": "d5e1e53cb24ca402",
+      "title_en": "Three 200-K aces? Only 1 team's projected for it",
+      "title_ja": "20万ドル獲得の3つのエース？1チームのみが達成すると予想されています",
+      "url": "https://www.mlb.com/phillies/news/phillies-projected-for-three-200-strikeout-pitchers-in-2027",
+      "source": "MLB.com",
+      "published_at": "2026-11-25T21:09:39.214000+00:00"
+    },
+    {
       "id": "8592af1bc824d0b4",
       "title_en": "Phils raise more than $1.2 million with annual Sleep Out at the Ballpark event",
-      "title_ja": "フィリーズ、毎年恒例の「Sleep Out at the Ballpark」イベントで120万ドル以上を調達",
+      "title_ja": "フィリーズが毎年開催する「Sleep Out at the Ballpark」イベントで120万ドル以上を調達",
       "url": "https://www.mlb.com/phillies/news/phillies-host-annual-sleep-out-at-the-ballpark",
       "source": "MLB.com",
       "published_at": "2026-11-24T14:18:25.447000+00:00"
@@ -36,7 +44,7 @@
     {
       "id": "cbc81a19561ff7b7",
       "title_en": "Phillies Charities, Inc. announces 2026 Community Heroes, awarding more than $1.2 million to local nonprofits",
-      "title_ja": "フィリーズ・チャリティーズ株式会社が2026年のコミュニティヒーローを発表。地域の非営利団体に120万ドル以上を授与",
+      "title_ja": "フィリーズ・チャリティーズ株式会社が2026年のコミュニティヒーローを発表。地域の非営利団体に120万ドル以上を拠出",
       "url": "https://www.mlb.com/phillies/news/phillies-charities-inc-announces-2026-community-heroes",
       "source": "MLB.com",
       "published_at": "2026-11-24T13:33:17.155000+00:00"
@@ -44,10 +52,18 @@
     {
       "id": "907680eb1187de15",
       "title_en": "Phanta Claus Returns! Phillies announce Thanksgiving Weekend holiday shopping events, fan experiences & savings, Nov. 27-29",
-      "title_ja": "ファンタクロースが帰ってきます！フィリーズが11月27日～29日の感謝祭週末のホリデーショッピングイベント、ファン体験、お得情報を発表",
+      "title_ja": "ファンタクロースが帰ってきます！フィリーズが感謝祭週末のホリデーショッピングイベント、ファン体験、お得情報を発表。11月27日～29日",
       "url": "https://www.mlb.com/phillies/news/phillies-thanksgiving-weekend-holiday-shopping-events",
       "source": "MLB.com",
       "published_at": "2026-11-23T15:06:00+00:00"
+    },
+    {
+      "id": "ba37eed8f7ad3f38",
+      "title_en": "Each MLB club's best prospect acquired via trade",
+      "title_ja": "トレードで獲得した各MLB球団の最高の有望選手",
+      "url": "https://www.mlb.com/phillies/news/best-prospects-who-were-trade-acquisitions",
+      "source": "MLB.com",
+      "published_at": "2026-11-26T00:00:00+00:00"
     },
     {
       "id": "614161eb0e2bd51f",
@@ -56,6 +72,14 @@
       "url": "https://www.mlb.com/phillies/news/kyle-schwarber-s-unusual-path-to-500-home-runs",
       "source": "MLB.com",
       "published_at": "2026-11-22T21:08:15.236000+00:00"
+    },
+    {
+      "id": "3f91d4c204f9aeb6",
+      "title_en": "Latest Phillies injuries & transactions",
+      "title_ja": "フィリーズの最新の負傷者情報と選手の移籍情報",
+      "url": "https://www.mlb.com/phillies/news/phillies-injuries-and-roster-moves",
+      "source": "MLB.com",
+      "published_at": "2026-11-20T23:49:00+00:00"
     },
     {
       "id": "964d484a9e2c8d67",
@@ -68,18 +92,10 @@
     {
       "id": "d13aea4fb1406b4a",
       "title_en": "De La Cruz among players non-tendered by Phillies",
-      "title_ja": "フィリーズが契約更改を提示しなかった選手の中にデ・ラ・クルス",
+      "title_ja": "フィリーズが契約更新を見送った選手の中にデ・ラ・クルス",
       "url": "https://www.mlb.com/phillies/news/bryan-de-la-cruz-among-players-non-tendered-by-phillies",
       "source": "MLB.com",
       "published_at": "2026-11-20T23:44:30.440000+00:00"
-    },
-    {
-      "id": "3f91d4c204f9aeb6",
-      "title_en": "Latest Phillies injuries & transactions",
-      "title_ja": "フィリーズの最新の負傷者情報と選手の移籍情報",
-      "url": "https://www.mlb.com/phillies/news/phillies-injuries-and-roster-moves",
-      "source": "MLB.com",
-      "published_at": "2026-11-20T23:49:00+00:00"
     },
     {
       "id": "b7d65e75146bae78",
@@ -100,7 +116,7 @@
     {
       "id": "679904c4e8912ec3",
       "title_en": "Phillies protect rising prospect Rincon from Rule 5 Draft",
-      "title_ja": "フィリーズ、有望な若手選手リンコンをルール5ドラフトから保護",
+      "title_ja": "フィリーズ、有望株のリンコン選手をルール5ドラフトから保護",
       "url": "https://www.mlb.com/phillies/news/bryan-rincon-phillies-40-man-roster-rule-5-draft2026",
       "source": "MLB.com",
       "published_at": "2026-11-17T21:47:15.610000+00:00"
@@ -108,7 +124,7 @@
     {
       "id": "d1315c58c194ee9e",
       "title_en": "Silver Slugger Awards feature 13 first-time winners",
-      "title_ja": "シルバースラッガー賞に13人の初受賞者が登場",
+      "title_ja": "シルバースラッガー賞に初受賞者が13名",
       "url": "https://www.mlb.com/phillies/news/2026-silver-slugger-award-winners",
       "source": "MLB.com",
       "published_at": "2026-11-18T00:05:15.968000+00:00"
@@ -124,7 +140,7 @@
     {
       "id": "dac470d1d8e427ea",
       "title_en": "Outfielder, lefty reliever on Phillies' shopping list this offseason",
-      "title_ja": "フィリーズの今オフの補強リストには外野手と左投げの継投投手",
+      "title_ja": "フィリーズのオフシーズン補強リストには外野手と左投げのセットアッパー",
       "url": "https://www.mlb.com/phillies/news/phillies-to-shop-for-outfielder-lefty-reliever-in-2026-offseason",
       "source": "MLB.com",
       "published_at": "2026-11-17T14:45:00+00:00"
@@ -132,7 +148,7 @@
     {
       "id": "146e452b5e8d66f9",
       "title_en": "Here's the 2026 All-Arizona Fall League Team",
-      "title_ja": "2026年アリゾナ・フォールリーグ選抜チームはこちらです",
+      "title_ja": "2026年アリゾナ・フォールリーグのオールスターチームはこちら",
       "url": "https://www.mlb.com/phillies/news/all-arizona-fall-league-team-2026",
       "source": "MLB.com",
       "published_at": "2026-11-18T03:00:00+00:00"
@@ -148,7 +164,7 @@
     {
       "id": "2476671706ed0666",
       "title_en": "Can McFarlane establish himself as long-term setup option?",
-      "title_ja": "マクファーレンは長期的なスターターとして確立できるか？",
+      "title_ja": "マクファーレン選手は長期的なスターターとして定着できるか？",
       "url": "https://www.mlb.com/phillies/news/alex-mcfarlane-outlook-for-phillies-2027",
       "source": "MLB.com",
       "published_at": "2026-11-15T13:29:56.044000+00:00"
@@ -156,7 +172,7 @@
     {
       "id": "e04cefff2d86cb15",
       "title_en": "Marsh to resume baseball activities after October wrist surgery",
-      "title_ja": "マーシュ選手、10月の手首手術後に野球活動を再開へ",
+      "title_ja": "マーシュ選手、10月の手首手術後に野球活動を再開",
       "url": "https://www.mlb.com/phillies/news/brandon-marsh-had-minor-wrist-surgery-after-season",
       "source": "MLB.com",
       "published_at": "2026-11-14T01:08:45.483000+00:00"
@@ -164,7 +180,7 @@
     {
       "id": "4d3db0a9df76138f",
       "title_en": "Top first-time candidates to win MVP, Cy Young in 2027",
-      "title_ja": "2027年にMVP、サイ・ヤング賞を初めて受賞する可能性が高い候補者",
+      "title_ja": "2027年にMVP、サイ・ヤング賞を初受賞する可能性が高い候補者",
       "url": "https://www.mlb.com/phillies/news/mlb-candidates-to-win-first-mvp-cy-young-2027",
       "source": "MLB.com",
       "published_at": "2026-11-14T17:15:00+00:00"
@@ -172,7 +188,7 @@
     {
       "id": "e34421ae03f8fd03",
       "title_en": "Who are the Phillies' top candidates to win awards in '27?",
-      "title_ja": "27年のフィリーズの受賞候補筆頭は誰ですか？",
+      "title_ja": "27年の賞受賞候補としてフィリーズの有力候補は誰ですか？",
       "url": "https://www.mlb.com/phillies/news/phillies-awards-candidates-2027-season",
       "source": "MLB.com",
       "published_at": "2026-11-13T17:23:50.385000+00:00"
@@ -180,26 +196,10 @@
     {
       "id": "eaa726620e564504",
       "title_en": "Arizona Fall League Week 6 top performers",
-      "title_ja": "アリゾナ・フォールリーグ第6週のトップ選手",
+      "title_ja": "アリゾナ・フォールリーグ第6週のトップパフォーマー",
       "url": "https://www.mlb.com/phillies/news/arizona-fall-league-top-performers-week-6-2026",
       "source": "MLB.com",
       "published_at": "2026-11-16T00:54:00+00:00"
-    },
-    {
-      "id": "6e9ad258a05c2c3b",
-      "title_en": "Phils have interest in Sato in search for outfielder (sources)",
-      "title_ja": "フィリーズ、外野手を求めて佐藤選手に関心（関係者情報）",
-      "url": "https://www.mlb.com/phillies/news/phillies-interest-teruaki-sato-free-agent-outfielder",
-      "source": "MLB.com",
-      "published_at": "2026-11-12T15:48:58.027000+00:00"
-    },
-    {
-      "id": "23b66985f68cb1ac",
-      "title_en": "Did you know this prospect’s dad is the head coach of the Portland Trail Blazers?",
-      "title_ja": "この見込み客のお父様がポートランド・トレイルブレイザーズのヘッドコーチであることをご存知でしたか？",
-      "url": "https://www.mlb.com/phillies/news/trail-blazers-coach-micah-nori-s-son-dante-a-top-prospect-for-phillies",
-      "source": "MLB.com",
-      "published_at": "2026-11-13T20:23:35.322000+00:00"
     }
   ]
 }
